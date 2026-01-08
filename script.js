@@ -36,57 +36,36 @@ document.addEventListener('DOMContentLoaded', function () {
     // --- CONFIGURATION DES LIENS DE CONTACT ---
     const contactLinks = [
         {
-            name: 'SNAPCHAT 👻',
-            url: 'https://www.snapchat.com/add/pistachio.420',
-            id: 'snapchat',
-            className: 'snapchat', // Il faudra peut-être ajouter ce CSS (Jaune)
-            text: "SNAPCHAT 👻"
-        },
-        {
-            name: 'SIGNAL 📲',
-            url: 'https://signal.me/#eu/KfmX6EgJFZHTkDLzVkTI5r8YYw3zKqniUPB3hIcGbpVrVWIQiVVG3awZu0ES0SiP',
-            id: 'signal',
-            className: 'signal', // Il faudra peut-être ajouter ce CSS (Jaune)
-            text: "SIGNAL 📲"
-        },
-        {
             name: 'WHATSAPP 📞',
-            url: 'https://wa.me/33626127557',
+            url: 'https://wa.me/33629121135',
             id: 'whatsapp',
             className: 'whatsapp', // Il faudra peut-être ajouter ce CSS (Jaune)
             text: "WHATSAPP 📞"
         },
         {
             name: 'TÉLÉGRAM 💙',
-            url: 'https://t.me/+uEWNCmD4gKc3Mzg0',
+            url: 'https://t.me/+PN5wQTyu3o9kNmM0',
             id: 'telegram-main',
             className: 'telegram', // Garde le style Bleu Telegram
             text: "TÉLÉGRAM 💙"
         },
         {
-            name: 'TÉLÉ SECOURS 💙',
-            url: 'https://t.me/+sH33CgV7N0AxZjI0',
+            name: 'CANAL SECOURS 💙',
+            url: 'https://t.me/oglegacysecouur',
             id: 'telegram-secours',
             className: 'secours',
             text: "TÉLÉ SECOURS 💙"
         },
         {
-            name: 'CANAL POTATO 🥔',
-            url: 'https://dympt.org/pistachio420',
+            name: 'POTATO / MENU 🥔',
+            url: 'https://dympt.org/legacyog75',
             id: 'potato-main',
             className: 'potato', // Garde le style Marron/Doré Potato
             text: "CANAL POTATO 🥔"
         },
         {
-            name: 'RETOURS CLIENTS 🥔',
-            url: 'https://dympt.org/RetourP420',
-            id: 'potato-feedback',
-            className: 'potato', // Style standard ou tu peux remettre 'potato-main'
-            text: "RETOURS CLIENTS 🥔"
-        },
-        {
             name: 'INSTAGRAM 📸',
-            url: 'https://www.instagram.com/pis_tachio420',
+            url: 'https://www.instagram.com/og_legacy75?igsh=bG5nc3duNWRxd3Ey&utm_source=qr',
             id: 'instagram',
             className: 'instagram', // Style dégradé Insta
             text: "INSTAGRAM 📸"
@@ -110,103 +89,207 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
-                    id: 'PurpleBud',
-                    flag: '🇨🇦',
-                    name: '_Purple Bud 🦄♒️',
+                    id: '🍬🍦 Runtz Gelato',
+                    flag: '🇺🇸',
+                    name: '🍬🍦 Runtz Gelato',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
-                    image: 'ProductBud.png', // ⚠️ A changer
-                    video: 'VideoBud.mov',
-                    description: 'Purple Bud est munie de puissantes génétiques au sein desquelles on retrouve l’Hindu Kush, la Purple Kush et une sativa jamaïcaine ainsi qu’une afghane inconnues. Avec ses couleurs éclatantes et séduisantes, la Purple Bud est une variété à dominance indica à la courte stature qui est un choix idéal pour les petits espaces.',
+                    image: 'ProductRuntz.png', // ⚠️ A changer
+                    video: 'VideoRuntez.mp4',
+                    description: 'Candy Cream • Cali Fusion • Ultra Premium \n\n La Runtz Gelato est une fusion parfaite entre le sucre explosif de Runtz et la crème lourde de Gelato. Une génétique moderne, gourmande et ultra demandée, pensée pour ceux qui veulent du goût réel, du visuel Cali et des effets propres mais bien marqués. \n 👀 Aspect\n\n Têtes ultra compactes, denses et lourdes, entièrement givrées.\n Couleurs vert clair – reflets violets, pistils orange vif, trichomes épais et brillants → finition top shelf, rien à dire.\n\n 👃 Arômes\n 🍬 Bonbon sucré Runtz\n 🍦 Crème Gelato\n 🍓 Notes fruitées légères\n ⛽ Pointe gazeuse subtile en fond\n\n Une odeur loud, qui remplit la pièce dès l’ouverture.\n\n 👅 Goût\n En bouche, c’est riche et constant :\n • attaque sucrée bonbon\n • milieu crémeux, rond\n • fin smooth, légèrement gazeuse\n Aucune amertume, goût stable jusqu’à la dernière puff.\n\n 🧠 Effets\n ⚡ Montée rapide et propre\n 😁 Euphorie légère, mood boost\n 🧘‍♂️ Relaxation corporelle progressive\n 🧠 Esprit clair, pas d’écrasement\n\n Parfaite pour chill, social, musique, créativité, ou finir la journée sans être KO.',
                     tarifs: [
                         { weight: '10g', price: 100.00 },
                         { weight: '25g', price: 210.00 },
                         { weight: '50g', price: 330.00 },
                         { weight: '100g', price: 630.00 },
                     ]
-                }
+                },
+                {
+                    id: '🍓🍬 Strawberry Runtz',
+                    flag: '🇺🇸',
+                    name: '🍓🍬 Strawberry Runtz',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductStraw.png', // ⚠️ A changer
+                    video: 'VideoStraw.mp4',
+                    description: 'Ultra Sweet • Cali Candy • Top Shelf \n\n La Strawberry Runtz est une génétique dessert d’élite, pensée pour ceux qui veulent du goût réel, du visuel sale et des effets propres mais puissants. Dès l’ouverture du pochon, ça frappe fort : une fraise mûre sucrée, façon bonbon américain, mélangée à une base crémeuse Runtz avec une pointe légèrement acidulée qui te colle au nez. \n 👀 Aspect\n\n Têtes ultra compactes, lourdes, complètement givrées. \n Couleurs vert clair – violet pastel, pistils orange vif, trichomes épais et brillants → vraie finition Cali, pas du marketing.\n\n 👃 Arômes\n 🍓 Fraise candy\n 🍬 Bonbon sucré\n 🥛 Crème douce\n 🌬️ Légère note fresh en fond \n\n 👅 Goût\n En bouche, c’est propre et intense du début à la fin :\n • attaque fraise sucrée\n  • milieu bonbon / crémeux\n • fin smooth, légèrement lactée, sans amertume\n Aucune perte de goût à la combustion. Chaque puff est fidèle.\n\n 🧠 Effets\n ⚡ Montée rapide, euphorique et clean\n 😌 Sensation de bien-être immédiat\n 🧘‍♂️ Relaxation progressive du corps\n 🧠 Esprit clair, pas d’écrasement\n\n 🗣️ Parfaite pour chill, social, créativité, fin de journée',
+                    tarifs: [
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 210.00 },
+                        { weight: '50g', price: 330.00 },
+                        { weight: '100g', price: 630.00 },
+                    ]
+                },
             ]
         },
         {
-            id: 'WEED',
-            name: 'WEED CALI 🇺🇸 🥦',
-            type: 'Weed',
-            quality: 'WEED CALI 🇺🇸 🥦',
+            id: 'FROZEN',
+            name: 'FROZEN 🇲🇦🍯',
+            type: 'Frozen',
+            quality: 'FROZEN 🇲🇦🍯',
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
                 {
-                    id: 'PurpleBud',
-                    flag: '🇨🇦',
-                    name: '_Purple Bud 🦄♒️',
-                    farm: '🌾 No Farm 🌾',
+                    id: '🧊 FROZEN',
+                    flag: '🇲🇦',
+                    name: '🧊 FROZEN',
+                    farm: 'HASBULLA FARM 🇲🇦',
                     promoEligible: true,
                     type: 'Weed',
-                    image: 'ProductBud.png', // ⚠️ A changer
-                    video: 'VideoBud.mov',
-                    description: 'Purple Bud est munie de puissantes génétiques au sein desquelles on retrouve l’Hindu Kush, la Purple Kush et une sativa jamaïcaine ainsi qu’une afghane inconnues. Avec ses couleurs éclatantes et séduisantes, la Purple Bud est une variété à dominance indica à la courte stature qui est un choix idéal pour les petits espaces.',
+                    image: 'ProductFroz.png', // ⚠️ A changer
+                    video: 'VideoFroz.mp4',
+                    description: 'Votre meilleur farm du moment plusieurs strains disponible 🍯',
+
+                       // 👇 NOUVELLE STRUCTURE
+                       variantTitle: 'Saveurs Frozen ❄️ :',
+                       jars: [
+                           { name: 'Strawberry', emoji: '🍓', colorClass: 'style-red' },
+                           { name: 'Oreo Runtz', emoji: '🍪', colorClass: 'style-brown' },
+                           { name: 'Carbon fiber', emoji: '🥵', colorClass: 'style-orange' },
+   
+                       ],
+
                     tarifs: [
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 210.00 },
-                        { weight: '50g', price: 330.00 },
-                        { weight: '100g', price: 630.00 },
+                        { weight: '5G', price: 100.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 260.00 },
+                        { weight: '50G', price: 400.00 },
+                        { weight: '100G', price: 750.00 },
                     ]
-                }
+                },
+                {
+                    id: '🍓 90U Lamponi',
+                    flag: '🇲🇦',
+                    name: '🍓 90U Lamponi',
+                    farm: 'KGF 🦊',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductLamponi.png', // ⚠️ A changer
+                    video: 'VideoLamponi.mp4',
+                    description: 'Un joyau de précision signé KGF, issu d’une extraction full melt à 90 microns, gage d’une pureté et d’une puissance exceptionnelles. Le Lamponi, qui signifie “framboise” en italien, porte parfaitement son nom : une véritable gourmandise olfactive et gustative. \n\n • Texture : ultra-crémeuse, presque mousseuse, fond instantanément à la chaleur des doigts.\n\n • Couleur : blond pâle aux reflets rosés, typique des extractions haut de gamme.\n\n • Odeur : un parfum de fruits rouges sucrés, dominé par la framboise fraîche et la crème légère.\n\n • Effet : profond, relaxant et euphorique — une montée douce suivie d’un apaisement complet du corps et de l’esprit.\n\n • Qualité : 90U full melt — pure tête de trichome, sans impuretés ni contaminants végétaux.\n\n\n Chaque lot de Lamponi 90U incarne l’excellence artisanale de KGF, un hash qui allie saveur, texture et effet dans un équilibre parfait. Un produit d’exception pour connaisseurs exigeants. 🦊',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 280.00 },
+                        { weight: '50G', price: 500.00 },
+                        { weight: '100G', price: 800.00 },
+                    ]
+                },
             ]
         },
         {
-            id: 'WEED',
-            name: 'WEED CALI 🇺🇸 🥦',
-            type: 'Weed',
-            quality: 'WEED CALI 🇺🇸 🥦',
+            id: '3xFiltre',
+            name: '3X FILTRE PREMIUM 🇲🇦🍫',
+            type: '3xFiltre',
+            quality: '3X FILTRE PREMIUM 🇲🇦🍫',
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
                 {
-                    id: 'PurpleBud',
-                    flag: '🇨🇦',
-                    name: '_Purple Bud 🦄♒️',
+                    id: 'PremiumDur',
+                    flag: '🇲🇦',
+                    name: 'PREMIUM DUR CASSANT 🍯',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
-                    image: 'ProductBud.png', // ⚠️ A changer
-                    video: 'VideoBud.mov',
-                    description: 'Purple Bud est munie de puissantes génétiques au sein desquelles on retrouve l’Hindu Kush, la Purple Kush et une sativa jamaïcaine ainsi qu’une afghane inconnues. Avec ses couleurs éclatantes et séduisantes, la Purple Bud est une variété à dominance indica à la courte stature qui est un choix idéal pour les petits espaces.',
+                    image: 'ProductPremiumDur.png', // ⚠️ A changer
+                    videos: [
+                        'VideoUni.mp4',
+                        'VideoCandy.mp4',
+                        'VideoPurple.mp4',
+                        'VideoHead.mp4',
+                        'VideoBlue.mp4'
+                    ],
+                    description: '5 STRAINS DISPONIBLE 🥵🍫',
+                    
+                    // 👇 NOUVELLE STRUCTURE
+                    variantTitle: 'Saveurs Premium ❄️ :',
+                    jars: [
+                        { name: 'UNICORNZ ÉLITE', emoji: '🟠', colorClass: 'style-brown' },
+                        { name: 'CANDY CANE', emoji: '🔴', colorClass: 'style-red' },
+                        { name: 'PURPLE CREAM', emoji: '🟣', colorClass: 'style-purple' },
+                        { name: 'HEAD BANGER', emoji: '🟡', colorClass: 'style-yellow' },
+                        { name: 'BLUE ZUSHI', emoji: '🔵', colorClass: 'style-blue' },
+
+                    ],
+                    
                     tarifs: [
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 210.00 },
-                        { weight: '50g', price: 330.00 },
-                        { weight: '100g', price: 630.00 },
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 100.00 },
+                        { weight: '25G', price: 200.00 },
+                        { weight: '50G', price: 350.00 },
+                        { weight: '100G', price: 480.00 },
                     ]
-                }
+                },
+                {
+                    id: 'GRAND DADDY 💙',
+                    flag: '🇲🇦',
+                    name: 'GRAND DADDY 💙',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductDaddy.png', // ⚠️ A changer
+                    video: 'VideoDaddy.mp4',
+                    description: '3X FILTRE DHF 120U PREMIUM',
+                    tarifs: [
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 100.00 },
+                    ]
+                },
             ]
         },
         {
-            id: 'WEED',
-            name: 'WEED CALI 🇺🇸 🥦',
-            type: 'Weed',
-            quality: 'WEED CALI 🇺🇸 🥦',
+            id: 'DOUBLE STATIC',
+            name: 'DOUBLE STATIC 🇲🇦',
+            type: 'DoubleStatic',
+            quality: 'DOUBLE STATIC 🇲🇦',
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
                 {
-                    id: 'PurpleBud',
-                    flag: '🇨🇦',
-                    name: '_Purple Bud 🦄♒️',
+                    id: 'LAKERS',
+                    flag: '🇲🇦',
+                    name: 'LAKERS FARM STATIC 🇲🇦🍯',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
-                    image: 'ProductBud.png', // ⚠️ A changer
-                    video: 'VideoBud.mov',
-                    description: 'Purple Bud est munie de puissantes génétiques au sein desquelles on retrouve l’Hindu Kush, la Purple Kush et une sativa jamaïcaine ainsi qu’une afghane inconnues. Avec ses couleurs éclatantes et séduisantes, la Purple Bud est une variété à dominance indica à la courte stature qui est un choix idéal pour les petits espaces.',
+                    image: 'ProductLakers.png', // ⚠️ A changer
+                    video: 'VideoLakers.mov',
+                    description: 'TRES BON GOUT GROSSE HIGH LAKERS STATIC TRES BIEN REPUTÉ',
                     tarifs: [
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 210.00 },
-                        { weight: '50g', price: 330.00 },
-                        { weight: '100g', price: 630.00 },
+                        { weight: '5G', price: 100.00 },
+                        { weight: '10G', price: 150.00 },
+                        { weight: '20G', price: 280.00 },
                     ]
-                }
+                },
+                {
+                    id: 'OLIVE',
+                    flag: '🇲🇦',
+                    name: '🍫 OLIVE HASBULLA 🍯🫒',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductOlive.png', // ⚠️ A changer
+                    video: 'VideoOlive.mov',
+                    description: 'TRES BON GOUT GROSSE HIGH LAKERS STATIC TRES BIEN REPUTÉ',
+
+                         // 👇 NOUVELLE STRUCTURE
+                         variantTitle: 'Choisis ton goût 🥣 :',
+                         jars: [
+                             { name: 'CEREAL MILK', emoji: '🍼🥵', colorClass: 'style-passion' },
+                             { name: 'PINA', emoji: '🍍🤯', colorClass: 'style-melon' },
+                             { name: 'GEORGIA PIE', emoji: '🍑🍯', colorClass: 'style-orange' }
+                         ],
+
+                    tarifs: [
+                        { weight: '5G', price: 100.00 },
+                        { weight: '10G', price: 180.00 },
+                        { weight: '20G', price: 340.00 },
+                    ]
+                },
             ]
         },
 
@@ -887,7 +970,7 @@ document.addEventListener('DOMContentLoaded', function () {
             backButton.innerHTML = `<svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg> ${category.name}`;
             backButton.style.cssText = `
             border: none;
-            color: white;
+            color: #f16101;
             padding: 40px;
             font-weight: 700;
             cursor: pointer;
@@ -901,8 +984,8 @@ document.addEventListener('DOMContentLoaded', function () {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: linear-gradient(182deg, #480092, transparent);
-                        border-radius: 10px;`;
+            background: linear-gradient(194deg, rgb(100 35 33), #0000004f);
+            border-radius: 10px;`;
 
             filterContainer.prepend(backButton);
 
@@ -930,7 +1013,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             backButton.style.cssText = `
             border: none;
-            color: white;
+            color: #f16101;
             padding: 40px;
             font-weight: 700;
             cursor: pointer;
@@ -944,7 +1027,7 @@ document.addEventListener('DOMContentLoaded', function () {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: linear-gradient(182deg, #480092, transparent);
+            background: linear-gradient(194deg, rgb(100 35 33), #0000004f);
             border-radius: 10px;`;
 
             filterContainer.prepend(backButton);
