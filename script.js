@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     promoEligible: true,
                     type: 'Weed',
                     image: 'ProductLamponi.png', // ⚠️ A changer
-                    video: 'VideoLamponi.mp4',
+                    video: 'VideoLamponi.mov',
                     description: 'Un joyau de précision signé KGF, issu d’une extraction full melt à 90 microns, gage d’une pureté et d’une puissance exceptionnelles. Le Lamponi, qui signifie “framboise” en italien, porte parfaitement son nom : une véritable gourmandise olfactive et gustative. \n\n • Texture : ultra-crémeuse, presque mousseuse, fond instantanément à la chaleur des doigts.\n\n • Couleur : blond pâle aux reflets rosés, typique des extractions haut de gamme.\n\n • Odeur : un parfum de fruits rouges sucrés, dominé par la framboise fraîche et la crème légère.\n\n • Effet : profond, relaxant et euphorique — une montée douce suivie d’un apaisement complet du corps et de l’esprit.\n\n • Qualité : 90U full melt — pure tête de trichome, sans impuretés ni contaminants végétaux.\n\n\n Chaque lot de Lamponi 90U incarne l’excellence artisanale de KGF, un hash qui allie saveur, texture et effet dans un équilibre parfait. Un produit d’exception pour connaisseurs exigeants. 🦊',
                     tarifs: [
                         { weight: '5G', price: 70.00 },
