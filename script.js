@@ -99,6 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoRuntez.mp4',
                     description: 'Candy Cream • Cali Fusion • Ultra Premium \n\n La Runtz Gelato est une fusion parfaite entre le sucre explosif de Runtz et la crème lourde de Gelato. Une génétique moderne, gourmande et ultra demandée, pensée pour ceux qui veulent du goût réel, du visuel Cali et des effets propres mais bien marqués. \n 👀 Aspect\n\n Têtes ultra compactes, denses et lourdes, entièrement givrées.\n Couleurs vert clair – reflets violets, pistils orange vif, trichomes épais et brillants → finition top shelf, rien à dire.\n\n 👃 Arômes\n 🍬 Bonbon sucré Runtz\n 🍦 Crème Gelato\n 🍓 Notes fruitées légères\n ⛽ Pointe gazeuse subtile en fond\n\n Une odeur loud, qui remplit la pièce dès l’ouverture.\n\n 👅 Goût\n En bouche, c’est riche et constant :\n • attaque sucrée bonbon\n • milieu crémeux, rond\n • fin smooth, légèrement gazeuse\n Aucune amertume, goût stable jusqu’à la dernière puff.\n\n 🧠 Effets\n ⚡ Montée rapide et propre\n 😁 Euphorie légère, mood boost\n 🧘‍♂️ Relaxation corporelle progressive\n 🧠 Esprit clair, pas d’écrasement\n\n Parfaite pour chill, social, musique, créativité, ou finir la journée sans être KO.',
                     tarifs: [
+                        { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
                         { weight: '25g', price: 210.00 },
                         { weight: '50g', price: 330.00 },
@@ -116,6 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoStraw.mp4',
                     description: 'Ultra Sweet • Cali Candy • Top Shelf \n\n La Strawberry Runtz est une génétique dessert d’élite, pensée pour ceux qui veulent du goût réel, du visuel sale et des effets propres mais puissants. Dès l’ouverture du pochon, ça frappe fort : une fraise mûre sucrée, façon bonbon américain, mélangée à une base crémeuse Runtz avec une pointe légèrement acidulée qui te colle au nez. \n 👀 Aspect\n\n Têtes ultra compactes, lourdes, complètement givrées. \n Couleurs vert clair – violet pastel, pistils orange vif, trichomes épais et brillants → vraie finition Cali, pas du marketing.\n\n 👃 Arômes\n 🍓 Fraise candy\n 🍬 Bonbon sucré\n 🥛 Crème douce\n 🌬️ Légère note fresh en fond \n\n 👅 Goût\n En bouche, c’est propre et intense du début à la fin :\n • attaque fraise sucrée\n  • milieu bonbon / crémeux\n • fin smooth, légèrement lactée, sans amertume\n Aucune perte de goût à la combustion. Chaque puff est fidèle.\n\n 🧠 Effets\n ⚡ Montée rapide, euphorique et clean\n 😌 Sensation de bien-être immédiat\n 🧘‍♂️ Relaxation progressive du corps\n 🧠 Esprit clair, pas d’écrasement\n\n 🗣️ Parfaite pour chill, social, créativité, fin de journée',
                     tarifs: [
+                        { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
                         { weight: '25g', price: 210.00 },
                         { weight: '50g', price: 330.00 },
@@ -146,16 +148,16 @@ document.addEventListener('DOMContentLoaded', function () {
                        // 👇 NOUVELLE STRUCTURE
                        variantTitle: 'Saveurs Frozen ❄️ :',
                        jars: [
-                           { name: 'Strawberry', emoji: '🍓', colorClass: 'style-red' },
-                           { name: 'Oreo Runtz', emoji: '🍪', colorClass: 'style-brown' },
-                           { name: 'Carbon fiber', emoji: '🥵', colorClass: 'style-orange' },
+                           { name: 'Strawberry', emoji: '🍓❤️‍🔥', colorClass: 'style-red' },
+                           { name: 'Oreo Runtz', emoji: '🍪❤️‍🔥', colorClass: 'style-brown' },
+                           { name: 'Carbon fiber', emoji: '🥵❤️‍🔥', colorClass: 'style-orange' },
    
                        ],
 
                     tarifs: [
-                        { weight: '5G', price: 100.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 260.00 },
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 130.00 },
+                        { weight: '25G', price: 250.00 },
                         { weight: '50G', price: 400.00 },
                         { weight: '100G', price: 750.00 },
                     ]
@@ -274,7 +276,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     type: 'Weed',
                     image: 'ProductOlive.png', // ⚠️ A changer
                     video: 'VideoOlive.mov',
-                    description: 'TRES BON GOUT GROSSE HIGH LAKERS STATIC TRES BIEN REPUTÉ',
+                    description: 'OLIVE DOUBLE STATIC TRES GROS GOUT PRONONCÉ ET HIGH QUI TE MET UNE VRAI FRAPPE POUR LES GROS PECS 🍯',
 
                          // 👇 NOUVELLE STRUCTURE
                          variantTitle: 'Choisis ton goût 🥣 :',
@@ -286,8 +288,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     tarifs: [
                         { weight: '5G', price: 100.00 },
-                        { weight: '10G', price: 180.00 },
-                        { weight: '20G', price: 340.00 },
+                        { weight: '10G', price: 150.00 },
+                        { weight: '20G', price: 280.00 },
                     ]
                 },
             ]
