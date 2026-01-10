@@ -1848,7 +1848,7 @@ function renderProductListSimple(categoryId) {
     // --- GESTION PAGE AVIS ---
 
     // 1. Bouton vers le canal Potato
-    const btnChannel = document.getElementById('btn-open-channel');
+/*     const btnChannel = document.getElementById('btn-open-channel');
     if (btnChannel) {
         btnChannel.addEventListener('click', function() {
             // Remplace par ton vrai lien de canal
@@ -1858,7 +1858,7 @@ function renderProductListSimple(categoryId) {
             tg.openLink(channelLink); 
         });
     }
-
+ */
     // 2. (Optionnel) Zoom sur l'image quand on clique dessus
     window.openImage = function(imgElement) {
         const modal = document.getElementById('image-modal');
@@ -2135,7 +2135,7 @@ function renderProductListSimple(categoryId) {
     if (target.closest('#confirm-order-button')) {
 
         // 1. TON NUMÉRO WHATSAPP (Format international sans le +)
-        const myPhoneNumber = '33626127557'; 
+        const myPhoneNumber = '33629121135'; 
         
         // 2. On prépare le message
         let message = formatOrderMessage();
