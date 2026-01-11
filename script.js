@@ -150,8 +150,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     tarifs: [
                         { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 130.00 },
-                        { weight: '25G', price: 250.00 },
+                        { weight: '10G', price: 120.00 },
                         { weight: '50G', price: 400.00 },
                         { weight: '100G', price: 750.00 },
                     ]
@@ -245,6 +244,24 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'BLUESUNSET',
+                    flag: '🇲🇦',
+                    name: 'BLUE SUNSET SHERBET🥵💙',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductSunset.png', // ⚠️ A changer
+                    video: 'VideoSunset.mov',
+                    description: 'Pour les gros pecs static tout droit venu de la source que des gros drop en 2026 🍯🥵',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 150.00 },
+                        { weight: '20G', price: 300.00 },
+                        { weight: '50G', price: 500.00 },
+                        { weight: '100G', price: 850.00 },
+                    ]
+                },
                 {
                     id: 'LAKERS',
                     flag: '🇲🇦',
