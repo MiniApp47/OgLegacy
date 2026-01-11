@@ -101,9 +101,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 210.00 },
-                        { weight: '50g', price: 330.00 },
-                        { weight: '100g', price: 630.00 },
                     ]
                 },
                 {
@@ -119,9 +116,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 210.00 },
-                        { weight: '50g', price: 330.00 },
-                        { weight: '100g', price: 630.00 },
                     ]
                 },
             ]
@@ -162,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 750.00 },
                     ]
                 },
-                {
+               /*  {
                     id: '🍓 90U Lamponi',
                     flag: '🇲🇦',
                     name: '🍓 90U Lamponi',
@@ -179,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 500.00 },
                         { weight: '100G', price: 800.00 },
                     ]
-                },
+                }, */
             ]
         },
         {
