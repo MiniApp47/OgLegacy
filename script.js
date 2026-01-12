@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     id: 'PremiumDur',
                     flag: '🇲🇦',
                     name: 'PREMIUM DUR CASSANT 🍯',
-                    farm: '🌾 No Farm 🌾',
+                    farm: '👨‍🌾 DHF Farmz 👨‍🌾',
                     promoEligible: true,
                     type: 'Weed',
                     image: 'ProductPremiumDur.png', // ⚠️ A changer
@@ -198,8 +198,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         'VideoHead.mp4',
                         'VideoBlue.mp4'
                     ],
-                    description: '5 STRAINS DISPONIBLE 🥵🍫',
-                    
+                    description: '🏺 L’ART DU DUR CASSANT BY DHF 🏺 \n\n Oubliez le mou commercial. Ici on parle de "Glassy Tech" : un hash dur comme de la pierre à froid, qui devient une crème bulleuse au contact de la flamme. \n\n 🔥 Pourquoi le choisir ?\n • Conservation des terpènes maximale (coque protectrice)\n • Défonce lucide et puissante (High Clean)\n • 5 Variétés certifiées (Pas de mélange)\n\n 👅 Les Saveurs :\n Du fruité (Unicornz) au Gazeux (Head Banger) en passant par le Crémeux (Purple/Zushi). \n\n ⚠️ Conseil : À travailler au couteau ou à effriter finement pour une combustion parfaite.',                    
                     // 👇 NOUVELLE STRUCTURE
                     variantTitle: 'Saveurs Premium ❄️ :',
                     jars: [
