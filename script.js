@@ -129,12 +129,48 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: '🍓 Tutti Frutti 🍍',
+                    flag: '🇲🇦',
+                    name: '🍓 Tutti Frutti 🍍',
+                    farm: 'KGF 🦊',
+                    promoEligible: true,
+                    type: 'Frozen',
+                    image: 'ProductTutti.png', // ⚠️ A changer
+                    video: 'VideoTutti.mov',
+                    description: 'Une véritable explosion fruitée dès l’ouverture. Ce Frozen 73u Tutti Frutti signé KGF dévoile un profil aromatique ultra gourmand, mêlant fruits rouges juteux, notes exotiques sucrées et une touche acidulée parfaitement équilibrée. \n\n Grâce à une extraction 73 microns, la texture est crémeuse, brillante et collante, gage de pureté et de qualité premium. En bouche, les saveurs sont intenses, propres et persistantes, avec une fumée douce et parfumée qui tapisse le palais.\n 🔥 Points forts :\n • Arômes fruités puissants et naturels\n • Texture frozen haut de gamme\n • Extraction clean et savoureuse\n • Production artisanale Farm KGF\n Un concentré de plaisir pour les amateurs de hash fruité, frais et explosif. 🍬🍯',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                        { weight: '50G', price: 400.00 },
+                        { weight: '100G', price: 650.00 },
+                    ]
+                },
+                {
+                    id: '🍇 Acai Cake 🍰',
+                    flag: '🇲🇦',
+                    name: '🍇 Acai Cake 🍰',
+                    farm: 'KGF 🦊',
+                    promoEligible: true,
+                    type: 'Frozen',
+                    image: 'ProductAcai.png', // ⚠️ A changer
+                    video: 'VideoAcai.mov',
+                    description: 'Un profil aromatique profond et ultra gourmand. Ce Frozen 73u Acai Cake de la Farm KGF marie à la perfection la richesse fruitée de l’açaï à des notes pâtissières crémeuses, rappelant un gâteau moelleux légèrement vanillé. \n\n L’extraction 73 microns offre une texture frozen lisse, grasse et brillante, signe d’un travail précis et d’une matière première de haut niveau. En dégustation, la fumée est dense, douce et persistante, laissant une empreinte sucrée et fruitée longue en bouche.\n 🔥 Points forts :\n • Arômes açaï intenses et notes cake gourmandes\n • Texture crémeuse et fondante\n  • Extraction clean et premium\n • Signature artisanale Farm KGF\n Un hash élégant et puissant, parfait pour les amateurs de saveurs sucrées, profondes et raffinées. 🍫🍇',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                        { weight: '50G', price: 400.00 },
+                        { weight: '100G', price: 650.00 },
+                    ]
+                },
+                {
                     id: '🧊 FROZEN',
                     flag: '🇲🇦',
                     name: '🧊 FROZEN',
                     farm: 'HASBULLA FARM 🇲🇦',
                     promoEligible: true,
-                    type: 'Weed',
+                    type: 'Frozen',
                     image: 'ProductFroz.png', // ⚠️ A changer
                     video: 'VideoFroz.mp4',
                     description: 'Votre meilleur farm du moment plusieurs strains disponible 🍯',
@@ -184,12 +220,49 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: 'RUNTZ',
+                    flag: '🇲🇦',
+                    name: '🍭 RUNTZ 🍧',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductRu.png', // ⚠️ A changer
+                    video: 'VideoRu.mov',
+                    description: 'Un concentré de douceur et de maîtrise. Ce 3x filtré 90 microns RUNTZ révèle toute la gourmandise emblématique de la strain : des notes sucrées de bonbon, de fruits mûrs et une légère touche crémeuse qui arrondit parfaitement le profil.\n Le triple filtrage garantit une matière ultra propre, à la texture grasse, souple et fondante, avec une combustion nette et régulière. En bouche, les saveurs sont intenses mais élégantes, longues et sans lourdeur, pour une expérience aussi savoureuse que qualitative.\n\n 🔥 Points forts :\n • Profil RUNTZ sucré et candy\n • Triple filtration pour une pureté maximale\n • Texture fondante et combustion clean\n • Sélection NO FARM\n\n Un hash premium, équilibré et ultra gourmand, destiné aux amateurs de produits raffinés et bien travaillés. 🍬💎',
+                    tarifs: [
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 100.00 },
+                        { weight: '25G', price: 200.00 },
+                        { weight: '50G', price: 350.00 },
+                        { weight: '100G', price: 480.00 },
+
+                    ]
+                },
+                {
+                    id: 'TWIX STRAWBERRY GUMMY',
+                    flag: '🇲🇦',
+                    name: '🍫 TWIX STRAWBERRY GUMMY 🍓',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductTwix.png', // ⚠️ A changer
+                    video: 'VideoTwix.mov',
+                    description: 'Un profil ultra gourmand et régressif. Ce 3x filtré 90 microns TWIX STRAWBERRY GUMMY combine des notes sucrées de fraise candy, de chocolat doux et une touche biscuitée crémeuse, rappelant une confiserie fondante et addictive.\n Grâce au triple filtrage, la matière est extrêmement propre, avec une texture grasse, souple et fondante. La combustion est nette, la fumée douce et savoureuse, laissant une longueur en bouche sucrée et fruitée parfaitement maîtrisée.\n\n 🔥 Points forts :\n • Arômes fraise gummy, chocolat et biscuit\n • Triple filtration pour une pureté maximale\n • Texture fondante et combustion clean\n • Sélection NO FARM  \n\n Un hash premium, intensément gourmand, pensé pour les amateurs de saveurs sucrées, candy et ultra clean. 🍬💎',
+                    tarifs: [
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 100.00 },
+                        { weight: '25G', price: 200.00 },
+                        { weight: '50G', price: 350.00 },
+                        { weight: '100G', price: 480.00 },
+                    ]
+                },
+                {
                     id: 'PremiumDur',
                     flag: '🇲🇦',
                     name: 'PREMIUM DUR CASSANT 🍯',
                     farm: '👨‍🌾 DHF Farmz 👨‍🌾',
                     promoEligible: true,
-                    type: 'Weed',
+                    type: '3xFiltre',
                     image: 'ProductPremiumDur.png', // ⚠️ A changer
                     videos: [
                         'VideoUni.mp4',
@@ -224,7 +297,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     name: 'GRAND DADDY 💙',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
-                    type: 'Weed',
+                    type: '3xFiltre',
                     image: 'ProductDaddy.png', // ⚠️ A changer
                     video: 'VideoDaddy.mp4',
                     description: '3X FILTRE DHF 120U PREMIUM',
@@ -232,7 +305,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '5G', price: 60.00 },
                         { weight: '10G', price: 100.00 },
                     ]
-                },
+                }
             ]
         },
         {
