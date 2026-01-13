@@ -257,6 +257,42 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 },
                 {
+                    id: 'SKITTLES',
+                    flag: '🇲🇦',
+                    name: '🍊 SKITTLES 🍬',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductSkit.png', // ⚠️ A changer
+                    video: 'VideoSkit.mov',
+                    description: 'Un profil ultra fruité et explosif. Ce 3x filtré 90 microns SKITTLES délivre une palette aromatique intense mêlant bonbons tropicaux, agrumes sucrés et notes candy acidulées, fidèle à la strain mythique dont il porte le nom.\n Grâce au triple filtrage, la matière est exceptionnellement propre, avec une texture grasse, souple et fondante. La combustion est nette et homogène, la fumée douce et parfumée, laissant une longueur en bouche sucrée et fruitée qui rappelle un mélange de bonbons arc-en-ciel.\n\n 🔥 Points forts :\n • Arômes candy, fruits tropicaux et agrumes\n • Triple filtration pour une pureté maximale\n • Texture fondante & combustion clean\n • Sélection NO FARM\n\n Un hash premium, intensément gourmand et aromatique, pensé pour les amateurs de profils candy, fruités et ultra clean 🍬💎',
+                    tarifs: [
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 100.00 },
+                        { weight: '25G', price: 200.00 },
+                        { weight: '50G', price: 350.00 },
+                        { weight: '100G', price: 480.00 },
+                    ]
+                },
+                {
+                    id: 'SUPER SOAKER',
+                    flag: '🇲🇦',
+                    name: '💦 SUPER SOAKER 🍉',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductSoa.png', // ⚠️ A changer
+                    video: 'VideoSoa.mov',
+                    description: 'Un profil ultra frais et juteux. Ce 3x filtré 90 microns Super Soaker développe des arômes puissants de fruits rouges gorgés de sucre, pastèque fraîche et bonbon acidulé, avec une sensation aqueuse et rafraîchissante qui rappelle un candy estival.\n Grâce au triple filtrage, la matière est extrêmement propre, affichant une texture grasse, souple et fondante. La combustion est clean et régulière, la fumée douce et aromatique, laissant une longueur en bouche fruitée, fraîche et légèrement acidulée.\n\n 🔥 Points forts :\n  Notes de pastèque, fruits rouges et candy frais\n • Triple filtration pour une pureté maximale\n • Texture fondante & combustion nette\n • Sélection NO FARM\n\n Un hash premium, rafraîchissant et gourmand, idéal pour les amateurs de profils fruités, juteux et ultra clean 🍉💎',
+                    tarifs: [
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 100.00 },
+                        { weight: '25G', price: 200.00 },
+                        { weight: '50G', price: 350.00 },
+                        { weight: '100G', price: 480.00 },
+                    ]
+                },
+                {
                     id: 'PremiumDur',
                     flag: '🇲🇦',
                     name: 'PREMIUM DUR CASSANT 🍯',
