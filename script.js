@@ -129,42 +129,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
-                    id: '🍓 Tutti Frutti 🍍',
-                    flag: '🇲🇦',
-                    name: '🍓 Tutti Frutti 🍍',
-                    farm: 'KGF 🦊',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductTutti.png', // ⚠️ A changer
-                    video: 'VideoTutti.mov',
-                    description: 'Une véritable explosion fruitée dès l’ouverture. Ce Frozen 73u Tutti Frutti signé KGF dévoile un profil aromatique ultra gourmand, mêlant fruits rouges juteux, notes exotiques sucrées et une touche acidulée parfaitement équilibrée. \n\n Grâce à une extraction 73 microns, la texture est crémeuse, brillante et collante, gage de pureté et de qualité premium. En bouche, les saveurs sont intenses, propres et persistantes, avec une fumée douce et parfumée qui tapisse le palais.\n 🔥 Points forts :\n • Arômes fruités puissants et naturels\n • Texture frozen haut de gamme\n • Extraction clean et savoureuse\n • Production artisanale Farm KGF\n Un concentré de plaisir pour les amateurs de hash fruité, frais et explosif. 🍬🍯',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                        { weight: '50G', price: 400.00 },
-                        { weight: '100G', price: 650.00 },
-                    ]
-                },
-                {
-                    id: '🍇 Acai Cake 🍰',
-                    flag: '🇲🇦',
-                    name: '🍇 Acai Cake 🍰',
-                    farm: 'KGF 🦊',
-                    promoEligible: true,
-                    type: 'Frozen',
-                    image: 'ProductAcai.png', // ⚠️ A changer
-                    video: 'VideoAcai.mov',
-                    description: 'Un profil aromatique profond et ultra gourmand. Ce Frozen 73u Acai Cake de la Farm KGF marie à la perfection la richesse fruitée de l’açaï à des notes pâtissières crémeuses, rappelant un gâteau moelleux légèrement vanillé. \n\n L’extraction 73 microns offre une texture frozen lisse, grasse et brillante, signe d’un travail précis et d’une matière première de haut niveau. En dégustation, la fumée est dense, douce et persistante, laissant une empreinte sucrée et fruitée longue en bouche.\n 🔥 Points forts :\n • Arômes açaï intenses et notes cake gourmandes\n • Texture crémeuse et fondante\n  • Extraction clean et premium\n • Signature artisanale Farm KGF\n Un hash élégant et puissant, parfait pour les amateurs de saveurs sucrées, profondes et raffinées. 🍫🍇',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                        { weight: '50G', price: 400.00 },
-                        { weight: '100G', price: 650.00 },
-                    ]
-                },
-                {
                     id: '🧊 FROZEN',
                     flag: '🇲🇦',
                     name: '🧊 FROZEN',
@@ -220,22 +184,57 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: '🍓 Tutti Frutti 🍍',
+                    flag: '🇲🇦',
+                    name: '🍓 Tutti Frutti 🍍',
+                    farm: 'KGF 🦊',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductTutti.png', // ⚠️ A changer
+                    video: 'VideoTutti.mov',
+                    description: '💎 FILTRÉ PREMIUM • HAUTE INTENSITÉ 💎\n\n Ce lot se distingue nettement des filtrés classiques par une concentration de terpènes bien supérieure. \n\n 👅 LE GOÛT : Une saturation aromatique totale. L’alliance fruits rouges / ananas est explosive et reste en bouche bien plus longtemps qu’un filtré standard.\n\n 🧠 L’EFFET : High élevé et percutant. La qualité du filtrage conserve tous les cannabinoïdes pour une montée franche et durable.\n\n 🦊 Signature KGF : Texture huileuse, propre, 0 déchet. Pour ceux qui cherchent la puissance avant tout.',
+                    tarifs: [
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 100.00 },
+                        { weight: '25G', price: 250.00 },
+                        { weight: '50G', price: 380.00 },
+                        { weight: '100G', price: 550.00 },
+                    ]
+                },
+                {
+                    id: '🍇 Acai Cake 🍰',
+                    flag: '🇲🇦',
+                    name: '🍇 Acai Cake 🍰',
+                    farm: 'KGF 🦊',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductAcai.png', // ⚠️ A changer
+                    video: 'VideoAcai.mov',
+                    description: '💎 FILTRÉ PREMIUM • GOURMANDISE & PUISSANCE 💎\n\n Oubliez les standards. Cette version Premium de l’Acai Cake offre une profondeur de goût et une lourdeur d’effets rarement atteintes.\n\n 👅 LE GOÛT : Une saveur pâtissière "Loud". Les notes de cake vanillé et de baies d’Açaï sont ultra prononcées, offrant une fumée dense et crémeuse qui tapisse le palais.\n\n 🧠 L’EFFET : Grosse charge. Le niveau de THC est préservé au maximum pour un effet relaxant profond, quasi narcotique. \n\n 🦊 Signature KGF : Un hash sombre, gras et puissant. Réservé aux tolérances élevées.',
+                    tarifs: [
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 100.00 },
+                        { weight: '25G', price: 250.00 },
+                        { weight: '50G', price: 380.00 },
+                        { weight: '100G', price: 550.00 },
+                    ]
+                },
+                {
                     id: 'RUNTZ',
                     flag: '🇲🇦',
                     name: '🍭 RUNTZ 🍧',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: '3xFiltre',
-                    image: 'ProductRu.png', // ⚠️ A changer
+                    image: 'ProductRu.png',
                     video: 'VideoRu.mov',
                     description: 'Un concentré de douceur et de maîtrise. Ce 3x filtré 90 microns RUNTZ révèle toute la gourmandise emblématique de la strain : des notes sucrées de bonbon, de fruits mûrs et une légère touche crémeuse qui arrondit parfaitement le profil.\n Le triple filtrage garantit une matière ultra propre, à la texture grasse, souple et fondante, avec une combustion nette et régulière. En bouche, les saveurs sont intenses mais élégantes, longues et sans lourdeur, pour une expérience aussi savoureuse que qualitative.\n\n 🔥 Points forts :\n • Profil RUNTZ sucré et candy\n • Triple filtration pour une pureté maximale\n • Texture fondante et combustion clean\n • Sélection NO FARM\n\n Un hash premium, équilibré et ultra gourmand, destiné aux amateurs de produits raffinés et bien travaillés. 🍬💎',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
+                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
                         { weight: '25G', price: 200.00 },
-                        { weight: '50G', price: 350.00 },
-                        { weight: '100G', price: 480.00 },
-
+                        { weight: '50G', price: 280.00, badge: 'PROMO ⚡️' },
+                        { weight: '100G', price: 450.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -245,15 +244,15 @@ document.addEventListener('DOMContentLoaded', function () {
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: '3xFiltre',
-                    image: 'ProductTwix.png', // ⚠️ A changer
+                    image: 'ProductTwix.png',
                     video: 'VideoTwix.mov',
                     description: 'Un profil ultra gourmand et régressif. Ce 3x filtré 90 microns TWIX STRAWBERRY GUMMY combine des notes sucrées de fraise candy, de chocolat doux et une touche biscuitée crémeuse, rappelant une confiserie fondante et addictive.\n Grâce au triple filtrage, la matière est extrêmement propre, avec une texture grasse, souple et fondante. La combustion est nette, la fumée douce et savoureuse, laissant une longueur en bouche sucrée et fruitée parfaitement maîtrisée.\n\n 🔥 Points forts :\n • Arômes fraise gummy, chocolat et biscuit\n • Triple filtration pour une pureté maximale\n • Texture fondante et combustion clean\n • Sélection NO FARM  \n\n Un hash premium, intensément gourmand, pensé pour les amateurs de saveurs sucrées, candy et ultra clean. 🍬💎',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
+                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
                         { weight: '25G', price: 200.00 },
-                        { weight: '50G', price: 350.00 },
-                        { weight: '100G', price: 480.00 },
+                        { weight: '50G', price: 280.00, badge: 'PROMO ⚡️' },
+                        { weight: '100G', price: 450.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -263,15 +262,15 @@ document.addEventListener('DOMContentLoaded', function () {
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: '3xFiltre',
-                    image: 'ProductSkit.png', // ⚠️ A changer
+                    image: 'ProductSkit.png',
                     video: 'VideoSkit.mov',
                     description: 'Un profil ultra fruité et explosif. Ce 3x filtré 90 microns SKITTLES délivre une palette aromatique intense mêlant bonbons tropicaux, agrumes sucrés et notes candy acidulées, fidèle à la strain mythique dont il porte le nom.\n Grâce au triple filtrage, la matière est exceptionnellement propre, avec une texture grasse, souple et fondante. La combustion est nette et homogène, la fumée douce et parfumée, laissant une longueur en bouche sucrée et fruitée qui rappelle un mélange de bonbons arc-en-ciel.\n\n 🔥 Points forts :\n • Arômes candy, fruits tropicaux et agrumes\n • Triple filtration pour une pureté maximale\n • Texture fondante & combustion clean\n • Sélection NO FARM\n\n Un hash premium, intensément gourmand et aromatique, pensé pour les amateurs de profils candy, fruités et ultra clean 🍬💎',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
+                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
                         { weight: '25G', price: 200.00 },
-                        { weight: '50G', price: 350.00 },
-                        { weight: '100G', price: 480.00 },
+                        { weight: '50G', price: 280.00, badge: 'PROMO ⚡️' },
+                        { weight: '100G', price: 450.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -281,15 +280,15 @@ document.addEventListener('DOMContentLoaded', function () {
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: '3xFiltre',
-                    image: 'ProductSoa.png', // ⚠️ A changer
+                    image: 'ProductSoa.png',
                     video: 'VideoSoa.mov',
                     description: 'Un profil ultra frais et juteux. Ce 3x filtré 90 microns Super Soaker développe des arômes puissants de fruits rouges gorgés de sucre, pastèque fraîche et bonbon acidulé, avec une sensation aqueuse et rafraîchissante qui rappelle un candy estival.\n Grâce au triple filtrage, la matière est extrêmement propre, affichant une texture grasse, souple et fondante. La combustion est clean et régulière, la fumée douce et aromatique, laissant une longueur en bouche fruitée, fraîche et légèrement acidulée.\n\n 🔥 Points forts :\n  Notes de pastèque, fruits rouges et candy frais\n • Triple filtration pour une pureté maximale\n • Texture fondante & combustion nette\n • Sélection NO FARM\n\n Un hash premium, rafraîchissant et gourmand, idéal pour les amateurs de profils fruités, juteux et ultra clean 🍉💎',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
+                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
                         { weight: '25G', price: 200.00 },
-                        { weight: '50G', price: 350.00 },
-                        { weight: '100G', price: 480.00 },
+                        { weight: '50G', price: 280.00, badge: 'PROMO ⚡️' },
+                        { weight: '100G', price: 450.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -299,7 +298,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     farm: '👨‍🌾 DHF Farmz 👨‍🌾',
                     promoEligible: true,
                     type: '3xFiltre',
-                    image: 'ProductPremiumDur.png', // ⚠️ A changer
+                    image: 'ProductPremiumDur.png',
                     videos: [
                         'VideoUni.mp4',
                         'VideoCandy.mp4',
@@ -307,8 +306,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         'VideoHead.mp4',
                         'VideoBlue.mp4'
                     ],
-                    description: '🏺 L’ART DU DUR CASSANT BY DHF 🏺 \n\n Oubliez le mou commercial. Ici on parle de "Glassy Tech" : un hash dur comme de la pierre à froid, qui devient une crème bulleuse au contact de la flamme. \n\n 🔥 Pourquoi le choisir ?\n • Conservation des terpènes maximale (coque protectrice)\n • Défonce lucide et puissante (High Clean)\n • 5 Variétés certifiées (Pas de mélange)\n\n 👅 Les Saveurs :\n Du fruité (Unicornz) au Gazeux (Head Banger) en passant par le Crémeux (Purple/Zushi). \n\n ⚠️ Conseil : À travailler au couteau ou à effriter finement pour une combustion parfaite.',                    
-                    // 👇 NOUVELLE STRUCTURE
+                    description: '🏺 L’ART DU DUR CASSANT BY DHF 🏺 \n\n Oubliez le mou commercial. Ici on parle de "Glassy Tech" : un hash dur comme de la pierre à froid, qui devient une crème bulleuse au contact de la flamme. \n\n 🔥 Pourquoi le choisir ?\n • Conservation des terpènes maximale (coque protectrice)\n • Défonce lucide et puissante (High Clean)\n • 5 Variétés certifiées (Pas de mélange)\n\n 👅 Les Saveurs :\n Du fruité (Unicornz) au Gazeux (Head Banger) en passant par le Crémeux (Purple/Zushi). \n\n ⚠️ Conseil : À travailler au couteau ou à effriter finement pour une combustion parfaite.',
                     variantTitle: 'Saveurs Premium ❄️ :',
                     jars: [
                         { name: 'UNICORNZ ÉLITE', emoji: '🟠', colorClass: 'style-brown' },
@@ -316,15 +314,14 @@ document.addEventListener('DOMContentLoaded', function () {
                         { name: 'PURPLE CREAM', emoji: '🟣', colorClass: 'style-purple' },
                         { name: 'HEAD BANGER', emoji: '🟡', colorClass: 'style-yellow' },
                         { name: 'BLUE ZUSHI', emoji: '🔵', colorClass: 'style-blue' },
-
+                
                     ],
-                    
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
+                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
                         { weight: '25G', price: 200.00 },
-                        { weight: '50G', price: 350.00 },
-                        { weight: '100G', price: 480.00 },
+                        { weight: '50G', price: 280.00, badge: 'PROMO ⚡️' },
+                        { weight: '100G', price: 450.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -334,12 +331,12 @@ document.addEventListener('DOMContentLoaded', function () {
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: '3xFiltre',
-                    image: 'ProductDaddy.png', // ⚠️ A changer
+                    image: 'ProductDaddy.png',
                     video: 'VideoDaddy.mp4',
                     description: '3X FILTRE DHF 120U PREMIUM',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
+                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
                     ]
                 }
             ]
@@ -363,11 +360,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoSunset.mov',
                     description: 'Pour les gros pecs static tout droit venu de la source que des gros drop en 2026 🍯🥵',
                     tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00 },
-                        { weight: '20G', price: 300.00 },
-                        { weight: '50G', price: 500.00 },
-                        { weight: '100G', price: 850.00 },
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 140.00 },
+                        { weight: '20G', price: 280.00 },
+                        { weight: '50G', price: 400.00 },
+                        { weight: '100G', price: 750.00 },
                     ]
                 },
                 {
@@ -957,18 +954,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // --- DÉFINIS TES CODES PROMO ICI ---
     const validPromoCodes = {
-        "ACTUPLUG33": {
+      /*   "": {
             type: 'fixed', // 'percent' (pourcentage) ou 'fixed' (fixe)
             value: 10,       // 20%
             appliesTo: 'eligible', // 'eligible' (articles marqués) ou 'all' (tout le panier)
             cumulative: false // <-- AJOUTE CETTE LIGNE
         },
-        "BACKPACK10": {
+        "": {
             type: 'fixed', // 'percent' (pourcentage) ou 'fixed' (fixe)
             value: 10,       // 20%
             appliesTo: 'eligible', // 'eligible' (articles marqués) ou 'all' (tout le panier)
             cumulative: false // <-- AJOUTE CETTE LIGNE
-        }
+        } */
         /*  "WELCOME5": {
              type: 'percent',   // 20%
              value: 20,        // 20%
@@ -1538,7 +1535,7 @@ function renderProductListSimple(categoryId) {
         let tarifsHTML = product.tarifs.map(tarif => `
             <div class="tarif-item">
                 <div class="box-tarif">
-                    <div class="tarif-wieght">${tarif.weight}</div>
+                ${tarif.badge ? `<span class="tarif-badge">${tarif.badge}</span>` : ''} <div class="tarif-wieght">${tarif.weight}</div>
                     <div class="tarif-price">${tarif.price.toFixed(2)}€</div>
                 </div>
                 <button class="add-to-cart-btn" data-product-id="${product.id}" data-weight="${tarif.weight}" data-price="${tarif.price}">

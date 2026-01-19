@@ -530,6 +530,9 @@
             text-align: center;
             width: 80%;
             padding: 1vh;
+            position: relative; /* Important ! */
+    overflow: visible;  /* Important pour que la bulle puisse dépasser */
+
         }
 
         .tarif-wieght,
@@ -1394,6 +1397,33 @@
             font-weight: bold;
             cursor: pointer;
         }
+
+
+/* La bulle elle-même */
+.tarif-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    right: -35px;
+    background: #ff3b30;
+    color: white;
+    font-size: 15px;
+    height: 3vh;
+    /* font-weight: bold; */
+    padding: 2px 8px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Petite animation sympa */
+@keyframes popIn {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
     </style>
 </head>
 
