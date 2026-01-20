@@ -357,7 +357,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     promoEligible: true,
                     type: 'Weed',
                     image: 'ProductSunset.png', // ⚠️ A changer
-                    video: 'VideoSunset.mov',
+                    video: 'VideoSunset.mp4',
                     description: 'Pour les gros pecs static tout droit venu de la source que des gros drop en 2026 🍯🥵',
                     tarifs: [
                         { weight: '5G', price: 70.00 },
