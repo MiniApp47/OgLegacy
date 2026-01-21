@@ -232,7 +232,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
                         { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
-                        { weight: '25G', price: 140.00, badge: 'PROMO ⚡️' },
                         { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
                         { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
                     ]
@@ -250,7 +249,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
                         { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
-                        { weight: '25G', price: 140.00, badge: 'PROMO ⚡️' },
                         { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
                         { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
                     ]
@@ -268,7 +266,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
                         { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
-                        { weight: '25G', price: 140.00, badge: 'PROMO ⚡️' },
                         { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
                         { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
                     ]
@@ -286,7 +283,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
                         { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
-                        { weight: '25G', price: 140.00, badge: 'PROMO ⚡️' },
                         { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
                         { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
                     ]
