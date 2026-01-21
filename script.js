@@ -89,21 +89,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
-                    id: '🍬🍦 Runtz Gelato',
+                    id: '🍬🍦 Obama Runtz',
                     flag: '🇺🇸',
-                    name: '🍬🍦 Runtz Gelato',
+                    name: '🤵🏻 Obama Runtz 🤵🏻',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
-                    image: 'ProductRuntz.png', // ⚠️ A changer
-                    video: 'VideoRuntez.mp4',
-                    description: 'Candy Cream • Cali Fusion • Ultra Premium \n\n La Runtz Gelato est une fusion parfaite entre le sucre explosif de Runtz et la crème lourde de Gelato. Une génétique moderne, gourmande et ultra demandée, pensée pour ceux qui veulent du goût réel, du visuel Cali et des effets propres mais bien marqués. \n 👀 Aspect\n\n Têtes ultra compactes, denses et lourdes, entièrement givrées.\n Couleurs vert clair – reflets violets, pistils orange vif, trichomes épais et brillants → finition top shelf, rien à dire.\n\n 👃 Arômes\n 🍬 Bonbon sucré Runtz\n 🍦 Crème Gelato\n 🍓 Notes fruitées légères\n ⛽ Pointe gazeuse subtile en fond\n\n Une odeur loud, qui remplit la pièce dès l’ouverture.\n\n 👅 Goût\n En bouche, c’est riche et constant :\n • attaque sucrée bonbon\n • milieu crémeux, rond\n • fin smooth, légèrement gazeuse\n Aucune amertume, goût stable jusqu’à la dernière puff.\n\n 🧠 Effets\n ⚡ Montée rapide et propre\n 😁 Euphorie légère, mood boost\n 🧘‍♂️ Relaxation corporelle progressive\n 🧠 Esprit clair, pas d’écrasement\n\n Parfaite pour chill, social, musique, créativité, ou finir la journée sans être KO.',
+                    image: 'ProductObama.png', // ⚠️ A changer
+                    video: 'VideoObama.mov',
+                    description: 'Obama Runtz est un hybride puissant qui fusionne la lourdeur classique de la Kush avec le côté sucré et candy typique des Runtz. Une variété très appréciée pour son équilibre parfait entre détente mentale et relaxation corporelle. \n\n 🌱 Arômes & Saveurs  \n • Odeur : sucrée, fruitée, légèrement crémeuse \n • Goût : bonbon, fruits tropicaux, vanille avec un fond kush bien présent \n • Fumée : douce, parfumée, très agréable en bouche  \n\n 💥 Effets \n • Euphorie légère dès les premières bouffées \n • Relaxation profonde du corps \n • Esprit posé, humeur positive \n • Stone progressif mais maîtrisé \n\n Idéale pour chill, discuter, écouter de la musique ou se poser sans être KO direct. \n\n ⚠️ Intensité\n • Puissance : moyenne à élevée\n • Convient aux consommateurs habitués, mais reste accessible\n\n 🕯️ Moment idéal\n • Fin d’après-midi / soirée\n • Détente sociale ou solo\n • Bon compromis entre plaisir et efficacité\n\n 👉 Obama Runtz, c’est le mélange parfait entre force et gourmandise.\n Une weed stylée, savoureuse, qui fait plaisir sans assommer 🧠✨',
                     tarifs: [
                         { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
                     ]
                 },
-                {
+               /*  {
                     id: '🍓🍬 Strawberry Runtz',
                     flag: '🇺🇸',
                     name: '🍓🍬 Strawberry Runtz',
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
                     ]
-                },
+                }, */
             ]
         },
         {
@@ -230,11 +230,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoRu.mov',
                     description: 'Un concentré de douceur et de maîtrise. Ce 3x filtré 90 microns RUNTZ révèle toute la gourmandise emblématique de la strain : des notes sucrées de bonbon, de fruits mûrs et une légère touche crémeuse qui arrondit parfaitement le profil.\n Le triple filtrage garantit une matière ultra propre, à la texture grasse, souple et fondante, avec une combustion nette et régulière. En bouche, les saveurs sont intenses mais élégantes, longues et sans lourdeur, pour une expérience aussi savoureuse que qualitative.\n\n 🔥 Points forts :\n • Profil RUNTZ sucré et candy\n • Triple filtration pour une pureté maximale\n • Texture fondante et combustion clean\n • Sélection NO FARM\n\n Un hash premium, équilibré et ultra gourmand, destiné aux amateurs de produits raffinés et bien travaillés. 🍬💎',
                     tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
-                        { weight: '25G', price: 200.00 },
-                        { weight: '50G', price: 280.00, badge: 'PROMO ⚡️' },
-                        { weight: '100G', price: 450.00, badge: 'PROMO ⚡️' },
+                        { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
+                        { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
+                        { weight: '25G', price: 140.00, badge: 'PROMO ⚡️' },
+                        { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
+                        { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -248,11 +248,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoTwix.mov',
                     description: 'Un profil ultra gourmand et régressif. Ce 3x filtré 90 microns TWIX STRAWBERRY GUMMY combine des notes sucrées de fraise candy, de chocolat doux et une touche biscuitée crémeuse, rappelant une confiserie fondante et addictive.\n Grâce au triple filtrage, la matière est extrêmement propre, avec une texture grasse, souple et fondante. La combustion est nette, la fumée douce et savoureuse, laissant une longueur en bouche sucrée et fruitée parfaitement maîtrisée.\n\n 🔥 Points forts :\n • Arômes fraise gummy, chocolat et biscuit\n • Triple filtration pour une pureté maximale\n • Texture fondante et combustion clean\n • Sélection NO FARM  \n\n Un hash premium, intensément gourmand, pensé pour les amateurs de saveurs sucrées, candy et ultra clean. 🍬💎',
                     tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
-                        { weight: '25G', price: 200.00 },
-                        { weight: '50G', price: 280.00, badge: 'PROMO ⚡️' },
-                        { weight: '100G', price: 450.00, badge: 'PROMO ⚡️' },
+                        { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
+                        { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
+                        { weight: '25G', price: 140.00, badge: 'PROMO ⚡️' },
+                        { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
+                        { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -266,11 +266,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoSkit.mov',
                     description: 'Un profil ultra fruité et explosif. Ce 3x filtré 90 microns SKITTLES délivre une palette aromatique intense mêlant bonbons tropicaux, agrumes sucrés et notes candy acidulées, fidèle à la strain mythique dont il porte le nom.\n Grâce au triple filtrage, la matière est exceptionnellement propre, avec une texture grasse, souple et fondante. La combustion est nette et homogène, la fumée douce et parfumée, laissant une longueur en bouche sucrée et fruitée qui rappelle un mélange de bonbons arc-en-ciel.\n\n 🔥 Points forts :\n • Arômes candy, fruits tropicaux et agrumes\n • Triple filtration pour une pureté maximale\n • Texture fondante & combustion clean\n • Sélection NO FARM\n\n Un hash premium, intensément gourmand et aromatique, pensé pour les amateurs de profils candy, fruités et ultra clean 🍬💎',
                     tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
-                        { weight: '25G', price: 200.00 },
-                        { weight: '50G', price: 280.00, badge: 'PROMO ⚡️' },
-                        { weight: '100G', price: 450.00, badge: 'PROMO ⚡️' },
+                        { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
+                        { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
+                        { weight: '25G', price: 140.00, badge: 'PROMO ⚡️' },
+                        { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
+                        { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -284,11 +284,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoSoa.mov',
                     description: 'Un profil ultra frais et juteux. Ce 3x filtré 90 microns Super Soaker développe des arômes puissants de fruits rouges gorgés de sucre, pastèque fraîche et bonbon acidulé, avec une sensation aqueuse et rafraîchissante qui rappelle un candy estival.\n Grâce au triple filtrage, la matière est extrêmement propre, affichant une texture grasse, souple et fondante. La combustion est clean et régulière, la fumée douce et aromatique, laissant une longueur en bouche fruitée, fraîche et légèrement acidulée.\n\n 🔥 Points forts :\n  Notes de pastèque, fruits rouges et candy frais\n • Triple filtration pour une pureté maximale\n • Texture fondante & combustion nette\n • Sélection NO FARM\n\n Un hash premium, rafraîchissant et gourmand, idéal pour les amateurs de profils fruités, juteux et ultra clean 🍉💎',
                     tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
-                        { weight: '25G', price: 200.00 },
-                        { weight: '50G', price: 280.00, badge: 'PROMO ⚡️' },
-                        { weight: '100G', price: 450.00, badge: 'PROMO ⚡️' },
+                        { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
+                        { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
+                        { weight: '25G', price: 140.00, badge: 'PROMO ⚡️' },
+                        { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
+                        { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
