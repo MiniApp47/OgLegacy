@@ -363,7 +363,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 750.00 },
                     ]
                 },
-                {
+              /*   {
                     id: 'LAKERS',
                     flag: '🇲🇦',
                     name: 'LAKERS FARM STATIC 🇲🇦🍯',
@@ -378,7 +378,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00 },
                         { weight: '20G', price: 280.00 },
                     ]
-                },
+                }, */
                 {
                     id: 'OLIVE',
                     flag: '🇲🇦',
