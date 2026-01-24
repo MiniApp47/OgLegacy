@@ -142,7 +142,6 @@ document.addEventListener('DOMContentLoaded', function () {
                        // 👇 NOUVELLE STRUCTURE
                        variantTitle: 'Saveurs Frozen ❄️ :',
                        jars: [
-                           { name: 'Strawberry', emoji: '🍓❤️‍🔥', colorClass: 'style-red' },
                            { name: 'Oreo Runtz', emoji: '🍪❤️‍🔥', colorClass: 'style-brown' },
                            { name: 'Carbon fiber', emoji: '🥵❤️‍🔥', colorClass: 'style-orange' },
    
@@ -298,18 +297,14 @@ document.addEventListener('DOMContentLoaded', function () {
                     videos: [
                         'VideoUni.mp4',
                         'VideoCandy.mp4',
-                        'VideoPurple.mp4',
-                        'VideoHead.mp4',
-                        'VideoBlue.mp4'
-                    ],
+                        'VideoHead.mp4'
+                                        ],
                     description: '🏺 L’ART DU DUR CASSANT BY DHF 🏺 \n\n Oubliez le mou commercial. Ici on parle de "Glassy Tech" : un hash dur comme de la pierre à froid, qui devient une crème bulleuse au contact de la flamme. \n\n 🔥 Pourquoi le choisir ?\n • Conservation des terpènes maximale (coque protectrice)\n • Défonce lucide et puissante (High Clean)\n • 5 Variétés certifiées (Pas de mélange)\n\n 👅 Les Saveurs :\n Du fruité (Unicornz) au Gazeux (Head Banger) en passant par le Crémeux (Purple/Zushi). \n\n ⚠️ Conseil : À travailler au couteau ou à effriter finement pour une combustion parfaite.',
                     variantTitle: 'Saveurs Premium ❄️ :',
                     jars: [
                         { name: 'UNICORNZ ÉLITE', emoji: '🟠', colorClass: 'style-brown' },
                         { name: 'CANDY CANE', emoji: '🔴', colorClass: 'style-red' },
-                        { name: 'PURPLE CREAM', emoji: '🟣', colorClass: 'style-purple' },
                         { name: 'HEAD BANGER', emoji: '🟡', colorClass: 'style-yellow' },
-                        { name: 'BLUE ZUSHI', emoji: '🔵', colorClass: 'style-blue' },
                 
                     ],
                     tarifs: [
