@@ -103,6 +103,21 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10g', price: 100.00 },
                     ]
                 },
+                {
+                    id: 'Do-Si-Dos ⛽',
+                    flag: '🇺🇸',
+                    name: 'Do-Si-Dos ⛽',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductDosi.png', // ⚠️ A changer
+                    video: 'VideoDosi.mov',
+                    description: 'Do-Si-Dos (souvent écrit Do Si Dos) est une variété de cannabis hybride à dominante indica, très appréciée pour son côté puissant et gourmand. \n\n 🌱 Origine\n Issue du croisement entre Girl Scout Cookies et Face Off OG. Autant dire qu’elle vient d’une lignée très costaude.\n\n 👃 Arômes & saveurs \n • Odeur sucrée et terreuse   \n • Notes de cookies, vanille, avec un fond épicé / citronné\n • En bouche, c’est souvent crémeux et légèrement piquant\n\n 🧠 Effets (réputés)\n • Effet relaxant profond, surtout corporel\n • Sensation de calme mental, parfois un petit côté euphorique au début\n • Peut être assez lourde, idéale pour se poser le soir\n • Connue pour “coller au canapé” chez pas mal de gens 😄\n\n 💪 Puissance\n • Taux de THC souvent élevé\n\n\n 🌙 Ambiance\n\n Parfaite pour :\n • chiller tranquille\n• regarder un film ou écouter de la musique \n • décompresser après une grosse journée',
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                    ]
+                },
                /*  {
                     id: '🍓🍬 Strawberry Runtz',
                     flag: '🇺🇸',
