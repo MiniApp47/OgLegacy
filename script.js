@@ -89,6 +89,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: '🍰 Trufflez Chantilly',
+                    flag: '🇺🇸',
+                    name: '🍰 Trufflez Chantilly',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductTrufle.png', // ⚠️ A changer
+                    video: 'VideoTrfle.mp4',
+                    description: '🍰 Trufflez Chantilly \n\n Trufflez Chantilly est une variété ultra-gourmande et raffinée, pensée pour les amateurs de saveurs sucrées, crémeuses et puissantes. Dès l’ouverture, elle balance une odeur de crème fouettée, vanille sucrée et pâtisserie, avec une touche truffée/gassy qui rappelle les grosses génétiques US.\n\n 👃 Arômes & saveurs\n • Chantilly crémeuse 🍦\n • Vanille douce\n • Notes sucrées type dessert / pâtisserie\n • Fond gassy – truffe bien présent\n ➡️ Fumée épaisse, onctueuse, très savoureuse.\n\n 💨 Effets\n  Effet puissant et enveloppant :\n • Montée rapide\n • Relaxation profonde\n • Sensation de bien-être et de lourdeur agréable\n Parfait pour chill, détente, fin de journée ou soirée posée.\n\n 🌿 Aspect\n Têtes très denses, couleurs vert clair à beige crémeux, parfois touches violettes, gros glaçage de trichomes.\n ➡️ Qualité Premium / Top sélection.\n\n  ⚡ Puissance\n THC élevé – strain réservée aux amateurs, effet long et bien présent.\n\n 🎯 Idéal pour\n Clients qui cherchent :\n • Une weed gourmande & sucrée\n  • Un effet relaxant et lourd\n • Une vraie expérience dessert strain',
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                },
+                {
                     id: '🍬🍦 Obama Runtz',
                     flag: '🇺🇸',
                     name: '🤵🏻 Obama Runtz 🤵🏻',
@@ -143,6 +161,32 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: '🥵 FROZEN SIFT 🍫',
+                    flag: '🇲🇦',
+                    name: '🥵 FROZEN SIFT 🍫',
+                    farm: 'HLA SOURCE x DHF 💥',
+                    promoEligible: true,
+                    type: 'Frozen',
+                    image: 'ProductFroz2.png', // ⚠️ A changer
+                    videos: ['VideoFrozs.mov','VideoFrozs2.mov','VideoFrozs3.mov'],
+                    description: 'Votre meilleur farm du moment plusieurs strains disponible 🍯',
+
+                       // 👇 NOUVELLE STRUCTURE
+                       variantTitle: 'Saveurs Frozen ❄️ :',
+                       jars: [
+                        { name: 'SOUR CHERRY', emoji: '🍒', colorClass: 'style-cherry' }, // <-- Modifié
+                        { name: 'ACAPULCO GOLD', emoji: '💛', colorClass: 'style-gold' },   // <-- Modifié
+                        { name: 'GORILLA GLUE #4', emoji: '🍫🍯', colorClass: 'style-glue' } // <-- Modifié   
+                       ],
+
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '50G', price: 400.00 },
+                        { weight: '100G', price: 750.00 },
+                    ]
+                },
                 {
                     id: '🧊 FROZEN',
                     flag: '🇲🇦',
@@ -1576,7 +1620,7 @@ function renderProductListSimple(categoryId) {
             const cartBtns = document.querySelectorAll('.add-to-cart-btn');
             const updateCartButtonsColor = (colorClass) => {
                 cartBtns.forEach(btn => {
-                    btn.classList.remove('style-purple', 'style-red', 'style-green', 'style-yellow', 'style-orange', 'style-brown', 'style-passion', 'style-melon');
+                    btn.classList.remove('style-purple', 'style-red', 'style-green', 'style-yellow', 'style-orange', 'style-brown', 'style-passion', 'style-melon', 'style-gold', 'style-cherry', 'style-glue');
                     if (colorClass) btn.classList.add(colorClass);
                 });
             };
