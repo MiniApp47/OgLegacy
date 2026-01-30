@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 },
-                {
+               /*  {
                     id: '🍬🍦 Obama Runtz',
                     flag: '🇺🇸',
                     name: '🤵🏻 Obama Runtz 🤵🏻',
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
                     ]
-                },
+                }, */
                /*  {
                     id: '🍓🍬 Strawberry Runtz',
                     flag: '🇺🇸',
