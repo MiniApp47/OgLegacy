@@ -290,8 +290,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
                         { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
-                        { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
-                        { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -307,8 +305,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
                         { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
-                        { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
-                        { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -324,8 +320,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
                         { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
-                        { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
-                        { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -341,10 +335,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
                         { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
-                        { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
-                        { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
                     ]
-                },
+                }/* ,
                 {
                     id: 'PremiumDur',
                     flag: '🇲🇦',
@@ -373,7 +365,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 280.00, badge: 'PROMO ⚡️' },
                         { weight: '100G', price: 450.00, badge: 'PROMO ⚡️' },
                     ]
-                },
+                } *//* ,
                 {
                     id: 'GRAND DADDY 💙',
                     flag: '🇲🇦',
@@ -388,7 +380,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '5G', price: 60.00 },
                         { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
                     ]
-                }
+                } */
             ]
         },
         {
