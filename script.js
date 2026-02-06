@@ -384,10 +384,10 @@ document.addEventListener('DOMContentLoaded', function () {
             ]
         },
         {
-            id: 'DOUBLE STATIC',
-            name: 'DOUBLE STATIC 🇲🇦',
+            id: 'STATIC',
+            name: 'STATIC 🇲🇦',
             type: 'DoubleStatic',
-            quality: 'DOUBLE STATIC 🇲🇦',
+            quality: 'STATIC 🇲🇦',
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
@@ -425,7 +425,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '20G', price: 280.00 },
                     ]
                 }, */
-                {
+               /*  {
                     id: 'OLIVE',
                     flag: '🇲🇦',
                     name: '🍫 OLIVE HASBULLA 🍯🫒',
@@ -449,7 +449,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00 },
                         { weight: '20G', price: 280.00 },
                     ]
-                },
+                }, */
             ]
         },
 
