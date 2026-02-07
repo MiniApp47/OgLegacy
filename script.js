@@ -345,7 +345,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
                         { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
                     ]
-                },
+                }/* ,
                 {
                     id: 'SUPER SOAKER',
                     flag: '🇲🇦',
@@ -360,7 +360,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
                         { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
                     ]
-                }/* ,
+                } *//* ,
                 {
                     id: 'PremiumDur',
                     flag: '🇲🇦',
