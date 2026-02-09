@@ -450,7 +450,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
-                {
+              /*   {
                     id: 'BLUESUNSET',
                     flag: '🇲🇦',
                     name: 'BLUE SUNSET SHERBET🥵💙',
@@ -467,7 +467,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 400.00 },
                         { weight: '100G', price: 750.00 },
                     ]
-                },
+                }, */
               /*   {
                     id: 'LAKERS',
                     flag: '🇲🇦',
