@@ -89,13 +89,93 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: '🔥 MIAMI HEAT',
+                    flag: '🇺🇸',
+                    name: '🔥 MIAMI HEAT',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductMia.png', 
+                    video: 'VideoMia.mov',
+                    description: 'Exotic Premium Strain \n THC : ~24–27% \n\n Prépare-toi à prendre une vague de chaleur venue tout droit de South Beach 🌴\n Miami Heat, c’est une variété ultra flashy, aussi belle que puissante, avec des têtes denses, bien manucurées, couvertes de trichomes brillants et de pistils orange feu.\n\n 👃 Arômes\n Explosion fruitée tropicale dès l’ouverture :\n mangue mûre, agrumes sucrés, avec une touche crémeuse et légèrement épicée en fin de nez.\n\n 👅 Saveur\n En bouche, c’est du lourd :\n sucré-exotique, notes de fruits tropicaux + une pointe candy/gourmande qui reste sur la langue.\n\n 🧠 Effets\n Montée rapide grâce à son taux de THC élevé (24–27%) 🔥\n Euphorie propre, bonne énergie, mood vacances direct 😌\n Parfait pour :\n ✔️ chiller en terrasse\n  ✔️ musique / vibes\n  ✔️ socialiser\n  Relaxant sans te scotcher au canapé.\n\n 🏆 Qualité Coffee Shop \n • Têtes compactes & résineuses \n  • Odeur puissante \n  • Finition propre \n • Sélection premium, gros visuel, gros goût  \n\n 💎 Miami Heat, c’est le soleil de Miami dans chaque bouffée. \n Une strain qui tape, qui goûte bon, et qui fait kiffer fort.',
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                    ]
+                },
+                {
+                    id: '🍒 CHERRY RUNTZ',
+                    flag: '🇺🇸',
+                    name: '🍒 CHERRY RUNTZ',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductCherry.png', 
+                    video: 'VideoCherry.mov',
+                    description: 'Exotic Candy Strain \n THC : ~26% \n\n Cherry Runtz, c’est la rencontre parfaite entre le côté fruité de la cerise et le côté bonbon sucré des Runtz 🍬\n  Des têtes bien compactes, ultra résineuses, avec des reflets violets/verts et des pistils orangés qui claquent visuellement.\n\n  👃 Arômes\n  Grosse odeur de cerise mûre dès l’ouverture,\n  avec des notes candy sucrées, presque confiserie, et une petite touche crémeuse en fond.\n\n  👅 Saveur\n  En bouche, c’est une vraie friandise :\n  cerise sucrée, bonbon fruité, légère note vanillée en fin de bouche. Ultra gourmand.  \n\n 🧠 Effets\n  Montée douce mais bien présente 😌\n  Bonne humeur, détente mentale, vibes chill & sociales.\n\n  Parfait pour :\n ✔️ se poser entre potes\n ✔️ musique / films\n  ✔️ fin de journée tranquille\n Relaxant sans t’éteindre.  \n\n 🏆 Qualité Coffee Shop Premium\n  • Têtes denses & bien manucurées\n  • Très résineuse\n  • Odeur puissante\n  • Look exotique, top-shelf  \n\n 💎 Cherry Runtz, c’est la strain bonbon-fruitée qui passe crème à chaque fois.\n  Gourmande, propre, efficace.',
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                    ]
+                },
+                {
+                    id: '🟣 SUPER BOOF (Blockberry)',
+                    flag: '🇺🇸',
+                    name: '🟣 SUPER BOOF (Blockberry)',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductBoof.png', 
+                    video: 'VideoBoof.mp4',
+                    description: 'Exotic Hybrid Strain \n THC : ~28%  \n 🫐 Fruité (baies) • 🍇 Raisin • 🥛 Crémeux \n 😌 Chill • ✨ Euphorique   \n\n Super Boof est une variété premium ultra reconnaissable, connue pour ses têtes violettes bien denses, couvertes de trichomes brillants. Visuel top-shelf direct, finition propre, résine bien présente.   \n\n 👃 Arômes \n Parfum intense de fruits rouges & baies (myrtille, raisin), \n avec une touche citronnée fraîche et un fond crémeux.   \n\n 👅 Saveur \n En bouche, c’est smooth et gourmand : \n fruits sucrés, notes berry/candy, finale légèrement acidulée et crémeuse.   \n\n 🧠 Effets \n Montée rapide, sensation de bien-être, humeur positive 😌 \n Relax du corps + esprit léger, sans effet “stone” lourd. \n Idéal pour chiller, écouter de la musique, discuter ou se poser en fin de journée.   \n\n 🏆 Qualité Coffee Shop Premium \n • Têtes denses, violettes & résineuses \n • Odeur puissante et propre \n • Sélection haut de gamme \n • Finition manucurée, look exotique   \n\n 💎 Super Boof, c’est la strain qui régale autant les yeux que le palais. \n Un classique moderne, validé par les connaisseurs.',
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                    ]
+                },
+                {
+                    id: '🌴 VICE CITY',
+                    flag: '🇺🇸',
+                    name: '🌴 VICE CITY',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductVice.png', 
+                    video: 'VideoVice.mp4',
+                    description: 'Exotic Hybrid Strain \n THC : ~27%     \n\n Vice City, c’est la vibe Miami nocturne : flashy, chaude, addictive 🔥 \n Des têtes bien compactes, vert clair avec des reflets violets, ultra résineuses, manucurées proprement. Visuel exotique, top-shelf direct.   \n\n 👃 Arômes \n Grosse odeur tropicale & candy dès l’ouverture : \n agrumes sucrés, fruits exotiques, avec une touche creamy/vanillée en fond. Parfum bien lourd et propre.   \n\n 👅 Saveur \n En bouche, c’est gourmand et smooth : \n fruits tropicaux, notes sucrées type bonbon, finale crémeuse légèrement citronnée. Ça passe crème.   \n\n 🧠 Effets \n Montée rapide, euphorie clean, bonne énergie 😌 \n  Mood festif, vibes sociales, parfait pour chiller entre potes ou profiter de la soirée.  \n  Relaxant sans te scotcher au canapé.    \n\n 🏆 Qualité Coffee Shop Premium  \n • Têtes denses & résineuses  \n • Odeur puissante  \n • Finition propre, manucure soignée  \n • Sélection exotique haut de gamme    \n\n Gros goût, gros visuel, gros kif.',
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                    ]
+                },
+                {
+                    id: '🍒🌴 TROPICANA CHERRY',
+                    flag: '🇺🇸',
+                    name: '🍒🌴 TROPICANA CHERRY',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductTropicana.png', 
+                    video: 'VideoTropicana.mp4',
+                    description: 'Exotic Hybrid Strain \n THC : ~26% \n\n Tropicana Cherry, c’est la fusion parfaite entre le fruit tropical et la cerise sucrée. \n Des têtes bien colorées, souvent violettes/rosées avec des reflets orange, ultra résineuses, manucurées proprement. Visuel exotique qui claque direct en vitrine.\n\n 👃 Arômes \n Grosse odeur d’agrumes tropicaux dès l’ouverture (orange, mandarine),\n mélangée à une cerise bien sucrée, avec une petite touche florale en fond. Parfum frais et gourmand.  \n\n 👅 Saveur \n En bouche, c’est ultra clean : \n agrumes sucrés, cerise candy, légère note acidulée en fin de bouche. Très rafraîchissant, très tasty.  \n\n 🧠 Effets \n Montée rapide, bonne humeur, vibes légères 😌 \n Effet énergisant au début, puis détente douce. \n Parfait pour : \n ✔️ mood social \n ✔️ journée chill \n ✔️ musique / créativité \n Relax sans t’assommer.  \n\n 🏆 Qualité Coffee Shop Premium \n  • Têtes colorées, denses & résineuses \n • Odeur fraîche et puissante   \n • Finition propre   \n• Sélection exotique haut de gamme    \n\n 💎 Tropicana Cherry, c’est la strain fruitée-tropicale qui met le smile direct.   \n Goût frais, visuel de fou, effet propre.',
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                    ]
+                },
+                {
                     id: '🍰 Trufflez Chantilly',
                     flag: '🇺🇸',
                     name: '🍰 Trufflez Chantilly',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
-                    image: 'ProductTrufle.png', // ⚠️ A changer
+                    image: 'ProductTrufle.png', 
                     video: 'VideoTrfle.mp4',
                     description: '🍰 Trufflez Chantilly \n\n Trufflez Chantilly est une variété ultra-gourmande et raffinée, pensée pour les amateurs de saveurs sucrées, crémeuses et puissantes. Dès l’ouverture, elle balance une odeur de crème fouettée, vanille sucrée et pâtisserie, avec une touche truffée/gassy qui rappelle les grosses génétiques US.\n\n 👃 Arômes & saveurs\n • Chantilly crémeuse 🍦\n • Vanille douce\n • Notes sucrées type dessert / pâtisserie\n • Fond gassy – truffe bien présent\n ➡️ Fumée épaisse, onctueuse, très savoureuse.\n\n 💨 Effets\n  Effet puissant et enveloppant :\n • Montée rapide\n • Relaxation profonde\n • Sensation de bien-être et de lourdeur agréable\n Parfait pour chill, détente, fin de journée ou soirée posée.\n\n 🌿 Aspect\n Têtes très denses, couleurs vert clair à beige crémeux, parfois touches violettes, gros glaçage de trichomes.\n ➡️ Qualité Premium / Top sélection.\n\n  ⚡ Puissance\n THC élevé – strain réservée aux amateurs, effet long et bien présent.\n\n 🎯 Idéal pour\n Clients qui cherchent :\n • Une weed gourmande & sucrée\n  • Un effet relaxant et lourd\n • Une vraie expérience dessert strain',
                     tarifs: [
@@ -106,51 +186,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 },
-               /*  {
-                    id: '🍬🍦 Obama Runtz',
-                    flag: '🇺🇸',
-                    name: '🤵🏻 Obama Runtz 🤵🏻',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductObama.png', // ⚠️ A changer
-                    video: 'VideoObama.mov',
-                    description: 'Obama Runtz est un hybride puissant qui fusionne la lourdeur classique de la Kush avec le côté sucré et candy typique des Runtz. Une variété très appréciée pour son équilibre parfait entre détente mentale et relaxation corporelle. \n\n 🌱 Arômes & Saveurs  \n • Odeur : sucrée, fruitée, légèrement crémeuse \n • Goût : bonbon, fruits tropicaux, vanille avec un fond kush bien présent \n • Fumée : douce, parfumée, très agréable en bouche  \n\n 💥 Effets \n • Euphorie légère dès les premières bouffées \n • Relaxation profonde du corps \n • Esprit posé, humeur positive \n • Stone progressif mais maîtrisé \n\n Idéale pour chill, discuter, écouter de la musique ou se poser sans être KO direct. \n\n ⚠️ Intensité\n • Puissance : moyenne à élevée\n • Convient aux consommateurs habitués, mais reste accessible\n\n 🕯️ Moment idéal\n • Fin d’après-midi / soirée\n • Détente sociale ou solo\n • Bon compromis entre plaisir et efficacité\n\n 👉 Obama Runtz, c’est le mélange parfait entre force et gourmandise.\n Une weed stylée, savoureuse, qui fait plaisir sans assommer 🧠✨',
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                    ]
-                },
-                {
-                    id: 'Do-Si-Dos ⛽',
-                    flag: '🇺🇸',
-                    name: 'Do-Si-Dos ⛽',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductDosi.png', // ⚠️ A changer
-                    video: 'VideoDosi.mov',
-                    description: 'Do-Si-Dos (souvent écrit Do Si Dos) est une variété de cannabis hybride à dominante indica, très appréciée pour son côté puissant et gourmand. \n\n 🌱 Origine\n Issue du croisement entre Girl Scout Cookies et Face Off OG. Autant dire qu’elle vient d’une lignée très costaude.\n\n 👃 Arômes & saveurs \n • Odeur sucrée et terreuse   \n • Notes de cookies, vanille, avec un fond épicé / citronné\n • En bouche, c’est souvent crémeux et légèrement piquant\n\n 🧠 Effets (réputés)\n • Effet relaxant profond, surtout corporel\n • Sensation de calme mental, parfois un petit côté euphorique au début\n • Peut être assez lourde, idéale pour se poser le soir\n • Connue pour “coller au canapé” chez pas mal de gens 😄\n\n 💪 Puissance\n • Taux de THC souvent élevé\n\n\n 🌙 Ambiance\n\n Parfaite pour :\n • chiller tranquille\n• regarder un film ou écouter de la musique \n • décompresser après une grosse journée',
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                    ]
-                }, */
-               /*  {
-                    id: '🍓🍬 Strawberry Runtz',
-                    flag: '🇺🇸',
-                    name: '🍓🍬 Strawberry Runtz',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductStraw.png', // ⚠️ A changer
-                    video: 'VideoStraw.mp4',
-                    description: 'Ultra Sweet • Cali Candy • Top Shelf \n\n La Strawberry Runtz est une génétique dessert d’élite, pensée pour ceux qui veulent du goût réel, du visuel sale et des effets propres mais puissants. Dès l’ouverture du pochon, ça frappe fort : une fraise mûre sucrée, façon bonbon américain, mélangée à une base crémeuse Runtz avec une pointe légèrement acidulée qui te colle au nez. \n 👀 Aspect\n\n Têtes ultra compactes, lourdes, complètement givrées. \n Couleurs vert clair – violet pastel, pistils orange vif, trichomes épais et brillants → vraie finition Cali, pas du marketing.\n\n 👃 Arômes\n 🍓 Fraise candy\n 🍬 Bonbon sucré\n 🥛 Crème douce\n 🌬️ Légère note fresh en fond \n\n 👅 Goût\n En bouche, c’est propre et intense du début à la fin :\n • attaque fraise sucrée\n  • milieu bonbon / crémeux\n • fin smooth, légèrement lactée, sans amertume\n Aucune perte de goût à la combustion. Chaque puff est fidèle.\n\n 🧠 Effets\n ⚡ Montée rapide, euphorique et clean\n 😌 Sensation de bien-être immédiat\n 🧘‍♂️ Relaxation progressive du corps\n 🧠 Esprit clair, pas d’écrasement\n\n 🗣️ Parfaite pour chill, social, créativité, fin de journée',
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                    ]
-                }, */
             ]
         },
         {
