@@ -167,25 +167,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10g', price: 100.00 },
                         { weight: '25g', price: 220.00 },
                     ]
-                },
-                {
-                    id: '🍰 Trufflez Chantilly',
-                    flag: '🇺🇸',
-                    name: '🍰 Trufflez Chantilly',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductTrufle.png', 
-                    video: 'VideoTrfle.mp4',
-                    description: '🍰 Trufflez Chantilly \n\n Trufflez Chantilly est une variété ultra-gourmande et raffinée, pensée pour les amateurs de saveurs sucrées, crémeuses et puissantes. Dès l’ouverture, elle balance une odeur de crème fouettée, vanille sucrée et pâtisserie, avec une touche truffée/gassy qui rappelle les grosses génétiques US.\n\n 👃 Arômes & saveurs\n • Chantilly crémeuse 🍦\n • Vanille douce\n • Notes sucrées type dessert / pâtisserie\n • Fond gassy – truffe bien présent\n ➡️ Fumée épaisse, onctueuse, très savoureuse.\n\n 💨 Effets\n  Effet puissant et enveloppant :\n • Montée rapide\n • Relaxation profonde\n • Sensation de bien-être et de lourdeur agréable\n Parfait pour chill, détente, fin de journée ou soirée posée.\n\n 🌿 Aspect\n Têtes très denses, couleurs vert clair à beige crémeux, parfois touches violettes, gros glaçage de trichomes.\n ➡️ Qualité Premium / Top sélection.\n\n  ⚡ Puissance\n THC élevé – strain réservée aux amateurs, effet long et bien présent.\n\n 🎯 Idéal pour\n Clients qui cherchent :\n • Une weed gourmande & sucrée\n  • Un effet relaxant et lourd\n • Une vraie expérience dessert strain',
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                },
+                }
             ]
         },
         {
@@ -276,6 +258,78 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'BLUESUNSET',
+                    flag: '🇲🇦',
+                    name: '🔵 BLUE SUNSET SHERBET 🌅',
+                    farm: 'DHF FARMZ ✨',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductSunset.png', 
+                    video: 'VideoSunset.mov',
+                    description: '🌅 COUCHER DE SOLEIL AROMATIQUE • 120U DHF \n\n Une fusion parfaite entre la douceur des fruits rouges et le zeste d’agrumes exotiques. Ce Blue Sunset Sherbet est un bonbon crémeux qui fond littéralement sous la dent.\n\n 🏭 Farm : DHF FARMZ (Qualité Certifiée)\n 🍯 Texture : 120u Clean, texture compacte qui devient huileuse à la manipulation.\n 👅 Palette : Myrtille sucrée, zeste d\'orange et fond crémeux Sherbet.\n\n 🔥 L’expérience : Un high relaxant qui commence par une euphorie cérébrale pour finir sur une détente corporelle totale. Le goût reste jusqu’à la dernière latte.',
+                    tarifs: [
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 100.00 },
+                        { weight: '20G', price: 200.00 },
+                        { weight: '50G', price: 300.00 },
+                        { weight: '100G', price: 480.00 },
+                    ]
+                },
+                {
+                    id: 'UNICORNZ ÉLITE',
+                    flag: '🇲🇦',
+                    name: '🟠 UNICORNZ ÉLITE 🦄',
+                    farm: 'DHF FARMZ ✨',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductUni.png',
+                    video: 'VideoUni.mov',
+                    description: '🦄 LA MAGIE DU 120U • DHF FARMZ \n\n Une génétique rare pour un hash d’exception. L’Unicornz Élite porte bien son nom : un profil terpénique féerique, complexe et ultra "Loud". \n\n 🏭 Farm : DHF FARMZ (Savoir-faire)\n 🍯 Texture : Triple filtré, propre, malléable et gras.\n 👅 Palette : Mélange explosif de bonbons tropicaux et d\'une touche florale musquée unique.\n\n ✨ Le verdict : C\'est sucré, c\'est puissant, et la fumée est d\'une douceur incroyable. Un produit pour ceux qui veulent sortir des sentiers battus.',
+                    tarifs: [
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 100.00 },
+                        { weight: '20G', price: 200.00 },
+                        { weight: '50G', price: 300.00 },
+                        { weight: '100G', price: 480.00 },
+                    ]
+                },
+                {
+                    id: 'HEAD BANGER',
+                    flag: '🇲🇦',
+                    name: '🟡 HEAD BANGER 🤯',
+                    farm: 'DHF FARMZ ✨',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductHead.png',
+                    video: 'VideoHead.mov',
+                    description: '⛽️ WARNING : FULL GAZ • 120U DHF \n\n Attachez vos ceintures. La Head Banger est là pour les soldats du Gaz. Un croisement Sour Diesel x Biker Kush qui ne fait pas dans la dentelle.\n\n 🏭 Farm : DHF FARMZ (Puissance)\n 🍯 Texture : 120u sec et pétant à froid, qui bulle instantanément au briquet.\n 👅 Palette : Diesel pur, terreux, pin et notes citronnées acides.\n\n 🤯 L’effet : Comme son nom l\'indique, ça tape fort à la tête. High cérébral intense, parfait pour la créativité ou se prendre une claque.',
+                    tarifs: [
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 100.00 },
+                        { weight: '20G', price: 200.00 },
+                        { weight: '50G', price: 300.00 },
+                        { weight: '100G', price: 480.00 },
+                    ]
+                },
+                {
+                    id: '🔴 TROPICALI 🌴',
+                    flag: '🇲🇦',
+                    name: '🔴 TROPICALI 🌴',
+                    farm: 'DHF FARMZ ✨',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductTropicali.png', 
+                    video: 'VideoTropicali.mov',
+                    description: '🏝️ L’ÉTÉ DANS UN POCHON • 120U DHF \n\n Envie de vacances ? Le Tropicali est un cocktail de fruits exotiques concentré en trichomes. Une fraîcheur incroyable à chaque puff.\n\n 🏭 Farm : DHF FARMZ (Terpènes)\n 🍯 Texture : Triple filtré de haute voltige, aspect premium et coupe nette.\n 👅 Palette : Explosion de mangue, papaye, ananas avec une finale sucrée.\n\n 🍹 Le Vibe : Un hash "Feel Good", énergisant et social. Idéal pour fumer en journée sans être KO, juste avec le sourire aux lèvres.',
+                    tarifs: [
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 100.00 },
+                        { weight: '20G', price: 200.00 },
+                        { weight: '50G', price: 300.00 },
+                        { weight: '100G', price: 480.00 },
+                    ]
+                },
                 {
                     id: '35u Panacota 🧁',
                     flag: '🇲🇦',
