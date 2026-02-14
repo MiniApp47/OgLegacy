@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     tarifs: [
                         { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 100.00, badge: 'PROMO ⚡️' },
+                        { weight: '10G', price: 120.00 },
                         { weight: '50G', price: 400.00 },
                         { weight: '100G', price: 750.00 },
                     ]
@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     tarifs: [
                         { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 100.00, badge: 'PROMO ⚡️' },
+                        { weight: '10G', price: 120.00 },
                         { weight: '50G', price: 400.00 },
                         { weight: '100G', price: 750.00 },
                     ]
@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     description: '🌅 COUCHER DE SOLEIL AROMATIQUE • 120U DHF \n\n Une fusion parfaite entre la douceur des fruits rouges et le zeste d’agrumes exotiques. Ce Blue Sunset Sherbet est un bonbon crémeux qui fond littéralement sous la dent.\n\n 🏭 Farm : DHF FARMZ (Qualité Certifiée)\n 🍯 Texture : 120u Clean, texture compacte qui devient huileuse à la manipulation.\n 👅 Palette : Myrtille sucrée, zeste d\'orange et fond crémeux Sherbet.\n\n 🔥 L’expérience : Un high relaxant qui commence par une euphorie cérébrale pour finir sur une détente corporelle totale. Le goût reste jusqu’à la dernière latte.',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
+                        { weight: '10G', price: 100.00 },
                         { weight: '20G', price: 200.00 },
                         { weight: '50G', price: 300.00 },
                         { weight: '100G', price: 480.00 },
@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     description: '🦄 LA MAGIE DU 120U • DHF FARMZ \n\n Une génétique rare pour un hash d’exception. L’Unicornz Élite porte bien son nom : un profil terpénique féerique, complexe et ultra "Loud". \n\n 🏭 Farm : DHF FARMZ (Savoir-faire)\n 🍯 Texture : Triple filtré, propre, malléable et gras.\n 👅 Palette : Mélange explosif de bonbons tropicaux et d\'une touche florale musquée unique.\n\n ✨ Le verdict : C\'est sucré, c\'est puissant, et la fumée est d\'une douceur incroyable. Un produit pour ceux qui veulent sortir des sentiers battus.',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
+                        { weight: '10G', price: 100.00 },
                         { weight: '20G', price: 200.00 },
                         { weight: '50G', price: 300.00 },
                         { weight: '100G', price: 480.00 },
@@ -306,7 +306,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     description: '⛽️ WARNING : FULL GAZ • 120U DHF \n\n Attachez vos ceintures. La Head Banger est là pour les soldats du Gaz. Un croisement Sour Diesel x Biker Kush qui ne fait pas dans la dentelle.\n\n 🏭 Farm : DHF FARMZ (Puissance)\n 🍯 Texture : 120u sec et pétant à froid, qui bulle instantanément au briquet.\n 👅 Palette : Diesel pur, terreux, pin et notes citronnées acides.\n\n 🤯 L’effet : Comme son nom l\'indique, ça tape fort à la tête. High cérébral intense, parfait pour la créativité ou se prendre une claque.',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
+                        { weight: '10G', price: 100.00 },
                         { weight: '20G', price: 200.00 },
                         { weight: '50G', price: 300.00 },
                         { weight: '100G', price: 480.00 },
@@ -324,7 +324,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     description: '🏝️ L’ÉTÉ DANS UN POCHON • 120U DHF \n\n Envie de vacances ? Le Tropicali est un cocktail de fruits exotiques concentré en trichomes. Une fraîcheur incroyable à chaque puff.\n\n 🏭 Farm : DHF FARMZ (Terpènes)\n 🍯 Texture : Triple filtré de haute voltige, aspect premium et coupe nette.\n 👅 Palette : Explosion de mangue, papaye, ananas avec une finale sucrée.\n\n 🍹 Le Vibe : Un hash "Feel Good", énergisant et social. Idéal pour fumer en journée sans être KO, juste avec le sourire aux lèvres.',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
+                        { weight: '10G', price: 100.00 },
                         { weight: '20G', price: 200.00 },
                         { weight: '50G', price: 300.00 },
                         { weight: '100G', price: 480.00 },
@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     description: 'Une pièce ultra-fine,  signée KGF, pensée pour les amateurs de profils gourmands et propres. La 35u Panacota filtrée brille par sa pureté visuelle, sa texture soyeuse et son travail de filtration d’une précision chirurgicale. \n\n Le profil aromatique est un vrai dessert : crème fraîche, vanille douce, sucre délicat, avec une rondeur lactée qui s’installe naturellement. C’est gourmand sans lourdeur, élégant et parfaitement maîtrisé. \n\n Chaque nuance est nette, fidèle et persistante, offrant une signature riche mais équilibrée, idéale pour celles et ceux qui recherchent finesse, constance et caractère.',
                     tarifs: [
                         { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
+                        { weight: '10G', price: 80.00 },
                         { weight: '25G', price: 140.00 },
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
@@ -360,7 +360,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     description: '💎 FILTRÉ PREMIUM • HAUTE INTENSITÉ 💎\n\n Ce lot se distingue nettement des filtrés classiques par une concentration de terpènes bien supérieure. \n\n 👅 LE GOÛT : Une saturation aromatique totale. L’alliance fruits rouges / ananas est explosive et reste en bouche bien plus longtemps qu’un filtré standard.\n\n 🧠 L’EFFET : High élevé et percutant. La qualité du filtrage conserve tous les cannabinoïdes pour une montée franche et durable.\n\n 🦊 Signature KGF : Texture huileuse, propre, 0 déchet. Pour ceux qui cherchent la puissance avant tout.',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
+                        { weight: '10G', price: 100.00 },
                         { weight: '25G', price: 250.00 },
                         { weight: '50G', price: 380.00 },
                         { weight: '100G', price: 550.00 },
@@ -378,7 +378,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     description: '💎 FILTRÉ PREMIUM • GOURMANDISE & PUISSANCE 💎\n\n Oubliez les standards. Cette version Premium de l’Acai Cake offre une profondeur de goût et une lourdeur d’effets rarement atteintes.\n\n 👅 LE GOÛT : Une saveur pâtissière "Loud". Les notes de cake vanillé et de baies d’Açaï sont ultra prononcées, offrant une fumée dense et crémeuse qui tapisse le palais.\n\n 🧠 L’EFFET : Grosse charge. Le niveau de THC est préservé au maximum pour un effet relaxant profond, quasi narcotique. \n\n 🦊 Signature KGF : Un hash sombre, gras et puissant. Réservé aux tolérances élevées.',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
+                        { weight: '10G', price: 100.00 },
                         { weight: '25G', price: 250.00 },
                         { weight: '50G', price: 380.00 },
                         { weight: '100G', price: 550.00 },
