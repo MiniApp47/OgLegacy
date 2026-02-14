@@ -76,6 +76,34 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // --- DONNÉES DE L'APPLICATION (PISTACHIOBOT) ---
     const appData = [
+        {
+            id: 'Jaune USA',
+            name: 'Jaune USA 🇺🇸',
+            type: 'Jaune USA',
+            quality: 'Jaune USA 🇺🇸',
+            image: 'CategJauneUsa.png', // Ton image de catégorie Weed
+
+            products: [
+                {
+                    id: 'Lemon cherry gelato X og kush 🥵',
+                    flag: '🇲🇦',
+                    name: 'Lemon cherry gelato X og kush 🥵',
+                    farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductUsa1.jpg',
+                    images: ['ProductUsa1.jpg','ProductUsa2.jpg','ProductUsa3.jpg','ProductUsa4.jpg'],
+                    video: '',
+                    description: 'MOUSSEUX MADE IN LOS ANGELES 🇺🇸 \n\n GROSSE ODEUR DE BEUH , GOUT DE CALI , GROSSE DÉFONCE 🍫 \n\n Utiliser la technique dry sift pour faire un jaune d’exception tu vois sa que au États Unis incroyable 🥵😱🍫🍯',
+                    tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                }
+            ]
+        },
 
         // ============================================================
         // CATEGORIE 1 : WEED 🌿
@@ -258,6 +286,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
+             
                 {
                     id: 'BLUESUNSET',
                     flag: '🇲🇦',
@@ -504,40 +533,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
-              /*   {
-                    id: 'BLUESUNSET',
-                    flag: '🇲🇦',
-                    name: 'BLUE SUNSET SHERBET🥵💙',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductSunset.png', // ⚠️ A changer
-                    video: 'VideoSunset.mp4',
-                    description: 'Pour les gros pecs static tout droit venu de la source que des gros drop en 2026 🍯🥵',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 140.00 },
-                        { weight: '20G', price: 280.00 },
-                        { weight: '50G', price: 400.00 },
-                        { weight: '100G', price: 750.00 },
-                    ]
-                }, */
-              /*   {
-                    id: 'LAKERS',
-                    flag: '🇲🇦',
-                    name: 'LAKERS FARM STATIC 🇲🇦🍯',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductLakers.png', // ⚠️ A changer
-                    video: 'VideoLakers.mov',
-                    description: 'TRES BON GOUT GROSSE HIGH LAKERS STATIC TRES BIEN REPUTÉ',
-                    tarifs: [
-                        { weight: '5G', price: 100.00 },
-                        { weight: '10G', price: 150.00 },
-                        { weight: '20G', price: 280.00 },
-                    ]
-                }, */
+              
                /*  {
                     id: 'OLIVE',
                     flag: '🇲🇦',
@@ -564,7 +560,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 }, */
             ]
-        },
+        }
 
    /*      // ============================================================
         // CATEGORIE 2 : HASH 🍫
