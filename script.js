@@ -85,15 +85,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
-                    id: 'Lemon cherry gelato X og kush 🥵',
+                    id: 'Jaune mousseux 🥵',
                     flag: '🇲🇦',
-                    name: 'Lemon cherry gelato X og kush 🥵',
+                    name: 'Jaune mousseux 🥵',
                     farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
                     promoEligible: true,
                     type: '3xFiltre',
                     image: 'ProductUsa1.jpg',
                     images: ['ProductUsa1.jpg','ProductUsa2.jpg','ProductUsa3.jpg','ProductUsa4.jpg'],
                     video: '',
+                      // 👇 NOUVELLE STRUCTURE
+                      variantTitle: 'Saveurs 🧁 :',
+                      jars: [
+                       { name: 'RS 11', emoji: '🦅', colorClass: 'style-glue' }, 
+                       { name: 'CANDY KUSH', emoji: '🍭', colorClass: 'style-gold' },   
+                       { name: 'GELATO', emoji: '🍁', colorClass: 'style-cherry' }  
+                      ],
+
                     description: 'MOUSSEUX MADE IN LOS ANGELES 🇺🇸 \n\n GROSSE ODEUR DE BEUH , GOUT DE CALI , GROSSE DÉFONCE 🍫 \n\n Utiliser la technique dry sift pour faire un jaune d’exception tu vois sa que au États Unis incroyable 🥵😱🍫🍯',
                     tarifs: [
                         { weight: '10G', price: 60.00 },
@@ -116,6 +124,22 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategWeed.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: '🚀 RS-11',
+                    flag: '🇺🇸',
+                    name: '🚀 RS-11',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductRs1.png', 
+                    video: 'VideoRs1.mov',
+                    description: '🔥 RS-11 (Rainbow Sherbet #11) — Premium Cut\n\n RS-11, aussi appelée Rainbow Sherbet #11, c’est une strain US californienne , connue pour son look givré, ses saveurs sucrées-crémeuses et son effet propre et puissant.\n\n 👀 Aspect\n Buds très denses, bien compacts, full trichomes (aspect neigeux),\n teintes vert clair avec reflets violets,\n pistils orange vif.\n Un vrai visuel “top shelf”.\n\n 👃 Arômes\n\n Ouverture du bag = grosse claque sucrée :\n 🍬 bonbon / candy\n 🍦 crème vanillée\n 🍊 fruits tropicaux\n avec une légère note gaz en fond.\n\n 👅 Goût\n En bouche c’est ultra smooth :\n crémeux, sucré, fruité,\n avec un petit côté sherbet / dessert US qui reste sur la langue. \n\n 🧠 Effets\n Effet hybride équilibré :\n  • montée euphorique et clean\n  • détente du corps sans te coller au canapé\n • parfait pour chiller, créer, discuter\n Pas de head-high sale, c’est propre et long.\n\n  🧬 Génétique\n  Pink Guava x OZK (Zkittlez cut) \n → combo fruité + crémeux + gaz léger',
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                    ]
+                },
                 {
                     id: '🔥 MIAMI HEAT',
                     flag: '🇺🇸',
