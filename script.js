@@ -125,6 +125,54 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: '🍒🍦 WHITE CHERRY GELATO 💎',
+                    flag: '🇺🇸',
+                    name: '🍒🍦 WHITE CHERRY GELATO 💎',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductWh.png', 
+                    video: 'VideoWh.mov',
+                    description: 'Genetics : White Cherry × Gelato \n Origine : Californie \n\n ✨ Description\n White Cherry Gelato, c’est une strain dessert ultra gourmande, pensée pour ceux qui aiment les profils sucrés, crémeux et fruités.\n À l’ouverture du bocal, une cerise blanche bien juteuse se mélange à des notes de glace vanillée et de crème douce. L’arôme est propre, rond, élégant, avec une petite touche florale qui apporte de la fraîcheur.\n\n 🍬 Aspect\n Des buds compactes et bien formées, enrobées de trichomes brillants comme du sucre glace.\n Les couleurs oscillent entre vert clair lumineux, reflets violets pastel et pistils orange vif, donnant un visuel premium, clean et très appétissant dans le bocal.\n\n 🧠 Effet\n Un high doux et progressif :\n d’abord une sensation légère et joyeuse dans la tête,\n puis une détente corporelle crémeuse qui pose sans assommer.\n Parfaite pour chiller, discuter, écouter du son ou se poser en mode lounge.\n\n 🌸 Profil Terpénique\n • Limonène : fraîcheur fruitée, bonne humeur\n • Linalool : douceur florale, relaxation\n • Caryophyllène : profondeur épicée, équilibre\n\n 🎯 Idéale pour : \n Les amateurs de dessert strains modernes, les profils sucrés premium, et ceux qui veulent une weed savoureuse, élégante et clean pour les moments chill de qualité.',
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                    ]
+                },
+                {
+                    id: '🍇🍭 GRAPE ZKITTLEZ 💎',
+                    flag: '🇺🇸',
+                    name: '🍇🍭 GRAPE ZKITTLEZ 💎',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductGr.png', 
+                    video: 'VideoGz.mov',
+                    description: 'Genetics : Grape Ape × Zkittlez \n Origine : Californie\n\n ✨ Description\n Grape Zkittlez, c’est une dessert strain ultra fruitée, connue pour son profil raisin bien mûr façon bonbon, mélangé à la signature sucrée-tropicale de Zkittlez.\n À l’ouverture du bocal, une odeur de raisin violet juteux explose, suivie de notes de fruits exotiques, de sucre candy et d’une petite touche florale qui rend l’ensemble super clean et gourmand. C’est le genre d’arôme qui remplit la pièce en deux secondes.\n\n 🍬 Aspect\n Des buds bien dodues et compactes, recouvertes d’un glaçage épais de trichomes.\n Les couleurs tirent sur le vert foncé avec de gros reflets violets profonds, pistils orange vif en contraste — visuel très “candy grape”, top shelf assuré dans le bocal.\n\n 🧠 Effet\n Un high doux et enveloppant :\n ça démarre par une bonne humeur tranquille, esprit léger,\n puis une relaxation corporelle sucrée qui pose sans assommer.\n Parfaite pour chiller le soir, poser une ambiance cozy ou accompagner une session détente sans lourdeur mentale.\n\n 🌿 Profil Terpénique\n • Limonène : fruité sucré, bonne vibe\n • Myrcène : détente corporelle, rondeur\n • Linalool : douceur florale, relaxation clean\n\n 🎯 Idéale pour :\n Les amateurs de profils raisin / bonbon, les fans de Zkittlez fruitées, et ceux qui veulent une weed très savoureuse, visuelle et agréable à fumer pour des sessions chill premium. 🍇✨',
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                    ]
+                },
+                {
+                    id: '🫐🍬 BLUE RUNTZ 💎',
+                    flag: '🇺🇸',
+                    name: '🫐🍬 BLUE RUNTZ 💎',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductBr.png', 
+                    video: 'VideoBr.mov',
+                    description: 'Genetics : Blueberry × Runtz \n Origine : Californie \n\n ✨ Description \n Blue Runtz, c’est une dessert strain ultra sucrée et fruitée, connue pour son profil bonbon aux fruits bleus avec une base crémeuse typique des Runtz. \n À l’ouverture du bocal, t’as une explosion de myrtille / fruits des bois, mélangée à une sucrerie candy bien ronde, avec un fond crémeux qui rappelle les confiseries premium. L’odeur est clean, gourmande et intense, ça donne envie direct de grinder.   \n\n 🍭 Aspect   \n Des buds bien denses et soignées, recouvertes d’un glaçage de trichomes brillants. \n Couleurs vert clair à vert profond, avec de jolis reflets violets/bleutés et des pistils orange qui contrastent fort. Dans le bocal, ça claque visuellement — vrai rendu top shelf.   \n\n 🧠 Effet   \n Un high joyeux et smooth : \n ça démarre par une montée euphorique légère, esprit ouvert, bonne vibe, \n puis une relaxation corporelle douce qui te pose sans t’endormir.    \n Parfaite pour chiller, partager entre potes, écouter du son ou poser une ambiance cool sans lourdeur.   \n\n 🌿 Profil Terpénique \n  • Limonène : notes fruitées sucrées, mood positif \n  • Myrcène : détente corporelle, roundness    \n • Caryophyllène : petite touche épicée qui équilibre le sucre \n\n 🎯 Idéale pour :\n Les amateurs de Runtz sucrées, les profils fruit bleu / candy, et ceux qui veulent une weed gourmande, moderne et très agréable à fumer pour les sessions chill premium. 🫐✨',
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                    ]
+                },
+                {
                     id: '🚀 RS-11',
                     flag: '🇺🇸',
                     name: '🚀 RS-11',
