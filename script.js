@@ -251,22 +251,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10g', price: 100.00 },
                         { weight: '25g', price: 220.00 },
                     ]
-                },
-                {
-                    id: '🍒🌴 TROPICANA CHERRY',
-                    flag: '🇺🇸',
-                    name: '🍒🌴 TROPICANA CHERRY',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductTropicana.png', 
-                    video: 'VideoTropicana.mp4',
-                    description: 'Exotic Hybrid Strain \n THC : ~26% \n\n Tropicana Cherry, c’est la fusion parfaite entre le fruit tropical et la cerise sucrée. \n Des têtes bien colorées, souvent violettes/rosées avec des reflets orange, ultra résineuses, manucurées proprement. Visuel exotique qui claque direct en vitrine.\n\n 👃 Arômes \n Grosse odeur d’agrumes tropicaux dès l’ouverture (orange, mandarine),\n mélangée à une cerise bien sucrée, avec une petite touche florale en fond. Parfum frais et gourmand.  \n\n 👅 Saveur \n En bouche, c’est ultra clean : \n agrumes sucrés, cerise candy, légère note acidulée en fin de bouche. Très rafraîchissant, très tasty.  \n\n 🧠 Effets \n Montée rapide, bonne humeur, vibes légères 😌 \n Effet énergisant au début, puis détente douce. \n Parfait pour : \n ✔️ mood social \n ✔️ journée chill \n ✔️ musique / créativité \n Relax sans t’assommer.  \n\n 🏆 Qualité Coffee Shop Premium \n  • Têtes colorées, denses & résineuses \n • Odeur fraîche et puissante   \n • Finition propre   \n• Sélection exotique haut de gamme    \n\n 💎 Tropicana Cherry, c’est la strain fruitée-tropicale qui met le smile direct.   \n Goût frais, visuel de fou, effet propre.',
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                    ]
                 }
             ]
         },
@@ -461,10 +445,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     description: '💎 FILTRÉ PREMIUM • HAUTE INTENSITÉ 💎\n\n Ce lot se distingue nettement des filtrés classiques par une concentration de terpènes bien supérieure. \n\n 👅 LE GOÛT : Une saturation aromatique totale. L’alliance fruits rouges / ananas est explosive et reste en bouche bien plus longtemps qu’un filtré standard.\n\n 🧠 L’EFFET : High élevé et percutant. La qualité du filtrage conserve tous les cannabinoïdes pour une montée franche et durable.\n\n 🦊 Signature KGF : Texture huileuse, propre, 0 déchet. Pour ceux qui cherchent la puissance avant tout.',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
-                        { weight: '25G', price: 250.00 },
-                        { weight: '50G', price: 380.00 },
-                        { weight: '100G', price: 550.00 },
+                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️'},
+                        { weight: '25G', price: 200.00, badge: 'PROMO ⚡️' },
+                        { weight: '50G', price: 300.00, badge: 'PROMO ⚡️' },
+                        { weight: '100G', price: 470.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -479,10 +463,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     description: '💎 FILTRÉ PREMIUM • GOURMANDISE & PUISSANCE 💎\n\n Oubliez les standards. Cette version Premium de l’Acai Cake offre une profondeur de goût et une lourdeur d’effets rarement atteintes.\n\n 👅 LE GOÛT : Une saveur pâtissière "Loud". Les notes de cake vanillé et de baies d’Açaï sont ultra prononcées, offrant une fumée dense et crémeuse qui tapisse le palais.\n\n 🧠 L’EFFET : Grosse charge. Le niveau de THC est préservé au maximum pour un effet relaxant profond, quasi narcotique. \n\n 🦊 Signature KGF : Un hash sombre, gras et puissant. Réservé aux tolérances élevées.',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
-                        { weight: '25G', price: 250.00 },
-                        { weight: '50G', price: 380.00 },
-                        { weight: '100G', price: 550.00 },
+                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️'},
+                        { weight: '25G', price: 200.00, badge: 'PROMO ⚡️' },
+                        { weight: '50G', price: 300.00, badge: 'PROMO ⚡️' },
+                        { weight: '100G', price: 470.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
