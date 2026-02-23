@@ -92,14 +92,14 @@ document.addEventListener('DOMContentLoaded', function () {
                     promoEligible: true,
                     type: '3xFiltre',
                     image: 'ProductUsa1.jpg',
-                    images: ['ProductUsa1.jpg','ProductUsa2.jpg','ProductUsa3.jpg','ProductUsa4.jpg'],
+                    images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg'],
                     video: '',
                       // 👇 NOUVELLE STRUCTURE
                       variantTitle: 'Saveurs 🧁 :',
                       jars: [
                        { name: 'RS 11', emoji: '🦅', colorClass: 'style-glue' }, 
-                       { name: 'CANDY KUSH', emoji: '🍭', colorClass: 'style-gold' },   
-                       { name: 'GELATO', emoji: '🍁', colorClass: 'style-cherry' }  
+                       { name: 'CANDY KUSH', emoji: '🍭', colorClass: 'style-gold' }
+                      // { name: 'GELATO', emoji: '🍁', colorClass: 'style-cherry' }  
                       ],
 
                     description: 'MOUSSEUX MADE IN LOS ANGELES 🇺🇸 \n\n GROSSE ODEUR DE BEUH , GOUT DE CALI , GROSSE DÉFONCE 🍫 \n\n Utiliser la technique dry sift pour faire un jaune d’exception tu vois sa que au États Unis incroyable 🥵😱🍫🍯',
@@ -124,6 +124,58 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategWeed.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'ICECreamCrake',
+                    flag: '🇺🇸',
+                    name: '🥶 ICE CREAM CAKE 🎂',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductIce.png', 
+                    video: 'VideoIce.mp4',
+                    description: '🥶 DESSERT CALI • ULTRA FROSTY 🇺🇸 \n\n L\'Ice Cream Cake (Wedding Cake x Gelato 33) est un classique incontournable de la génétique dessert américaine. Reconnue pour sa couche de givre extrême et ses effets lourdement sédatifs. \n\n 👀 Aspect : Têtes ultra-denses, teintes vert foncé et violettes, complètement noyées sous les trichomes blancs (aspect glacé).\n 👃 Arômes : Pâte à gâteau vanillée, crème sucrée, avec une légère touche de gaz en fond.\n 👅 Goût : Très rond et lourd en bouche, sucré à l\'attaque, terreux et onctueux à l\'expiration.\n 🧠 Effets : Grosse frappe Indica. Détente corporelle immédiate, "couch-lock" assuré. Parfaite pour couper le soir.',                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                }, 
+                {
+                    id: '🎱 BLACK RUNTZ 💎',
+                    flag: '🇺🇸',
+                    name: '🎱 BLACK RUNTZ 💎',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductBlackR.png', 
+                    video: 'VideoBlackR.mp4',
+                    description: '🎱 EXCLUSIVITÉ SOMBRE • CALI CANDY 🇺🇸 \n\n Le phénotype le plus obscur et recherché de la famille Runtz. La Black Runtz se distingue par ses teintes ténébreuses et son profil terpénique explosif, bien plus profond et lourd que la Runtz classique. \n\n 👀 Aspect : Buds compacts, violet très foncé (presque noir), contrastant avec des pistils orange fluo et une résine brillante.\n 👃 Arômes : Bonbon acidulé, fruits des bois, avec un fond terreux et gazeux très prononcé.\n 👅 Goût : Frappe fruitée Zkittlez en première ligne, finition lourde et crémeuse Gelato.\n 🧠 Effets : Montée euphorique rapide (High clair) qui bascule rapidement vers un body-high profond et apaisant. Puissance validée.',                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                },
+                {
+                    id: '🫐🍬 BLUE RUNTZ 💎',
+                    flag: '🇺🇸',
+                    name: '🫐🍬 BLUE RUNTZ 💎',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductBr.png', 
+                    video: 'VideoBlueR.mp4',
+                    description: 'Genetics : Blueberry × Runtz \n Origine : Californie \n\n ✨ Description \n Blue Runtz, c’est une dessert strain ultra sucrée et fruitée, connue pour son profil bonbon aux fruits bleus avec une base crémeuse typique des Runtz. \n À l’ouverture du bocal, t’as une explosion de myrtille / fruits des bois, mélangée à une sucrerie candy bien ronde, avec un fond crémeux qui rappelle les confiseries premium. L’odeur est clean, gourmande et intense, ça donne envie direct de grinder.   \n\n 🍭 Aspect   \n Des buds bien denses et soignées, recouvertes d’un glaçage de trichomes brillants. \n Couleurs vert clair à vert profond, avec de jolis reflets violets/bleutés et des pistils orange qui contrastent fort. Dans le bocal, ça claque visuellement — vrai rendu top shelf.   \n\n 🧠 Effet   \n Un high joyeux et smooth : \n ça démarre par une montée euphorique légère, esprit ouvert, bonne vibe, \n puis une relaxation corporelle douce qui te pose sans t’endormir.    \n Parfaite pour chiller, partager entre potes, écouter du son ou poser une ambiance cool sans lourdeur.   \n\n 🌿 Profil Terpénique \n  • Limonène : notes fruitées sucrées, mood positif \n  • Myrcène : détente corporelle, roundness    \n • Caryophyllène : petite touche épicée qui équilibre le sucre \n\n 🎯 Idéale pour :\n Les amateurs de Runtz sucrées, les profils fruit bleu / candy, et ceux qui veulent une weed gourmande, moderne et très agréable à fumer pour les sessions chill premium. 🫐✨',
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                },
                 {
                     id: '🍒🍦 WHITE CHERRY GELATO 💎',
                     flag: '🇺🇸',
@@ -157,22 +209,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 },
                 {
-                    id: '🫐🍬 BLUE RUNTZ 💎',
-                    flag: '🇺🇸',
-                    name: '🫐🍬 BLUE RUNTZ 💎',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductBr.png', 
-                    video: 'VideoBr.mov',
-                    description: 'Genetics : Blueberry × Runtz \n Origine : Californie \n\n ✨ Description \n Blue Runtz, c’est une dessert strain ultra sucrée et fruitée, connue pour son profil bonbon aux fruits bleus avec une base crémeuse typique des Runtz. \n À l’ouverture du bocal, t’as une explosion de myrtille / fruits des bois, mélangée à une sucrerie candy bien ronde, avec un fond crémeux qui rappelle les confiseries premium. L’odeur est clean, gourmande et intense, ça donne envie direct de grinder.   \n\n 🍭 Aspect   \n Des buds bien denses et soignées, recouvertes d’un glaçage de trichomes brillants. \n Couleurs vert clair à vert profond, avec de jolis reflets violets/bleutés et des pistils orange qui contrastent fort. Dans le bocal, ça claque visuellement — vrai rendu top shelf.   \n\n 🧠 Effet   \n Un high joyeux et smooth : \n ça démarre par une montée euphorique légère, esprit ouvert, bonne vibe, \n puis une relaxation corporelle douce qui te pose sans t’endormir.    \n Parfaite pour chiller, partager entre potes, écouter du son ou poser une ambiance cool sans lourdeur.   \n\n 🌿 Profil Terpénique \n  • Limonène : notes fruitées sucrées, mood positif \n  • Myrcène : détente corporelle, roundness    \n • Caryophyllène : petite touche épicée qui équilibre le sucre \n\n 🎯 Idéale pour :\n Les amateurs de Runtz sucrées, les profils fruit bleu / candy, et ceux qui veulent une weed gourmande, moderne et très agréable à fumer pour les sessions chill premium. 🫐✨',
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                    ]
-                },
-                {
                     id: '🚀 RS-11',
                     flag: '🇺🇸',
                     name: '🚀 RS-11',
@@ -185,7 +221,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
                     ]
                 },
                 {
@@ -201,7 +236,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
                     ]
                 },
                 {
@@ -233,7 +267,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
                     ]
                 },
                 {
