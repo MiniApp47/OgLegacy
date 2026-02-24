@@ -77,6 +77,33 @@ document.addEventListener('DOMContentLoaded', function () {
     // --- DONNÉES DE L'APPLICATION (PISTACHIOBOT) ---
     const appData = [
         {
+            id: 'HASH',
+            name: 'HASH 🌰',
+            type: 'HASH',
+            quality: 'HASH 🌰',
+            image: 'CategHash.png', // Ton image de catégorie Weed
+
+            products: [
+                {
+                    id: 'NICOLE KUSH ✨',
+                    flag: '🇺🇸',
+                    name: 'NICOLE KUSH ✨',
+                    farm: '🧪 Kilogrammes Farm',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductNicole.png', 
+                    video: 'VideoNicole.mov',
+                    description: '💛 JAUNE MOUSSEUX \n\n 🇫🇷 Premium France \n 🧪 Travaillé par Kilogrammes Farm  \n\n 🔥 Description  \n\n Oublie le “jaune mousseux” classique. \n Ici on est sur un jaune mousseux premium de très haute qualité, travaillé par Kilogrammes Farm sur la génétique Nicole Kush — un produit qui met tout le monde d’accord dès la première odeur.  \n\n Le goût est propre, rond et puissant : notes kushy bien grasses, touches légèrement sucrées, avec un fond crémeux qui reste longtemps en bouche. Zéro goût chimique, zéro sensation cheap — c’est du vrai jaune mousseux de connaisseur.  \n\n  La texture est bien mousseuse, grasse, fondante, facile à travailler, qui s’effrite parfaitement sans coller. \n À l’odeur, c’est lourd, kush, propre, ça annonce direct le niveau premium.  \n\n 😶‍🌫️ Effet / High  \n\n Grosse montée propre et progressive. \n  High puissant mais clean, mental détendu + corps lourd, parfait pour se poser fort sans être éclaté. \n Tu sens direct que c’est au-dessus du lot.  \n\n 🏆 Pourquoi c’est du haut niveau \n • 🌿 Travaillé par Kilogrammes Farm \n • 🧬 Génétique : Nicole Kush \n • 💛 Jaune mousseux premium (pas du jaune basique) \n • 😮‍💨 Goût lourd, kushy, crémeux \n • 💎 Texture mousseuse grasse \n • 🇫🇷 Clairement dans le top des jaunes premium en France  \n\n  📦 Pour les vrais amateurs de qualité \n Si tu veux du jaune mousseux qui a du goût + du high + du standing, celui-là coche toutes les cases.',
+                    tarifs: [
+                        { weight: '10g', price: 60.00 },
+                        { weight: '20g', price: 100.00 },
+                        { weight: '50g', price: 200.00 },
+                        { weight: '100g', price: 330.00 },
+                    ]
+                }, 
+            ]
+        },
+        {
             id: 'Jaune USA',
             name: 'Jaune USA 🇺🇸',
             type: 'Jaune USA',
@@ -142,9 +169,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 }, 
                 {
-                    id: '🎱 BLACK RUNTZ 💎',
+                    id: '🖤 BLACK RUNTZ 🍬',
                     flag: '🇺🇸',
-                    name: '🎱 BLACK RUNTZ 💎',
+                    name: '🖤 BLACK RUNTZ 🍬',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
@@ -161,7 +188,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 {
                     id: '🫐🍬 BLUE RUNTZ 💎',
                     flag: '🇺🇸',
-                    name: '🫐🍬 BLUE RUNTZ 💎',
+                    name: '💙 BLUE RUNTZ 🍬',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
