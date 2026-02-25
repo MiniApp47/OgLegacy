@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             name: 'TÉLÉGRAM 💙',
-            url: 'https://t.me/+PN5wQTyu3o9kNmM0',
+            url: 'https://t.me/+6I6T8_OAlQdjMDVk',
             id: 'telegram-main',
             className: 'telegram', // Garde le style Bleu Telegram
             text: "TÉLÉGRAM 💙"
