@@ -44,14 +44,14 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             name: 'TÉLÉGRAM 💙',
-            url: 'https://t.me/+6I6T8_OAlQdjMDVk',
+            url: 'https://t.me/+nszc04LgDUEyNzI8',
             id: 'telegram-main',
             className: 'telegram', // Garde le style Bleu Telegram
             text: "TÉLÉGRAM 💙"
         },
         {
             name: 'CANAL SECOURS 💙',
-            url: 'https://t.me/oglegacysecouur',
+            url: 'https://t.me/oglegsecour',
             id: 'telegram-secours',
             className: 'secours',
             text: "TÉLÉ SECOURS 💙"
