@@ -119,14 +119,14 @@ document.addEventListener('DOMContentLoaded', function () {
                     promoEligible: true,
                     type: '3xFiltre',
                     image: 'ProductUsa1.jpg',
-                    images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg'],
+                    images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg','ProductUsa5.jpg','ProductUsa6.jpg','ProductUsa7.jpg'],
                     video: '',
                       // 👇 NOUVELLE STRUCTURE
                       variantTitle: 'Saveurs 🧁 :',
                       jars: [
-                       { name: 'RS 11', emoji: '🦅', colorClass: 'style-glue' }, 
-                       { name: 'CANDY KUSH', emoji: '🍭', colorClass: 'style-gold' }
-                      // { name: 'GELATO', emoji: '🍁', colorClass: 'style-cherry' }  
+                       { name: 'CANDY KUSH', emoji: '🍭', colorClass: 'style-gold' },
+                       { name: 'GELATO', emoji: '🍁', colorClass: 'style-cherry' }, 
+                       { name: 'PERMANENT MARKER', emoji: '🖍️', colorClass: 'style-orange' }, 
                       ],
 
                     description: 'MOUSSEUX MADE IN LOS ANGELES 🇺🇸 \n\n GROSSE ODEUR DE BEUH , GOUT DE CALI , GROSSE DÉFONCE 🍫 \n\n Utiliser la technique dry sift pour faire un jaune d’exception tu vois sa que au États Unis incroyable 🥵😱🍫🍯',
@@ -281,7 +281,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25g', price: 220.00 },
                     ]
                 },
-                {
+                /* {
                     id: '🟣 SUPER BOOF (Blockberry)',
                     flag: '🇺🇸',
                     name: '🟣 SUPER BOOF (Blockberry)',
@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
                     ]
-                },
+                }, */
                 {
                     id: '🌴 VICE CITY',
                     flag: '🇺🇸',
@@ -322,6 +322,24 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
+                   {
+                    id: 'GRAPENANA 🍫 🍯',
+                    flag: '🇲🇦',
+                    name: 'GRAPENANA 🍫 🍯',
+                    farm: 'KGF 🦊',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductGrapa.png', // ⚠️ A changer
+                    video: 'VideoGrapa.mov',
+                    description: 'Une signature construite autour du goût 🤤 \n\n Grapenana, c’est une base fruitée profonde qui mêle des nuances de raisin mûr et de banane veloutée, relevée par une touche agrumes gaz qui apporte du relief et une sensation presque pétillante.\n\n L’équilibre 60% indica / 40% sativa donne un caractère posé mais vivant.\n Une structure qui commence ronde et douce, puis qui laisse place à une énergie subtile et maîtrisée.\n\n FROZEN porte bien son nom 🧊 \n  une attaque fraîche, nette, presque glaciale…\n puis une montée aromatique qui s’installe et marque les esprits.\n\n Ici, tout est pensé autour du profil.\n Pas de hasard. Pas de compromis.\n\n FARM : NOUS C’EST LE GOÛT PAR LES CONNAISSEURS POUR LES CONNAISSEURS 🍯',
+                    tarifs: [
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                        { weight: '50G', price: 350.00 },
+                        { weight: '100G', price: 650.00 },
+                    ]
+                }, 
                 {
                     id: '🥵 FROZEN SIFT 🍫',
                     flag: '🇲🇦',
@@ -374,24 +392,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 750.00 },
                     ]
                 },
-               /*  {
-                    id: '🍓 90U Lamponi',
-                    flag: '🇲🇦',
-                    name: '🍓 90U Lamponi',
-                    farm: 'KGF 🦊',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductLamponi.png', // ⚠️ A changer
-                    video: 'VideoLamponi.mov',
-                    description: 'Un joyau de précision signé KGF, issu d’une extraction full melt à 90 microns, gage d’une pureté et d’une puissance exceptionnelles. Le Lamponi, qui signifie “framboise” en italien, porte parfaitement son nom : une véritable gourmandise olfactive et gustative. \n\n • Texture : ultra-crémeuse, presque mousseuse, fond instantanément à la chaleur des doigts.\n\n • Couleur : blond pâle aux reflets rosés, typique des extractions haut de gamme.\n\n • Odeur : un parfum de fruits rouges sucrés, dominé par la framboise fraîche et la crème légère.\n\n • Effet : profond, relaxant et euphorique — une montée douce suivie d’un apaisement complet du corps et de l’esprit.\n\n • Qualité : 90U full melt — pure tête de trichome, sans impuretés ni contaminants végétaux.\n\n\n Chaque lot de Lamponi 90U incarne l’excellence artisanale de KGF, un hash qui allie saveur, texture et effet dans un équilibre parfait. Un produit d’exception pour connaisseurs exigeants. 🦊',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 280.00 },
-                        { weight: '50G', price: 500.00 },
-                        { weight: '100G', price: 800.00 },
-                    ]
-                }, */
             ]
         },
         {
@@ -421,7 +421,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 480.00 },
                     ]
                 },
-                {
+              /*   {
                     id: 'UNICORNZ ÉLITE',
                     flag: '🇲🇦',
                     name: '🟠 UNICORNZ ÉLITE 🦄',
@@ -438,8 +438,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 300.00 },
                         { weight: '100G', price: 480.00 },
                     ]
-                },
-                {
+                }, */
+               /*  {
                     id: 'HEAD BANGER',
                     flag: '🇲🇦',
                     name: '🟡 HEAD BANGER 🤯',
@@ -456,7 +456,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 300.00 },
                         { weight: '100G', price: 480.00 },
                     ]
-                },
+                }, */
                 {
                     id: '🔴 TROPICALI 🌴',
                     flag: '🇲🇦',
