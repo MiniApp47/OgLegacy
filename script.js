@@ -330,7 +330,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     promoEligible: true,
                     type: 'Weed',
                     image: 'ProductGrapa.png', // ⚠️ A changer
-                    video: 'VideoGrapa.mov',
+                    video: 'VideoGrapa.mp4',
                     description: 'Une signature construite autour du goût 🤤 \n\n Grapenana, c’est une base fruitée profonde qui mêle des nuances de raisin mûr et de banane veloutée, relevée par une touche agrumes gaz qui apporte du relief et une sensation presque pétillante.\n\n L’équilibre 60% indica / 40% sativa donne un caractère posé mais vivant.\n Une structure qui commence ronde et douce, puis qui laisse place à une énergie subtile et maîtrisée.\n\n FROZEN porte bien son nom 🧊 \n  une attaque fraîche, nette, presque glaciale…\n puis une montée aromatique qui s’installe et marque les esprits.\n\n Ici, tout est pensé autour du profil.\n Pas de hasard. Pas de compromis.\n\n FARM : NOUS C’EST LE GOÛT PAR LES CONNAISSEURS POUR LES CONNAISSEURS 🍯',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
@@ -380,9 +380,7 @@ document.addEventListener('DOMContentLoaded', function () {
                        // 👇 NOUVELLE STRUCTURE
                        variantTitle: 'Saveurs Frozen ❄️ :',
                        jars: [
-                           { name: 'Oreo Runtz', emoji: '🍪❤️‍🔥', colorClass: 'style-brown' },
                            { name: 'Carbon fiber', emoji: '🥵❤️‍🔥', colorClass: 'style-orange' },
-   
                        ],
 
                     tarifs: [
