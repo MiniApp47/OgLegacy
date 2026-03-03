@@ -326,7 +326,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     id: 'GRAPENANA 🍫 🍯',
                     flag: '🇲🇦',
                     name: 'GRAPENANA 🍫 🍯',
-                    farm: 'KGF 🦊',
+                    farm: 'NOUS C’EST LE GOUT 🍝',
                     promoEligible: true,
                     type: 'Weed',
                     image: 'ProductGrapa.png', // ⚠️ A changer
@@ -334,8 +334,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     description: 'Une signature construite autour du goût 🤤 \n\n Grapenana, c’est une base fruitée profonde qui mêle des nuances de raisin mûr et de banane veloutée, relevée par une touche agrumes gaz qui apporte du relief et une sensation presque pétillante.\n\n L’équilibre 60% indica / 40% sativa donne un caractère posé mais vivant.\n Une structure qui commence ronde et douce, puis qui laisse place à une énergie subtile et maîtrisée.\n\n FROZEN porte bien son nom 🧊 \n  une attaque fraîche, nette, presque glaciale…\n puis une montée aromatique qui s’installe et marque les esprits.\n\n Ici, tout est pensé autour du profil.\n Pas de hasard. Pas de compromis.\n\n FARM : NOUS C’EST LE GOÛT PAR LES CONNAISSEURS POUR LES CONNAISSEURS 🍯',
                     tarifs: [
                         { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
+                        { weight: '10G', price: 100.00 },
                         { weight: '50G', price: 350.00 },
                         { weight: '100G', price: 650.00 },
                     ]
