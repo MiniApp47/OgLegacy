@@ -323,6 +323,42 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                    {
+                    id: '🍋🦞 LEMON LOBSTER',
+                    flag: '🇲🇦',
+                    name: '🍋🦞 LEMON LOBSTER',
+                    farm: 'JCVD Farm 🎹',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductLob.png', // ⚠️ A changer
+                    video: 'VideoLob.mov',
+                    description: '💎 Type : Frozen Sift premium \n 🌿 Farm : JCVD \n 🧬 Strain : Lemon Lobster   \n\n 🔥 Description  \n\n La Lemon Lobster, c’est une frappe ultra propre signée JCVD Farm. \n Dès l’ouverture, ça explose au nez : une vague citronnée puissante, zestée, presque acidulée, avec un fond gaz subtil qui rappelle les meilleures génétiques US.  \n\n On est sur un frozen clair, travaillé proprement, texture sableuse fine, riche en trichomes. Ça colle, ça brille, ça sent fort rien à voir avec du jaune classique.   \n\n 👃 Terpènes & Saveur \n  • 🍋 Citron frais / zeste intense \n  • ⛽ Légère touche gaz en fond \n  • 🌬️ Finale propre, légèrement sucrée  \n\n  En bouche, c’est frais, citronné, avec une petite amertume noble qui reste longtemps. Pas écœurant, pas lourd juste précis et qualitatif.   \n\n  🧠 Effet  \n\n   Effet clean, progressif, qui monte doucement à la tête avant de détendre le corps. \n   Parfait pour ceux qui aiment sentir la puissance sans être assommés direct.  \n\n  ✔️ Bonne clarté mentale \n   ✔️ Relaxation agréable \n  ✔️ High équilibré mais présent   \n\n  🏆 Verdict    \n  La Lemon Lobster JCVD, c’est du frozen travaillé sérieusement.  \n  Profil citron dominant, qualité premium, effet propre.  \n  Un produit pour connaisseurs qui cherchent du goût avant tout',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                        { weight: '50G', price: 400.00 },
+                        { weight: '100G', price: 750.00 },
+                    ]
+                }, 
+                   {
+                    id: 'PANNACOTTA ❄️🍮',
+                    flag: '🇲🇦',
+                    name: 'PANNACOTTA ❄️🍮',
+                    farm: 'MOZART FARM 🎻',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductPanna.png', // ⚠️ A changer
+                    video: 'VideoPanna.mov',
+                    description: '❄️🍮 FROZEN PREMIUM 2026 \n\n 🧬 À propos de la strain Pannacotta \n\n La Pannacotta, c’est une génétique connue pour son profil ultra gourmand et crémeux. \n Elle tient son nom du célèbre dessert italien — et c’est pas pour rien.  \n\n  On est sur une strain :  \n\n 🍦 Crémeuse et vanillée \n  🍯 Légèrement sucrée \n  🌿 Fond kushy / terreux subtil \n  🌬️ Petite touche fraîche en fin de bouche  \n\n  C’est une variété qui met le goût au centre. \n   Pas une strain agressive au nez — mais une strain raffinée, ronde, élégante. \n   ⸻    \n\n  ❄️ En version Frozen Premium        \n\n Travaillée en Frozen Premium par Mozart Farm, elle révèle encore plus ses terpènes.          \n\n  • Texture fine et homogène    \n  • Pressage propre  \n  • Couleur claire  \n  • Trichomes bien présents      \n\n Le frozen accentue le côté crémeux et sucré naturel de la Pannacotta.      \n  ⸻       \n\n  🧠 Effets        \n\n  La Pannacotta est réputée pour un effet :      \n\n  ✔️ Relaxant \n  ✔️ Enveloppant \n  ✔️ Mentalement apaisant \n  ✔️ Idéal pour se poser tranquille    \n\n  Montée douce, high propre, sensation confortable. \n  Parfait fin de journée ou moment chill.    \n  ⸻    \n\n  🏆 Conclusion    \n\n  La PANNACOTTA – Frozen Premium 2026 by Mozart Farm, \n  c’est la gourmandise transformée en concentré.    \n\n  Profil sucré-crémeux, effet propre, qualité farm. \n  Un produit pour ceux qui cherchent le goût avant tout.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                        { weight: '50G', price: 400.00 },
+                        { weight: '100G', price: 750.00 },
+                    ]
+                }, 
+                   {
                     id: 'GRAPENANA 🍫 🍯',
                     flag: '🇲🇦',
                     name: 'GRAPENANA 🍫 🍯',
