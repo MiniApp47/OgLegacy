@@ -562,57 +562,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 470.00, badge: 'PROMO ⚡️' },
                     ]
                 },
-                {
-                    id: 'RUNTZ',
-                    flag: '🇲🇦',
-                    name: '🍭 RUNTZ 🍧',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductRu.png',
-                    video: 'VideoRu.mov',
-                    description: 'Un concentré de douceur et de maîtrise. Ce 3x filtré 90 microns RUNTZ révèle toute la gourmandise emblématique de la strain : des notes sucrées de bonbon, de fruits mûrs et une légère touche crémeuse qui arrondit parfaitement le profil.\n Le triple filtrage garantit une matière ultra propre, à la texture grasse, souple et fondante, avec une combustion nette et régulière. En bouche, les saveurs sont intenses mais élégantes, longues et sans lourdeur, pour une expérience aussi savoureuse que qualitative.\n\n 🔥 Points forts :\n • Profil RUNTZ sucré et candy\n • Triple filtration pour une pureté maximale\n • Texture fondante et combustion clean\n • Sélection NO FARM\n\n Un Dry Premium, équilibré et ultra gourmand, destiné aux amateurs de produits raffinés et bien travaillés. 🍬💎',
-                    tarifs: [
-                        { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
-                        { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
-                        { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
-                        { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
-                    ]
-                },
-                {
-                    id: 'TWIX STRAWBERRY GUMMY',
-                    flag: '🇲🇦',
-                    name: '🍫 TWIX STRAWBERRY GUMMY 🍓',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductTwix.png',
-                    video: 'VideoTwix.mov',
-                    description: 'Un profil ultra gourmand et régressif. Ce 3x filtré 90 microns TWIX STRAWBERRY GUMMY combine des notes sucrées de fraise candy, de chocolat doux et une touche biscuitée crémeuse, rappelant une confiserie fondante et addictive.\n Grâce au triple filtrage, la matière est extrêmement propre, avec une texture grasse, souple et fondante. La combustion est nette, la fumée douce et savoureuse, laissant une longueur en bouche sucrée et fruitée parfaitement maîtrisée.\n\n 🔥 Points forts :\n • Arômes fraise gummy, chocolat et biscuit\n • Triple filtration pour une pureté maximale\n • Texture fondante et combustion clean\n • Sélection NO FARM  \n\n Un Dry Premium, intensément gourmand, pensé pour les amateurs de saveurs sucrées, candy et ultra clean. 🍬💎',
-                    tarifs: [
-                        { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
-                        { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
-                        { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
-                        { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
-                    ]
-                },
-                {
-                    id: 'SKITTLES',
-                    flag: '🇲🇦',
-                    name: '🍊 SKITTLES 🍬',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductSkit.png',
-                    video: 'VideoSkit.mov',
-                    description: 'Un profil ultra fruité et explosif. Ce 3x filtré 90 microns SKITTLES délivre une palette aromatique intense mêlant bonbons tropicaux, agrumes sucrés et notes candy acidulées, fidèle à la strain mythique dont il porte le nom.\n Grâce au triple filtrage, la matière est exceptionnellement propre, avec une texture grasse, souple et fondante. La combustion est nette et homogène, la fumée douce et parfumée, laissant une longueur en bouche sucrée et fruitée qui rappelle un mélange de bonbons arc-en-ciel.\n\n 🔥 Points forts :\n • Arômes candy, fruits tropicaux et agrumes\n • Triple filtration pour une pureté maximale\n • Texture fondante & combustion clean\n • Sélection NO FARM\n\n Un Dry Premium, intensément gourmand et aromatique, pensé pour les amateurs de profils candy, fruités et ultra clean 🍬💎',
-                    tarifs: [
-                        { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
-                        { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
-                        { weight: '50G', price: 220.00, badge: 'PROMO ⚡️' },
-                        { weight: '100G', price: 400.00, badge: 'PROMO ⚡️' },
-                    ]
-                }/* ,
+               /* ,
                 {
                     id: 'SUPER SOAKER',
                     flag: '🇲🇦',
