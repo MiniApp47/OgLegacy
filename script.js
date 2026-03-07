@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 },
-                {
+               /*  {
                     id: '🍒🍦 WHITE CHERRY GELATO 💎',
                     flag: '🇺🇸',
                     name: '🍒🍦 WHITE CHERRY GELATO 💎',
@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10g', price: 100.00 },
                         { weight: '25g', price: 220.00 },
                     ]
-                },
+                }, */
                 {
                     id: '🍇🍭 GRAPE ZKITTLEZ 💎',
                     flag: '🇺🇸',
@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10g', price: 100.00 },
                     ]
                 },
-                {
+                /* {
                     id: '🔥 MIAMI HEAT',
                     flag: '🇺🇸',
                     name: '🔥 MIAMI HEAT',
@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
                     ]
-                },
+                }, */
                 {
                     id: '🍒 CHERRY RUNTZ',
                     flag: '🇺🇸',
