@@ -422,6 +422,60 @@ document.addEventListener('DOMContentLoaded', function () {
             products: [
              
                 {
+                    id: '🧀 DORITOS 🔥',
+                    flag: '🇲🇦',
+                    name: '🧀 DORITOS 🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductDori.png', 
+                    video: 'VideoDori.mov',
+                    description: '💎 Description\n\n Doritos, c’est un 3x filtré qui frappe direct par son profil aromatique unique. À l’ouverture, ça sort un mélange puissant de notes fromagées, épicées et légèrement gaz, avec ce côté snack salé qui rappelle les célèbres chips dont elle porte le nom. Une odeur forte et reconnaissable qui annonce tout de suite la qualité. \n\n 🌿 Texture & Aspect \n\n Une matière grasse, malléable et brillante, avec une couleur claire qui montre un travail de filtration propre. La texture est souple et fond facilement à la chaleur, avec de belles bulles qui apparaissent quand on la chauffe — signe d’un hash bien sélectionné. \n\n 😶‍🌫️ Effet       \n\n Un effet lourd et relaxant, qui commence par un petit kick cérébral avant de laisser place à une détente profonde dans le corps. Parfait pour se poser, profiter du moment et savourer un produit qui a du caractère.     \n\n 🔥 Signature   \n Un 3x filtré au goût unique, puissant et savoureux — un vrai délire pour les amateurs de hash avec une identité marquée.',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
+                    id: '🍓 TWIX STRAWBERRY GUMMY 🍫',
+                    flag: '🇲🇦',
+                    name: '🍓 TWIX STRAWBERRY GUMMY 🍫',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductTwix1.png', 
+                    video: 'VideoTwix.mov',
+                    description: 'Un profil ultra gourmand et régressif. Ce 3x filtré 90 microns TWIX STRAWBERRY GUMMY combine des notes sucrées de fraise candy, de chocolat doux et une touche biscuitée crémeuse, rappelant une confiserie fondante et addictive. \n\n Grâce au triple filtrage, la matière est extrêmement propre, avec une texture grasse, souple et fondante. La combustion est nette, la fumée douce et savoureuse, laissant une longueur en bouche sucrée et fruitée parfaitement maîtrisée.  \n\n 🔥 Points forts : \n • Arômes fraise gummy, chocolat et biscuit \n • Triple filtration pour une pureté maximale \n • Texture fondante et combustion clean  \n • Sélection NO FARM    \n\n Un hash premium, intensément gourmand, pensé pour les amateurs de saveurs sucrées, candy et ultra clean. 🍬💎',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
+                    id: '🍯 FRITTER LICKER 🔥',
+                    flag: '🇲🇦',
+                    name: '🍯 FRITTER LICKER 🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductLicker.png', 
+                    video: 'VideoLicker.mov',
+                    description: '💎 Description\n\n Fritter Licker, c’est du très lourd pour les connaisseurs. Un produit 3x filtré ultra propre, travaillé avec précision pour garder uniquement la crème du hash. Dès l’ouverture, ça dégage une odeur intense mêlant notes sucrées de pâtisserie, touche crémeuse et fond légèrement gaz qui rappelle les meilleures génétiques modernes.  \n\n 🌿 Texture & Aspect\n\n Une texture grasse, souple et brillante, signe d’un filtrage maîtrisé. La matière est homogène, facile à travailler, avec une couleur claire et dorée qui annonce direct la qualité. À chaud, ça bulle et fond parfaitement, preuve d’un produit bien sélectionné.\n\n 😶‍🌫️ Effet\n\n Un high profond et enveloppant, qui commence par une montée mentale relaxante avant de poser un effet lourd et agréable dans le corps. Parfait pour se détendre, se poser entre amis ou savourer un moment chill avec une vraie frappe.\n\n 🔥 Signature\n  Un 3x filtré premium, riche en goût et en puissance — le genre de produit qui se reconnaît dès la première taffe.',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
                     id: 'BLUESUNSET',
                     flag: '🇲🇦',
                     name: '🔵 BLUE SUNSET SHERBET 🌅',
@@ -439,42 +493,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 480.00 },
                     ]
                 },
-              /*   {
-                    id: 'UNICORNZ ÉLITE',
-                    flag: '🇲🇦',
-                    name: '🟠 UNICORNZ ÉLITE 🦄',
-                    farm: 'DHF FARMZ ✨',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductUni.png',
-                    video: 'VideoUni.mov',
-                    description: '🦄 LA MAGIE DU 120U • DHF FARMZ \n\n Une génétique rare pour un hash d’exception. L’Unicornz Élite porte bien son nom : un profil terpénique féerique, complexe et ultra "Loud". \n\n 🏭 Farm : DHF FARMZ (Savoir-faire)\n 🍯 Texture : Triple filtré, propre, malléable et gras.\n 👅 Palette : Mélange explosif de bonbons tropicaux et d\'une touche florale musquée unique.\n\n ✨ Le verdict : C\'est sucré, c\'est puissant, et la fumée est d\'une douceur incroyable. Un produit pour ceux qui veulent sortir des sentiers battus.',
-                    tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
-                        { weight: '20G', price: 200.00 },
-                        { weight: '50G', price: 300.00 },
-                        { weight: '100G', price: 480.00 },
-                    ]
-                }, */
-               /*  {
-                    id: 'HEAD BANGER',
-                    flag: '🇲🇦',
-                    name: '🟡 HEAD BANGER 🤯',
-                    farm: 'DHF FARMZ ✨',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductHead.png',
-                    video: 'VideoHead.mov',
-                    description: '⛽️ WARNING : FULL GAZ • 120U DHF \n\n Attachez vos ceintures. La Head Banger est là pour les soldats du Gaz. Un croisement Sour Diesel x Biker Kush qui ne fait pas dans la dentelle.\n\n 🏭 Farm : DHF FARMZ (Puissance)\n 🍯 Texture : 120u sec et pétant à froid, qui bulle instantanément au briquet.\n 👅 Palette : Diesel pur, terreux, pin et notes citronnées acides.\n\n 🤯 L’effet : Comme son nom l\'indique, ça tape fort à la tête. High cérébral intense, parfait pour la créativité ou se prendre une claque.',
-                    tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
-                        { weight: '20G', price: 200.00 },
-                        { weight: '50G', price: 300.00 },
-                        { weight: '100G', price: 480.00 },
-                    ]
-                }, */
                 {
                     id: '🔴 TROPICALI 🌴',
                     flag: '🇲🇦',
@@ -549,21 +567,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
                /* ,
                 {
-                    id: 'SUPER SOAKER',
-                    flag: '🇲🇦',
-                    name: '💦 SUPER SOAKER 🍉',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductSoa.png',
-                    video: 'VideoSoa.mov',
-                    description: 'Un profil ultra frais et juteux. Ce 3x filtré 90 microns Super Soaker développe des arômes puissants de fruits rouges gorgés de sucre, pastèque fraîche et bonbon acidulé, avec une sensation aqueuse et rafraîchissante qui rappelle un candy estival.\n Grâce au triple filtrage, la matière est extrêmement propre, affichant une texture grasse, souple et fondante. La combustion est clean et régulière, la fumée douce et aromatique, laissant une longueur en bouche fruitée, fraîche et légèrement acidulée.\n\n 🔥 Points forts :\n  Notes de pastèque, fruits rouges et candy frais\n • Triple filtration pour une pureté maximale\n • Texture fondante & combustion nette\n • Sélection NO FARM\n\n Un Dry Premium, rafraîchissant et gourmand, idéal pour les amateurs de profils fruités, juteux et ultra clean 🍉💎',
-                    tarifs: [
-                        { weight: '10G', price: 60.00, badge: 'PROMO ⚡️' },
-                        { weight: '20G', price: 100.00, badge: 'PROMO ⚡️' },
-                    ]
-                } *//* ,
-                {
                     id: 'PremiumDur',
                     flag: '🇲🇦',
                     name: 'PREMIUM DUR CASSANT 🍯',
@@ -590,21 +593,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 200.00 },
                         { weight: '50G', price: 280.00, badge: 'PROMO ⚡️' },
                         { weight: '100G', price: 450.00, badge: 'PROMO ⚡️' },
-                    ]
-                } *//* ,
-                {
-                    id: 'GRAND DADDY 💙',
-                    flag: '🇲🇦',
-                    name: 'GRAND DADDY 💙',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductDaddy.png',
-                    video: 'VideoDaddy.mp4',
-                    description: '3X FILTRE DHF 120U PREMIUM',
-                    tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️' },
                     ]
                 } */
             ]
