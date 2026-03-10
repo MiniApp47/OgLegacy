@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25g', price: 220.00 },
                     ]
                 }, */
-                {
+            /*     {
                     id: '🍇🍭 GRAPE ZKITTLEZ 💎',
                     flag: '🇺🇸',
                     name: '🍇🍭 GRAPE ZKITTLEZ 💎',
@@ -234,7 +234,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10g', price: 100.00 },
                         { weight: '25g', price: 220.00 },
                     ]
-                },
+                }, */
                 /* {
                     id: '🔥 MIAMI HEAT',
                     flag: '🇺🇸',
@@ -281,7 +281,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10g', price: 100.00 },
                     ]
                 }, */
-                {
+               /*  {
                     id: '🌴 VICE CITY',
                     flag: '🇺🇸',
                     name: '🌴 VICE CITY',
@@ -296,7 +296,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10g', price: 100.00 },
                         { weight: '25g', price: 220.00 },
                     ]
-                }
+                } */
             ]
         },
         {
