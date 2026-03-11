@@ -325,24 +325,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 750.00 },
                     ]
                 }, 
-                   {
-                    id: 'PANNACOTTA ❄️🍮',
-                    flag: '🇲🇦',
-                    name: 'PANNACOTTA ❄️🍮',
-                    farm: 'MOZART FARM 🎻',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductPanna.png', // ⚠️ A changer
-                    video: 'VideoPanna.mov',
-                    description: '❄️🍮 FROZEN PREMIUM 2026 \n\n 🧬 À propos de la strain Pannacotta \n\n La Pannacotta, c’est une génétique connue pour son profil ultra gourmand et crémeux. \n Elle tient son nom du célèbre dessert italien — et c’est pas pour rien.  \n\n  On est sur une strain :  \n\n 🍦 Crémeuse et vanillée \n  🍯 Légèrement sucrée \n  🌿 Fond kushy / terreux subtil \n  🌬️ Petite touche fraîche en fin de bouche  \n\n  C’est une variété qui met le goût au centre. \n   Pas une strain agressive au nez — mais une strain raffinée, ronde, élégante. \n   ⸻    \n\n  ❄️ En version Frozen Premium        \n\n Travaillée en Frozen Premium par Mozart Farm, elle révèle encore plus ses terpènes.          \n\n  • Texture fine et homogène    \n  • Pressage propre  \n  • Couleur claire  \n  • Trichomes bien présents      \n\n Le frozen accentue le côté crémeux et sucré naturel de la Pannacotta.      \n  ⸻       \n\n  🧠 Effets        \n\n  La Pannacotta est réputée pour un effet :      \n\n  ✔️ Relaxant \n  ✔️ Enveloppant \n  ✔️ Mentalement apaisant \n  ✔️ Idéal pour se poser tranquille    \n\n  Montée douce, high propre, sensation confortable. \n  Parfait fin de journée ou moment chill.    \n  ⸻    \n\n  🏆 Conclusion    \n\n  La PANNACOTTA – Frozen Premium 2026 by Mozart Farm, \n  c’est la gourmandise transformée en concentré.    \n\n  Profil sucré-crémeux, effet propre, qualité farm. \n  Un produit pour ceux qui cherchent le goût avant tout.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                        { weight: '50G', price: 400.00 },
-                        { weight: '100G', price: 750.00 },
-                    ]
-                }, 
+                  
                    {
                     id: 'GRAPENANA 🍫 🍯',
                     flag: '🇲🇦',
@@ -376,7 +359,6 @@ document.addEventListener('DOMContentLoaded', function () {
                        jars: [
                         { name: 'SOUR CHERRY', emoji: '🍒', colorClass: 'style-cherry' }, // <-- Modifié
                         { name: 'ACAPULCO GOLD', emoji: '💛', colorClass: 'style-gold' },   // <-- Modifié
-                        { name: 'GORILLA GLUE #4', emoji: '🍫🍯', colorClass: 'style-glue' } // <-- Modifié   
                        ],
 
                     tarifs: [
@@ -386,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 750.00 },
                     ]
                 },
-                {
+              /*   {
                     id: '🧊 FROZEN',
                     flag: '🇲🇦',
                     name: '🧊 FROZEN',
@@ -409,7 +391,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 400.00 },
                         { weight: '100G', price: 750.00 },
                     ]
-                },
+                }, */
             ]
         },
         {
@@ -493,24 +475,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 480.00 },
                     ]
                 },
-                {
-                    id: '🔴 TROPICALI 🌴',
-                    flag: '🇲🇦',
-                    name: '🔴 TROPICALI 🌴',
-                    farm: 'DHF FARMZ ✨',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductTropicali.png', 
-                    video: 'VideoTropicali.mov',
-                    description: '🏝️ L’ÉTÉ DANS UN POCHON • 120U DHF \n\n Envie de vacances ? Le Tropicali est un cocktail de fruits exotiques concentré en trichomes. Une fraîcheur incroyable à chaque puff.\n\n 🏭 Farm : DHF FARMZ (Terpènes)\n 🍯 Texture : Triple filtré de haute voltige, aspect premium et coupe nette.\n 👅 Palette : Explosion de mangue, papaye, ananas avec une finale sucrée.\n\n 🍹 Le Vibe : Un hash "Feel Good", énergisant et social. Idéal pour fumer en journée sans être KO, juste avec le sourire aux lèvres.',
-                    tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
-                        { weight: '20G', price: 200.00 },
-                        { weight: '50G', price: 300.00 },
-                        { weight: '100G', price: 480.00 },
-                    ]
-                },
+          
                 {
                     id: '35u Panacota 🧁',
                     flag: '🇲🇦',
