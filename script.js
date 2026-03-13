@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 },
-                {
+               /*  {
                     id: '🫐🍬 BLUE RUNTZ 💎',
                     flag: '🇺🇸',
                     name: '💙 BLUE RUNTZ 🍬',
@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                         { weight: '100g', price: 750.00 },
                     ]
-                },
+                }, */
                /*  {
                     id: '🍒🍦 WHITE CHERRY GELATO 💎',
                     flag: '🇺🇸',
@@ -326,7 +326,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 }, 
                   
-                   {
+                  /*  {
                     id: 'GRAPENANA 🍫 🍯',
                     flag: '🇲🇦',
                     name: 'GRAPENANA 🍫 🍯',
@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 350.00 },
                         { weight: '100G', price: 650.00 },
                     ]
-                }, 
+                },  */
                 {
                     id: '🥵 FROZEN SIFT 🍫',
                     flag: '🇲🇦',
@@ -457,7 +457,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-                {
+                /* {
                     id: 'BLUESUNSET',
                     flag: '🇲🇦',
                     name: '🔵 BLUE SUNSET SHERBET 🌅',
@@ -474,7 +474,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 300.00 },
                         { weight: '100G', price: 480.00 },
                     ]
-                },
+                }, */
           
                 {
                     id: '35u Panacota 🧁',
