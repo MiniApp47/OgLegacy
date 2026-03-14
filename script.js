@@ -118,19 +118,18 @@ document.addEventListener('DOMContentLoaded', function () {
                     farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
                     promoEligible: true,
                     type: '3xFiltre',
-                    image: 'ProductUsa1.jpg',
-                    images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg','ProductUsa5.jpg','ProductUsa6.jpg','ProductUsa7.jpg'],
-                    video: '',
+                    image: 'ProductUsa1.png',
+                    // images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg','ProductUsa5.jpg','ProductUsa6.jpg','ProductUsa7.jpg'],
+                    videos: ['VideoUsa1.mov','VideoUsa2.mov','VideoUsa3.mov'],
                       // 👇 NOUVELLE STRUCTURE
                       variantTitle: 'Saveurs 🧁 :',
                       jars: [
-                       { name: 'CANDY KUSH', emoji: '🍭', colorClass: 'style-gold' },
-                       { name: 'GELATO', emoji: '🍁', colorClass: 'style-cherry' }, 
-                       { name: 'PERMANENT MARKER', emoji: '🖍️', colorClass: 'style-orange' }, 
+                       { name: 'Ice Cream Cake', emoji: '🎂', colorClass: 'style-gold' },
+                       { name: 'Candy Land', emoji: '🍭', colorClass: 'style-cherry' },
+                       { name: 'Sunset Runtz', emoji: '🌄', colorClass: 'style-orange' }, 
                       ],
 
-                    description: 'MOUSSEUX MADE IN LOS ANGELES 🇺🇸 \n\n GROSSE ODEUR DE BEUH , GOUT DE CALI , GROSSE DÉFONCE 🍫 \n\n Utiliser la technique dry sift pour faire un jaune d’exception tu vois sa que au États Unis incroyable 🥵😱🍫🍯',
-                    tarifs: [
+                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🎂 Ice Cream Cake : Sédation profonde, notes vanille/crème.\n 🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy.\n 🌄 Sunset Runtz : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',                    tarifs: [
                         { weight: '10G', price: 60.00 },
                         { weight: '20G', price: 100.00 },
                         { weight: '50G', price: 220.00 },
