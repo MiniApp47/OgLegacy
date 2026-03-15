@@ -129,7 +129,8 @@ document.addEventListener('DOMContentLoaded', function () {
                        { name: 'Sunset Runtz', emoji: '🌄', colorClass: 'style-orange' }, 
                       ],
 
-                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🎂 Ice Cream Cake : Sédation profonde, notes vanille/crème.\n 🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy.\n 🌄 Sunset Runtz : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',                    tarifs: [
+                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🎂 Ice Cream Cake : Sédation profonde, notes vanille/crème.\n 🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy.\n 🌄 Sunset Runtz : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
+                      tarifs: [
                         { weight: '10G', price: 60.00 },
                         { weight: '20G', price: 100.00 },
                         { weight: '50G', price: 220.00 },
@@ -342,7 +343,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 650.00 },
                     ]
                 },  */
-                {
+                /* {
                     id: '🥵 FROZEN SIFT 🍫',
                     flag: '🇲🇦',
                     name: '🥵 FROZEN SIFT 🍫',
@@ -356,8 +357,8 @@ document.addEventListener('DOMContentLoaded', function () {
                        // 👇 NOUVELLE STRUCTURE
                        variantTitle: 'Saveurs Frozen ❄️ :',
                        jars: [
-                        { name: 'SOUR CHERRY', emoji: '🍒', colorClass: 'style-cherry' }, // <-- Modifié
-                        { name: 'ACAPULCO GOLD', emoji: '💛', colorClass: 'style-gold' },   // <-- Modifié
+                         { name: 'SOUR CHERRY', emoji: '🍒', colorClass: 'style-cherry' }, // <-- Modifié
+                         { name: 'ACAPULCO GOLD', emoji: '💛', colorClass: 'style-gold' },   // <-- Modifié
                        ],
 
                     tarifs: [
@@ -366,7 +367,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 400.00 },
                         { weight: '100G', price: 750.00 },
                     ]
-                },
+                }, */
               /*   {
                     id: '🧊 FROZEN',
                     flag: '🇲🇦',
@@ -511,7 +512,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 470.00, badge: 'PROMO ⚡️' },
                     ]
                 },
-                {
+                /* {
                     id: '🍇 Acai Cake 🍰',
                     flag: '🇲🇦',
                     name: '🍇 Acai Cake 🍰',
@@ -528,7 +529,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 300.00, badge: 'PROMO ⚡️' },
                         { weight: '100G', price: 470.00, badge: 'PROMO ⚡️' },
                     ]
-                },
+                }, */
                /* ,
                 {
                     id: 'PremiumDur',
