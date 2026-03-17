@@ -308,6 +308,42 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                    {
+                    id: 'Peach Lassi 🍑',
+                    flag: '🇲🇦',
+                    name: 'Peach Lassi 🍑',
+                    farm: 'La Source x Dirham Farm ⚗️',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductPea.png', // ⚠️ A changer
+                    video: 'VideoPea.mov',
+                    description: '🔥 Description \n Un frozen sift premium issu du travail précis de La Source x Dirham Farm. Avec la Peach Lassi, on est sur une génétique ultra gourmande qui mélange douceur fruitée et profondeur crémeuse. \n\n 🌿 Profil aromatique \n Dès l’ouverture, ça frappe avec des notes intenses de pêche mûre, accompagnées d’une touche crémeuse et sucrée qui rappelle la célèbre boisson indienne Lassi. Une terpène profile très dessert / fruit exotique, rond et puissant. \n\n ✨ Texture & aspect \n Une résine claire et sableuse, riche en trichomes, qui devient huileuse et collante sous la chaleur. La qualité du sift montre un travail de filtration propre avec une matière très aromatique. \n\n 😶‍🌫️ Effet \n Un effet relaxant et euphorique, qui commence par une montée douce et joyeuse avant de laisser place à une détente profonde. Parfait pour apprécier toute la richesse des saveurs. \n\n 💎 Conclusion \n  Un frozen sift gourmand et premium, idéal pour les amateurs de hash fruité et crémeux. Une signature terpène peach dessert qui se démarque clairement.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                        { weight: '50G', price: 400.00 },
+                        { weight: '100G', price: 750.00 },
+                    ]
+                }, 
+                   {
+                    id: 'Exotic Thai 🌴',
+                    flag: '🇲🇦',
+                    name: 'Exotic Thai 🌴',
+                    farm: 'La Source x Dirham Farm ⚗️',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductExo.png', // ⚠️ A changer
+                    video: 'VideoExo.mov',
+                    description: '🔥 Description \n  Un frozen sift d’exception né de la collaboration entre La Source et Dirham Farm, deux noms qui travaillent la matière avec précision. Cette version issue de la Exotic Thai apporte un profil aromatique rare et très recherché, inspiré des génétiques asiatiques. \n\n 🌿 Profil aromatique \n  Des notes exotiques et tropicales qui explosent dès l’ouverture : mangue mûre, agrumes sucrés et une légère touche florale typique des variétés Thai. En bouche, le hash développe un côté crémeux et légèrement épicé, avec une longueur très propre. \n\n  ✨ Texture & aspect \n Un frozen sift ultra propre, texture sable doré qui devient huileuse à la chaleur. La matière est riche en résine, brillante et très parfumée — signe d’un travail de filtration précis et d’une génétique de qualité. \n\n  😶‍🌫️ Effet \n  Un high clair et euphorique, qui commence par une montée cérébrale énergisante typique des strains Thai, avant de se transformer en une détente douce et agréable. Parfait pour profiter de l’arôme et de l’expérience complète. \n\n 💎 Conclusion \n  Un produit exotic et premium, réservé aux amateurs de résine fine qui recherchent quelque chose de différent du classique gas californien. Ici on est sur une signature aromatique tropicale rare.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                        { weight: '50G', price: 400.00 },
+                        { weight: '100G', price: 750.00 },
+                    ]
+                }, 
+                   {
                     id: '🍋🦞 LEMON LOBSTER',
                     flag: '🇲🇦',
                     name: '🍋🦞 LEMON LOBSTER',
