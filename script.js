@@ -343,7 +343,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 750.00 },
                     ]
                 }, 
-                   {
+            /*        {
                     id: '🍋🦞 LEMON LOBSTER',
                     flag: '🇲🇦',
                     name: '🍋🦞 LEMON LOBSTER',
@@ -360,7 +360,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 400.00 },
                         { weight: '100G', price: 750.00 },
                     ]
-                }, 
+                },  */
                   
                   /*  {
                     id: 'GRAPENANA 🍫 🍯',
@@ -530,7 +530,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-                {
+               /*  {
                     id: '🍓 Tutti Frutti 🍍',
                     flag: '🇲🇦',
                     name: '🍓 Tutti Frutti 🍍',
@@ -547,7 +547,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 300.00, badge: 'PROMO ⚡️' },
                         { weight: '100G', price: 470.00, badge: 'PROMO ⚡️' },
                     ]
-                },
+                }, */
                 /* {
                     id: '🍇 Acai Cake 🍰',
                     flag: '🇲🇦',
