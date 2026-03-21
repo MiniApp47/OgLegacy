@@ -495,6 +495,43 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
+
+                 {
+                    id: 'ALL BLUE 🫐',
+                    flag: '🇲🇦',
+                    name: 'ALL BLUE 🫐',
+                    farm: 'DR FRENCH 🥖',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductAllB.png', // ⚠️ A changer
+                    video: 'VideoAllB.mp4',
+                    description: '🫐 STATIC SINGLE SOURCE \n\n 🔥 Description\n All Blue, c’est une strain ultra fruitée qui tourne autour de notes intenses de myrtille, baies sauvages et une légère touche sucrée presque candy. À l’ouverture, ça sent direct le fruit mûr avec une profondeur fraîche et légèrement crémeuse — un profil terpénique propre et addictif. \n\n 🌿 Qualité Static \n Single source signé DR FRENCH = qualité maîtrisée de A à Z. Le static est propre, clair, texture sableuse fine avec un reflet légèrement doré, signe d’une extraction propre et bien travaillée. Ça fond parfaitement et ça libère tous les arômes. \n\n 😶‍🌫️ Effet \n Effet équilibré avec une montée mentale douce et euphorique, suivie d’un relâchement corporel léger. Ça reste fonctionnel mais ultra chill — parfait pour kiffer sans être KO. \n\n 💎 Conclusion \n All Blue, c’est la combinaison parfaite entre fraîcheur fruitée, douceur et qualité premium. Un static propre qui parle aux amateurs de goûts nets et raffinés.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 130.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 800.00}
+                    ]
+                }, 
+                 {
+                    id: 'ALL CAKEZ 🍰',
+                    flag: '🇲🇦',
+                    name: 'ALL CAKEZ 🍰',
+                    farm: 'DR FRENCH 🥖',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductAll.png', // ⚠️ A changer
+                    video: 'VideoAll.mp4',
+                    description: '🍰 STATIC SINGLE SOURCE \n\n 🔥 Description \n All Cakez, c’est une vraie pâtisserie version haut de gamme. Une strain ultra gourmande qui mélange des notes sucrées, crémeuses et légèrement vanillées, avec une profondeur riche typique des meilleures génétiques “cake”. Dès l’ouverture, ça dégage un parfum lourd et raffiné, entre dessert fraîchement sorti du four et touche légèrement gassy qui rappelle son côté premium. \n\n 🌿 Qualité Static \n Extraction single source = pureté maximale. Tout vient de la même farm DR FRENCH, ce qui garantit une cohérence parfaite entre goût, effet et qualité. Le résultat : un static clean, blond clair, texture sableuse ultra fine, qui fond parfaitement. \n\n 😶‍🌫️ Effet \n Un high smooth mais puissant. Ça commence par une montée euphorique et relaxante, puis ça s’installe dans un chill profond sans t’éteindre. Parfait pour se poser, kiffer ou créer. \n\n 💎 Conclusion \n  Un produit élite pour les vrais connaisseurs. All Cakez en static single source, c’est le mélange parfait entre gourmandise, puissance et pureté.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 130.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 800.00}
+                    ]
+                }, 
               
                /*  {
                     id: 'OLIVE',
