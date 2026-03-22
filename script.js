@@ -1216,6 +1216,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // --- NAVIGATION ---
     function showPage(pageId) {
+        // 👇 AJOUT STRATÉGIQUE : Coupe toutes les vidéos instantanément au changement de page
+        document.querySelectorAll('video').forEach(video => {
+            video.pause();
+        });
         pages.forEach(p => p.classList.remove('active'));
         // S'assure que la page existe avant de l'activer
         const page = document.getElementById(pageId);
