@@ -152,6 +152,60 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: '🍧 RAINBOW SHERBET 🌈✨',
+                    flag: '🇺🇸',
+                    name: '🍧 RAINBOW SHERBET 🌈✨',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductRS.png', 
+                    video: 'VideoRS.mp4',
+                    description: 'Genetics : Champagne x Blackberry\n Origine : USA 🇺🇸\n\n 🔥 Description :\n Rainbow Sherbet, c’est une vraie explosion de saveurs fruitées — une variété ultra gourmande qui rappelle un sorbet multicolore en plein été. Dès l’ouverture, ça dégage un parfum intense d’agrumes sucrés, avec des notes de fruits rouges et une légère touche crémeuse presque dessert. C’est le genre de strain qui attire direct et qui reste en bouche longtemps.\n\n 🌿 Aspect :\n Des têtes compactes et flashy, avec un mélange de vert clair, de reflets violets et des pistils orangés bien vifs. Recouvertes de trichomes brillants, elles donnent un effet “sugar coated” qui annonce direct la qualité.\n\n 😮‍💨 Effet :\n Un high équilibré qui commence par une montée euphorique et mentale — parfait pour se mettre bien, parler, créer. Ensuite, ça redescend doucement sur un côté chill sans t’éteindre complètement. Idéal en journée ou en fin d’aprem.\n\n 🍬 Saveurs dominantes :\n Agrumes 🍊 • Fruits rouges 🍓 • Sucré crémeux 🍦 • Légère touche tropicale 🥭',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 700.00 },
+                    ]
+                }, 
+                {
+                    id: '🍨 GELATO ✨',
+                    flag: '🇺🇸',
+                    name: '🍨 GELATO ✨',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductGL.png', 
+                    video: 'VideoGL.mov',
+                    description: 'Origine : Californie 🇺🇸 \n Type : Hybride équilibré  \n\n 🔥 Description  \n Gelato, c’est un classique incontournable — une strain qui a marqué toute la scène Cali. Elle combine parfaitement puissance, saveur et finesse, avec un profil ultra gourmand qui met tout le monde d’accord.  \n À l’ouverture, t’es direct frappé par une odeur sucrée, crémeuse et légèrement fruitée, avec une petite touche gazeuse qui rappelle les meilleures génétiques US.  \n\n 👃 Arômes & Saveurs  \n 🍦 Crème sucrée (effet dessert) \n 🍓 Notes fruitées (berries / agrumes légers) \n ⛽ Pointe de gas subtile \n 🍪 Fond légèrement cookie  \n\n  🌿 Aspect  \n  Des buds compactes et bien résineuses, couvertes de trichomes brillants comme du sucre glace. Couleurs vert profond avec reflets violets et pistils orange — visuellement c’est du lourd.  \n\n 😶‍🌫️ Effet\n ⚡ Montée rapide, euphorique\n 🧠 Boost mental, bonne humeur  \n 💆‍♂️ Détente progressive du corps sans t’éteindre direct  \n Parfaite pour chill, discuter ou profiter sans être KO.',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 700.00 },
+                    ]
+                }, 
+                {
+                    id: '🌴 PEAK LA ✨',
+                    flag: '🇺🇸',
+                    name: '🌴 PEAK LA ✨',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductPeak.png', 
+                    video: 'VideoPeak.mov',
+                    description: 'Origine : Los Angeles 🇺🇸 \n Type : Hybride (dominance légèrement indica)  \n\n 🔥 Description  \n Peak LA, c’est la quintessence du haut de gamme californien — une weed qui respire le soleil de Los Angeles et le savoir-faire des meilleures farms. Dès l’ouverture, elle dégage un parfum intense mêlant notes sucrées, crémeuses et légèrement gazeuses, avec une touche exotique qui rappelle les variétés modernes US ultra travaillées.  \n\n 👃 Arômes & Saveurs  \n\n Une vraie claque gustative : \n 🍭 Sucré gourmand \n ⛽ Pointe de gas typique West Coast \n 🍓 Notes fruitées subtiles (berries / tropical) \n 🍦 Finale crémeuse presque dessert  \n\n 🌿 Aspect  \n Des buds ultra denses et résineux, recouverts d’une épaisse couche de trichomes brillants. Couleurs vert clair à reflets violets, avec des pistils orange flashy — visuellement, c’est du très lourd.  \n\n 😶‍🌫️ Effet  \n\n  Un high puissant mais propre : \n 🧠 Démarre par une montée cérébrale euphorique \n 💆‍♂️ Enchaîne sur une détente profonde du corps \n ⚡ Parfait pour chiller, créer ou se poser lourd',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 700.00 },
+                    ]
+                }, 
+                {
                     id: 'ICECreamCrake',
                     flag: '🇺🇸',
                     name: '🥶 ICE CREAM CAKE 🎂',
@@ -329,6 +383,60 @@ document.addEventListener('DOMContentLoaded', function () {
             products: [
              
                 {
+                    id: '🍓 ZKITTLEZ 💎',
+                    flag: '🇲🇦',
+                    name: '🍓 ZKITTLEZ 💎',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductZK.png', 
+                    video: 'VideoZK.mov',
+                    description: '🍓 3x FILTERED 90u 💎\n Une sélection triple filtrée en 90 microns, conçue pour capturer toute la richesse aromatique de la strain avec une pureté optimale. \n\n 🍭 Profil aromatique\n La Zkittlez offre une explosion de saveurs fruitées et sucrées, rappelant un mélange de bonbons tropicaux 🍬🍍. On retrouve des notes de fruits rouges, agrumes et touches exotiques, avec une douceur naturelle qui enrobe parfaitement le palais. \n\n 🔥 Texture\n Fine, propre et homogène, avec une finition soignée qui met en valeur un travail de filtration précis.     \n\n 😮‍💨 Rendu \n Un profil smooth et ultra agréable, avec une sensation légère et une expression aromatique qui ressort pleinement à chaque utilisation.   \n\n 💎 Signature \n Une strain iconique dans sa version la plus propre, où le goût fruité prend le dessus avec une intensité maîtrisée et une vraie longueur en bouche.',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
+                    id: '🍭 RUNTZ 💎',
+                    flag: '🇲🇦',
+                    name: '🍭 RUNTZ 💎',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductRT.png', 
+                    video: 'VideoRT.mov',
+                    description: '🍭 3x FILTERED 90u 💎 \n Une sélection triple filtrée en 90 microns, offrant une matière pure et une restitution aromatique précise, fidèle à l’identité de la strain.   \n\n 🍬 Profil aromatique \n La Runtz est une vraie signature candy : des notes sucrées, fruitées et bonbon, avec une touche légèrement crémeuse et exotique. En bouche, c’est gourmand, rond et ultra agréable, avec une longueur sucrée qui reste bien présente.   \n\n 🔥 Texture \n Fine, homogène et parfaitement travaillée, avec une propreté visible et une finition maîtrisée.   \n\n 😮‍💨 Rendu \n Une expérience douce et équilibrée, avec une sensation smooth et un profil accessible mais marqué, typique des variétés candy modernes.   \n\n 💎 Signature \n Un classique revisité en version filtrée premium, mettant en avant toute la richesse sucrée et addictive de la Runtz.',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
+                    id: '🌊 SUPER SOAKER 💎',
+                    flag: '🇲🇦',
+                    name: '🌊 SUPER SOAKER 💎',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductSoak.png', 
+                    video: 'VideoSoak.mov',
+                    description: '🌊 3x FILTERED 90u 💎\n Une sélection triple filtrée en 90 microns, pensée pour offrir une matière d’une pureté remarquable et une expression aromatique nette. \n\n 🍬 Profil aromatique\n La Super Soaker dévoile un mélange intense de fruits sucrés et tropicaux, accompagné d’une légère touche crémeuse et gassy. En bouche, c’est rond, riche et persistant, avec une vraie profondeur de saveur qui reste longtemps. \n\n  🔥 Texture \n Fine, propre et homogène, avec une finition soignée qui reflète un travail précis sur la filtration.  \n\n 😮‍💨 Rendu \n Une expérience smooth et équilibrée, avec une montée progressive et un ressenti clair, sans lourdeur.  \n\n  💎 Signature \n  Un produit moderne, axé sur le goût et la propreté, qui met en avant toute la richesse aromatique de la strain Super Soaker.',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
                     id: '🧀 DORITOS 🔥',
                     flag: '🇲🇦',
                     name: '🧀 DORITOS 🔥',
@@ -382,24 +490,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-                /* {
-                    id: 'BLUESUNSET',
-                    flag: '🇲🇦',
-                    name: '🔵 BLUE SUNSET SHERBET 🌅',
-                    farm: 'DHF FARMZ ✨',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductSunset.png', 
-                    video: 'VideoSunset.mov',
-                    description: '🌅 COUCHER DE SOLEIL AROMATIQUE • 120U DHF \n\n Une fusion parfaite entre la douceur des fruits rouges et le zeste d’agrumes exotiques. Ce Blue Sunset Sherbet est un bonbon crémeux qui fond littéralement sous la dent.\n\n 🏭 Farm : DHF FARMZ (Qualité Certifiée)\n 🍯 Texture : 120u Clean, texture compacte qui devient huileuse à la manipulation.\n 👅 Palette : Myrtille sucrée, zeste d\'orange et fond crémeux Sherbet.\n\n 🔥 L’expérience : Un high relaxant qui commence par une euphorie cérébrale pour finir sur une détente corporelle totale. Le goût reste jusqu’à la dernière latte.',
-                    tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 100.00 },
-                        { weight: '20G', price: 200.00 },
-                        { weight: '50G', price: 300.00 },
-                        { weight: '100G', price: 480.00 },
-                    ]
-                }, */
           
                 {
                     id: '35u Panacota 🧁',
@@ -419,42 +509,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-               /*  {
-                    id: '🍓 Tutti Frutti 🍍',
-                    flag: '🇲🇦',
-                    name: '🍓 Tutti Frutti 🍍',
-                    farm: 'KGF 🦊',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductTutti.png', // ⚠️ A changer
-                    video: 'VideoTutti.mov',
-                    description: '💎 FILTRÉ PREMIUM • HAUTE INTENSITÉ 💎\n\n Ce lot se distingue nettement des filtrés classiques par une concentration de terpènes bien supérieure. \n\n 👅 LE GOÛT : Une saturation aromatique totale. L’alliance fruits rouges / ananas est explosive et reste en bouche bien plus longtemps qu’un filtré standard.\n\n 🧠 L’EFFET : High élevé et percutant. La qualité du filtrage conserve tous les cannabinoïdes pour une montée franche et durable.\n\n 🦊 Signature KGF : Texture huileuse, propre, 0 déchet. Pour ceux qui cherchent la puissance avant tout.',
-                    tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️'},
-                        { weight: '25G', price: 200.00, badge: 'PROMO ⚡️' },
-                        { weight: '50G', price: 300.00, badge: 'PROMO ⚡️' },
-                        { weight: '100G', price: 470.00, badge: 'PROMO ⚡️' },
-                    ]
-                }, */
-                /* {
-                    id: '🍇 Acai Cake 🍰',
-                    flag: '🇲🇦',
-                    name: '🍇 Acai Cake 🍰',
-                    farm: 'KGF 🦊',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductAcai.png', // ⚠️ A changer
-                    video: 'VideoAcai.mov',
-                    description: '💎 FILTRÉ PREMIUM • GOURMANDISE & PUISSANCE 💎\n\n Oubliez les standards. Cette version Premium de l’Acai Cake offre une profondeur de goût et une lourdeur d’effets rarement atteintes.\n\n 👅 LE GOÛT : Une saveur pâtissière "Loud". Les notes de cake vanillé et de baies d’Açaï sont ultra prononcées, offrant une fumée dense et crémeuse qui tapisse le palais.\n\n 🧠 L’EFFET : Grosse charge. Le niveau de THC est préservé au maximum pour un effet relaxant profond, quasi narcotique. \n\n 🦊 Signature KGF : Un hash sombre, gras et puissant. Réservé aux tolérances élevées.',
-                    tarifs: [
-                        { weight: '5G', price: 60.00 },
-                        { weight: '10G', price: 80.00, badge: 'PROMO ⚡️'},
-                        { weight: '25G', price: 200.00, badge: 'PROMO ⚡️' },
-                        { weight: '50G', price: 300.00, badge: 'PROMO ⚡️' },
-                        { weight: '100G', price: 470.00, badge: 'PROMO ⚡️' },
-                    ]
-                }, */
                /* ,
                 {
                     id: 'PremiumDur',
