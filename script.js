@@ -152,15 +152,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
-                    id: '🍧 RAINBOW SHERBET 🌈✨',
+                    id: '🌸 PINK RUNTZ 💎',
                     flag: '🇺🇸',
-                    name: '🍧 RAINBOW SHERBET 🌈✨',
+                    name: '🌸 PINK RUNTZ 💎',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
-                    image: 'ProductRS.png', 
-                    video: 'VideoRS.mp4',
-                    description: 'Genetics : Champagne x Blackberry\n Origine : USA 🇺🇸\n\n 🔥 Description :\n Rainbow Sherbet, c’est une vraie explosion de saveurs fruitées — une variété ultra gourmande qui rappelle un sorbet multicolore en plein été. Dès l’ouverture, ça dégage un parfum intense d’agrumes sucrés, avec des notes de fruits rouges et une légère touche crémeuse presque dessert. C’est le genre de strain qui attire direct et qui reste en bouche longtemps.\n\n 🌿 Aspect :\n Des têtes compactes et flashy, avec un mélange de vert clair, de reflets violets et des pistils orangés bien vifs. Recouvertes de trichomes brillants, elles donnent un effet “sugar coated” qui annonce direct la qualité.\n\n 😮‍💨 Effet :\n Un high équilibré qui commence par une montée euphorique et mentale — parfait pour se mettre bien, parler, créer. Ensuite, ça redescend doucement sur un côté chill sans t’éteindre complètement. Idéal en journée ou en fin d’aprem.\n\n 🍬 Saveurs dominantes :\n Agrumes 🍊 • Fruits rouges 🍓 • Sucré crémeux 🍦 • Légère touche tropicale 🥭',                    
+                    image: 'ProductPK.png', 
+                    video: 'VideoPK.mov',
+                    description: 'Une des strains les plus reconnues de la nouvelle génération, célèbre pour son profil candy ultra gourmand et son équilibre parfait. \n\n 🍭 Profil aromatique \n La Pink Runtz offre une explosion de saveurs sucrées et fruitées, avec des notes de bonbon, fruits tropicaux et une légère touche crémeuse. En bouche, c’est rond, doux et très persistant, avec une vraie signature “candy” qui reste longtemps 🍓🍍\n\n 🌿 Aspect\n Des buds bien denses et givrés, recouverts de trichomes brillants, avec des nuances de vert clair et parfois rosées, accompagnées de pistils orangés.\n\n 😮‍💨 Effet\n Un high équilibré et agréable, qui commence par une sensation euphorique et légère avant de s’installer progressivement dans un état de détente sans être trop lourd.\n\n 💎 Signature\n Une strain moderne incontournable, parfaite pour ceux qui recherchent le goût avant tout, avec une qualité aromatique marquée et reconnaissable.',                    
                     tarifs: [
                         { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
@@ -454,24 +454,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-                {
-                    id: '🍓 TWIX STRAWBERRY GUMMY 🍫',
-                    flag: '🇲🇦',
-                    name: '🍓 TWIX STRAWBERRY GUMMY 🍫',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductTwix1.png', 
-                    video: 'VideoTwix.mov',
-                    description: 'Un profil ultra gourmand et régressif. Ce 3x filtré 90 microns TWIX STRAWBERRY GUMMY combine des notes sucrées de fraise candy, de chocolat doux et une touche biscuitée crémeuse, rappelant une confiserie fondante et addictive. \n\n Grâce au triple filtrage, la matière est extrêmement propre, avec une texture grasse, souple et fondante. La combustion est nette, la fumée douce et savoureuse, laissant une longueur en bouche sucrée et fruitée parfaitement maîtrisée.  \n\n 🔥 Points forts : \n • Arômes fraise gummy, chocolat et biscuit \n • Triple filtration pour une pureté maximale \n • Texture fondante et combustion clean  \n • Sélection NO FARM    \n\n Un hash premium, intensément gourmand, pensé pour les amateurs de saveurs sucrées, candy et ultra clean. 🍬💎',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
+               
                 {
                     id: '🍯 FRITTER LICKER 🔥',
                     flag: '🇲🇦',
