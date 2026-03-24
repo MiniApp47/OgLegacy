@@ -474,24 +474,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 },
           
-                {
-                    id: '35u Panacota 🧁',
-                    flag: '🇲🇦',
-                    name: '🧁 35u Panacota 🧁',
-                    farm: 'KGF 🦊',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductPana.png', // ⚠️ A changer
-                    video: 'VideoPana.mp4',
-                    description: 'Une pièce ultra-fine,  signée KGF, pensée pour les amateurs de profils gourmands et propres. La 35u Panacota filtrée brille par sa pureté visuelle, sa texture soyeuse et son travail de filtration d’une précision chirurgicale. \n\n Le profil aromatique est un vrai dessert : crème fraîche, vanille douce, sucre délicat, avec une rondeur lactée qui s’installe naturellement. C’est gourmand sans lourdeur, élégant et parfaitement maîtrisé. \n\n Chaque nuance est nette, fidèle et persistante, offrant une signature riche mais équilibrée, idéale pour celles et ceux qui recherchent finesse, constance et caractère.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '25G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
+               
                /* ,
                 {
                     id: 'PremiumDur',
