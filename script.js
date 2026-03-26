@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategHash.png', // Ton image de catégorie Weed
 
             products: [
-                {
+                /* {
                     id: 'NICOLE KUSH ✨',
                     flag: '🇺🇸',
                     name: 'NICOLE KUSH ✨',
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 200.00 },
                         { weight: '100g', price: 330.00 },
                     ]
-                }, 
+                },  */
             ]
         },
         {
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategJauneUsa.png', // Ton image de catégorie Weed
 
             products: [
-                {
+              /*   {
                     id: 'Jaune mousseux 🥵',
                     flag: '🇲🇦',
                     name: 'Jaune mousseux 🥵',
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 220.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                }
+                } */
             ]
         },
 
