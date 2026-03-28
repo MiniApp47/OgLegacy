@@ -187,41 +187,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 700.00 },
                     ]
                 }, 
-                {
-                    id: '🌴 PEAK LA ✨',
-                    flag: '🇺🇸',
-                    name: '🌴 PEAK LA ✨',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductPeak.png', 
-                    video: 'VideoPeak.mov',
-                    description: 'Origine : Los Angeles 🇺🇸 \n Type : Hybride (dominance légèrement indica)  \n\n 🔥 Description  \n Peak LA, c’est la quintessence du haut de gamme californien — une weed qui respire le soleil de Los Angeles et le savoir-faire des meilleures farms. Dès l’ouverture, elle dégage un parfum intense mêlant notes sucrées, crémeuses et légèrement gazeuses, avec une touche exotique qui rappelle les variétés modernes US ultra travaillées.  \n\n 👃 Arômes & Saveurs  \n\n Une vraie claque gustative : \n 🍭 Sucré gourmand \n ⛽ Pointe de gas typique West Coast \n 🍓 Notes fruitées subtiles (berries / tropical) \n 🍦 Finale crémeuse presque dessert  \n\n 🌿 Aspect  \n Des buds ultra denses et résineux, recouverts d’une épaisse couche de trichomes brillants. Couleurs vert clair à reflets violets, avec des pistils orange flashy — visuellement, c’est du très lourd.  \n\n 😶‍🌫️ Effet  \n\n  Un high puissant mais propre : \n 🧠 Démarre par une montée cérébrale euphorique \n 💆‍♂️ Enchaîne sur une détente profonde du corps \n ⚡ Parfait pour chiller, créer ou se poser lourd',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 700.00 },
-                    ]
-                }, 
-                {
-                    id: 'ICECreamCrake',
-                    flag: '🇺🇸',
-                    name: '🥶 ICE CREAM CAKE 🎂',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductIce.png', 
-                    video: 'VideoIce.mp4',
-                    description: '🥶 DESSERT CALI • ULTRA FROSTY 🇺🇸 \n\n L\'Ice Cream Cake (Wedding Cake x Gelato 33) est un classique incontournable de la génétique dessert américaine. Reconnue pour sa couche de givre extrême et ses effets lourdement sédatifs. \n\n 👀 Aspect : Têtes ultra-denses, teintes vert foncé et violettes, complètement noyées sous les trichomes blancs (aspect glacé).\n 👃 Arômes : Pâte à gâteau vanillée, crème sucrée, avec une légère touche de gaz en fond.\n 👅 Goût : Très rond et lourd en bouche, sucré à l\'attaque, terreux et onctueux à l\'expiration.\n 🧠 Effets : Grosse frappe Indica. Détente corporelle immédiate, "couch-lock" assuré. Parfaite pour couper le soir.',                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 750.00 },
-                    ]
-                }, 
+               
                 {
                     id: '🖤 BLACK RUNTZ 🍬',
                     flag: '🇺🇸',
