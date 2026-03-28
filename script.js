@@ -436,24 +436,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-                {
-                    id: '🧀 DORITOS 🔥',
-                    flag: '🇲🇦',
-                    name: '🧀 DORITOS 🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductDori.png', 
-                    video: 'VideoDori.mov',
-                    description: '💎 Description\n\n Doritos, c’est un 3x filtré qui frappe direct par son profil aromatique unique. À l’ouverture, ça sort un mélange puissant de notes fromagées, épicées et légèrement gaz, avec ce côté snack salé qui rappelle les célèbres chips dont elle porte le nom. Une odeur forte et reconnaissable qui annonce tout de suite la qualité. \n\n 🌿 Texture & Aspect \n\n Une matière grasse, malléable et brillante, avec une couleur claire qui montre un travail de filtration propre. La texture est souple et fond facilement à la chaleur, avec de belles bulles qui apparaissent quand on la chauffe — signe d’un hash bien sélectionné. \n\n 😶‍🌫️ Effet       \n\n Un effet lourd et relaxant, qui commence par un petit kick cérébral avant de laisser place à une détente profonde dans le corps. Parfait pour se poser, profiter du moment et savourer un produit qui a du caractère.     \n\n 🔥 Signature   \n Un 3x filtré au goût unique, puissant et savoureux — un vrai délire pour les amateurs de hash avec une identité marquée.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
                
                 {
                     id: '🍯 FRITTER LICKER 🔥',
