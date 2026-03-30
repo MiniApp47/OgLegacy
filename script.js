@@ -169,24 +169,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 700.00 },
                     ]
                 }, 
-                {
-                    id: '🍨 GELATO ✨',
-                    flag: '🇺🇸',
-                    name: '🍨 GELATO ✨',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductGL.png', 
-                    video: 'VideoGL.mov',
-                    description: 'Origine : Californie 🇺🇸 \n Type : Hybride équilibré  \n\n 🔥 Description  \n Gelato, c’est un classique incontournable — une strain qui a marqué toute la scène Cali. Elle combine parfaitement puissance, saveur et finesse, avec un profil ultra gourmand qui met tout le monde d’accord.  \n À l’ouverture, t’es direct frappé par une odeur sucrée, crémeuse et légèrement fruitée, avec une petite touche gazeuse qui rappelle les meilleures génétiques US.  \n\n 👃 Arômes & Saveurs  \n 🍦 Crème sucrée (effet dessert) \n 🍓 Notes fruitées (berries / agrumes légers) \n ⛽ Pointe de gas subtile \n 🍪 Fond légèrement cookie  \n\n  🌿 Aspect  \n  Des buds compactes et bien résineuses, couvertes de trichomes brillants comme du sucre glace. Couleurs vert profond avec reflets violets et pistils orange — visuellement c’est du lourd.  \n\n 😶‍🌫️ Effet\n ⚡ Montée rapide, euphorique\n 🧠 Boost mental, bonne humeur  \n 💆‍♂️ Détente progressive du corps sans t’éteindre direct  \n Parfaite pour chill, discuter ou profiter sans être KO.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                        { weight: '100g', price: 700.00 },
-                    ]
-                }, 
                
                 {
                     id: '🖤 BLACK RUNTZ 🍬',
@@ -366,7 +348,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-                {
+              /*   {
                     id: '🍭 RUNTZ 💎',
                     flag: '🇲🇦',
                     name: '🍭 RUNTZ 💎',
@@ -383,7 +365,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                 {
                     id: '🌊 SUPER SOAKER 💎',
                     flag: '🇲🇦',
@@ -464,6 +446,60 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
 
+                 {
+                    id: '🌟 CALYPSO',
+                    flag: '🇲🇦',
+                    name: '🌟 CALYPSO',
+                    farm: 'MOZART FARM 🎹',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductC.png', // ⚠️ A changer
+                    video: 'VideoC.mov',
+                    description: '🔥 Description\n Le static Calypso signé MOZART FARM, c’est clairement du très haut niveau — une extraction propre, raffinée, où chaque détail est maîtrisé. On est sur un produit ultra clean, avec une texture sablonneuse fine, presque soyeuse, qui témoigne d’un tri précis et d’une qualité de résine exceptionnelle.\n\n 👃 Arômes & Saveurs\n Calypso, ça part sur un profil exotique et lumineux : des notes fruitées tropicales bien fraîches, mélangées à une touche sucrée presque creamy, avec derrière un léger fond gazeux qui vient équilibrer le tout. À la chauffe, ça développe encore plus — c’est riche, doux, et surtout hyper savoureux, sans agressivité.\n\n 👀 Aspect\n Couleur claire à dorée, homogène, avec cette texture “static” bien sèche mais collante juste comme il faut. Ça s’effrite parfaitement, signe d’une extraction premium et bien travaillée.\n\n 😮‍💨 Effet\n Un high propre et progressif : ça démarre avec une montée cérébrale légère, euphorique, puis ça pose tranquillement le corps sans t’écraser. Idéal pour rester fonctionnel tout en profitant d’un vrai moment de détente qualitative.\n\n 💎 Conclusion\n Le Calypso en static de chez MOZART FARM, c’est un produit d’esthète — goût précis, effet maîtrisé, et finition premium. Clairement une pièce de collection pour ceux qui cherchent du clean et du goût au-dessus de la moyenne.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 130.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 800.00}
+                    ]
+                },  
+                 {
+                    id: '🌑 BLACK CHERRY',
+                    flag: '🇲🇦',
+                    name: '🌑 BLACK CHERRY',
+                    farm: 'MOZART FARM 🎹',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductBC.png', // ⚠️ A changer
+                    video: 'VideoBC.mov',
+                    description: '🔥 Description\n Le static Black Cherry de chez MOZART FARM, c’est une extraction ultra propre avec une vraie identité. On est sur un produit travaillé avec précision, texture fine et homogène, qui montre direct que le tri a été fait sérieusement. Un static premium, propre, sans impuretés, avec ce côté sablonneux haut de gamme. \n\n 👃 Arômes & Saveurs \n Là on part sur un profil gourmand et profond : grosse dominante cerise noire bien mûre 🍒, presque confiturée, accompagnée de notes sucrées et légèrement crémeuses. En fond, tu retrouves une touche terreuse/gazeuse qui vient donner du relief et éviter le côté trop sucré. À la chauffe, ça devient encore plus riche, avec une vraie longueur en bouche. \n\n 👀 Aspect \n Couleur beige clair à doré, texture sèche et aérienne, qui s’effrite parfaitement. Brillance légère, signe d’une extraction bien maîtrisée. C’est propre, fin, et très agréable à manipuler. \n\n 😮‍💨 Effet \n Effet chill mais qualitatif : une montée douce avec une sensation de bien-être mentale, suivie d’un relâchement physique progressif. Pas assommant, mais bien relaxant — parfait pour poser sans être KO. \n\n 💎 Conclusion \n Le Black Cherry en static de chez MOZART FARM, c’est le parfait mélange entre gourmandise et puissance maîtrisée. Une vraie signature aromatique avec ce côté fruit noir sucré, et une qualité d’extraction qui place le produit dans le haut du panier.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 130.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 800.00}
+                    ]
+                },  
+                 {
+                    id: '🌬️ B. GARLIC JAM',
+                    flag: '🇲🇦',
+                    name: '🌬️ B. GARLIC JAM',
+                    farm: 'DR FRENCH 🥖',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductBG.png', // ⚠️ A changer
+                    video: 'VideoBG.mp4',
+                    description: '🔥 Description \n\n  Le Static B. Garlic Jam, signé DR French, c’est une vraie pièce de caractère. On est sur un concentré ultra propre, travaillé avec précision pour garder toute la richesse terpénique de la strain. Dès l’ouverture, ça envoie direct : une attaque garlic bien pungente, mélangée à une douceur presque confiturée (“jam”), avec un fond légèrement épicé et crémeux.  \n\n Le résultat est unique : un équilibre entre le funky US bien sale et une rondeur sucrée qui rend le produit hyper addictif.  \n\n 🌿 Texture & Aspect  \n Static clair, presque sableux, avec une texture fine et soyeuse. Les grains sont propres, bien séparés, avec une couleur beige doré tirant parfois vers le blond clair — signe d’une extraction maîtrisée et d’une sélection premium.  \n\n👃 Profil aromatique \n • 🧄 Garlic / onion funky (dominant) \n • 🍯 Sucré “jam” / confiture légère \n • 🌶️ Épicé subtil \n • 🌿 Notes terreuses & creamy en fond  \n\n 💨 Effet  \n Une montée rapide qui frappe direct au cerveau avec un côté euphorique et focus, puis une descente plus lourde, relaxante, qui te pose sans t’éteindre complètement. Parfait pour ceux qui aiment les profils puissants avec du goût qui reste en bouche longtemps.  \n\n 💎 Conclusion  \n Le B. Garlic Jam en static, c’est un produit de connaisseur : un goût sale mais maîtrisé, une extraction clean, et une vraie identité. Typiquement le genre de pièce que tu retrouves pas partout.  \n\n OG Legacy approved 🔥',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 130.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 800.00}
+                    ]
+                }, 
                  {
                     id: 'ALL BLUE 🫐',
                     flag: '🇲🇦',
