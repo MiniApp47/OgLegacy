@@ -152,6 +152,78 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: '🍍🍬 TROPICAL CANDY 🌴',
+                    flag: '🇺🇸',
+                    name: '🍍🍬 TROPICAL CANDY 🌴',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductTropicc.png', 
+                    video: 'VideoTropicc.mov',
+                    description: '🔥 Description \n Tropical Candy, c’est une vraie vague exotique. Dès que t’ouvres, t’as une explosion d’arômes tropicaux : ananas, mangue, fruits de la passion… mélangés à un côté bonbon sucré bien prononcé. Une strain ultra gourmande, fraîche et addictive, avec parfois une légère touche creamy/gazzy en fond.  \n\n 🌿 Aspect  \n Des buds bien colorés, vert clair avec parfois des reflets dorés ou violets. Bien denses, recouverts de trichomes brillants qui donnent un effet givré. Pistils orange flashy — visuellement très attractif.  \n\n 😶‍🌫️ Effet  \n Un high énergisant au début : \n ➡️ boost mental, bonne humeur, créativité \n ➡️ puis une détente légère du corps sans t’alourdir  \n  Parfaite en journée ou en soirée chill, sans te mettre KO.  \n\n 🍭 Saveur  \n Tropical / sweet / fruity candy  \n Un vrai goût de cocktail exotique sucré, avec une sensation bonbon bien smooth en bouche.     \n\n ⚖️ Type  \n Hybride à tendance sativa      \n\n 💎 Conclusion  \n  Tropical Candy, c’est le délire vacances en version weed. Ultra parfumée, easy à fumer et super agréable — parfaite pour ceux qui aiment les profils fruités et sucrés bien marqués 🍍🔥🍬',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                }, 
+                {
+                    id: '🍋 LCG 🍒🍦',
+                    flag: '🇺🇸',
+                    name: '🍋 LCG 🍒🍦',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductChery.png', 
+                    video: 'VideoChery.mov',
+                    description: '🍋 Lemon Cherry Gelato 🍒🍦\n\n 🔥 Description\n La LCG (Lemon Cherry Gelato), c’est une des strains les plus demandées en ce moment. Un vrai mélange entre fraîcheur citrus et gourmandise sucrée. À l’ouverture, t’as direct un parfum complexe : citron acidulé, cerise sucrée et une base crémeuse typique des Gelato, avec un petit fond gazzy qui donne du caractère.\n\n 🌿 Aspect\n Des buds bien compacts, ultra résineux, souvent avec des reflets violets et vert foncé. Blindés de trichomes bien blancs, ça brille fort — qualité visuelle premium directe.\n\n 😶‍🌫️ Effet\n  Un high puissant et propre :\n ➡️ montée rapide euphorique, boost mental\n ➡️ puis une détente progressive du corps sans t’endormir\n   Parfaite pour rester focus mais détendu, ou pour chill sans être KO.\n\n  🍬 Saveur\n  Citrus / cherry / creamy / gas\n  Un mix unique entre acidité citronnée et douceur fruitée, avec une touche dessert en fin de bouche.\n\n  ⚖️ Type\n Hybride équilibrée (légère tendance indica)\n\n  💎 Conclusion\n La LCG, c’est une vraie star : goût signature, effet clean et look premium. Une des strains les plus complètes du moment — validée par tous les amateurs de cali 🔥🍋🍒',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                }, 
+                {
+                    id: '🍬 CANDY GELATO 🍦',
+                    flag: '🇺🇸',
+                    name: '🍬 CANDY GELATO 🍦',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductCGR.png', 
+                    video: 'VideoCGR.mov',
+                    description: '🍬 (Gelato x Candy genetics) 🍦\n\n 🔥 Description  \n Candy Gelato, c’est la rencontre parfaite entre la puissance de la famille Gelato et un côté bonbon ultra sucré. Dès que t’ouvres le pot, t’es frappé par une odeur gourmande de candy, fruits sucrés et crème vanillée, avec un fond légèrement gazzy qui rappelle les meilleures cali.    \n\n 🌿 Aspect  \n Des têtes bien denses et résineuses, avec des nuances vert clair parfois tirant vers le violet. Blindées de trichomes brillants qui collent aux doigts, avec des pistils orange vif — visuellement c’est très propre, très premium.\n\n 😶‍🌫️ Effet  \n Un high équilibré mais bien présent : \n  ➡️ montée euphorique et mentale au début \n ➡️ puis relaxation du corps progressive \n Ça te met bien sans te casser, parfait pour chill, social ou même après l’entraînement pour relâcher la pression.  \n\n 🍭 Saveur  \n Ultra sweet / candy / creamy \n Un vrai goût de bonbon fruité avec une touche gelato bien crémeuse, légèrement gazeuse en fin de bouche.  \n\n  ⚖️ Type  \n Hybride (légère dominance indica)  \n\n  💎 Conclusion  \n Candy Gelato, c’est une valeur sûre : grosse saveur, belle puissance et un rendu clean. Parfaite pour ceux qui aiment les strains sucrées avec du caractère 🍬🔥',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                }, 
+                {
+                    id: '🌸 MOCHI 🍡',
+                    flag: '🇺🇸',
+                    name: '🌸 MOCHI 🍡',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductMoch.png', 
+                    video: 'VideoMoch.mov',
+                    description: '🌸 (Gelato 47 x Mochi Gelato) 🍡\n\n 🔥 Description \n La Mochi, c’est une vraie pépite californienne, issue de la famille Gelato. Elle se démarque direct avec un profil ultra gourmand et raffiné. À l’ouverture, t’as une explosion de notes sucrées et crémeuses, avec un mélange subtil de vanille, fruits rouges et une touche légèrement terreuse qui vient équilibrer le tout.  \n\n 🌿 Aspect  \n Des buds bien compacts, denses comme il faut, avec des teintes vert clair à violet, recouvertes d’une couche épaisse de trichomes bien blancs. Les pistils orangés ressortent fort, signe d’une qualité bien travaillée.  \n\n 😶‍🌫️ Effet  \n Un high smooth mais puissant : ça commence par une montée euphorique, légère dans la tête, puis ça glisse vers une détente corporelle bien chill. Parfait pour se poser sans être complètement éclaté. Idéal fin de journée ou après un gros training.  \n\n  🍬 Saveur  \n  Sucré / creamy / dessert vibes \n Un vrai goût de mochi japonais avec une touche gelato — doux, légèrement fruité, et super agréable en bouche.  \n\n ⚖️ Type  \n Hybride équilibrée (légère dominance indica)  \n\n  💎 Conclusion  \n  La Mochi, c’est clairement une strain premium pour les amateurs de saveurs fines et de high clean. Pas la plus violente, mais une des plus agréables à fumer. Un vrai délire gourmand 🍡🔥',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                }, 
+                {
                     id: '🌸 PINK RUNTZ 💎',
                     flag: '🇺🇸',
                     name: '🌸 PINK RUNTZ 💎',
@@ -198,13 +270,29 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'Chocolato 🍪',
+                    flag: '🇲🇦',
+                    name: 'Chocolato 🍪',
+                    farm: 'CaliPlate ⚜️',
+                    promoEligible: true,
+                    type: 'Frozen',
+                    image: 'ProductChoco.png', 
+                    video: 'VideoChoco.mov',
+                    description: '🔥 Description\n Le frozen sift Chocolato par CaliPlate, c\'est le summum de l\'exclusivité. Une extraction ultra-premium réservée à l\'élite des connaisseurs. CaliPlate signe ici une véritable masterclass avec un produit d\'une rareté et d\'une pureté phénoménales, justifiant son positionnement top-shelf.\n\n 👃 Arômes & Saveurs\n Un profil terpénique lourd, sombre et incroyablement gourmand. Grosse attaque de cacao brut et de chocolat fondant 🍫, parfaitement adoucie par la rondeur crémeuse et vanillée propre aux génétiques Gelato. Une fumée épaisse et onctueuse qui laisse un goût de dessert luxueux sur le palais.\n\n 👀 Aspect\n Visuel hors norme. Une résine translucide, brillante, qui se rapproche presque d\'une texture cireuse ou de caviar. Le tri des trichomes est millimétré, sans aucun déchet végétal. Ça fond et bulle violemment à la moindre source de chaleur (Full Melt absolu).\n\n 😮‍💨 Effet\n Une frappe dévastatrice. La montée cérébrale est instantanée et te scotche littéralement, suivie très vite d\'un body-stone profond, presque narcotique. Réservé aux tolérances élevées vu la concentration massive en principes actifs.\n\n 💎 Conclusion\n Le Chocolato de CaliPlate, c\'est le caviar du Frozen Sift. Une qualité stratosphérique pour un rendement d\'extraction minuscule. L\'expérience ultime pour les palais les plus exigeants qui ne veulent que le meilleur.',
+                    tarifs: [
+                        { weight: '5G', price: 150.00 },
+                        { weight: '10G', price: 250.00 },
+                        { weight: '25G', price: 500.00 },
+                    ]
+                },
                    {
                     id: 'Peach Lassi 🍑',
                     flag: '🇲🇦',
                     name: 'Peach Lassi 🍑',
                     farm: 'La Source x Dirham Farm ⚗️',
                     promoEligible: true,
-                    type: 'Weed',
+                    type: 'Frozen',
                     image: 'ProductPea.png', // ⚠️ A changer
                     video: 'VideoPea.mov',
                     description: '🔥 Description \n Un frozen sift premium issu du travail précis de La Source x Dirham Farm. Avec la Peach Lassi, on est sur une génétique ultra gourmande qui mélange douceur fruitée et profondeur crémeuse. \n\n 🌿 Profil aromatique \n Dès l’ouverture, ça frappe avec des notes intenses de pêche mûre, accompagnées d’une touche crémeuse et sucrée qui rappelle la célèbre boisson indienne Lassi. Une terpène profile très dessert / fruit exotique, rond et puissant. \n\n ✨ Texture & aspect \n Une résine claire et sableuse, riche en trichomes, qui devient huileuse et collante sous la chaleur. La qualité du sift montre un travail de filtration propre avec une matière très aromatique. \n\n 😶‍🌫️ Effet \n Un effet relaxant et euphorique, qui commence par une montée douce et joyeuse avant de laisser place à une détente profonde. Parfait pour apprécier toute la richesse des saveurs. \n\n 💎 Conclusion \n  Un frozen sift gourmand et premium, idéal pour les amateurs de hash fruité et crémeux. Une signature terpène peach dessert qui se démarque clairement.',
@@ -222,7 +310,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     name: 'Exotic Thai 🌴',
                     farm: 'La Source x Dirham Farm ⚗️',
                     promoEligible: true,
-                    type: 'Weed',
+                    type: 'Frozen',
                     image: 'ProductExo.png', // ⚠️ A changer
                     video: 'VideoExo.mov',
                     description: '🔥 Description \n  Un frozen sift d’exception né de la collaboration entre La Source et Dirham Farm, deux noms qui travaillent la matière avec précision. Cette version issue de la Exotic Thai apporte un profil aromatique rare et très recherché, inspiré des génétiques asiatiques. \n\n 🌿 Profil aromatique \n  Des notes exotiques et tropicales qui explosent dès l’ouverture : mangue mûre, agrumes sucrés et une légère touche florale typique des variétés Thai. En bouche, le hash développe un côté crémeux et légèrement épicé, avec une longueur très propre. \n\n  ✨ Texture & aspect \n Un frozen sift ultra propre, texture sable doré qui devient huileuse à la chaleur. La matière est riche en résine, brillante et très parfumée — signe d’un travail de filtration précis et d’une génétique de qualité. \n\n  😶‍🌫️ Effet \n  Un high clair et euphorique, qui commence par une montée cérébrale énergisante typique des strains Thai, avant de se transformer en une détente douce et agréable. Parfait pour profiter de l’arôme et de l’expérience complète. \n\n 💎 Conclusion \n  Un produit exotic et premium, réservé aux amateurs de résine fine qui recherchent quelque chose de différent du classique gas californien. Ici on est sur une signature aromatique tropicale rare.',
@@ -446,6 +534,42 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
 
+                {
+                    id: '🫒 PINK RUNTZ 🎀',
+                    flag: '🇲🇦',
+                    name: '🫒 PINK RUNTZ 🎀', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
+                    farm: '🏠 STATIC NO FARMZ',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductPR.png',
+                    video: 'VideoPR.mov',
+                    description: '🔥 Description\n Le static Pink Runtz issu de la sélection NO FARMZ, c’est l’exigence à l’état pur. Une extraction minutieuse qui offre une résine d’une pureté exceptionnelle. Un vrai travail d’orfèvre pour les puristes qui cherchent une matière ultra clean et un profil terpénique respecté à 100%.\n\n 👃 Arômes & Saveurs\n Une véritable explosion de bonbons acidulés et de fruits rouges sucrés 🍓🍬. Le profil Runtz est indéniable, avec une base crémeuse et une légère touche gazeuse en fond qui vient tapisser le palais. À la chauffe, ça libère une fumée douce, épaisse et extrêmement gourmande.\n\n 👀 Aspect\n Teinte dorée à sable clair, avec une texture fine et soyeuse caractéristique des meilleurs statics. Ça s’effrite tout seul entre les doigts tout en gardant ce côté collant parfait pour le roulage. Zéro impureté.\n\n 😮‍💨 Effet\n Un high joyeux et euphorique qui monte rapidement à la tête, suivi d’une détente corporelle profonde et chaleureuse. Puissant mais lucide, parfait pour chill entre potes ou se relaxer en fin de journée sans être totalement assommé.\n\n 💎 Conclusion\n Le Pink Runtz NO FARMZ, c’est le bonbon ultime version premium. Un static qui allie une gourmandise extrême à une frappe nette et sans bavure. Une valeur sûre pour les amateurs de sucré.',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 140.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 850.00}
+                    ]
+                },  
+                 {
+                    id: '🫒 ZKITTLEZ 🧸',
+                    flag: '🇲🇦',
+                    name: '🫒 ZKITTLEZ 🧸',
+                    farm: '🏠 STATIC NO FARMZ',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductZ.png',
+                    video: 'VideoZ.mov',
+                    description: '🔥 Description\n Le static Zkittlez de la sélection NO FARMZ frappe très fort. On est sur une extraction de très haute volée, avec un tri des trichomes chirurgical. Un produit brut, haut de gamme, qui capture parfaitement l\'essence de l\'une des génétiques les plus réputées au monde.\n\n 👃 Arômes & Saveurs\n Un véritable arc-en-ciel de saveurs 🌈. Dès l\'ouverture, tu te prends des notes intenses de fruits tropicaux, d’agrumes doux et de baies sucrées. À la combustion, le fameux côté "Z" se révèle pleinement, offrant une fumée riche, intensément fruitée et qui reste très longtemps en bouche.\n\n 👀 Aspect\n Une poudre d’or compacte. Couleur blonde très claire, texture sablonneuse et malléable qui bulle instantanément au contact de la flamme. Le tri est parfait, c\'est de la tête de trichome pure.\n\n 😮‍💨 Effet\n L\'équilibre parfait. La montée est stimulante, booste l\'humeur et la créativité, avant de glisser doucement vers un apaisement physique lourd et réconfortant. Une défonce premium qui dure dans le temps.\n\n 💎 Conclusion\n Le Zkittlez en static NO FARMZ, c’est le summum de l\'exotisme. Un profil terpénique explosif couplé à une qualité de filtration irréprochable. Un must-have absolu pour les chasseurs de terps fruités.',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 140.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 850.00}
+                    ]
+                },
                  {
                     id: '🌟 CALYPSO',
                     flag: '🇲🇦',
