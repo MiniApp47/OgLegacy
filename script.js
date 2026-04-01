@@ -538,7 +538,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     id: '🫒 PINK RUNTZ 🎀',
                     flag: '🇲🇦',
                     name: '🫒 PINK RUNTZ 🎀', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
-                    farm: '🏠 STATIC NO FARMZ',
+                    farm: '💎 ORGANIC VALLEY',
                     promoEligible: true,
                     type: 'STATIC',
                     image: 'ProductPR.png',
@@ -556,7 +556,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     id: '🫒 ZKITTLEZ 🧸',
                     flag: '🇲🇦',
                     name: '🫒 ZKITTLEZ 🧸',
-                    farm: '🏠 STATIC NO FARMZ',
+                    farm: '💎 ORGANIC VALLEY',
                     promoEligible: true,
                     type: 'STATIC',
                     image: 'ProductZ.png',
