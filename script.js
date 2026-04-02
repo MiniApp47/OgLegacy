@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 }, 
                
-                {
+             /*    {
                     id: '🖤 BLACK RUNTZ 🍬',
                     flag: '🇺🇸',
                     name: '🖤 BLACK RUNTZ 🍬',
@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 },              
-               
+                */
             ]
         },
         {
@@ -286,7 +286,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 500.00 },
                     ]
                 },
-                   {
+              /*      {
                     id: 'Peach Lassi 🍑',
                     flag: '🇲🇦',
                     name: 'Peach Lassi 🍑',
@@ -303,7 +303,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 400.00 },
                         { weight: '100G', price: 750.00 },
                     ]
-                }, 
+                }, */ 
                    {
                     id: 'Exotic Thai 🌴',
                     flag: '🇲🇦',
@@ -417,7 +417,42 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
-             
+                {
+                    id: '🍓 TWIX STRAWBERRY GUMMY 🍫',
+                    flag: '🇲🇦',
+                    name: '🍓 TWIX STRAWBERRY GUMMY 🍫',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductTSG.png', 
+                    video: 'VideoTSG.mov',
+                    description: '🍓 3x FILTERED 90u 🍫 \n Un profil ultra gourmand et régressif. Ce 3x filtré 90 microns TWIX STRAWBERRY GUMMY combine des notes sucrées de fraise candy, de chocolat doux et une touche biscuitée crémeuse, rappelant une confiserie fondante et addictive.\n Grâce au triple filtrage, la matière est extrêmement propre, avec une texture grasse, souple et fondante. La combustion est nette, la fumée douce et savoureuse, laissant une longueur en bouche sucrée et fruitée parfaitement maîtrisée.\n\n 🔥 Points forts :\n  • Arômes fraise gummy, chocolat et biscuit\n • Triple filtration pour une pureté maximale\n • Texture fondante et combustion clean\n • Sélection NO FARM  \n\n Un hash premium, intensément gourmand, pensé pour les amateurs de saveurs sucrées, candy et ultra clean. 🍬💎',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
+                    id: '🍭 RUNTZ 💎',
+                    flag: '🇲🇦',
+                    name: '🍭 RUNTZ 💎',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductRT.png', 
+                    video: 'VideoRT.mp4',
+                    description: '🍭 3x FILTERED 90u 💎 \n Une sélection triple filtrée en 90 microns, offrant une matière pure et une restitution aromatique précise, fidèle à l’identité de la strain.   \n\n 🍬 Profil aromatique \n La Runtz est une vraie signature candy : des notes sucrées, fruitées et bonbon, avec une touche légèrement crémeuse et exotique. En bouche, c’est gourmand, rond et ultra agréable, avec une longueur sucrée qui reste bien présente.   \n\n 🔥 Texture \n Fine, homogène et parfaitement travaillée, avec une propreté visible et une finition maîtrisée.   \n\n 😮‍💨 Rendu \n Une expérience douce et équilibrée, avec une sensation smooth et un profil accessible mais marqué, typique des variétés candy modernes.   \n\n 💎 Signature \n Un classique revisité en version filtrée premium, mettant en avant toute la richesse sucrée et addictive de la Runtz.',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
                 {
                     id: '🍓 ZKITTLEZ 💎',
                     flag: '🇲🇦',
@@ -436,24 +471,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-              /*   {
-                    id: '🍭 RUNTZ 💎',
-                    flag: '🇲🇦',
-                    name: '🍭 RUNTZ 💎',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductRT.png', 
-                    video: 'VideoRT.mov',
-                    description: '🍭 3x FILTERED 90u 💎 \n Une sélection triple filtrée en 90 microns, offrant une matière pure et une restitution aromatique précise, fidèle à l’identité de la strain.   \n\n 🍬 Profil aromatique \n La Runtz est une vraie signature candy : des notes sucrées, fruitées et bonbon, avec une touche légèrement crémeuse et exotique. En bouche, c’est gourmand, rond et ultra agréable, avec une longueur sucrée qui reste bien présente.   \n\n 🔥 Texture \n Fine, homogène et parfaitement travaillée, avec une propreté visible et une finition maîtrisée.   \n\n 😮‍💨 Rendu \n Une expérience douce et équilibrée, avec une sensation smooth et un profil accessible mais marqué, typique des variétés candy modernes.   \n\n 💎 Signature \n Un classique revisité en version filtrée premium, mettant en avant toute la richesse sucrée et addictive de la Runtz.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                }, */
                 {
                     id: '🌊 SUPER SOAKER 💎',
                     flag: '🇲🇦',
