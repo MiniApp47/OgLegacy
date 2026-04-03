@@ -77,66 +77,199 @@ document.addEventListener('DOMContentLoaded', function () {
     // --- DONNÉES DE L'APPLICATION (PISTACHIOBOT) ---
     const appData = [
         {
-            id: 'HASH',
-            name: 'HASH 🌰',
-            type: 'HASH',
-            quality: 'HASH 🌰',
-            image: 'CategHash.png', // Ton image de catégorie Weed
+            id: 'STATIC',
+            name: 'STATIC 🇲🇦',
+            type: 'DoubleStatic',
+            quality: 'STATIC 🇲🇦',
+            image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
-                /* {
-                    id: 'NICOLE KUSH ✨',
-                    flag: '🇺🇸',
-                    name: 'NICOLE KUSH ✨',
-                    farm: '🧪 Kilogrammes Farm',
+                {
+                    id: 'PINEAPPLE JUICE 🍍⚡️',
+                    flag: '🇲🇦',
+                    name: 'PINEAPPLE JUICE 🍍⚡️', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
+                    farm: '🏀 LAKERS FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductPJ.png',
+                    video: 'VideoPJ.mov',
+                    description: '⚡️ PLASMA STATIC ⚡️ \n\n Une vraie pépite ultra premium signée LAKERS FARM. Ce plasma static sur la strain Pineapple Juice envoie direct une explosion tropicale dès l’ouverture 🔥\n\n 👃 Aromatique :\n Un profil hyper fruité dominé par l’ananas bien sucré, avec une touche acidulée qui rappelle un jus frais pressé. Derrière, t’as une légère note crémeuse et une pointe gazeuse qui vient équilibrer le tout.\n\n 👅 Goût :\n En bouche, c’est un vrai cocktail exotique : ananas juteux, agrumes doux, avec un fond légèrement sucré et une finition propre typique du static. Ça fond parfaitement, texture ultra clean.\n\n 💨 Effets :\n High rapide et clair, euphorique au début avec une montée énergisante.\n\n ✨ Qualité :\n  Extraction plasma static ultra raffinée, full terpènes, texture brillante et homogène. Un produit travaillé avec précision, qui met en avant toute la richesse aromatique de la strain.\n\n ⚡️ Conclusion :\n Un static tropical de très haut niveau, parfait pour les amateurs de saveurs fruitées puissantes avec une vraie propreté à la combustion. LAKERS FARM frappe fort avec cette Pineapple Juice.',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 150.00},
+                        { weight: '25G', price: 320.00 },
+                    ]
+                }, 
+                {
+                    id: 'ACAPULCO 🌴🔥',
+                    flag: '🇲🇦',
+                    name: 'ACAPULCO 🌴🔥', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
+                    farm: '💎 ORGANIC VALLEY',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductAca.png',
+                    video: 'VideoAca.mov',
+                    description: '🔥 Description\n Un static qui sent le soleil et le pur old school… Acapulco revisité en version ultra propre par ORGANIC VALLEY FARMZ, avec une vraie identité terpène qui tape direct 💥\n\n 👃 Aromatique :\n Profil intense et naturel, mélange de notes terreuses, épicées et légèrement citronnées, avec un fond tropical sec. Ça rappelle les variétés classiques, mais avec une fraîcheur moderne grâce au static.\n\n 👅 Goût :\n En bouche, c’est riche et profond : attaque sur des saveurs boisées et herbacées, suivies d’un twist citronné/agrume qui vient éclaircir le tout. Finition longue, propre, avec une vraie signature old school.\n\n  💨 Effets :\n  High énergisant et cérébral, très clair dans la tête. Ça boost la motivation, la concentration et l’humeur. \n Parfait en journée ou avant training.\n\n ✨ Qualité :\n  Static bien travaillé, texture fine et résineuse, couleur propre. Extraction qui respecte parfaitement la génétique Acapulco, avec un max de terpènes conservés.\n\n ⚡️ Conclusion :\n Un static authentique et puissant, parfait pour les amateurs de strains classiques avec une vraie montée clean et efficace. ORGANIC VALLEY FARMZ livre un produit propre, old school dans l’âme mais premium dans la finition.',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 140.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 850.00}
+                    ]
+                },   
+                {
+                    id: '🫒 PINK RUNTZ 🎀',
+                    flag: '🇲🇦',
+                    name: '🫒 PINK RUNTZ 🎀', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
+                    farm: '💎 ORGANIC VALLEY',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductPR.png',
+                    video: 'VideoPR.mov',
+                    description: '🔥 Description\n Le static Pink Runtz issu de la sélection NO FARMZ, c’est l’exigence à l’état pur. Une extraction minutieuse qui offre une résine d’une pureté exceptionnelle. Un vrai travail d’orfèvre pour les puristes qui cherchent une matière ultra clean et un profil terpénique respecté à 100%.\n\n 👃 Arômes & Saveurs\n Une véritable explosion de bonbons acidulés et de fruits rouges sucrés 🍓🍬. Le profil Runtz est indéniable, avec une base crémeuse et une légère touche gazeuse en fond qui vient tapisser le palais. À la chauffe, ça libère une fumée douce, épaisse et extrêmement gourmande.\n\n 👀 Aspect\n Teinte dorée à sable clair, avec une texture fine et soyeuse caractéristique des meilleurs statics. Ça s’effrite tout seul entre les doigts tout en gardant ce côté collant parfait pour le roulage. Zéro impureté.\n\n 😮‍💨 Effet\n Un high joyeux et euphorique qui monte rapidement à la tête, suivi d’une détente corporelle profonde et chaleureuse. Puissant mais lucide, parfait pour chill entre potes ou se relaxer en fin de journée sans être totalement assommé.\n\n 💎 Conclusion\n Le Pink Runtz NO FARMZ, c’est le bonbon ultime version premium. Un static qui allie une gourmandise extrême à une frappe nette et sans bavure. Une valeur sûre pour les amateurs de sucré.',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 140.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 850.00}
+                    ]
+                },  
+                 {
+                    id: '🫒 ZKITTLEZ 🧸',
+                    flag: '🇲🇦',
+                    name: '🫒 ZKITTLEZ 🧸',
+                    farm: '💎 ORGANIC VALLEY',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductZ.png',
+                    video: 'VideoZ.mov',
+                    description: '🔥 Description\n Le static Zkittlez de la sélection NO FARMZ frappe très fort. On est sur une extraction de très haute volée, avec un tri des trichomes chirurgical. Un produit brut, haut de gamme, qui capture parfaitement l\'essence de l\'une des génétiques les plus réputées au monde.\n\n 👃 Arômes & Saveurs\n Un véritable arc-en-ciel de saveurs 🌈. Dès l\'ouverture, tu te prends des notes intenses de fruits tropicaux, d’agrumes doux et de baies sucrées. À la combustion, le fameux côté "Z" se révèle pleinement, offrant une fumée riche, intensément fruitée et qui reste très longtemps en bouche.\n\n 👀 Aspect\n Une poudre d’or compacte. Couleur blonde très claire, texture sablonneuse et malléable qui bulle instantanément au contact de la flamme. Le tri est parfait, c\'est de la tête de trichome pure.\n\n 😮‍💨 Effet\n L\'équilibre parfait. La montée est stimulante, booste l\'humeur et la créativité, avant de glisser doucement vers un apaisement physique lourd et réconfortant. Une défonce premium qui dure dans le temps.\n\n 💎 Conclusion\n Le Zkittlez en static NO FARMZ, c’est le summum de l\'exotisme. Un profil terpénique explosif couplé à une qualité de filtration irréprochable. Un must-have absolu pour les chasseurs de terps fruités.',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 140.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 850.00}
+                    ]
+                },
+                 {
+                    id: '🌟 CALYPSO',
+                    flag: '🇲🇦',
+                    name: '🌟 CALYPSO',
+                    farm: 'MOZART FARM 🎹',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductC.png', // ⚠️ A changer
+                    video: 'VideoC.mov',
+                    description: '🔥 Description\n Le static Calypso signé MOZART FARM, c’est clairement du très haut niveau — une extraction propre, raffinée, où chaque détail est maîtrisé. On est sur un produit ultra clean, avec une texture sablonneuse fine, presque soyeuse, qui témoigne d’un tri précis et d’une qualité de résine exceptionnelle.\n\n 👃 Arômes & Saveurs\n Calypso, ça part sur un profil exotique et lumineux : des notes fruitées tropicales bien fraîches, mélangées à une touche sucrée presque creamy, avec derrière un léger fond gazeux qui vient équilibrer le tout. À la chauffe, ça développe encore plus — c’est riche, doux, et surtout hyper savoureux, sans agressivité.\n\n 👀 Aspect\n Couleur claire à dorée, homogène, avec cette texture “static” bien sèche mais collante juste comme il faut. Ça s’effrite parfaitement, signe d’une extraction premium et bien travaillée.\n\n 😮‍💨 Effet\n Un high propre et progressif : ça démarre avec une montée cérébrale légère, euphorique, puis ça pose tranquillement le corps sans t’écraser. Idéal pour rester fonctionnel tout en profitant d’un vrai moment de détente qualitative.\n\n 💎 Conclusion\n Le Calypso en static de chez MOZART FARM, c’est un produit d’esthète — goût précis, effet maîtrisé, et finition premium. Clairement une pièce de collection pour ceux qui cherchent du clean et du goût au-dessus de la moyenne.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 130.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 800.00}
+                    ]
+                },  
+                 {
+                    id: '🌑 BLACK CHERRY',
+                    flag: '🇲🇦',
+                    name: '🌑 BLACK CHERRY',
+                    farm: 'MOZART FARM 🎹',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductBC.png', // ⚠️ A changer
+                    video: 'VideoBC.mov',
+                    description: '🔥 Description\n Le static Black Cherry de chez MOZART FARM, c’est une extraction ultra propre avec une vraie identité. On est sur un produit travaillé avec précision, texture fine et homogène, qui montre direct que le tri a été fait sérieusement. Un static premium, propre, sans impuretés, avec ce côté sablonneux haut de gamme. \n\n 👃 Arômes & Saveurs \n Là on part sur un profil gourmand et profond : grosse dominante cerise noire bien mûre 🍒, presque confiturée, accompagnée de notes sucrées et légèrement crémeuses. En fond, tu retrouves une touche terreuse/gazeuse qui vient donner du relief et éviter le côté trop sucré. À la chauffe, ça devient encore plus riche, avec une vraie longueur en bouche. \n\n 👀 Aspect \n Couleur beige clair à doré, texture sèche et aérienne, qui s’effrite parfaitement. Brillance légère, signe d’une extraction bien maîtrisée. C’est propre, fin, et très agréable à manipuler. \n\n 😮‍💨 Effet \n Effet chill mais qualitatif : une montée douce avec une sensation de bien-être mentale, suivie d’un relâchement physique progressif. Pas assommant, mais bien relaxant — parfait pour poser sans être KO. \n\n 💎 Conclusion \n Le Black Cherry en static de chez MOZART FARM, c’est le parfait mélange entre gourmandise et puissance maîtrisée. Une vraie signature aromatique avec ce côté fruit noir sucré, et une qualité d’extraction qui place le produit dans le haut du panier.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 130.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 800.00}
+                    ]
+                },  
+                 {
+                    id: '🌬️ B. GARLIC JAM',
+                    flag: '🇲🇦',
+                    name: '🌬️ B. GARLIC JAM',
+                    farm: 'DR FRENCH 🥖',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductBG.png', // ⚠️ A changer
+                    video: 'VideoBG.mp4',
+                    description: '🔥 Description \n\n  Le Static B. Garlic Jam, signé DR French, c’est une vraie pièce de caractère. On est sur un concentré ultra propre, travaillé avec précision pour garder toute la richesse terpénique de la strain. Dès l’ouverture, ça envoie direct : une attaque garlic bien pungente, mélangée à une douceur presque confiturée (“jam”), avec un fond légèrement épicé et crémeux.  \n\n Le résultat est unique : un équilibre entre le funky US bien sale et une rondeur sucrée qui rend le produit hyper addictif.  \n\n 🌿 Texture & Aspect  \n Static clair, presque sableux, avec une texture fine et soyeuse. Les grains sont propres, bien séparés, avec une couleur beige doré tirant parfois vers le blond clair — signe d’une extraction maîtrisée et d’une sélection premium.  \n\n👃 Profil aromatique \n • 🧄 Garlic / onion funky (dominant) \n • 🍯 Sucré “jam” / confiture légère \n • 🌶️ Épicé subtil \n • 🌿 Notes terreuses & creamy en fond  \n\n 💨 Effet  \n Une montée rapide qui frappe direct au cerveau avec un côté euphorique et focus, puis une descente plus lourde, relaxante, qui te pose sans t’éteindre complètement. Parfait pour ceux qui aiment les profils puissants avec du goût qui reste en bouche longtemps.  \n\n 💎 Conclusion  \n Le B. Garlic Jam en static, c’est un produit de connaisseur : un goût sale mais maîtrisé, une extraction clean, et une vraie identité. Typiquement le genre de pièce que tu retrouves pas partout.  \n\n OG Legacy approved 🔥',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 130.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 800.00}
+                    ]
+                }, 
+                 {
+                    id: 'ALL BLUE 🫐',
+                    flag: '🇲🇦',
+                    name: 'ALL BLUE 🫐',
+                    farm: 'DR FRENCH 🥖',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductAllB.png', // ⚠️ A changer
+                    video: 'VideoAllB.mp4',
+                    description: '🫐 STATIC SINGLE SOURCE \n\n 🔥 Description\n All Blue, c’est une strain ultra fruitée qui tourne autour de notes intenses de myrtille, baies sauvages et une légère touche sucrée presque candy. À l’ouverture, ça sent direct le fruit mûr avec une profondeur fraîche et légèrement crémeuse — un profil terpénique propre et addictif. \n\n 🌿 Qualité Static \n Single source signé DR FRENCH = qualité maîtrisée de A à Z. Le static est propre, clair, texture sableuse fine avec un reflet légèrement doré, signe d’une extraction propre et bien travaillée. Ça fond parfaitement et ça libère tous les arômes. \n\n 😶‍🌫️ Effet \n Effet équilibré avec une montée mentale douce et euphorique, suivie d’un relâchement corporel léger. Ça reste fonctionnel mais ultra chill — parfait pour kiffer sans être KO. \n\n 💎 Conclusion \n All Blue, c’est la combinaison parfaite entre fraîcheur fruitée, douceur et qualité premium. Un static propre qui parle aux amateurs de goûts nets et raffinés.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 130.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 800.00}
+                    ]
+                }, 
+                 {
+                    id: 'ALL CAKEZ 🍰',
+                    flag: '🇲🇦',
+                    name: 'ALL CAKEZ 🍰',
+                    farm: 'DR FRENCH 🥖',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductAll.png', // ⚠️ A changer
+                    video: 'VideoAll.mp4',
+                    description: '🍰 STATIC SINGLE SOURCE \n\n 🔥 Description \n All Cakez, c’est une vraie pâtisserie version haut de gamme. Une strain ultra gourmande qui mélange des notes sucrées, crémeuses et légèrement vanillées, avec une profondeur riche typique des meilleures génétiques “cake”. Dès l’ouverture, ça dégage un parfum lourd et raffiné, entre dessert fraîchement sorti du four et touche légèrement gassy qui rappelle son côté premium. \n\n 🌿 Qualité Static \n Extraction single source = pureté maximale. Tout vient de la même farm DR FRENCH, ce qui garantit une cohérence parfaite entre goût, effet et qualité. Le résultat : un static clean, blond clair, texture sableuse ultra fine, qui fond parfaitement. \n\n 😶‍🌫️ Effet \n Un high smooth mais puissant. Ça commence par une montée euphorique et relaxante, puis ça s’installe dans un chill profond sans t’éteindre. Parfait pour se poser, kiffer ou créer. \n\n 💎 Conclusion \n  Un produit élite pour les vrais connaisseurs. All Cakez en static single source, c’est le mélange parfait entre gourmandise, puissance et pureté.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 130.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00},
+                        { weight: '100G', price: 800.00}
+                    ]
+                }, 
+              
+               /*  {
+                    id: 'OLIVE',
+                    flag: '🇲🇦',
+                    name: '🍫 OLIVE HASBULLA 🍯🫒',
+                    farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
-                    image: 'ProductNicole.png', 
-                    video: 'VideoNicole.mov',
-                    description: '💛 JAUNE MOUSSEUX \n\n 🇫🇷 Premium France \n 🧪 Travaillé par Kilogrammes Farm  \n\n 🔥 Description  \n\n Oublie le “jaune mousseux” classique. \n Ici on est sur un jaune mousseux premium de très haute qualité, travaillé par Kilogrammes Farm sur la génétique Nicole Kush — un produit qui met tout le monde d’accord dès la première odeur.  \n\n Le goût est propre, rond et puissant : notes kushy bien grasses, touches légèrement sucrées, avec un fond crémeux qui reste longtemps en bouche. Zéro goût chimique, zéro sensation cheap — c’est du vrai jaune mousseux de connaisseur.  \n\n  La texture est bien mousseuse, grasse, fondante, facile à travailler, qui s’effrite parfaitement sans coller. \n À l’odeur, c’est lourd, kush, propre, ça annonce direct le niveau premium.  \n\n 😶‍🌫️ Effet / High  \n\n Grosse montée propre et progressive. \n  High puissant mais clean, mental détendu + corps lourd, parfait pour se poser fort sans être éclaté. \n Tu sens direct que c’est au-dessus du lot.  \n\n 🏆 Pourquoi c’est du haut niveau \n • 🌿 Travaillé par Kilogrammes Farm \n • 🧬 Génétique : Nicole Kush \n • 💛 Jaune mousseux premium (pas du jaune basique) \n • 😮‍💨 Goût lourd, kushy, crémeux \n • 💎 Texture mousseuse grasse \n • 🇫🇷 Clairement dans le top des jaunes premium en France  \n\n  📦 Pour les vrais amateurs de qualité \n Si tu veux du jaune mousseux qui a du goût + du high + du standing, celui-là coche toutes les cases.',
+                    image: 'ProductOlive.png', // ⚠️ A changer
+                    video: 'VideoOlive.mov',
+                    description: 'OLIVE DOUBLE STATIC TRES GROS GOUT PRONONCÉ ET HIGH QUI TE MET UNE VRAI FRAPPE POUR LES GROS PECS 🍯',
+
+                         // 👇 NOUVELLE STRUCTURE
+                         variantTitle: 'Choisis ton goût 🥣 :',
+                         jars: [
+                             { name: 'CEREAL MILK', emoji: '🍼🥵', colorClass: 'style-passion' },
+                             { name: 'PINA', emoji: '🍍🤯', colorClass: 'style-melon' },
+                             { name: 'GEORGIA PIE', emoji: '🍑🍯', colorClass: 'style-orange' }
+                         ],
+
                     tarifs: [
-                        { weight: '10g', price: 60.00 },
-                        { weight: '20g', price: 100.00 },
-                        { weight: '50g', price: 200.00 },
-                        { weight: '100g', price: 330.00 },
+                        { weight: '5G', price: 100.00 },
+                        { weight: '10G', price: 150.00 },
+                        { weight: '20G', price: 280.00 },
                     ]
-                },  */
-            ]
-        },
-        {
-            id: 'Jaune USA',
-            name: 'Jaune USA 🇺🇸',
-            type: 'Jaune USA',
-            quality: 'Jaune USA 🇺🇸',
-            image: 'CategJauneUsa.png', // Ton image de catégorie Weed
-
-            products: [
-              /*   {
-                    id: 'Jaune mousseux 🥵',
-                    flag: '🇲🇦',
-                    name: 'Jaune mousseux 🥵',
-                    farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductUsa1.png',
-                    // images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg','ProductUsa5.jpg','ProductUsa6.jpg','ProductUsa7.jpg'],
-                    videos: ['VideoUsa1.mov','VideoUsa2.mov','VideoUsa3.mov'],
-                      // 👇 NOUVELLE STRUCTURE
-                      variantTitle: 'Saveurs 🧁 :',
-                      jars: [
-                       { name: 'Ice Cream Cake', emoji: '🎂', colorClass: 'style-gold' },
-                       { name: 'Candy Land', emoji: '🍭', colorClass: 'style-cherry' },
-                       { name: 'Sunset Runtz', emoji: '🌄', colorClass: 'style-orange' }, 
-                      ],
-
-                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🎂 Ice Cream Cake : Sédation profonde, notes vanille/crème.\n 🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy.\n 🌄 Sunset Runtz : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
-                      tarifs: [
-                        { weight: '10G', price: 60.00 },
-                        { weight: '20G', price: 100.00 },
-                        { weight: '50G', price: 220.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                } */
+                }, */
             ]
         },
 
@@ -453,7 +586,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-                {
+              /*   {
                     id: '🍓 ZKITTLEZ 💎',
                     flag: '🇲🇦',
                     name: '🍓 ZKITTLEZ 💎',
@@ -470,7 +603,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                 {
                     id: '🌊 SUPER SOAKER 💎',
                     flag: '🇲🇦',
@@ -543,168 +676,68 @@ document.addEventListener('DOMContentLoaded', function () {
             ]
         },
         {
-            id: 'STATIC',
-            name: 'STATIC 🇲🇦',
-            type: 'DoubleStatic',
-            quality: 'STATIC 🇲🇦',
-            image: 'CategDouble.png', // Ton image de catégorie Weed
+            id: 'HASH',
+            name: 'HASH 🌰',
+            type: 'HASH',
+            quality: 'HASH 🌰',
+            image: 'CategHash.png', // Ton image de catégorie Weed
 
             products: [
-
-                {
-                    id: '🫒 PINK RUNTZ 🎀',
-                    flag: '🇲🇦',
-                    name: '🫒 PINK RUNTZ 🎀', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
-                    farm: '💎 ORGANIC VALLEY',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductPR.png',
-                    video: 'VideoPR.mov',
-                    description: '🔥 Description\n Le static Pink Runtz issu de la sélection NO FARMZ, c’est l’exigence à l’état pur. Une extraction minutieuse qui offre une résine d’une pureté exceptionnelle. Un vrai travail d’orfèvre pour les puristes qui cherchent une matière ultra clean et un profil terpénique respecté à 100%.\n\n 👃 Arômes & Saveurs\n Une véritable explosion de bonbons acidulés et de fruits rouges sucrés 🍓🍬. Le profil Runtz est indéniable, avec une base crémeuse et une légère touche gazeuse en fond qui vient tapisser le palais. À la chauffe, ça libère une fumée douce, épaisse et extrêmement gourmande.\n\n 👀 Aspect\n Teinte dorée à sable clair, avec une texture fine et soyeuse caractéristique des meilleurs statics. Ça s’effrite tout seul entre les doigts tout en gardant ce côté collant parfait pour le roulage. Zéro impureté.\n\n 😮‍💨 Effet\n Un high joyeux et euphorique qui monte rapidement à la tête, suivi d’une détente corporelle profonde et chaleureuse. Puissant mais lucide, parfait pour chill entre potes ou se relaxer en fin de journée sans être totalement assommé.\n\n 💎 Conclusion\n Le Pink Runtz NO FARMZ, c’est le bonbon ultime version premium. Un static qui allie une gourmandise extrême à une frappe nette et sans bavure. Une valeur sûre pour les amateurs de sucré.',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 140.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 850.00}
-                    ]
-                },  
-                 {
-                    id: '🫒 ZKITTLEZ 🧸',
-                    flag: '🇲🇦',
-                    name: '🫒 ZKITTLEZ 🧸',
-                    farm: '💎 ORGANIC VALLEY',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductZ.png',
-                    video: 'VideoZ.mov',
-                    description: '🔥 Description\n Le static Zkittlez de la sélection NO FARMZ frappe très fort. On est sur une extraction de très haute volée, avec un tri des trichomes chirurgical. Un produit brut, haut de gamme, qui capture parfaitement l\'essence de l\'une des génétiques les plus réputées au monde.\n\n 👃 Arômes & Saveurs\n Un véritable arc-en-ciel de saveurs 🌈. Dès l\'ouverture, tu te prends des notes intenses de fruits tropicaux, d’agrumes doux et de baies sucrées. À la combustion, le fameux côté "Z" se révèle pleinement, offrant une fumée riche, intensément fruitée et qui reste très longtemps en bouche.\n\n 👀 Aspect\n Une poudre d’or compacte. Couleur blonde très claire, texture sablonneuse et malléable qui bulle instantanément au contact de la flamme. Le tri est parfait, c\'est de la tête de trichome pure.\n\n 😮‍💨 Effet\n L\'équilibre parfait. La montée est stimulante, booste l\'humeur et la créativité, avant de glisser doucement vers un apaisement physique lourd et réconfortant. Une défonce premium qui dure dans le temps.\n\n 💎 Conclusion\n Le Zkittlez en static NO FARMZ, c’est le summum de l\'exotisme. Un profil terpénique explosif couplé à une qualité de filtration irréprochable. Un must-have absolu pour les chasseurs de terps fruités.',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 140.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 850.00}
-                    ]
-                },
-                 {
-                    id: '🌟 CALYPSO',
-                    flag: '🇲🇦',
-                    name: '🌟 CALYPSO',
-                    farm: 'MOZART FARM 🎹',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductC.png', // ⚠️ A changer
-                    video: 'VideoC.mov',
-                    description: '🔥 Description\n Le static Calypso signé MOZART FARM, c’est clairement du très haut niveau — une extraction propre, raffinée, où chaque détail est maîtrisé. On est sur un produit ultra clean, avec une texture sablonneuse fine, presque soyeuse, qui témoigne d’un tri précis et d’une qualité de résine exceptionnelle.\n\n 👃 Arômes & Saveurs\n Calypso, ça part sur un profil exotique et lumineux : des notes fruitées tropicales bien fraîches, mélangées à une touche sucrée presque creamy, avec derrière un léger fond gazeux qui vient équilibrer le tout. À la chauffe, ça développe encore plus — c’est riche, doux, et surtout hyper savoureux, sans agressivité.\n\n 👀 Aspect\n Couleur claire à dorée, homogène, avec cette texture “static” bien sèche mais collante juste comme il faut. Ça s’effrite parfaitement, signe d’une extraction premium et bien travaillée.\n\n 😮‍💨 Effet\n Un high propre et progressif : ça démarre avec une montée cérébrale légère, euphorique, puis ça pose tranquillement le corps sans t’écraser. Idéal pour rester fonctionnel tout en profitant d’un vrai moment de détente qualitative.\n\n 💎 Conclusion\n Le Calypso en static de chez MOZART FARM, c’est un produit d’esthète — goût précis, effet maîtrisé, et finition premium. Clairement une pièce de collection pour ceux qui cherchent du clean et du goût au-dessus de la moyenne.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 130.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 800.00}
-                    ]
-                },  
-                 {
-                    id: '🌑 BLACK CHERRY',
-                    flag: '🇲🇦',
-                    name: '🌑 BLACK CHERRY',
-                    farm: 'MOZART FARM 🎹',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductBC.png', // ⚠️ A changer
-                    video: 'VideoBC.mov',
-                    description: '🔥 Description\n Le static Black Cherry de chez MOZART FARM, c’est une extraction ultra propre avec une vraie identité. On est sur un produit travaillé avec précision, texture fine et homogène, qui montre direct que le tri a été fait sérieusement. Un static premium, propre, sans impuretés, avec ce côté sablonneux haut de gamme. \n\n 👃 Arômes & Saveurs \n Là on part sur un profil gourmand et profond : grosse dominante cerise noire bien mûre 🍒, presque confiturée, accompagnée de notes sucrées et légèrement crémeuses. En fond, tu retrouves une touche terreuse/gazeuse qui vient donner du relief et éviter le côté trop sucré. À la chauffe, ça devient encore plus riche, avec une vraie longueur en bouche. \n\n 👀 Aspect \n Couleur beige clair à doré, texture sèche et aérienne, qui s’effrite parfaitement. Brillance légère, signe d’une extraction bien maîtrisée. C’est propre, fin, et très agréable à manipuler. \n\n 😮‍💨 Effet \n Effet chill mais qualitatif : une montée douce avec une sensation de bien-être mentale, suivie d’un relâchement physique progressif. Pas assommant, mais bien relaxant — parfait pour poser sans être KO. \n\n 💎 Conclusion \n Le Black Cherry en static de chez MOZART FARM, c’est le parfait mélange entre gourmandise et puissance maîtrisée. Une vraie signature aromatique avec ce côté fruit noir sucré, et une qualité d’extraction qui place le produit dans le haut du panier.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 130.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 800.00}
-                    ]
-                },  
-                 {
-                    id: '🌬️ B. GARLIC JAM',
-                    flag: '🇲🇦',
-                    name: '🌬️ B. GARLIC JAM',
-                    farm: 'DR FRENCH 🥖',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductBG.png', // ⚠️ A changer
-                    video: 'VideoBG.mp4',
-                    description: '🔥 Description \n\n  Le Static B. Garlic Jam, signé DR French, c’est une vraie pièce de caractère. On est sur un concentré ultra propre, travaillé avec précision pour garder toute la richesse terpénique de la strain. Dès l’ouverture, ça envoie direct : une attaque garlic bien pungente, mélangée à une douceur presque confiturée (“jam”), avec un fond légèrement épicé et crémeux.  \n\n Le résultat est unique : un équilibre entre le funky US bien sale et une rondeur sucrée qui rend le produit hyper addictif.  \n\n 🌿 Texture & Aspect  \n Static clair, presque sableux, avec une texture fine et soyeuse. Les grains sont propres, bien séparés, avec une couleur beige doré tirant parfois vers le blond clair — signe d’une extraction maîtrisée et d’une sélection premium.  \n\n👃 Profil aromatique \n • 🧄 Garlic / onion funky (dominant) \n • 🍯 Sucré “jam” / confiture légère \n • 🌶️ Épicé subtil \n • 🌿 Notes terreuses & creamy en fond  \n\n 💨 Effet  \n Une montée rapide qui frappe direct au cerveau avec un côté euphorique et focus, puis une descente plus lourde, relaxante, qui te pose sans t’éteindre complètement. Parfait pour ceux qui aiment les profils puissants avec du goût qui reste en bouche longtemps.  \n\n 💎 Conclusion  \n Le B. Garlic Jam en static, c’est un produit de connaisseur : un goût sale mais maîtrisé, une extraction clean, et une vraie identité. Typiquement le genre de pièce que tu retrouves pas partout.  \n\n OG Legacy approved 🔥',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 130.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 800.00}
-                    ]
-                }, 
-                 {
-                    id: 'ALL BLUE 🫐',
-                    flag: '🇲🇦',
-                    name: 'ALL BLUE 🫐',
-                    farm: 'DR FRENCH 🥖',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductAllB.png', // ⚠️ A changer
-                    video: 'VideoAllB.mp4',
-                    description: '🫐 STATIC SINGLE SOURCE \n\n 🔥 Description\n All Blue, c’est une strain ultra fruitée qui tourne autour de notes intenses de myrtille, baies sauvages et une légère touche sucrée presque candy. À l’ouverture, ça sent direct le fruit mûr avec une profondeur fraîche et légèrement crémeuse — un profil terpénique propre et addictif. \n\n 🌿 Qualité Static \n Single source signé DR FRENCH = qualité maîtrisée de A à Z. Le static est propre, clair, texture sableuse fine avec un reflet légèrement doré, signe d’une extraction propre et bien travaillée. Ça fond parfaitement et ça libère tous les arômes. \n\n 😶‍🌫️ Effet \n Effet équilibré avec une montée mentale douce et euphorique, suivie d’un relâchement corporel léger. Ça reste fonctionnel mais ultra chill — parfait pour kiffer sans être KO. \n\n 💎 Conclusion \n All Blue, c’est la combinaison parfaite entre fraîcheur fruitée, douceur et qualité premium. Un static propre qui parle aux amateurs de goûts nets et raffinés.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 130.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 800.00}
-                    ]
-                }, 
-                 {
-                    id: 'ALL CAKEZ 🍰',
-                    flag: '🇲🇦',
-                    name: 'ALL CAKEZ 🍰',
-                    farm: 'DR FRENCH 🥖',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductAll.png', // ⚠️ A changer
-                    video: 'VideoAll.mp4',
-                    description: '🍰 STATIC SINGLE SOURCE \n\n 🔥 Description \n All Cakez, c’est une vraie pâtisserie version haut de gamme. Une strain ultra gourmande qui mélange des notes sucrées, crémeuses et légèrement vanillées, avec une profondeur riche typique des meilleures génétiques “cake”. Dès l’ouverture, ça dégage un parfum lourd et raffiné, entre dessert fraîchement sorti du four et touche légèrement gassy qui rappelle son côté premium. \n\n 🌿 Qualité Static \n Extraction single source = pureté maximale. Tout vient de la même farm DR FRENCH, ce qui garantit une cohérence parfaite entre goût, effet et qualité. Le résultat : un static clean, blond clair, texture sableuse ultra fine, qui fond parfaitement. \n\n 😶‍🌫️ Effet \n Un high smooth mais puissant. Ça commence par une montée euphorique et relaxante, puis ça s’installe dans un chill profond sans t’éteindre. Parfait pour se poser, kiffer ou créer. \n\n 💎 Conclusion \n  Un produit élite pour les vrais connaisseurs. All Cakez en static single source, c’est le mélange parfait entre gourmandise, puissance et pureté.',
-                    tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 130.00},
-                        { weight: '25G', price: 300.00 },
-                        { weight: '50G', price: 450.00},
-                        { weight: '100G', price: 800.00}
-                    ]
-                }, 
-              
-               /*  {
-                    id: 'OLIVE',
-                    flag: '🇲🇦',
-                    name: '🍫 OLIVE HASBULLA 🍯🫒',
-                    farm: '🌾 No Farm 🌾',
+                /* {
+                    id: 'NICOLE KUSH ✨',
+                    flag: '🇺🇸',
+                    name: 'NICOLE KUSH ✨',
+                    farm: '🧪 Kilogrammes Farm',
                     promoEligible: true,
                     type: 'Weed',
-                    image: 'ProductOlive.png', // ⚠️ A changer
-                    video: 'VideoOlive.mov',
-                    description: 'OLIVE DOUBLE STATIC TRES GROS GOUT PRONONCÉ ET HIGH QUI TE MET UNE VRAI FRAPPE POUR LES GROS PECS 🍯',
-
-                         // 👇 NOUVELLE STRUCTURE
-                         variantTitle: 'Choisis ton goût 🥣 :',
-                         jars: [
-                             { name: 'CEREAL MILK', emoji: '🍼🥵', colorClass: 'style-passion' },
-                             { name: 'PINA', emoji: '🍍🤯', colorClass: 'style-melon' },
-                             { name: 'GEORGIA PIE', emoji: '🍑🍯', colorClass: 'style-orange' }
-                         ],
-
+                    image: 'ProductNicole.png', 
+                    video: 'VideoNicole.mov',
+                    description: '💛 JAUNE MOUSSEUX \n\n 🇫🇷 Premium France \n 🧪 Travaillé par Kilogrammes Farm  \n\n 🔥 Description  \n\n Oublie le “jaune mousseux” classique. \n Ici on est sur un jaune mousseux premium de très haute qualité, travaillé par Kilogrammes Farm sur la génétique Nicole Kush — un produit qui met tout le monde d’accord dès la première odeur.  \n\n Le goût est propre, rond et puissant : notes kushy bien grasses, touches légèrement sucrées, avec un fond crémeux qui reste longtemps en bouche. Zéro goût chimique, zéro sensation cheap — c’est du vrai jaune mousseux de connaisseur.  \n\n  La texture est bien mousseuse, grasse, fondante, facile à travailler, qui s’effrite parfaitement sans coller. \n À l’odeur, c’est lourd, kush, propre, ça annonce direct le niveau premium.  \n\n 😶‍🌫️ Effet / High  \n\n Grosse montée propre et progressive. \n  High puissant mais clean, mental détendu + corps lourd, parfait pour se poser fort sans être éclaté. \n Tu sens direct que c’est au-dessus du lot.  \n\n 🏆 Pourquoi c’est du haut niveau \n • 🌿 Travaillé par Kilogrammes Farm \n • 🧬 Génétique : Nicole Kush \n • 💛 Jaune mousseux premium (pas du jaune basique) \n • 😮‍💨 Goût lourd, kushy, crémeux \n • 💎 Texture mousseuse grasse \n • 🇫🇷 Clairement dans le top des jaunes premium en France  \n\n  📦 Pour les vrais amateurs de qualité \n Si tu veux du jaune mousseux qui a du goût + du high + du standing, celui-là coche toutes les cases.',
                     tarifs: [
-                        { weight: '5G', price: 100.00 },
-                        { weight: '10G', price: 150.00 },
-                        { weight: '20G', price: 280.00 },
+                        { weight: '10g', price: 60.00 },
+                        { weight: '20g', price: 100.00 },
+                        { weight: '50g', price: 200.00 },
+                        { weight: '100g', price: 330.00 },
                     ]
-                }, */
+                },  */
             ]
-        }
+        },
+        {
+            id: 'Jaune USA',
+            name: 'Jaune USA 🇺🇸',
+            type: 'Jaune USA',
+            quality: 'Jaune USA 🇺🇸',
+            image: 'CategJauneUsa.png', // Ton image de catégorie Weed
+
+            products: [
+              /*   {
+                    id: 'Jaune mousseux 🥵',
+                    flag: '🇲🇦',
+                    name: 'Jaune mousseux 🥵',
+                    farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductUsa1.png',
+                    // images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg','ProductUsa5.jpg','ProductUsa6.jpg','ProductUsa7.jpg'],
+                    videos: ['VideoUsa1.mov','VideoUsa2.mov','VideoUsa3.mov'],
+                      // 👇 NOUVELLE STRUCTURE
+                      variantTitle: 'Saveurs 🧁 :',
+                      jars: [
+                       { name: 'Ice Cream Cake', emoji: '🎂', colorClass: 'style-gold' },
+                       { name: 'Candy Land', emoji: '🍭', colorClass: 'style-cherry' },
+                       { name: 'Sunset Runtz', emoji: '🌄', colorClass: 'style-orange' }, 
+                      ],
+
+                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🎂 Ice Cream Cake : Sédation profonde, notes vanille/crème.\n 🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy.\n 🌄 Sunset Runtz : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
+                      tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                } */
+            ]
+        },
 
    /*      // ============================================================
         // CATEGORIE 2 : HASH 🍫
