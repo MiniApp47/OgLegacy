@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 800.00}
                     ]
                 }, 
-                 {
+                 /* {
                     id: 'ALL BLUE 🫐',
                     flag: '🇲🇦',
                     name: 'ALL BLUE 🫐',
@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 450.00},
                         { weight: '100G', price: 800.00}
                     ]
-                }, 
+                },  */
                  {
                     id: 'ALL CAKEZ 🍰',
                     flag: '🇲🇦',
