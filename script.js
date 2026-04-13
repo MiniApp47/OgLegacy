@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
-                {
+               /*  {
                     id: 'PINEAPPLE JUICE 🍍⚡️',
                     flag: '🇲🇦',
                     name: 'PINEAPPLE JUICE 🍍⚡️', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                }, 
+                } */
                 {
                     id: 'ACAPULCO 🌴🔥',
                     flag: '🇲🇦',
@@ -586,7 +586,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-              /*   {
+                {
                     id: '🍓 ZKITTLEZ 💎',
                     flag: '🇲🇦',
                     name: '🍓 ZKITTLEZ 💎',
@@ -603,8 +603,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                }, */
-                {
+                },
+              /*   {
                     id: '🌊 SUPER SOAKER 💎',
                     flag: '🇲🇦',
                     name: '🌊 SUPER SOAKER 💎',
@@ -621,9 +621,9 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                
-                {
+             /*    {
                     id: '🍯 FRITTER LICKER 🔥',
                     flag: '🇲🇦',
                     name: '🍯 FRITTER LICKER 🔥',
@@ -641,7 +641,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-          
+           */
                
                /* ,
                 {
