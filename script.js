@@ -437,7 +437,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 750.00 },
                     ]
                 }, */ 
-                   {
+               /*     {
                     id: 'Exotic Thai 🌴',
                     flag: '🇲🇦',
                     name: 'Exotic Thai 🌴',
@@ -454,7 +454,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 400.00 },
                         { weight: '100G', price: 750.00 },
                     ]
-                }, 
+                },  */
             /*        {
                     id: '🍋🦞 LEMON LOBSTER',
                     flag: '🇲🇦',
@@ -676,6 +676,42 @@ document.addEventListener('DOMContentLoaded', function () {
             ]
         },
         {
+            id: 'Jaune USA',
+            name: 'Jaune USA 🇺🇸',
+            type: 'Jaune USA',
+            quality: 'Jaune USA 🇺🇸',
+            image: 'CategJauneUsa.png', // Ton image de catégorie Weed
+
+            products: [
+                {
+                    id: 'Jaune mousseux 🥵',
+                    flag: '🇲🇦',
+                    name: 'Jaune mousseux 🥵',
+                    farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductUsa1.jpg',
+                    // images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg','ProductUsa5.jpg','ProductUsa6.jpg','ProductUsa7.jpg'],
+                    images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg'],
+                      // 👇 NOUVELLE STRUCTURE
+                      variantTitle: 'Saveurs 🧁 :',
+                      jars: [
+/*                        { name: 'Ice Cream Cake', emoji: '🎂', colorClass: 'style-gold' },
+ */                       { name: 'Candy Crush', emoji: '🍭', colorClass: 'style-cherry' },
+                       { name: 'Sunset Runtz', emoji: '🌄', colorClass: 'style-orange' }, 
+                      ],
+
+                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🎂 Ice Cream Cake : Sédation profonde, notes vanille/crème.\n 🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy.\n 🌄 Sunset Runtz : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
+                      tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                }
+            ]
+        },
+        {
             id: 'HASH',
             name: 'HASH 🌰',
             type: 'HASH',
@@ -702,42 +738,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 },  */
             ]
         },
-        {
-            id: 'Jaune USA',
-            name: 'Jaune USA 🇺🇸',
-            type: 'Jaune USA',
-            quality: 'Jaune USA 🇺🇸',
-            image: 'CategJauneUsa.png', // Ton image de catégorie Weed
-
-            products: [
-              /*   {
-                    id: 'Jaune mousseux 🥵',
-                    flag: '🇲🇦',
-                    name: 'Jaune mousseux 🥵',
-                    farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductUsa1.png',
-                    // images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg','ProductUsa5.jpg','ProductUsa6.jpg','ProductUsa7.jpg'],
-                    videos: ['VideoUsa1.mov','VideoUsa2.mov','VideoUsa3.mov'],
-                      // 👇 NOUVELLE STRUCTURE
-                      variantTitle: 'Saveurs 🧁 :',
-                      jars: [
-                       { name: 'Ice Cream Cake', emoji: '🎂', colorClass: 'style-gold' },
-                       { name: 'Candy Land', emoji: '🍭', colorClass: 'style-cherry' },
-                       { name: 'Sunset Runtz', emoji: '🌄', colorClass: 'style-orange' }, 
-                      ],
-
-                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🎂 Ice Cream Cake : Sédation profonde, notes vanille/crème.\n 🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy.\n 🌄 Sunset Runtz : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
-                      tarifs: [
-                        { weight: '10G', price: 60.00 },
-                        { weight: '20G', price: 100.00 },
-                        { weight: '50G', price: 220.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                } */
-            ]
-        },
+      
 
    /*      // ============================================================
         // CATEGORIE 2 : HASH 🍫
