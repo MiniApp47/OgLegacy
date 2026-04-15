@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 850.00}
                     ]
                 },   
-                {
+               /*  {
                     id: '🫒 PINK RUNTZ 🎀',
                     flag: '🇲🇦',
                     name: '🫒 PINK RUNTZ 🎀', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 450.00},
                         { weight: '100G', price: 850.00}
                     ]
-                },  
+                }, */  
                  {
                     id: '🫒 ZKITTLEZ 🧸',
                     flag: '🇲🇦',
@@ -698,7 +698,7 @@ document.addEventListener('DOMContentLoaded', function () {
                       jars: [
 /*                        { name: 'Ice Cream Cake', emoji: '🎂', colorClass: 'style-gold' },
  */                       { name: 'Candy Crush', emoji: '🍭', colorClass: 'style-cherry' },
-                       { name: 'Sunset Runtz', emoji: '🌄', colorClass: 'style-orange' }, 
+                       { name: 'Gelato', emoji: '🎂', colorClass: 'style-orange' }, 
                       ],
 
                       description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🎂 Ice Cream Cake : Sédation profonde, notes vanille/crème.\n 🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy.\n 🌄 Sunset Runtz : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
