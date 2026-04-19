@@ -404,6 +404,86 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: '☣️ TOXIC CHERRY',
+                    flag: '🇲🇦',
+                    name: '☣️ TOXIC CHERRY',
+                    farm: 'HASBULLA FARM 🇲🇦',
+                    promoEligible: true,
+                    type: 'Frozen',
+                    image: 'ProductTox.png', 
+                    video: 'VideoTow.mov',
+                    description: 'Une variété au caractère explosif qui mélange parfaitement gourmandise et agressivité aromatique. La Toxic Cherry propose un profil intense dominé par une cerise noire bien mûre, presque sirupeuse, accompagnée de notes légèrement acidulées et d’un fond “toxic” aux accents chimiques, gazeux et légèrement amers.\n\n Visuellement, on est sur un frozen ultra propre, avec une texture sablée et grasse, brillante, signe d’une extraction fraîche blindée en terpènes. Les teintes varient entre beige doré et reflets légèrement rosés, typiques des profils fruités bien travaillés.\n\n À la dégustation, c’est une vraie claque : une attaque sucrée et fruitée sur la cerise, rapidement rattrapée par une puissance plus brute, presque métallique/gaz, qui donne toute sa signature à la strain. L’équilibre entre le côté candy et le côté “toxique” rend le produit unique.\n\n Les effets sont puissants et rapides : une montée cérébrale marquée, suivie d’un relâchement profond. Idéal pour les amateurs de produits avec du caractère et une vraie intensité.\n 🔥 Un frozen sombre et addictif, entre cerise sucrée et puissance chimique. Réservé aux connaisseurs.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                    ]
+                },
+                {
+                    id: '🧊 SAVAGE LYCHEE',
+                    flag: '🇲🇦',
+                    name: '🧊 SAVAGE LYCHEE',
+                    farm: 'HASBULLA FARM 🇲🇦',
+                    promoEligible: true,
+                    type: 'Frozen',
+                    image: 'ProductSav.png', 
+                    video: 'VideoSav.mov',
+                    description: 'Une variété rare au profil exotique ultra raffiné. La Savage Lychee se distingue par une signature aromatique unique, dominée par le litchi sucré et floral, accompagné de nuances tropicales légères et d’une touche légèrement acidulée qui vient réveiller l’ensemble.\n\n Visuellement, on est sur un frozen très propre, à la texture sablée et légèrement huileuse, avec des reflets clairs tirant vers le beige doré. Une finition brillante qui témoigne d’une extraction fraîche et d’un produit riche en terpènes.\n\n En bouche, l’expérience est élégante et intense : une attaque douce, sucrée et florale typique du litchi, suivie d’une profondeur plus crémeuse avec une pointe fraîche presque juteuse. Le goût reste longtemps en bouche, avec une signature aromatique vraiment différente des profils classiques.\n\n Les effets sont équilibrés et progressifs : une montée légère et euphorique, accompagnée d’un relâchement du corps sans lourdeur. Parfait pour une dégustation chill avec un produit qui sort du lot.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                    ]
+                },
+                {
+                    id: '🍍 DIRTY PINEAPPLE',
+                    flag: '🇲🇦',
+                    name: '🍍 DIRTY PINEAPPLE',
+                    farm: 'HASBULLA FARM 🇲🇦',
+                    promoEligible: true,
+                    type: 'Frozen',
+                    image: 'ProductDir.png', 
+                    video: 'VideoDir.mov',
+                    description: 'Une variété au caractère bien marqué qui mélange parfaitement fruité exotique et puissance brute. La Dirty Pineapple propose un profil aromatique intense, dominé par un ananas bien mûr et juteux, accompagné de notes légèrement acidulées et d’un fond plus “dirty” aux accents gazeux et terreux.\n\n Visuellement, on est sur un frozen propre et lumineux, avec une texture sablée légèrement grasse, témoignant d’une extraction fraîche riche en terpènes. Les couleurs tirent vers un beige doré avec des reflets brillants, signe d’une qualité premium.\n\n À la dégustation, l’attaque est vive et fruitée avec une explosion d’ananas sucré, rapidement suivie par un côté plus profond et complexe, presque diesel, qui vient donner toute son identité à la strain. L’équilibre entre le sucré tropical et le côté “sale” fait toute la différence.\n\n Les effets sont puissants et rapides : une montée cérébrale stimulante suivie d’un relâchement progressif du corps. Idéal pour ceux qui cherchent un produit à la fois savoureux et efficace.\n 🔥 Un frozen exotique avec une vraie personnalité, entre fraîcheur tropicale et puissance underground.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                    ]
+                },
+                {
+                    id: '🍓 SINFUL STRAWBERRY',
+                    flag: '🇲🇦',
+                    name: '🍓 SINFUL STRAWBERRY',
+                    farm: 'HASBULLA FARM 🇲🇦',
+                    promoEligible: true,
+                    type: 'Frozen',
+                    image: 'ProductSin.png', 
+                    video: 'VideoSin.mov',
+                    description: 'Une sélection frozen ultra gourmande qui met la fraise au centre de tout. La Sinful Strawberry dévoile un profil aromatique riche et séduisant, avec une fraise sucrée bien mûre, presque confiturée, accompagnée de notes candy et d’une légère touche crémeuse en arrière-plan.\n\n Visuellement, on est sur un produit propre et brillant, avec une texture sablée et légèrement grasse, signe d’une extraction fraîche parfaitement maîtrisée. Les teintes vont du beige clair au doré avec des reflets subtils, preuve d’un frozen chargé en terpènes.\n\n À la dégustation, c’est une explosion fruitée : une attaque douce et sucrée qui rappelle la fraise fraîche, suivie d’une profondeur plus ronde et légèrement lactée. Le goût reste intense en bouche avec une belle longueur, typique des produits premium bien travaillés.\n\n Les effets sont équilibrés : une montée relaxante accompagnée d’une sensation de bien-être et de légèreté mentale, parfaite pour chiller sans être trop lourd.\n 🔥 Un frozen sucré et addictif, pensé pour les amateurs de profils fruités et gourmands avec une vraie signature.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                    ]
+                },
+                {
+                    id: '🥭 FORBIDDEN MANGO',
+                    flag: '🇲🇦',
+                    name: '🥭 FORBIDDEN MANGO',
+                    farm: 'HASBULLA FARM 🇲🇦',
+                    promoEligible: true,
+                    type: 'Frozen',
+                    image: 'ProductForbi.png', 
+                    video: 'VideoForbi.mov',
+                    description: 'Une pépite glacée qui respire l’exotisme pur. La Forbidden Mango en version frozen dévoile un profil aromatique explosif, dominé par une mangue bien mûre, sucrée et juteuse, accompagnée de notes tropicales intenses et d’une légère touche crémeuse en fond.\n\n Visuellement, on est sur une texture propre, brillante, avec cette finition légèrement collante et sablée typique d’un frozen bien travaillé. La couleur oscille entre un doré clair et des reflets légèrement orangés, signe d’une extraction fraîche et riche en terpènes.\n\n Au niveau du goût, c’est une vraie claque : une entrée sucrée et fruitée, suivie d’un côté plus profond, presque résineux, qui vient équilibrer l’ensemble. La mangue reste dominante du début à la fin, avec une longueur en bouche incroyable.\n\n Les effets sont puissants mais maîtrisés : une montée euphorique et relaxante, idéale pour se poser tout en gardant un esprit léger. Parfait pour les amateurs de profils fruités haut de gamme avec une vraie identité.\n 🔥 Un frozen premium, ultra terpénique, qui met la mangue à l’honneur dans sa version la plus pure.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                    ]
+                },
+                {
                     id: 'Chocolato 🍪',
                     flag: '🇲🇦',
                     name: 'Chocolato 🍪',
