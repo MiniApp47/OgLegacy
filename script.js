@@ -285,6 +285,60 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: '🌿 BX1 x LCG',
+                    flag: '🇺🇸',
+                    name: '🌿 BX1 x LCG',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductBXL.png', 
+                    video: 'VideoBXL.mov',
+                    description: '— Croisement d’exception\n Une génétique ultra travaillée qui mélange la stabilité du BX1 🔁 avec la puissance aromatique de la Lemon Cherry Gelato 🍋🍒. Résultat : une weed premium, propre, dense, faite pour les vrais connaisseurs.\n\n 👃 Arômes & saveurs :\n À l’ouverture, ça frappe direct — citrons frais 🍋, cerise sucrée 🍒, avec une touche crémeuse 🍦 et un fond gazeux/kush ⛽ bien présent. En bouche, c’est smooth, riche, avec une finale légèrement candy 🍬 qui reste longtemps.\n\n 👁️ Aspect :\n Buds bien compacts et résineux 💎, avec des teintes violettes foncées 💜, vert profond 🌲 et une couche de trichomes brillants ✨. Ultra collant — qualité visible direct.\n\n 💨 Effets :\n Montée rapide ⚡ avec un effet euphorique et créatif 🧠🔥, puis une descente progressive vers un côté chill et relax 😌 sans te clouer direct. Parfait équilibre entre mental et physique.\n\n ⚖️ Profil :\n Hybride équilibré ⚖️ (léger indica)\n Puissance élevée 💪 — réservé aux habitués\n\n 🏆 Verdict :\n Un croisement qui coche toutes les cases : goût, puissance, visuel 🔥. La signature LCG est bien là, boostée par un BX1 solide. Une vraie frappe premium 🚀',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                }, 
+                {
+                    id: '🍬 White Sugar Runtz',
+                    flag: '🇺🇸',
+                    name: '🍬 White Sugar Runtz',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductWSR.png', 
+                    video: 'VideoWSR.mov',
+                    description: '— La douceur qui frappe fort\n Une version ultra gourmande de la famille Runtz, avec un profil sucré poussé à l’extrême 🍭 et une puissance bien maîtrisée. Une strain qui allie plaisir gustatif et effet solide.\n\n 👃 Arômes & saveurs :\n Dès l’ouverture, c’est une vague de sucre blanc 🍬, bonbons fruités 🍓🍇 et une touche crémeuse/vanillée 🍦. En bouche, c’est doux, rond, presque dessert, avec un léger fond gazeux ⛽ qui équilibre parfaitement.\n\n 👁️ Aspect :\n Têtes bien givrées ❄️, couvertes de trichomes blancs ✨ (d’où le “White Sugar”), avec des nuances vert clair 🌿 et parfois des reflets violets 💜. Dense, collant, visuellement très propre.\n\n 💨 Effets :\n High rapide ⚡ avec une montée euphorique 😄, suivie d’un effet relaxant 😌 qui détend sans éteindre. Parfait pour chiller tout en restant actif.\n\n ⚖️ Profil :\n Hybride équilibré ⚖️\n Puissance moyenne à élevée 💪\n\n 🏆 Verdict :\n Une Runtz version ultra sucrée et raffinée 🍬🔥, idéale pour ceux qui cherchent un goût dessert sans négliger les effets. Un vrai bonbon premium.',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                }, 
+                {
+                    id: '🔁 BX1',
+                    flag: '🇺🇸',
+                    name: '🔁 BX1',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductBX.png', 
+                    video: 'VideoBX.mov',
+                    description: '— La base solide, version backcross\n\n BX1 (Backcross 1) c’est pas juste une strain, c’est une génétique retravaillée 🔬 pour revenir au meilleur phéno d’origine et le renforcer. Résultat : une weed stable, puissante et ultra propre.\n\n 👃 Arômes & saveurs :\n Profil bien marqué avec un mélange de terre kush 🌲, notes gazeuses ⛽, et une légère touche épicée/boisée 🌿. Selon le cut, tu peux aussi sentir un fond crémeux ou sucré 🍦 qui arrondit le tout. Goût profond, authentique, pas de chichi.\n\n 👁️ Aspect :\n Buds denses et compacts 💎, souvent bien verts avec parfois des reflets plus foncés 🌑. Couche de résine brillante ✨, texture collante — ça annonce direct la qualité.\n\n 💨 Effets :\n High solide 💥, plutôt physique et relaxant 😌, avec une montée qui peut être un peu lourde derrière les yeux 👀. Ça détend bien le corps tout en gardant un minimum de clarté mentale.\n\n ⚖️ Profil :\n Dominance indica 🌙\n Puissance élevée 💪\n\n 🏆 Verdict :\n Une génétique fiable et travaillée 🔁🔥, parfaite pour ceux qui cherchent un effet authentique, puissant et une vraie base kush. BX1, c’est le sérieux, sans compromis',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                }, 
+                {
                     id: '🍍🍬 TROPICAL CANDY 🌴',
                     flag: '🇺🇸',
                     name: '🍍🍬 TROPICAL CANDY 🌴',
@@ -302,7 +356,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 }, 
-                {
+               /*  {
                     id: '🍋 LCG 🍒🍦',
                     flag: '🇺🇸',
                     name: '🍋 LCG 🍒🍦',
@@ -319,7 +373,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                         { weight: '100g', price: 750.00 },
                     ]
-                }, 
+                },  */
                 {
                     id: '🍬 CANDY GELATO 🍦',
                     flag: '🇺🇸',
@@ -356,7 +410,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 }, 
-                {
+              /*   {
                     id: '🌸 PINK RUNTZ 💎',
                     flag: '🇺🇸',
                     name: '🌸 PINK RUNTZ 💎',
@@ -373,7 +427,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                         { weight: '100g', price: 700.00 },
                     ]
-                }, 
+                },  */
                
              /*    {
                     id: '🖤 BLACK RUNTZ 🍬',
