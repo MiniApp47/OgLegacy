@@ -826,16 +826,16 @@ document.addEventListener('DOMContentLoaded', function () {
                     type: '3xFiltre',
                     image: 'ProductUsa1.jpg',
                     // images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg','ProductUsa5.jpg','ProductUsa6.jpg','ProductUsa7.jpg'],
-                    images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg'],
+                    images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg','ProductUsaP.jpg'],
                       // 👇 NOUVELLE STRUCTURE
                       variantTitle: 'Saveurs 🧁 :',
                       jars: [
-/*                        { name: 'Ice Cream Cake', emoji: '🎂', colorClass: 'style-gold' },
- */                       { name: 'Candy Crush', emoji: '🍭', colorClass: 'style-cherry' },
+                       { name: 'PermanentMarker', emoji: '🖍️', colorClass: 'style-cherry' },
+                       { name: 'Candy Crush', emoji: '🍭', colorClass: 'style-purple' },
                        { name: 'Gelato', emoji: '🎂', colorClass: 'style-orange' }, 
                       ],
 
-                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🎂 Ice Cream Cake : Sédation profonde, notes vanille/crème.\n 🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy.\n 🌄 Sunset Runtz : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
+                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🖍️ PermanentMarker : Sédation profonde, notes d\'aromes brut.\n 🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy.\n 🎂 Gelato : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
                       tarifs: [
                         { weight: '10G', price: 60.00 },
                         { weight: '20G', price: 100.00 },
