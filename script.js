@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 850.00}
                     ]
                 }, */  
-                 {
+                 /* {
                     id: '🫒 ZKITTLEZ 🧸',
                     flag: '🇲🇦',
                     name: '🫒 ZKITTLEZ 🧸',
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 450.00},
                         { weight: '100G', price: 850.00}
                     ]
-                },
+                }, */
                  {
                     id: '🌟 CALYPSO',
                     flag: '🇲🇦',
@@ -457,7 +457,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
-                {
+                /* {
                     id: '☣️ TOXIC CHERRY',
                     flag: '🇲🇦',
                     name: '☣️ TOXIC CHERRY',
@@ -472,8 +472,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 120.00 },
                         { weight: '25G', price: 250.00 },
                     ]
-                },
-                {
+                }, */
+               /*  {
                     id: '🧊 SAVAGE LYCHEE',
                     flag: '🇲🇦',
                     name: '🧊 SAVAGE LYCHEE',
@@ -488,7 +488,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 120.00 },
                         { weight: '25G', price: 250.00 },
                     ]
-                },
+                }, */
                 /* {
                     id: '🍍 DIRTY PINEAPPLE',
                     flag: '🇲🇦',
@@ -521,7 +521,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 250.00 },
                     ]
                 },
-                {
+                /* {
                     id: '🥭 FORBIDDEN MANGO',
                     flag: '🇲🇦',
                     name: '🥭 FORBIDDEN MANGO',
@@ -552,7 +552,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 250.00 },
                         { weight: '25G', price: 500.00 },
                     ]
-                },
+                }, */
               /*      {
                     id: 'Peach Lassi 🍑',
                     flag: '🇲🇦',
@@ -684,6 +684,24 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
+                 {
+                    id: '🍯 FRITTER LICKER 🔥',
+                    flag: '🇲🇦',
+                    name: '🍯 FRITTER LICKER 🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductLicker.png', 
+                    video: 'VideoLicker.mov',
+                    description: '💎 Description\n\n Fritter Licker, c’est du très lourd pour les connaisseurs. Un produit 3x filtré ultra propre, travaillé avec précision pour garder uniquement la crème du hash. Dès l’ouverture, ça dégage une odeur intense mêlant notes sucrées de pâtisserie, touche crémeuse et fond légèrement gaz qui rappelle les meilleures génétiques modernes.  \n\n 🌿 Texture & Aspect\n\n Une texture grasse, souple et brillante, signe d’un filtrage maîtrisé. La matière est homogène, facile à travailler, avec une couleur claire et dorée qui annonce direct la qualité. À chaud, ça bulle et fond parfaitement, preuve d’un produit bien sélectionné.\n\n 😶‍🌫️ Effet\n\n Un high profond et enveloppant, qui commence par une montée mentale relaxante avant de poser un effet lourd et agréable dans le corps. Parfait pour se détendre, se poser entre amis ou savourer un moment chill avec une vraie frappe.\n\n 🔥 Signature\n  Un 3x filtré premium, riche en goût et en puissance — le genre de produit qui se reconnaît dès la première taffe.',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
                 {
                     id: '🍓 TWIX STRAWBERRY GUMMY 🍫',
                     flag: '🇲🇦',
@@ -756,26 +774,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 }, */
-               
-             /*    {
-                    id: '🍯 FRITTER LICKER 🔥',
-                    flag: '🇲🇦',
-                    name: '🍯 FRITTER LICKER 🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductLicker.png', 
-                    video: 'VideoLicker.mov',
-                    description: '💎 Description\n\n Fritter Licker, c’est du très lourd pour les connaisseurs. Un produit 3x filtré ultra propre, travaillé avec précision pour garder uniquement la crème du hash. Dès l’ouverture, ça dégage une odeur intense mêlant notes sucrées de pâtisserie, touche crémeuse et fond légèrement gaz qui rappelle les meilleures génétiques modernes.  \n\n 🌿 Texture & Aspect\n\n Une texture grasse, souple et brillante, signe d’un filtrage maîtrisé. La matière est homogène, facile à travailler, avec une couleur claire et dorée qui annonce direct la qualité. À chaud, ça bulle et fond parfaitement, preuve d’un produit bien sélectionné.\n\n 😶‍🌫️ Effet\n\n Un high profond et enveloppant, qui commence par une montée mentale relaxante avant de poser un effet lourd et agréable dans le corps. Parfait pour se détendre, se poser entre amis ou savourer un moment chill avec une vraie frappe.\n\n 🔥 Signature\n  Un 3x filtré premium, riche en goût et en puissance — le genre de produit qui se reconnaît dès la première taffe.',
-                    tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
-           */
                
                /* ,
                 {
