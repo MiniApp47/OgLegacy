@@ -338,7 +338,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 }, 
-                {
+               /*  {
                     id: '🍍🍬 TROPICAL CANDY 🌴',
                     flag: '🇺🇸',
                     name: '🍍🍬 TROPICAL CANDY 🌴',
@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                         { weight: '100g', price: 750.00 },
                     ]
-                }, 
+                },  */
                /*  {
                     id: '🍋 LCG 🍒🍦',
                     flag: '🇺🇸',
