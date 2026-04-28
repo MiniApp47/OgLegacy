@@ -84,7 +84,39 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
-               /*  {
+                {
+                    id: 'OBAMA KUSH 🇺🇸⚡️',
+                    flag: '🇲🇦',
+                    name: 'OBAMA KUSH 🇺🇸⚡️', 
+                    farm: '🏀 LAKERS FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductOB.png',
+                    video: 'VideoOB.mov',
+                    description: '⚡️ PLASMA STATIC ⚡️ \n\n Une sélection ultra premium signée LAKERS FARM, où le plasma static met en lumière une Kush profonde et authentique. Dès l’ouverture, ça sent le vrai OG : lourd, sombre et ultra résineux 🔥\n\n 👃 Aromatique :\n Un profil typique Kush old school : terreux, boisé, avec une forte dominante diesel/pine. Une légère touche épicée et citronnée vient apporter de la complexité.\n\n 👅 Goût :\n En bouche, c’est riche et enveloppant : notes de hashy kush, pin, terre humide, avec une finition légèrement citronnée et propre. Texture fondante, signature d’un static parfaitement travaillé.\n\n 💨 Effets :\n High profond et relaxant, avec une montée qui calme direct l’esprit. Sensation lourde dans le corps, idéale pour se poser et déconnecter.\n\n ✨ Qualité :\n Plasma static full terpènes, extraction précise, texture brillante et homogène. Un produit qui respecte parfaitement l’identité Kush.\n\n ⚡️ Conclusion :\n Un static OG puissant et authentique, pour les amateurs de vraies Kush.\n LAKERS FARM livre une OBAMA KUSH lourde, propre et ultra efficace.',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 150.00},
+                        { weight: '25G', price: 320.00 },
+                    ]
+                },
+                {
+                    id: 'GMO FUEL ⛽️⚡️',
+                    flag: '🇲🇦',
+                    name: 'GMO FUEL ⛽️⚡️', 
+                    farm: '🏀 LAKERS FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductGMF.png',
+                    video: 'VideoGMF.mov',
+                    description: '⚡️ PLASMA STATIC ⚡️ \n\n Une sélection ultra premium signée LAKERS FARM, où la puissance du plasma static rencontre un profil gassy extrême. Dès l’ouverture, ça annonce la couleur : lourd, profond, et ultra addictif 🔥\n\n 👃 Aromatique :\n Un mélange intense de diesel brut, ail fermenté et terre humide, typique de la GMO. Le côté “fuel” vient appuyer avec une note chimique/gazeuse très marquée qui reste longtemps en nez.\n\n 👅 Goût :\n En bouche, c’est lourd et complexe : gas pur, notes savory / garlic, avec une pointe légèrement épicée. La finition est ultra clean, signature d’un static parfaitement maîtrisé.\n\n 💨 Effets :\n Montée rapide avec un effet puissant et enveloppant. Relaxation mentale, sensation lourde dans le corps, parfait pour chiller ou en fin de journée.\n\n ✨ Qualité :\n Plasma static full terpènes, extraction ultra propre, texture brillante et homogène. Un travail de précision qui met en avant toute la richesse du profil GMO.\n\n ⚡️ Conclusion :\n Un static lourd et gassy pour les vrais amateurs.\n Puissance, profondeur et propreté — LAKERS FARM frappe encore fort avec cette GMO FUEL.',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 150.00},
+                        { weight: '25G', price: 320.00 },
+                    ]
+                },
+                {
                     id: 'PINEAPPLE JUICE 🍍⚡️',
                     flag: '🇲🇦',
                     name: 'PINEAPPLE JUICE 🍍⚡️', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
@@ -99,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                } */
+                },
                 {
                     id: 'ACAPULCO 🌴🔥',
                     flag: '🇲🇦',
