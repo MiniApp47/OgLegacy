@@ -85,6 +85,54 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: 'CAP JUNKY HASH 🧪🔥',
+                    flag: '🇲🇦',
+                    name: 'CAP JUNKY HASH 🧪🔥', 
+                    farm: 'HASBULLA FARM 🇲🇦',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductCAP.png',
+                    video: 'VideoCAP.mov',
+                    description: '🔥 DOUBLE STATIC 🔥 \n\n Une sélection double static hash ultra premium signée HASBULLA FARM, mettant en avant toute la complexité de la Cap Junky dans une extraction d’exception. Un profil moderne, puissant et ultra riche en terpènes 💎\n\n 👃 Aromatique :\n Un mélange crémeux et gassy avec des notes de vanille, carburant et une touche fruitée légèrement sucrée. Un nez complexe, à la fois lourd et raffiné.\n\n 👅 Goût :\n En bouche, c’est riche et enveloppant : creamy, gas, avec une finition sucrée et légèrement épicée. Texture grasse et fondante, combustion lente et propre — signature d’un double static parfaitement maîtrisé.\n\n 💨 Effets :\n High puissant et équilibré : euphorie mentale au début, suivie d’une relaxation progressive du corps. Idéal pour chiller tout en restant posé.\n\n ✨ Qualité :\n Double static hash full terpènes, extraction ultra propre, texture brillante, homogène et huileuse. Un produit travaillé avec précision pour exprimer toute la richesse de la Cap Junky.\n\n ⚡️ Conclusion :\n Un hash moderne haut de gamme, complexe et ultra savoureux.\n HASBULLA FARM propose ici une Cap Junky lourde, propre et parfaitement exécutée.',
+                    tarifs: [
+                        { weight: '5G', price: 90.00 },
+                        { weight: '10G', price: 160.00},
+                        { weight: '25G', price: 340.00 },
+                    ]
+                },
+                {
+                    id: 'SFV HASH ⛽️🔥',
+                    flag: '🇲🇦',
+                    name: 'SFV HASH ⛽️🔥', 
+                    farm: 'HASBULLA FARM 🇲🇦',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductSFV.png',
+                    video: 'VideoSFV.mov',
+                    description: '🔥 DOUBLE STATIC 🔥 \n\n Une sélection double static hash ultra premium signée HASBULLA FARM, mettant à l’honneur une SFV Kush puissante dans une extraction d’une pureté exceptionnelle. Dès l’ouverture, c’est une vraie signature OG : lourd, résineux et ultra gassy 💣\n\n 👃 Aromatique :\n Un profil intense et profond dominé par le diesel lourd, accompagné de notes terreuses, pine et une légère touche citronnée typique de la SFV. Un nez riche, authentique, old school.\n\n 👅 Goût :\n En bouche, c’est gras et savoureux : kush, gas, avec une finition légèrement lemon et épicée. La texture est huileuse et fondante, révélant une combustion lente et propre, typique d’un hash de très haute qualité.\n\n 💨 Effets :\n High puissant et enveloppant, relaxation profonde du corps avec un côté mental apaisant. Parfait pour chiller lourd ou en fin de journée.\n\n ✨ Qualité :\n Double static hash full terpènes, extraction raffinée, texture brillante, grasse et homogène. Un produit travaillé avec précision pour sublimer la richesse naturelle de la résine.\n\n ⚡️ Conclusion :\n Un hash double static OG gassy de très haut niveau, pour les vrais amateurs de Kush.\n HASBULLA FARM propose ici une SFV lourde, propre et ultra qualitative.',
+                    tarifs: [
+                        { weight: '5G', price: 90.00 },
+                        { weight: '10G', price: 160.00},
+                        { weight: '25G', price: 340.00 },
+                    ]
+                },
+                {
+                    id: 'FF x SD HASH 🍓⛽️',
+                    flag: '🇲🇦',
+                    name: 'FF x SD HASH 🍓⛽️', 
+                    farm: 'HASBULLA FARM 🇲🇦',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductFFS.png',
+                    video: 'VideoFFS.mov',
+                    description: '🔥 DOUBLE STATIC 🔥 \n\n Une sélection double static hash ultra premium signée HASBULLA FARM, issue d’un croisement explosif entre FF et Sour Diesel. Un profil intense, entre douceur fruitée et puissance gassy 💣\n\n 👃 Aromatique :\n Un nez complexe et percutant : notes fruitées sucrées (berries / fruits rouges) mêlées à un diesel puissant typique de la Sour D. Une légère touche acidulée et chimique vient renforcer le caractère.\n\n 👅 Goût :\n En bouche, c’est un contraste parfait : attaque fruitée et sucrée, suivie d’une montée gassy / diesel bien marquée. Finition propre et persistante, texture grasse et fondante.\n\n 💨 Effets :\n High rapide et énergisant au départ (Sour D vibes), avec une euphorie mentale qui évolue vers une détente plus posée. Idéal en journée ou début de soirée.\n\n ✨ Qualité :\n Double static hash full terpènes, extraction très propre, texture brillante, homogène et huileuse. Travail précis pour sublimer le croisement.\n\n ⚡️ Conclusion :\n Un hash hybride puissant et savoureux, parfait équilibre entre fruit et gas.\n HASBULLA FARM envoie une FF x SD nerveuse, propre et ultra addictive.',
+                    tarifs: [
+                        { weight: '5G', price: 90.00 },
+                        { weight: '10G', price: 160.00},
+                        { weight: '25G', price: 340.00 },
+                    ]
+                },
+                {
                     id: 'OBAMA KUSH 🇺🇸⚡️',
                     flag: '🇲🇦',
                     name: 'OBAMA KUSH 🇺🇸⚡️', 
