@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 850.00}
                     ]
                 },   
-               /*  {
+                {
                     id: '🫒 PINK RUNTZ 🎀',
                     flag: '🇲🇦',
                     name: '🫒 PINK RUNTZ 🎀', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 450.00},
                         { weight: '100G', price: 850.00}
                     ]
-                }, */  
+                },  
                  /* {
                     id: '🫒 ZKITTLEZ 🧸',
                     flag: '🇲🇦',
