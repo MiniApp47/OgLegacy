@@ -472,7 +472,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 }, 
-                {
+                /* {
                     id: '🌸 MOCHI 🍡',
                     flag: '🇺🇸',
                     name: '🌸 MOCHI 🍡',
@@ -489,7 +489,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                         { weight: '100g', price: 750.00 },
                     ]
-                }, 
+                },  */
               /*   {
                     id: '🌸 PINK RUNTZ 💎',
                     flag: '🇺🇸',
