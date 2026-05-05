@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 340.00 },
                     ]
                 },
-                {
+               /*  {
                     id: 'OBAMA KUSH 🇺🇸⚡️',
                     flag: '🇲🇦',
                     name: 'OBAMA KUSH 🇺🇸⚡️', 
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                },
+                }, */
                 {
                     id: 'GMO FUEL ⛽️⚡️',
                     flag: '🇲🇦',
@@ -365,6 +365,78 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: '⛽🔥 E85 ',
+                    flag: '🇺🇸',
+                    name: '⛽🔥 E85',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'Product85.png', 
+                    video: 'Video85.mov',
+                    description: 'Une strain au caractère brutal, inspirée par les profils fuel/gas modernes. La E85 est connue pour son mélange intense entre douceur sucrée et puissance “diesel”, avec une vraie identité lourde et marquante.\n\n 👃 Aromatique :\n Dès l’ouverture, t’as un gros hit gazeux ⛽, avec des notes diesel bien présentes. Derrière, ça s’équilibre avec une touche sucrée et crémeuse 🍬, parfois légèrement fruitée, qui rappelle certaines génétiques type Gelato/Runtz.\n Un fond terreux et kushy vient renforcer le côté profond et “sale”.\n\n 👅 Goût :\n En bouche, c’est puissant et complexe :\n * Attaque : gazeuse et intense ⛽\n * Milieu : mélange sucré/crémeux qui adoucit le profil 🤤\n * Finale : une lourde note diesel qui reste longtemps en bouche\n Le rendu est lourd, épais et très persistant, parfait pour ceux qui aiment les profils gas bien marqués.\n\n 👀 Aspect :\n Buds denses, bien compactes, avec une grosse couche de trichomes ✨, souvent avec des nuances vert foncé et parfois violettes.\n\n 💥 Effets :\n Puissants et rapides : une montée cérébrale forte, suivie d’un effet relaxant lourd, typique des strains bien gas.\n\n 🔥 Une strain pour les amateurs de fuel pur, entre douceur moderne et puissance brute.',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                }, 
+                {
+                    id: '🫐🍓 SOUR BERRY BLUE 🇺🇸',
+                    flag: '🇺🇸',
+                    name: '🫐🍓 SOUR BERRY BLUE 🇺🇸',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductSBB.png', 
+                    video: 'VideoSBB.mp4',
+                    description: 'Une variété qui mélange parfaitement fraîcheur acidulée et gourmandise fruitée. La Sour Berry Blue se distingue par un profil aromatique vif, dominé par les fruits rouges et les notes “sour” bien marquées.\n\n 👃 Aromatique :\n Dès l’ouverture, t’as une explosion de baies sucrées 🫐🍓 (myrtille, fraise), accompagnées d’une acidité citronnée 🍋 qui donne ce côté “sour” bien présent.\n En fond, on retrouve une légère note terreuse et musquée, avec parfois une touche diesel qui apporte du caractère.\n\n 👅 Goût :\n En bouche, c’est ultra expressif :\n * Attaque : acidulée et fruitée, très fraîche 🤤\n * Milieu : dominance de myrtille + fruits rouges bien sucrés\n * Finale : une pointe sour/diesel qui reste en bouche et donne de la profondeur\n Le goût est équilibré entre sucré et acide, avec une belle longueur et une vraie intensité.\n\n 👀 Aspect :\n Buds compactes, bien résineuses, avec des nuances allant du vert au violet, souvent recouvertes de trichomes brillants ✨.\n\n 💥 Effets :\n Montée énergisante et euphorique, parfaite pour booster l’humeur, suivie d’un relâchement léger sans te clouer.\n\n 🔥 Une strain fraîche et punchy, idéale pour les amateurs de profils sour et fruités avec du caractère.',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                }, 
+                {
+                    id: '🌈🍬 RAINBOW BELTS 🇺🇸',
+                    flag: '🇺🇸',
+                    name: '🌈🍬 RAINBOW BELTS 🇺🇸',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductRBS.png', 
+                    video: 'VideoRBS.mp4',
+                    description: 'Une strain devenue incontournable dans les profils candy modernes. La Rainbow Belts est connue pour son mélange explosif de saveurs sucrées et acidulées, avec une vraie signature “bonbon fruité” ultra addictive.\n\n 👃 Aromatique :\n Dès l’ouverture, ça sent le bonbon acidulé 🍬🍋, avec un mix de fruits tropicaux, agrumes et une légère touche de fruits rouges.\n On retrouve aussi un fond crémeux et légèrement terreux, qui apporte de la profondeur et équilibre le côté sucré.\n\n 👅 Goût :\n En bouche, c’est une vraie explosion de saveurs :\n * Attaque : sucrée et acidulée, très candy 🤤\n * Milieu : notes de fruits tropicaux + agrumes bien marquées\n * Finale : une touche légèrement crémeuse et sucrée qui reste longtemps\n Le goût est intense, vif et persistant, avec un équilibre parfait entre sucre et acidité.\n\n 👀 Aspect :\n Buds compactes et bien résineuses, avec des teintes vertes parfois mélangées à des reflets violets, le tout recouvert d’une belle couche de trichomes brillants ✨.\n\n 💥 Effets :\n Effet équilibré : une montée euphorique et énergisante, suivie d’un relâchement progressif. Idéal pour chiller avec une bonne vibe.\n\n 🔥 Une strain ultra candy, moderne et addictive, parfaite pour les amateurs de profils fruités puissants.',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                }, 
+                {
+                    id: '🍬🌈 RUNTZ BUTTONZ 🇺🇸',
+                    flag: '🇺🇸',
+                    name: '🍬🌈 RUNTZ BUTTONZ 🇺🇸',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductRBZ.png', 
+                    video: 'VideoRBZ.mov',
+                    description: 'Une déclinaison moderne de la famille Runtz, la Runtz Buttonz se distingue par un profil ultra gourmand et sucré, avec une vraie touche candy qui la rend immédiatement reconnaissable.\n\n 👃 Aromatique :\n Dès l’ouverture, ça tape sur des notes sucrées et fruitées 🍓🍬, très bonbon, avec un mélange de fruits rouges, de fruits tropicaux et une légère touche acidulée.\n On retrouve aussi un fond crémeux et légèrement gazeux/diesel, typique des génétiques Runtz, qui apporte de la profondeur et évite le côté trop sucré.\n\n 👅 Goût :\n En bouche, c’est une vraie explosion :\n v* Attaque : sucrée, candy, très fruitée 🤤\n * Milieu : mélange fruits rouges + tropical avec une texture douce et crémeuse\n * Finale : une légère note gazeuse et sucrée qui reste bien en bouche\n e goût est intense, propre et très persistant, parfait pour les amateurs de strains modernes à forte identité.\n\n 👀 Aspect :\n Des buds bien compactes, résineuses, avec des couleurs allant du vert clair au violet, recouvertes de trichomes brillants ✨. Un visuel très attractif, typique des variétés premium.\n\n 💥 Effets :\n Équilibrés et efficaces : une montée euphorique et stimulante suivie d’un relâchement progressif du corps. Idéal pour chiller tout en restant actif.\n 🔥 Une Runtz revisitée, ultra candy et moderne, qui combine goût, puissance et bag appeal.',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                }, 
+                {
                     id: '🌿 BX1 x LCG',
                     flag: '🇺🇸',
                     name: '🌿 BX1 x LCG',
@@ -382,7 +454,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 }, 
-                {
+               /*  {
                     id: '🍬 White Sugar Runtz',
                     flag: '🇺🇸',
                     name: '🍬 White Sugar Runtz',
@@ -399,7 +471,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                         { weight: '100g', price: 750.00 },
                     ]
-                }, 
+                },  */
                 {
                     id: '🔁 BX1',
                     flag: '🇺🇸',
@@ -537,6 +609,22 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'TIRAMISU 🍰☕🍫✨',
+                    flag: '🇲🇦',
+                    name: 'TIRAMISU 🍰☕🍫✨',
+                    farm: 'HASBULLA FARM 🇲🇦',
+                    promoEligible: true,
+                    type: 'Frozen',
+                    image: 'ProductTir.png', 
+                    video: 'VideoTir.mov',
+                    description: 'Une pièce d’exception dans la gamme. Cette Tiramisu en version frozen se distingue clairement par un niveau supérieur, avec un travail propre et une richesse aromatique rare. On est sur un produit premium, pensé pour les amateurs de profils gourmands puissants et raffinés.\n\n 👃 Aromatique :\n La strain Tiramisu offre une signature unique orientée dessert. Dès l’ouverture, tu retrouves un mélange profond de café doux ☕, cacao intense 🍫 et crème sucrée 🍰.\n À ça s’ajoutent des notes vanillées, légèrement biscuitées, avec parfois une touche subtile de noisette/amande.\n En fond, un léger côté terreux/kush vient équilibrer le côté sucré et apporter de la profondeur. C’est riche, propre et parfaitement maîtrisé.\n\n 👅 Goût :\n Une vraie expérience gustative complète :\n * Attaque : crémeuse, douce et sucrée 🤤\n * Milieu : le café et le chocolat prennent le dessus, bien ronds et enveloppants\n * Finale : une note biscuitée/lactée qui reste longtemps en bouche, avec une belle persistance\n\n Le rendu est dense, gourmand et équilibré, jamais écœurant, avec une vraie identité “dessert”.\n\n 👀 Aspect :\n Texture sablée ultra fine ✨, légèrement grasse et brillante, avec une couleur beige clair à doré premium 🟡. Une extraction fraîche, riche en terpènes, typique d’un frozen haut niveau.\n\n💥 Effets :\n Puissants et enveloppants 😮‍💨 : une montée relaxante avec une sensation de bien-être immédiate, idéale pour se poser et profiter.\n\n 🔥 LE PREMIUM DE LA GAMME 💎\n Une strain qui sort clairement du lot par son profil gourmand et sa complexité. La Tiramisu, c’est le dessert version haut de gamme, transformé en expérience complète.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 130.00 },
+                        { weight: '25G', price: 270.00 },
+                    ]
+                },
                 /* {
                     id: '☣️ TOXIC CHERRY',
                     flag: '🇲🇦',
@@ -569,7 +657,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 250.00 },
                     ]
                 }, */
-                /* {
+                {
                     id: '🍍 DIRTY PINEAPPLE',
                     flag: '🇲🇦',
                     name: '🍍 DIRTY PINEAPPLE',
@@ -584,7 +672,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 120.00 },
                         { weight: '25G', price: 250.00 },
                     ]
-                }, */
+                },
                 {
                     id: '🍓 SINFUL STRAWBERRY',
                     flag: '🇲🇦',
