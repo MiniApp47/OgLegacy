@@ -990,16 +990,16 @@ document.addEventListener('DOMContentLoaded', function () {
                     farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
                     promoEligible: true,
                     type: '3xFiltre',
-                    image: 'ProductUsa1.jpg',
+                    image: 'ProductUsa3.jpg',
                     // images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg','ProductUsa5.jpg','ProductUsa6.jpg','ProductUsa7.jpg'],
-                    images: ['ProductUsa1.jpg','ProductUsa3.jpg','ProductUsa4.jpg','ProductUsaP.jpg'],
+                    images: ['ProductUsa3.jpg','ProductUsa4.jpg','ProductUsaP.jpg'],
                       // 👇 NOUVELLE STRUCTURE
                       variantTitle: 'Saveurs 🧁 :',
                       jars: [
-                       { name: 'PermanentMarker', emoji: '🖍️', colorClass: 'style-cherry' },
-                       { name: 'Candy Crush', emoji: '🍭', colorClass: 'style-purple' },
-                       { name: 'Gelato', emoji: '🎂', colorClass: 'style-orange' }, 
-                      ],
+/*                        { name: 'PermanentMarker', emoji: '🖍️', colorClass: 'style-cherry' },
+ */                       { name: 'Candy Crush', emoji: '🍭', colorClass: 'style-purple' },
+/*                        { name: 'Gelato', emoji: '🎂', colorClass: 'style-orange' }, 
+ */                      ],
 
                       description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🖍️ PermanentMarker : Sédation profonde, notes d\'aromes brut.\n 🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy.\n 🎂 Gelato : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
                       tarifs: [
@@ -1008,7 +1008,41 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 220.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                }
+                },
+                 {
+                    id: 'BLUE LOBSTER 🦞💙',
+                    flag: '🇲🇦',
+                    name: 'BLUE LOBSTER 🦞💙',
+                    farm: '🌾 WEST COAST MOUSSE',
+                    promoEligible: true,
+                    type: 'JauneUsa',
+                    image: 'ProductBlueL.png', 
+                    video: 'VideoBlueL.mov',
+                    description: 'Une variété lourde qui mélange parfaitement le côté fruité sucré et le gaz puissant typique des grosses génétiques US 🇺🇸🔥\n Le Blue Lobster en jaune mousseux envoie un profil très riche avec une fumée épaisse et ultra savoureuse 😮‍💨💨\n\n 👃 Profil aromatique :\n Dès l’ouverture, t’as une grosse odeur berry sucrée avec des notes crémeuses et un fond bien gassy ⛽️🫐🍬\n Le tout accompagné d’une petite touche marine/funky typique du Blue Lobster qui lui donne une vraie identité premium.\n\n 👅 Goût :\n En bouche c’est hyper gras et intense 🔥\n Tu sens les fruits bleus sucrés, une crème légère et surtout une finition diesel/gaz qui reste collée au palais longtemps 😵‍💫💨\n Très complexe et très propre à la combustion.\n\n 💥 Effets :\n Défonce lourde et euphorique au début avant de laisser place à une relaxation profonde 🧠💥\n Parfait pour les amateurs de produits qui cognent vraiment fort tout en gardant un goût incroyable.\n⭐️ Texture mousseuse premium\n⭐️ Très gros terps US\n⭐️ Fumée épaisse et savoureuse\n⭐️ Effet puissant et longue durée 🦞🔥',
+                    tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                 {
+                    id: 'ORANGE CREAMPOP 🔥💛',
+                    flag: '🇲🇦',
+                    name: 'ORANGE CREAMPOP 🔥💛',
+                    farm: '🌾 WEST COAST MOUSSE',
+                    promoEligible: true,
+                    type: 'JauneUsa',
+                    image: 'ProductOre.png', 
+                    video: 'VideoOre.mov',
+                    description: 'Un jaune mousseux ultra gourmand qui frappe direct dès l’ouverture du pochon 🍊💨\n La strain Orange Creampop ramène un profil ultra crémeux et fruité, avec une vraie identité cali premium 🇺🇸✨\n\n 👃 Profil aromatique :\n Une grosse odeur d’orange sucrée type bonbon crémeux, mélangée à des notes vanilla cream et une légère touche gazeuse bien propre 🍦🍊⛽️\n Le mousseux est gras, collant et hyper parfumé.\n\n 👅 Goût :\n En bouche c’est une vraie dinguerie 😮‍💨\n Tu retrouves un mélange parfait entre agrumes sucrés, crème vanillée et une petite finition légèrement candy qui reste longtemps sur le palais 🍬🍊\n Une fumée douce, lourde et ultra savoureuse.\n\n 💥 Effets :\n Bonne grosse défonce relaxante mais propre 🧠🔥\n Ça monte progressivement avec un effet lourd sur le corps tout en gardant un mood chill et agréable. Parfait pour se poser tranquillement le soir 😴💨\n ⭐️ Texture mousseuse\n ⭐️ Goût ultra prononcé\n ⭐️ Cali vibes\n ⭐️ Très gros niveau de qualité',
+                    tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
             ]
         },
         {
