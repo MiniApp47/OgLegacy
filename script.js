@@ -436,7 +436,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 }, 
-                {
+             /*    {
                     id: '🌿 BX1 x LCG',
                     flag: '🇺🇸',
                     name: '🌿 BX1 x LCG',
@@ -453,7 +453,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                         { weight: '100g', price: 750.00 },
                     ]
-                }, 
+                },  */
                /*  {
                     id: '🍬 White Sugar Runtz',
                     flag: '🇺🇸',
@@ -852,7 +852,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
-                 {
+                /*  {
                     id: '🍯 FRITTER LICKER 🔥',
                     flag: '🇲🇦',
                     name: '🍯 FRITTER LICKER 🔥',
@@ -869,7 +869,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                 {
                     id: '🍓 TWIX STRAWBERRY GUMMY 🍫',
                     flag: '🇲🇦',
@@ -983,7 +983,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategJauneUsa.png', // Ton image de catégorie Weed
 
             products: [
-                {
+          /*       {
                     id: 'Jaune mousseux 🥵',
                     flag: '🇲🇦',
                     name: 'Jaune mousseux 🥵',
@@ -997,9 +997,9 @@ document.addEventListener('DOMContentLoaded', function () {
                       variantTitle: 'Saveurs 🧁 :',
                       jars: [
 /*                        { name: 'PermanentMarker', emoji: '🖍️', colorClass: 'style-cherry' },
- */                       { name: 'Candy Crush', emoji: '🍭', colorClass: 'style-purple' },
+ */                      /*  { name: 'Candy Crush', emoji: '🍭', colorClass: 'style-purple' }, */
 /*                        { name: 'Gelato', emoji: '🎂', colorClass: 'style-orange' }, 
- */                      ],
+                       ],
 
                       description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🖍️ PermanentMarker : Sédation profonde, notes d\'aromes brut.\n 🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy.\n 🎂 Gelato : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
                       tarifs: [
@@ -1008,7 +1008,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 220.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                  {
                     id: 'BLUE LOBSTER 🦞💙',
                     flag: '🇲🇦',
