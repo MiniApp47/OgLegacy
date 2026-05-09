@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 850.00}
                     ]
                 },   
-                {
+               /*  {
                     id: '🫒 PINK RUNTZ 🎀',
                     flag: '🇲🇦',
                     name: '🫒 PINK RUNTZ 🎀', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 450.00},
                         { weight: '100G', price: 850.00}
                     ]
-                },  
+                }, */  
                  /* {
                     id: '🫒 ZKITTLEZ 🧸',
                     flag: '🇲🇦',
@@ -306,7 +306,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 800.00}
                     ]
                 },  */
-                 {
+            /*      {
                     id: 'ALL CAKEZ 🍰',
                     flag: '🇲🇦',
                     name: 'ALL CAKEZ 🍰',
@@ -323,7 +323,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 450.00},
                         { weight: '100G', price: 800.00}
                     ]
-                }, 
+                },  */
               
                /*  {
                     id: 'OLIVE',
@@ -609,7 +609,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
-                {
+           /*      {
                     id: 'TIRAMISU 🍰☕🍫✨',
                     flag: '🇲🇦',
                     name: 'TIRAMISU 🍰☕🍫✨',
@@ -624,7 +624,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 130.00 },
                         { weight: '25G', price: 270.00 },
                     ]
-                },
+                }, */
                 /* {
                     id: '☣️ TOXIC CHERRY',
                     flag: '🇲🇦',
@@ -870,7 +870,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 }, */
-                {
+               /*  {
                     id: '🍓 TWIX STRAWBERRY GUMMY 🍫',
                     flag: '🇲🇦',
                     name: '🍓 TWIX STRAWBERRY GUMMY 🍫',
@@ -887,7 +887,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                 {
                     id: '🍭 RUNTZ 💎',
                     flag: '🇲🇦',
