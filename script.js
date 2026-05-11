@@ -85,6 +85,38 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: 'STATIC RS11 🍬⛽',
+                    flag: '🇲🇦',
+                    name: 'STATIC RS11 🍬⛽', 
+                    farm: 'HASBULLA FARM 🇲🇦',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductRS11.png',
+                    video: 'VideoRS11.mov',
+                    description: '⚡️ STATIC HASH \n\n Une sélection ultra premium signée HASBULLA FARM autour de la célèbre strain RS11. Un static propre, gras et ultra parfumé qui mélange parfaitement le côté candy crémeux avec une lourde touche gazeuse 🔥\n\n 👃 Aromatique :\n ès l’ouverture, ça tape direct avec une odeur sucrée type bonbon fruité et crème vanillée, suivie d’un fond bien gazzy et légèrement terreux. Un profil complexe et très “US Cali” 🇺🇸🍭\n\n 👅 Goût :\n En bouche c’est une vraie dinguerie :\n 🍬 notes candy ultra sucrées\n ⛽ gaz puissant et propre\n 🍓 petite touche fruit rouge / tropicale\n 🥛 arrière-goût crémeux presque dessert\n\n La fumée est lisse, épaisse et reste longtemps en bouche avec un goût très reconnaissable de la RS11 😮‍💨\n\n 💨 Effets :\n Une montée rapide avec un gros mood relax et euphorique. Parfait pour se poser, rigoler, écouter du son ou simplement profiter d’une grosse frappe premium 🧠🔥\n ✨ Extraction ultra propre\n ✨ Terps très prononcés\n ✨ Qualité top shelf static hash',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 150.00},
+                        { weight: '25G', price: 320.00 },
+                    ]
+                },
+                {
+                    id: 'SPRITE RS 🍋🥤',
+                    flag: '🇲🇦',
+                    name: 'SPRITE RS 🍋🥤', 
+                    farm: 'HASBULLA FARM 🇲🇦',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductRS.png',
+                    video: 'VideoRS.mov',
+                    description: '⚡️ STATIC HASH \n\n Un static ultra frais et explosif signé HASBULLA FARM. La strain Sprite RS apporte un profil hyper citronné et gazeux qui rappelle direct une boisson citron-lime bien glacée 🔥❄️\n\n 👃 Aromatique :\n À l’ouverture, une énorme claque d’agrumes sucrés envahit direct la pièce 🍋🍈\n On retrouve un mélange de citron vert, bonbon acidulé et une grosse note gazeuse propre typique des variétés modernes US 🇺🇸⛽\n\n 👅 Goût :\n En bouche c’est ultra savoureux :\n 🥤 effet soda citron-lime\n 🍬 touche candy sucrée\n 🍋 acidité fraîche et propre\n ⛽ fond gazzy puissant qui reste longtemps\n\n Une fumée douce mais bien lourde en terpènes avec un goût ultra addictif 😮‍💨\n\n 💨 Effets :\n High rapide et euphorique avec une bonne détente mentale et physique. Ça tape propre sans être trop lourd, parfait à tout moment de la journée 🔥🧠\n ✨ Texture grasse et fondante\n ✨ Extraction très propre\n ✨ Terps frais, citronnés et gazeux à fond ⚡️',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 150.00},
+                        { weight: '25G', price: 320.00 },
+                    ]
+                },
+                {
                     id: 'CAP JUNKY HASH 🧪🔥',
                     flag: '🇲🇦',
                     name: 'CAP JUNKY HASH 🧪🔥', 
@@ -164,7 +196,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 320.00 },
                     ]
                 },
-                {
+            /*     {
                     id: 'PINEAPPLE JUICE 🍍⚡️',
                     flag: '🇲🇦',
                     name: 'PINEAPPLE JUICE 🍍⚡️', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
@@ -179,7 +211,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                },
+                }, */
                 {
                     id: 'ACAPULCO 🌴🔥',
                     flag: '🇲🇦',
@@ -609,6 +641,22 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: '🥭 FORBIDDEN MANGO',
+                    flag: '🇲🇦',
+                    name: '🥭 FORBIDDEN MANGO',
+                    farm: 'HASBULLA FARM 🇲🇦',
+                    promoEligible: true,
+                    type: 'Frozen',
+                    image: 'ProductForbi.png', 
+                    video: 'VideoForbi.mov',
+                    description: 'Une pépite glacée qui respire l’exotisme pur. La Forbidden Mango en version frozen dévoile un profil aromatique explosif, dominé par une mangue bien mûre, sucrée et juteuse, accompagnée de notes tropicales intenses et d’une légère touche crémeuse en fond.\n\n Visuellement, on est sur une texture propre, brillante, avec cette finition légèrement collante et sablée typique d’un frozen bien travaillé. La couleur oscille entre un doré clair et des reflets légèrement orangés, signe d’une extraction fraîche et riche en terpènes.\n\n Au niveau du goût, c’est une vraie claque : une entrée sucrée et fruitée, suivie d’un côté plus profond, presque résineux, qui vient équilibrer l’ensemble. La mangue reste dominante du début à la fin, avec une longueur en bouche incroyable.\n\n Les effets sont puissants mais maîtrisés : une montée euphorique et relaxante, idéale pour se poser tout en gardant un esprit léger. Parfait pour les amateurs de profils fruités haut de gamme avec une vraie identité.\n 🔥 Un frozen premium, ultra terpénique, qui met la mangue à l’honneur dans sa version la plus pure.',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                    ]
+                },
            /*      {
                     id: 'TIRAMISU 🍰☕🍫✨',
                     flag: '🇲🇦',
@@ -852,6 +900,24 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'LEMON SORBET ❄️',
+                    flag: '🇲🇦',
+                    name: 'LEMON SORBET ❄️',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductLemon.png', 
+                    video: 'VideoLemon.mp4',
+                    description: '🍋🔥 FILTRÉ 120U PREMIUM \n\n Une vraie grosse frappe pour les amateurs de filtré premium. Ce 120U Lemon Sorbet envoie un profil ultra frais et crémeux avec une puissance qui tape dès les premières lattes 😮‍💨⚡️\n\n 👃 Aromatique :\n Une odeur intense de citron sucré et de crème glacée envahit direct la pièce 🍋🍨 \n On retrouve aussi une légère touche candy et un fond bien résineux qui annonce la qualité du filtrage 🔥\n\n 👅 Goût :\n En bouche c’est ultra propre :\n 🍋 citron frais acidulé\n 🍬 notes sucrées type sorbet\n 🥛 côté crémeux très doux\n ⛽ petite finition gazeuse qui donne une vraie profondeur\n\n Le goût reste longtemps en bouche avec une fumée épaisse et savoureuse 🤤\n\n 💨 Effets :\n Une montée rapide avec une grosse détente physique et mentale. La frappe est lourde mais agréable, parfaite pour les amateurs de hash premium bien terpé 🔥🧠\n ✨ Très riche en terpènes\n ✨ Qualité lourde / grosse frappe garantie 💥',
+                    tarifs: [
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 100.00 },
+                        { weight: '25G', price: 200.00 },
+                        { weight: '50G', price: 280.00 },
+                        { weight: '100G', price: 450.00 },
+                    ]
+                },
                 /*  {
                     id: '🍯 FRITTER LICKER 🔥',
                     flag: '🇲🇦',
@@ -888,7 +954,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 }, */
-                {
+             /*    {
                     id: '🍭 RUNTZ 💎',
                     flag: '🇲🇦',
                     name: '🍭 RUNTZ 💎',
@@ -923,7 +989,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
               /*   {
                     id: '🌊 SUPER SOAKER 💎',
                     flag: '🇲🇦',
