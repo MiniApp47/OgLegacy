@@ -641,7 +641,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
-                {
+              /*   {
                     id: '🥭 FORBIDDEN MANGO',
                     flag: '🇲🇦',
                     name: '🥭 FORBIDDEN MANGO',
@@ -656,7 +656,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 120.00 },
                         { weight: '25G', price: 250.00 },
                     ]
-                },
+                }, */
            /*      {
                     id: 'TIRAMISU 🍰☕🍫✨',
                     flag: '🇲🇦',
@@ -705,7 +705,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 250.00 },
                     ]
                 }, */
-                {
+              /*   {
                     id: '🍍 DIRTY PINEAPPLE',
                     flag: '🇲🇦',
                     name: '🍍 DIRTY PINEAPPLE',
@@ -736,7 +736,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 120.00 },
                         { weight: '25G', price: 250.00 },
                     ]
-                },
+                }, */
                 /* {
                     id: '🥭 FORBIDDEN MANGO',
                     flag: '🇲🇦',
@@ -753,7 +753,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 250.00 },
                     ]
                 }, */
-                 {
+                /*  {
                     id: 'Chocolato 🍪',
                     flag: '🇲🇦',
                     name: 'Chocolato 🍪',
@@ -768,7 +768,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 250.00 },
                         { weight: '25G', price: 500.00 },
                     ]
-                },
+                }, */
               /*      {
                     id: 'Peach Lassi 🍑',
                     flag: '🇲🇦',
