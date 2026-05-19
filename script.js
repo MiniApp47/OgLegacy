@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 320.00 },
                     ]
                 }, */
-                {
+              /*   {
                     id: 'GMO FUEL ⛽️⚡️',
                     flag: '🇲🇦',
                     name: 'GMO FUEL ⛽️⚡️', 
@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                },
+                }, */
             /*     {
                     id: 'PINEAPPLE JUICE 🍍⚡️',
                     flag: '🇲🇦',
@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 320.00 },
                     ]
                 }, */
-                {
+              /*   {
                     id: 'ACAPULCO 🌴🔥',
                     flag: '🇲🇦',
                     name: 'ACAPULCO 🌴🔥', // ⚠️ Corrigé ici (c'était écrit Zkittlez)
@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 450.00},
                         { weight: '100G', price: 850.00}
                     ]
-                },   
+                },  */  
                /*  {
                     id: '🫒 PINK RUNTZ 🎀',
                     flag: '🇲🇦',
