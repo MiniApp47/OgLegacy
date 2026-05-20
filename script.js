@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 800.00}
                     ]
                 },  
-                 {
+                 /* {
                     id: '🌑 BLACK CHERRY',
                     flag: '🇲🇦',
                     name: '🌑 BLACK CHERRY',
@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 450.00},
                         { weight: '100G', price: 800.00}
                     ]
-                },  
+                },  */ 
                  {
                     id: '🌬️ B. GARLIC JAM',
                     flag: '🇲🇦',
@@ -558,7 +558,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 },  */
-                {
+              /*   {
                     id: '🍬 CANDY GELATO 🍦',
                     flag: '🇺🇸',
                     name: '🍬 CANDY GELATO 🍦',
@@ -575,7 +575,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                         { weight: '100g', price: 750.00 },
                     ]
-                }, 
+                },  */
                 /* {
                     id: '🌸 MOCHI 🍡',
                     flag: '🇺🇸',
