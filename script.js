@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
-                {
+               /*  {
                     id: 'STATIC RS11 🍬⛽',
                     flag: '🇲🇦',
                     name: 'STATIC RS11 🍬⛽', 
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                },
+                }, */
                 {
                     id: 'SPRITE RS 🍋🥤',
                     flag: '🇲🇦',
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 340.00 },
                     ]
                 },
-                {
+             /*    {
                     id: 'SFV HASH ⛽️🔥',
                     flag: '🇲🇦',
                     name: 'SFV HASH ⛽️🔥', 
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 160.00},
                         { weight: '25G', price: 340.00 },
                     ]
-                },
+                }, */
                 {
                     id: 'FF x SD HASH 🍓⛽️',
                     flag: '🇲🇦',
@@ -414,7 +414,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 }, 
-                {
+              /*   {
                     id: '🫐🍓 SOUR BERRY BLUE 🇺🇸',
                     flag: '🇺🇸',
                     name: '🫐🍓 SOUR BERRY BLUE 🇺🇸',
@@ -431,7 +431,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                         { weight: '100g', price: 750.00 },
                     ]
-                }, 
+                },  */
                 {
                     id: '🌈🍬 RAINBOW BELTS 🇺🇸',
                     flag: '🇺🇸',
