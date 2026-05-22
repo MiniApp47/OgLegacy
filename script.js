@@ -396,7 +396,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategWeed.png', // Ton image de catégorie Weed
 
             products: [
-                {
+               /*  {
                     id: '⛽🔥 E85 ',
                     flag: '🇺🇸',
                     name: '⛽🔥 E85',
@@ -413,7 +413,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                         { weight: '100g', price: 750.00 },
                     ]
-                }, 
+                },  */
               /*   {
                     id: '🫐🍓 SOUR BERRY BLUE 🇺🇸',
                     flag: '🇺🇸',
