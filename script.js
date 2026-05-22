@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 800.00}
                     ]
                 },  */ 
-                 {
+                /*  {
                     id: '🌬️ B. GARLIC JAM',
                     flag: '🇲🇦',
                     name: '🌬️ B. GARLIC JAM',
@@ -319,7 +319,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 450.00},
                         { weight: '100G', price: 800.00}
                     ]
-                }, 
+                }, */ 
                  /* {
                     id: 'ALL BLUE 🫐',
                     flag: '🇲🇦',
@@ -504,7 +504,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 },  */
-                {
+               /*  {
                     id: '🔁 BX1',
                     flag: '🇺🇸',
                     name: '🔁 BX1',
@@ -521,7 +521,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                         { weight: '100g', price: 750.00 },
                     ]
-                }, 
+                },  */
                /*  {
                     id: '🍍🍬 TROPICAL CANDY 🌴',
                     flag: '🇺🇸',
