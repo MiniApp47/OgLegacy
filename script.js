@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 320.00 },
                     ]
                 },
-                {
+             /*    {
                     id: 'CAP JUNKY HASH 🧪🔥',
                     flag: '🇲🇦',
                     name: 'CAP JUNKY HASH 🧪🔥', 
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 160.00},
                         { weight: '25G', price: 340.00 },
                     ]
-                },
+                }, */
              /*    {
                     id: 'SFV HASH ⛽️🔥',
                     flag: '🇲🇦',
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 340.00 },
                     ]
                 }, */
-                {
+               /*  {
                     id: 'FF x SD HASH 🍓⛽️',
                     flag: '🇲🇦',
                     name: 'FF x SD HASH 🍓⛽️', 
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 160.00},
                         { weight: '25G', price: 340.00 },
                     ]
-                },
+                }, */
                /*  {
                     id: 'OBAMA KUSH 🇺🇸⚡️',
                     flag: '🇲🇦',
