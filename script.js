@@ -901,6 +901,60 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: 'PURPLE STORM 😈',
+                    flag: '🇲🇦',
+                    name: 'PURPLE STORM 😈',
+                    farm: '🦊 KGF FARM',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductPS.png', 
+                    video: 'VideoPS.mp4',
+                    description: 'Une nouvelle bombe signée KGF FARM 💨\n Ce 3x filtré 45u sur la strain Purple Storm balance un mélange ultra gourmand entre notes fruitées violettes, cream et fond kushy bien lourd 😮‍💨🔥\n\n 👃 Profil aromatique :\n À l’ouverture, ça dégage direct une grosse odeur de raisin sucré 🍇, fruits noirs et bonbons violets, avec un fond terreux/gazeux très propre. On retrouve aussi une touche creamy légèrement épicée qui donne un vrai côté premium au produit. Les strains “purple” sont souvent reconnues pour leurs terpènes puissants et leur profil fruité relaxant.  \n\n 👅 Goût :\n En bouche, c’est gras et intense : raisin candy, baies sucrées, petite touche kush crémeuse avec une fin légèrement poivrée et fraîche. La fumée est douce mais bien présente, avec un goût qui reste longtemps après la taffe 🤤🟣\n\n 💥 Effets :\n Une frappe lourde et relaxante qui monte progressivement ⚡️\n Parfait pour se poser, chiller ou finir la soirée avec une bonne détente physique et mentale sans perdre totalement le mood euphorique 😵‍💫🔥 Les variétés purple sont souvent appréciées pour leurs effets relaxants et leur grosse intensité aromatique.  \n\n ✨ Nouvelle récolte 2026 – KGF FARM 🦊\n Un 45u premium ultra terpéné réservé aux vrais amateurs de purple strain 😈 🟣',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'WHITE MOCHA ',
+                    flag: '🇲🇦',
+                    name: 'WHITE MOCHA ☕️🤍',
+                    farm: '🦊 KGF FARM',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductMoc.png', 
+                    video: 'VideoMoc.mp4',
+                    description: 'Une sélection ultra gourmande signée KGF FARM 🔥\n Ce 3x filtré 45u sur la strain White Mocha mélange parfaitement des notes creamy, café sucré et vanilla gas avec une texture propre, mousseuse et ultra fondante 😮‍💨\n\n 👃 Profil aromatique :\n À l’ouverture, ça dégage direct une odeur de café crème ☕️, chocolat blanc et biscuits sucrés, avec un fond légèrement kushy et gazeux très raffiné. On retrouve aussi une petite touche vanillée/lactée qui rappelle un dessert premium bien gourmand 🤍🍪\n\n 👅 Goût :\n En bouche, c’est hyper doux et épais : mocha crémeux, sucre vanillé, petite note noisette et un fond gas subtil qui équilibre parfaitement le côté sucré. La fumée est grasse, propre et laisse un goût creamy/café très longtemps après la taffe 🤤☁️\n\n 💥 Effets :\n Une frappe puissante mais smooth ⚡️\n Ça commence par une montée euphorique et relaxante avant de laisser une grosse détente physique avec un mood lourd et confortable 😵‍💫🔥\n Parfait pour les amateurs de strains gourmandes modernes avec beaucoup de terpènes.\n\n ✨ Nouvelle récolte 2026 – KGF FARM 🦊\n Un 45u premium ultra gourmand qui risque de faire très mal cette année ☕️🤍',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'MELONATTA 🍈 🍯 ',
+                    flag: '🇲🇦',
+                    name: 'MELONATTA 🍈🍯',
+                    farm: '🦊 KGF FARM',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductMel.png', 
+                    video: 'VideoMel.mp4',
+                    description: 'Une vraie pépite signée KGF FARM pour cette nouvelle récolte 2026 🔥\n Ce 3x filtré 45u sur la strain Melonatta envoie un profil ultra fruité, crémeux et exotique, avec une texture propre et fondante digne des grosses sélections premium.\n\n 👃 Profil aromatique :\n Dès l’ouverture, ça explose sur des notes de melon sucré bien mûr 🍈, accompagnées d’une touche citronnée et tropicale qui rappelle les bonbons fruités premium. Derrière, on retrouve un léger côté creamy/gazeux avec une finition fraîche et terpénée très raffinée.  \n\n 👅 Goût :\n En bouche, c’est ultra doux et savoureux : melon, agrumes sucrés, fruits exotiques et une petite pointe acidulée parfaitement équilibrée. La fumée est grasse, propre et laisse un goût fruité longtemps après la taffe 🤤🍈\n\n 💥 Effets :\n Une frappe euphorique et motivante qui monte progressivement avec un bon mood énergique et relax à la fois. Parfait pour ceux qui aiment les profils fruités modernes avec une vraie puissance derrière ⚡️😮‍💨  \n\n ✨ Nouvelle récolte 2026 — qualité premium KGF FARM\n Le genre de filtré qui part vite chez les connaisseurs.',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
                     id: 'LEMON SORBET ❄️',
                     flag: '🇲🇦',
                     name: 'LEMON SORBET ❄️',
@@ -1119,6 +1173,23 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategHash.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: '🌕🍈 SUPER MOUSSEUX 🍈🌕',
+                    flag: '🇲🇦',
+                    name: '🌕🍈 Moon Melon 🍈🌕',
+                    farm: '🧪 Kilogrammes Farm',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductMoo.png', 
+                    video: 'VideoMoo.mov',
+                    description: '🌕🍈 SUPER MOUSSEUX 🍈🌕 \n\n Une vraie pépite signée KGF 🦊\n Ce jaune super mousseux sur la strain Moon Melon envoie un profil ultra gourmand et fruité, avec une texture bien grasse et mousseuse comme les amateurs aiment 🔥\n\n 👃 Aromatique :\n À l’ouverture, ça dégage direct une grosse odeur de melon sucré, pastèque fraîche et bonbon fruité 🍬🍈\n Derrière, t’as une légère touche creamy/gazeuse avec un fond un peu tropical qui reste longtemps au nez. Une strain connue pour son profil dessert fruité ultra propre.  \n\n 👅 Goût :\n En bouche c’est super doux et bien terpy 😮‍💨\n On retrouve un mélange de melon mûr, fruits exotiques et candy sucré avec une finition légèrement crémeuse. La fumée est épaisse, propre et ultra savoureuse du début à la fin.\n\n 💨 Effets :\n Bonne grosse détente mentale et physique, montée euphorique puis relaxation bien lourde 🫠\n Parfait pour les amateurs de hash premium avec une vraie identité gustative.\n\n ✨ Texture mousseuse\n ✨ Full terpènes\n ✨ Très propre à la combustion\n ✨ Grosse frappe 2026\n\n Moon Melon by KGF = du très très lourd 🍈🚀',
+                    tarifs: [
+                        { weight: '10g', price: 60.00 },
+                        { weight: '20g', price: 100.00 },
+                        { weight: '50g', price: 200.00 },
+                        { weight: '100g', price: 330.00 },
+                    ]
+                },
                 /* {
                     id: 'NICOLE KUSH ✨',
                     flag: '🇺🇸',
