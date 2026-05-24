@@ -84,6 +84,38 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'CHERRY PIE 🍒🥧⚡️',
+                    flag: '🇲🇦',
+                    name: 'CHERRY PIE 🍒🥧⚡️', 
+                    farm: '🏀 LAKERS FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductCh.png',
+                    video: 'VideoCh.mp4',
+                    description: '⚡️ PLASMA STATIC ⚡️ \n\n gourmand signé LAKERS FARM. La strain Cherry Pie envoie direct une vague sucrée et fruitée dès l’ouverture du pot 🔥\n\n 👃 Aromatique :\n Une grosse odeur de cerise sucrée mélangée à une pâte dessert crémeuse, avec un fond légèrement terreux et gazeux typique des grosses génétiques US. Le profil est riche, profond et ultra addictif.\n\n 👅 Goût :\n En bouche, c’est un vrai dessert : cerise mûre 🍒, notes pâtissières sucrées 🥧, avec une légère touche creamy et kush qui reste longtemps après l’expiration. Très terpy, très propre, chaque taffe est lourde en saveur.\n\n 💨 Effet :\n Une vraie frappe de static : détente puissante, montée rapide, effet lourd et relaxant sans perdre le côté euphorique. Parfait pour les amateurs de static bien fort avec un goût premium.\n PLASMA STATIC by LAKERS FARM = qualité très sérieuse ⚡️🍒',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 150.00},
+                        { weight: '25G', price: 320.00 },
+                    ]
+                },
+                {
+                    id: 'HONEY BANANA 🍯🍌⚡️',
+                    flag: '🇲🇦',
+                    name: 'HONEY BANANA 🍯🍌⚡️', 
+                    farm: '🏀 LAKERS FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductHo.png',
+                    video: 'VideoHo.mov',
+                    description: '⚡️ PLASMA STATIC ⚡️ \n\n Une vraie dinguerie signée LAKERS FARM. Ce Plasma Static Honey Banana sort un profil ultra gourmand et collant en terpènes, avec une qualité de static vraiment violente. Dès l’ouverture, ça sent le produit travaillé proprement, lourd en goût et en puissance 🔥\n\n 👃 Aromatique :\n Le Honey Banana développe une odeur hyper riche mêlant banane bien mûre, miel sucré 🍯 et crème tropicale. Derrière, on retrouve une légère touche kush/gazeuse qui vient casser le côté trop sucré et donne un équilibre parfait. L’odeur remplit direct la pièce, avec ce côté dessert exotique très premium.\n\n 👅 Goût :\n En bouche, c’est ultra onctueux : grosse saveur de banana cream, miel chaud, sucre vanillé et petite note fruitée tropicale 🍌✨\n Le plasma static ressort parfaitement les terpènes : fumée douce, saveur intense et longue tenue en bouche. Chaque taffe laisse un arrière-goût crémeux et sucré vraiment propre.\n\n 💨 Effet :\n Une vraie frappe. Montée rapide avec une grosse détente physique, tout en gardant un côté euphorique et chill. Le genre de static qui tape fort mais reste ultra agréable à fumer.\n\n ⚡️ Texture premium, full terpènes, extraction très propre.\n LAKERS FARM a clairement sorti une pépite sur cette Honey Banana 🍯🍌',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 150.00},
+                        { weight: '25G', price: 320.00 },
+                    ]
+                },
                /*  {
                     id: 'STATIC RS11 🍬⛽',
                     flag: '🇲🇦',
