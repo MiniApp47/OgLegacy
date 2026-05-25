@@ -85,6 +85,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: 'RAINBOW x SPRITZER 🌈🍹',
+                    flag: '🇲🇦',
+                    name: 'RAINBOW x SPRITZER 🌈🍹', 
+                    farm: 'SECRET HOUSE SMOKE FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductRP.png',
+                    video: 'VideoRP.mov',
+                    description: '⚡️ PLASMA STATIC 70-130U ⚡️ \n\n Une vraie pépite marocaine signée Secret House Smoke Farm. Ce plasma static 70-130U sort un niveau de qualité ultra sérieux avec une extraction propre, mousseuse et blindée de terpènes 🔥\n\n 👃 Aromatique :\n Le croisement Rainbow x Spritzer développe un profil explosif : fruits sucrés, bonbon tropical 🌈, agrumes pétillants et petite touche creamy/gazeuse qui vient équilibrer parfaitement l’ensemble. À l’ouverture, ça sent direct le static premium travaillé avec soin.\n\n 👅 Goût :\n En bouche, c’est ultra riche : mélange de candy fruité 🍬, notes citronnées fraîches 🍋, raisin sucré et fond légèrement creamy qui reste longtemps après la taffe. Le plasma static ressort parfaitement tous les terpènes avec une fumée douce, épaisse et très propre.\n\n 💨 Effet :\n Une vraie frappe de static ⚡️\n Montée rapide avec un gros côté euphorique et relaxant en même temps. Effet puissant, propre et long lasting, parfait pour les amateurs de hash premium.\n\n Extraction 70-130U ultra qualitative, texture mousseuse et full terpènes.\n SECRET HOUSE SMOKE FARM a envoyé du très lourd sur cette Rainbow x Spritzer 🚀🔥',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 130.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00 },
+                    ]
+                },
+                {
                     id: 'CHERRY PIE 🍒🥧⚡️',
                     flag: '🇲🇦',
                     name: 'CHERRY PIE 🍒🥧⚡️', 
@@ -428,6 +445,57 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategWeed.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'ROCKET 🚀🔥',
+                    flag: '🇺🇸',
+                    name: 'ROCKET 🚀🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductRC.png', 
+                    video: 'VideoRC.mov',
+                    description: 'Une strain qui porte parfaitement son nom. Rocket envoie une vraie montée puissante avec un profil moderne ultra terpy, mélangeant gaz, fruits sucrés et notes crémeuses pour une fumée lourde et premium.\n\n 👃 Aromatique :\n Dès l’ouverture, ça explose avec une odeur gazeuse bien forte ⛽️ accompagnée de touches fruitées et sucrées. On retrouve aussi un fond creamy/kush qui donne beaucoup de profondeur au profil.\n\n 👅 Goût :\n En bouche, c’est intense : mélange de candy fruité 🍬, gaz lourd et légère touche tropicale qui reste longtemps après la taffe. La fumée est épaisse, propre et ultra savoureuse.\n\n 💨 Effet :\n Montée rapide et puissante 🚀 avec un gros effet euphorique au début avant une détente physique bien lourde. Une vraie frappe pour les amateurs de strains qui tapent fort.\n\n 🌿 Buds bien résineux, full terpènes et qualité premium.',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'SHARPEI 🐶🔥',
+                    flag: '🇺🇸',
+                    name: 'SHARPEI 🐶🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductSH.png', 
+                    video: 'VideoSH.mov',
+                    description: 'Une strain qui se démarque direct par son profil lourd et original. Sharpei mélange parfaitement le côté sucré crémeux avec une petite touche gazeuse et épicée qui lui donne un vrai caractère premium.\n\n 👃 Aromatique :\n Dès l’ouverture, ça dégage une odeur puissante : notes fruitées sucrées, crème légère, avec un fond kush/gaz bien présent. Un profil complexe qui rappelle les grosses génétiques US modernes 🇺🇸\n\n 👅 Goût :\n En bouche, la Sharpei est ultra savoureuse : mélange de fruits sucrés 🍬, cream douce et petite finition terreuse/gazeuse qui reste longtemps après la taffe. La fumée est épaisse, propre et très agréable.\n\n 💨 Effet :\n Bonne montée euphorique au début avant de laisser place à une détente lourde et relaxante. Une vraie strain pour les amateurs de goût et de grosse frappe 🔥\n\n 🌿 Têtes bien résineuses, terpènes puissants et qualité premium',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'ARCHIVE RUNTZ 🍬⛽️🔥',
+                    flag: '🇺🇸',
+                    name: 'ARCHIVE RUNTZ 🍬⛽️🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductAR.png', 
+                    video: 'VideoAR.mov',
+                    description: 'Une vraie pépite pour les amateurs de grosses génétiques US. Archive Runtz mélange parfaitement le côté candy ultra sucré des Runtz avec un fond gazeux et crémeux qui donne une fumée lourde et premium.\n\n 👃 Aromatique :\n Une explosion de bonbon fruité dès l’ouverture 🍭🍓 avec des notes tropicales, crémeuses et un léger fond diesel/kush qui apporte beaucoup de profondeur au profil.\n\n 👅 Goût :\n En bouche, c’est ultra gourmand : candy sucré, fruits exotiques, crème vanillée et petite touche gaz qui reste collée au palais. Une fumée dense, douce et pleine de terpènes.\n\n 💨 Effet :\n Montée rapide avec un gros mood euphorique 😮‍💨 puis une détente progressive bien lourde. La frappe est puissante mais le smoke reste super agréable.\n\n 🌿 Têtes compactes, ultra résineuses, full terpènes avec un vrai profil Runtz premium 🇺🇸🔥',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                },
                /*  {
                     id: '⛽🔥 E85 ',
                     flag: '🇺🇸',
@@ -464,7 +532,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 },  */
-                {
+                /* {
                     id: '🌈🍬 RAINBOW BELTS 🇺🇸',
                     flag: '🇺🇸',
                     name: '🌈🍬 RAINBOW BELTS 🇺🇸',
@@ -481,7 +549,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                         { weight: '100g', price: 750.00 },
                     ]
-                }, 
+                },  */
                 {
                     id: '🍬🌈 RUNTZ BUTTONZ 🇺🇸',
                     flag: '🇺🇸',
@@ -785,7 +853,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 250.00 },
                     ]
                 }, */
-                /*  {
+                 {
                     id: 'Chocolato 🍪',
                     flag: '🇲🇦',
                     name: 'Chocolato 🍪',
@@ -798,9 +866,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '5G', price: 150.00 },
                         { weight: '10G', price: 250.00 },
-                        { weight: '25G', price: 500.00 },
                     ]
-                }, */
+                },
               /*      {
                     id: 'Peach Lassi 🍑',
                     flag: '🇲🇦',
