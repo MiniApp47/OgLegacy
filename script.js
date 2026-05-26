@@ -85,6 +85,38 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: 'IPANEMA 🍍🥭',
+                    flag: '🇲🇦',
+                    name: 'IPANEMA 🍍🥭', 
+                    farm: '🏀 LAKERS FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductIP.png',
+                    video: 'VideoIP.mov',
+                    description: '⚡️ PLASMA STATIC ⚡️ \n\n Encore une énorme sélection signée LAKERS FARM 😮‍💨💎\n Le Plasma Static IPANEMA balance un profil ultra exotique 🌈🔥 avec une qualité vraiment premium ✨\n\n 👃 Profil aromatique :\n Dès l’ouverture, ça explose en notes tropicales 🍍🥭🍬\n Un mélange fruité ultra frais avec des touches d’agrumes 🍊, de fruits sucrés 🍑 et un fond crémeux bien smooth 🧈😮‍💨\n Une odeur propre, puissante et ultra addictive 🤤💨\n\n 👅 Goût :\n En bouche c’est un vrai cocktail exotique 🍹🌴\n Tu sens direct les saveurs fruitées bien sucrées 🍍🍬 avec une petite touche creamy/gazy en fond ⛽️🧈 qui donne énormément de relief à la smoke 🔥💨\n Une fumée grasse ☁️ et pleine de terpènes 🍯\n\n 🧊 Texture & qualité :\n Static ultra mousseux 🏜️✨\n Extraction super propre 💎\n Full terpènes 🌈 avec une texture premium qui fond parfaitement 😮‍💨🔥\n\n 🧠💥 Effet :\n Très grosse détente 😶‍🌫️🛋️\n Effet lourd mais agréable 🧠💨 avec une montée relaxante et euphorique 🚀🔥\n\n 🌴🍍 IPANEMA – LAKERS FARM 🍍🌴\n 💎 Plasma Static ultra premium\n 🍬 Fruité exotique • ⛽️ Fond creamy/gazy • 🔥 Frappe lourde 😮‍💨',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 150.00},
+                        { weight: '25G', price: 320.00 },
+                    ]
+                },
+                {
+                    id: 'GAZ MONKEY 🦍⛽️ ⚡️💎',
+                    flag: '🇲🇦',
+                    name: 'GAZ MONKEY 🦍⛽️', 
+                    farm: '🏀 LAKERS FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductGaz.png',
+                    video: 'VideoGaz.mov',
+                    description: '⚡️ PLASMA STATIC ⚡️ \n\n Une vraie dinguerie signée LAKERS FARM 😮‍💨🔥\n Ce Plasma Static Gaz Monkey envoie une énorme claque dès l’ouverture du pochon 🫠💨\n\n 👃 Profil aromatique :\n Une odeur ultra gazy ⛽️, bien lourde et puissante 💥\n Tu retrouves un mélange de notes diesel 🛢️, terreuses 🌱 et légèrement sucrées 🍬 avec un fond crémeux qui rend la strain encore plus folle 🤤🔥\n\n 👅 Goût :\n En bouche c’est une vraie explosion 💣💨\n Le côté essence/gaz ⛽️🔥 prend direct toute la place avec une finition douce et épicée 🌶️🍯\n Une fumée bien grasse 😮‍💨☁️ avec un goût qui reste longtemps en bouche 🫠\n\n 🧊 Texture & qualité :\n Static ultra propre ✨\n Texture sableuse/mousseuse 🏜️🧈\n Full terpènes 🍯🌈 avec une finition premium digne des grosses sélections 🇲🇦💎\n\n 🧠💥 Effet :\n Très grosse frappe 🥊😵‍💫\n Montée rapide 🚀 relaxation lourde 🛋️ mental posé 😶‍🌫️ parfait pour les amateurs de grosses variétés bien gazy ⛽️🦍\n\n ⚡️🦍 GAZ MONKEY – LAKERS FARM 🦍⚡️\n Du vrai plasma static premium 😮‍💨💎\n ⛽️ Goût violent • 🍬 Terps lourds • 🔥 Qualité top niveau',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 150.00},
+                        { weight: '25G', price: 320.00 },
+                    ]
+                },
+                {
                     id: 'RAINBOW x SPRITZER 🌈🍹',
                     flag: '🇲🇦',
                     name: 'RAINBOW x SPRITZER 🌈🍹', 
