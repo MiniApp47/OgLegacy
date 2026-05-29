@@ -582,7 +582,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 750.00 },
                     ]
                 },  */
-                {
+              /*   {
                     id: '🍬🌈 RUNTZ BUTTONZ 🇺🇸',
                     flag: '🇺🇸',
                     name: '🍬🌈 RUNTZ BUTTONZ 🇺🇸',
@@ -599,7 +599,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                         { weight: '100g', price: 750.00 },
                     ]
-                }, 
+                },  */
              /*    {
                     id: '🌿 BX1 x LCG',
                     flag: '🇺🇸',
@@ -1260,7 +1260,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 }, */
-                 {
+                /*  {
                     id: 'BLUE LOBSTER 🦞💙',
                     flag: '🇲🇦',
                     name: 'BLUE LOBSTER 🦞💙',
@@ -1276,7 +1276,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 220.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                  {
                     id: 'ORANGE CREAMPOP 🔥💛',
                     flag: '🇲🇦',
