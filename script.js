@@ -37,24 +37,17 @@ document.addEventListener('DOMContentLoaded', function () {
     const contactLinks = [
         {
             name: 'WHATSAPP 📞',
-            url: 'https://wa.me/33629121135',
+            url: 'https://wa.me/33745907270',
             id: 'whatsapp',
             className: 'whatsapp', // Il faudra peut-être ajouter ce CSS (Jaune)
             text: "WHATSAPP 📞"
         },
         {
-            name: 'TÉLÉGRAM 💙',
-            url: 'https://t.me/+nszc04LgDUEyNzI8',
+            name: 'CANAL TÉLÉGRAM 💙',
+            url: 'https://t.me/oglegsecour',
             id: 'telegram-main',
             className: 'telegram', // Garde le style Bleu Telegram
-            text: "TÉLÉGRAM 💙"
-        },
-        {
-            name: 'CANAL SECOURS 💙',
-            url: 'https://t.me/oglegsecour',
-            id: 'telegram-secours',
-            className: 'secours',
-            text: "TÉLÉ SECOURS 💙"
+            text: "CANAL TÉLÉGRAM 💙"
         },
         {
             name: 'POTATO / MENU 🥔',
@@ -84,6 +77,22 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'super boof 🦍⛽️',
+                    flag: '🇲🇦',
+                    name: 'SUPER BOOF 🦍⛽️', 
+                    farm: '🏀 LAKERS FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductSB.png',
+                    video: 'VideoSB.mov',
+                    description: '⚡️ PLASMA STATIC ⚡️ \n\n Une vraie dinguerie signée LAKERS FARM 😮‍💨🔥\n Ce Plasma Static Super boof envoie une énorme claque dès l’ouverture du pochon 🫠💨\n\n 👃 Profil aromatique :\n Une odeur ultra gazy ⛽️, bien lourde et puissante 💥\n Tu retrouves un mélange de notes diesel 🛢️, terreuses 🌱 et légèrement sucrées 🍬 avec un fond crémeux qui rend la strain encore plus folle 🤤🔥\n\n 👅 Goût :\n En bouche c’est une vraie explosion 💣💨\n Le côté essence/gaz ⛽️🔥 prend direct toute la place avec une finition douce et épicée 🌶️🍯\n Une fumée bien grasse 😮‍💨☁️ avec un goût qui reste longtemps en bouche 🫠\n\n 🧊 Texture & qualité :\n Static ultra propre ✨\n Texture sableuse/mousseuse 🏜️🧈 \n Full terpènes 🍯🌈 avec une finition premium digne des grosses sélections 🇲🇦💎\n\n 🧠💥 Effet :\n Très grosse frappe 🥊😵‍💫\n Montée rapide 🚀 relaxation lourde 🛋️ mental posé 😶‍🌫️ parfait pour les amateurs de grosses variétés bien gazy ⛽️🦍\n\n ⚡️🦍 Super boof – LAKERS FARM 🦍⚡️\n Du vrai plasma static premium 😮‍💨💎\n ⛽️ Goût violent • 🍬 Terps lourds • 🔥 Qualité top niveau',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 150.00},
+                        { weight: '25G', price: 320.00 },
+                    ]
+                },
                 {
                     id: 'IPANEMA 🍍🥭',
                     flag: '🇲🇦',
@@ -478,6 +487,40 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: 'Lemon cherry 🇺🇸 🍋🔥',
+                    flag: '🇺🇸',
+                    name: 'Lemon cherry 🇺🇸 🍋🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductLCR.png', 
+                    video: 'VideoLCR.mov',
+                    description: 'Une strain qui se démarque direct par son profil lourd et original.Lemon mélange parfaitement le côté sucré crémeux avec une petite touche gazeuse et épicée qui lui donne un vrai caractère premium.\n\n 👃 Aromatique :\n Dès l’ouverture, ça dégage une odeur puissante : notes fruitées sucrées, crème légère, avec un fond kush/gaz bien présent. Un profil complexe qui rappelle les grosses génétiques US modernes 🇺🇸\n\n 👅 Goût :\n En bouche, la Lemon est ultra savoureuse : mélange de fruits sucrés 🍬, cream douce et petite finition terreuse/gazeuse qui reste longtemps après la taffe. La fumée est épaisse, propre et très agréable.\n\n 💨 Effet :\n Bonne montée euphorique au début avant de laisser place à une détente lourde et relaxante. Une vraie strain pour les amateurs de goût et de grosse frappe 🔥\n\n 🌿 Têtes bien résineuses, terpènes puissants et qualité premium',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                }, 
+                {
+                    id: 'Larry bird 🍬⛽️🔥',
+                    flag: '🇺🇸',
+                    name: 'Larry bird 🍬⛽️🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductLB.png', 
+                    video: 'VideoLB.mov',
+                    description: 'Une vraie pépite pour les amateurs de grosses génétiques US. Larry bird  mélange parfaitement le côté candy ultra sucré des avec un fond gazeux et crémeux qui donne une fumée lourde et premium.\n\n 👃 Aromatique :\n Une explosion de bonbon fruité dès l’ouverture 🍭🍓 avec des notes tropicales, crémeuses et un léger fond diesel/kush qui apporte beaucoup de profondeur au profil. \n\n 👅 Goût :\n En bouche, c’est ultra gourmand : candy sucré, fruits exotiques, crème vanillée et petite touche gaz qui reste collée au palais. Une fumée dense, douce et pleine de terpènes.\n\n 💨 Effet :\n Montée rapide avec un gros mood euphorique 😮‍💨 puis une détente progressive bien lourde. La frappe est puissante mais le smoke reste super agréable.\n\n 🌿 Têtes compactes, ultra résineuses, full terpènes avec un vrai profil  premium 🇺🇸🔥',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                }, 
+               /*  {
                     id: 'ROCKET 🚀🔥',
                     flag: '🇺🇸',
                     name: 'ROCKET 🚀🔥',
@@ -493,7 +536,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25g', price: 220.00 },
                         { weight: '50g', price: 400.00 },
                     ]
-                },
+                }, */
                 {
                     id: 'SHARPEI 🐶🔥',
                     flag: '🇺🇸',
@@ -511,7 +554,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                     ]
                 },
-                {
+            /*     {
                     id: 'ARCHIVE RUNTZ 🍬⛽️🔥',
                     flag: '🇺🇸',
                     name: 'ARCHIVE RUNTZ 🍬⛽️🔥',
@@ -527,7 +570,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25g', price: 220.00 },
                         { weight: '50g', price: 400.00 },
                     ]
-                },
+                }, */
                /*  {
                     id: '⛽🔥 E85 ',
                     flag: '🇺🇸',
@@ -1226,7 +1269,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 } */
             ]
         },
-        {
+       /* {
             id: 'Jaune USA',
             name: 'Jaune USA 🇺🇸',
             type: 'Jaune USA',
@@ -1234,7 +1277,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategJauneUsa.png', // Ton image de catégorie Weed
 
             products: [
-          /*       {
+                 {
                     id: 'Jaune mousseux 🥵',
                     flag: '🇲🇦',
                     name: 'Jaune mousseux 🥵',
@@ -1276,7 +1319,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 220.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                }, */
+                },
                  {
                     id: 'ORANGE CREAMPOP 🔥💛',
                     flag: '🇲🇦',
@@ -1295,7 +1338,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 },
             ]
-        },
+        }, */
         {
             id: 'HASH',
             name: 'HASH 🌰',
@@ -1305,6 +1348,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: '💥 Berry w7 💥',
+                    flag: '🇲🇦',
+                    name: '💥 Berry w7 💥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductB7.png', 
+                    video: 'VideoB7.mov',
+                    description: '🌕 SUPER MOUSSEUX 🌕 \n\n Récolte 2026\n Une vraie pépite signée Berry W7\n Ce jaune super mousseux sur la strain envoie un profil ultra gourmand et fruité, avec une texture bien grasse et mousseuse comme les amateurs aiment 🔥\n\n 👃 Aromatique :\n À l’ouverture, ça dégage direct une grosse odeur , \n\n Derrière, t’as une légère touche creamy/gazeuse avec un fond un peu tropical qui reste longtemps au nez. Une strain connue pour son profil dessert fruité ultra propre.  \n\n 👅 Goût :\n En bouche c’est super doux et bien terpy 😮‍💨 mûr, fruits exotiques et candy sucré avec une finition légèrement crémeuse. La fumée est épaisse, propre et ultra savoureuse du début à la fin.\n\n 💨 Effets :\n Bonne grosse détente mentale et physique, montée euphorique puis relaxation bien lourde 🫠\n Parfait pour les amateurs de hash premium avec une vraie identité gustative.\n\n ✨ Texture mousseuse\n ✨ Full terpènes\n ✨ Très propre à la combustion\n ✨ Grosse frappe 2026\n\n Berry w7 produit tres demander = du très très lourd',
+                    tarifs: [
+                        { weight: '10g', price: 60.00 },
+                        { weight: '20g', price: 100.00 },
+                        { weight: '50g', price: 200.00 },
+                        { weight: '100g', price: 330.00 },
+                    ]
+                },
+                /* {
                     id: '🌕🍈 SUPER MOUSSEUX 🍈🌕',
                     flag: '🇲🇦',
                     name: '🌕🍈 Moon Melon 🍈🌕',
@@ -1320,7 +1380,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 200.00 },
                         { weight: '100g', price: 330.00 },
                     ]
-                },
+                }, */
                 /* {
                     id: 'NICOLE KUSH ✨',
                     flag: '🇺🇸',
@@ -3188,7 +3248,7 @@ function renderProductListSimple(categoryId) {
     if (target.closest('#confirm-order-button')) {
 
         // 1. TON NUMÉRO WHATSAPP (Format international sans le +)
-        const myPhoneNumber = '33629121135'; 
+        const myPhoneNumber = '33745907270'; 
         
         // 2. On prépare le message
         let message = formatOrderMessage();
