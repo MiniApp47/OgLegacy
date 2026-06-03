@@ -59,7 +59,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     keyboard = [
         [InlineKeyboardButton("🎩 OUVRIR LE SHOP / MENU 🎩", web_app=WebAppInfo(url=WEBAPP_URL))],
-        [InlineKeyboardButton("WHATSAPP 📞", url="https://wa.me/33629121135")],
+        [InlineKeyboardButton("WHATSAPP 📞", url="https://wa.me/33745907270")],
         [InlineKeyboardButton("CANAL TÉLÉGRAM 💙", url="https://t.me/oglegsecour")],
         [InlineKeyboardButton("CANAL POTATO 🥔", url="https://dympt.org/legacyog75")],
         [InlineKeyboardButton("INSTAGRAM 📸", url="https://www.instagram.com/og_legacy75?igsh=bG5nc3duNWRxd3Ey&utm_source=qr")]
@@ -79,8 +79,11 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 WAITING_FOR_POST = 1
 
 async def admin_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    # Si c'est pas toi, le bot ignore
-    if str(update.effective_user.id) != ADMIN_ID:
+    # 1. On transforme la chaîne du .env en liste d'admins valides
+    admin_list = [x.strip() for x in ADMIN_ID.split(',')]
+    
+    # 2. Si l'utilisateur n'est pas dans la liste, le bot ignore
+    if str(update.effective_user.id) not in admin_list:
         return ConversationHandler.END
     
     await update.message.reply_text(
