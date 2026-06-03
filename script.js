@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 320.00 },
                     ]
                 },
-                {
+              /*   {
                     id: 'IPANEMA 🍍🥭',
                     flag: '🇲🇦',
                     name: 'IPANEMA 🍍🥭', 
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                },
+                }, */
                 {
                     id: 'GAZ MONKEY 🦍⛽️ ⚡️💎',
                     flag: '🇲🇦',
@@ -1075,6 +1075,78 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: 'El Mero  💥💥',
+                    flag: '🇲🇦',
+                    name: 'El Mero 🌰',
+                    farm: '🇨🇭 SUISSE FARMZ',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductEM.png', 
+                    video: 'VideoEM.mov',
+                    description: 'Nouvelle Récolte 2026 ☕️🤍 \n Une sélection ultra gourmande🔥\n Ce 3x filtré 45u sur la strain El Mero  mélange parfaitement des notes creamy, sucré et vanilla gas avec une texture propre, mousseuse et ultra fondante 😮‍💨\n\n 👃 Profil aromatique :\n À l’ouverture, ça dégage direct une odeur de bonbon sucree , avec un fond légèrement kushy et gazeux très raffiné. On retrouve aussi une petite touche vanillée/lactée qui rappelle un dessert premium bien gourmand 🤍🍪\n\n 👅 Goût :\n En bouche, c’est hyper doux et épais : El Mero sucre apaisante  et un fond gas subtil qui équilibre parfaitement le côté sucré. La fumée est grasse, propre et laisse un goût creamy/café très longtemps après la taffe 🤤☁️\n\n 💥 Effets :\n Une frappe puissante mais smooth ⚡️\n\n Ça commence par une montée euphorique et relaxante avant de laisser une grosse détente physique avec un mood lourd et confortable 😵‍💫🔥\n Parfait pour les amateurs de strains gourmandes modernes avec beaucoup de terpènes.\n\n ✨ Nouvelle récolte 2026\n Un 45u premium ultra gourmand qui risque de faire très mal cette année',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'Freakshow 💥💥',
+                    flag: '🇲🇦',
+                    name: 'Freakshow 💥💥',
+                    farm: '🇨🇭 SUISSE FARMZ',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductFK.png', 
+                    video: 'VideoFK.mov',
+                    description: 'Nouvelle Récolte 2026 ☕️🤍 \n Une sélection ultra gourmande🔥\n Ce 3x filtré 45u sur la strain  Freakshow mélange parfaitement des notes creamy, sucré et vanilla gas avec une texture propre, mousseuse et ultra fondante 😮‍💨\n\n 👃 Profil aromatique :\n À l’ouverture, ça dégage direct une odeur de bonbon sucree , avec un fond légèrement kushy et gazeux très raffiné. On retrouve aussi une petite touche vanillée/lactée qui rappelle un dessert premium bien gourmand 🤍🍪\n\n 👅 Goût :\n En bouche, c’est hyper doux et épais : Freakshow  , sucre apaisante  et un fond gas subtil qui équilibre parfaitement le côté sucré. La fumée est grasse, propre et laisse un goût creamy/café très longtemps après la taffe 🤤☁️\n\n 💥 Effets :\n Une frappe puissante mais smooth ⚡️\n\n Ça commence par une montée euphorique et relaxante avant de laisser une grosse détente physique avec un mood lourd et confortable 😵‍💫🔥\n Parfait pour les amateurs de strains gourmandes modernes avec beaucoup de terpènes.\n\n ✨ Nouvelle récolte 2026\n Un 45u premium ultra gourmand qui risque de faire très mal cette année',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'Black Truffle 🌑',
+                    flag: '🇲🇦',
+                    name: 'Black Truffle 🌑',
+                    farm: '🇨🇭 SUISSE FARMZ',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductBT.png', 
+                    video: 'VideoBT.mov',
+                    description: 'Nouvelle Récolte 2026 ☕️🤍 \n Une sélection ultra gourmande🔥\n Ce 3x filtré 45u sur la strain Black Truffle mélange parfaitement des notes creamy, sucré et vanilla gas avec une texture propre, mousseuse et ultra fondante 😮‍💨\n\n 👃 Profil aromatique :\n À l’ouverture, ça dégage direct une odeur de bonbon sucree , avec un fond légèrement kushy et gazeux très raffiné. On retrouve aussi une petite touche vanillée/lactée qui rappelle un dessert premium bien gourmand 🤤\n\n 👅 Goût :\n En bouche, c’est hyper doux et épais :  Black truffle , La fumée est grasse, propre et laisse un goût creamy/café très longtemps après la taffe 🤤☁️\n\n 💥 Effets :\n Une frappe puissante mais smooth ⚡️\n\n Ça commence par une montée euphorique et relaxante avant de laisser une grosse détente physique avec un mood lourd et confortable 😵‍💫🔥\n Parfait pour les amateurs de strains gourmandes modernes avec beaucoup de terpènes.\n\n ✨ Nouvelle récolte 2026\n Un 45u premium ultra gourmand qui risque de faire très mal cette année 💥💥',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'Zkittles ☕️🤍',
+                    flag: '🇲🇦',
+                    name: 'Zkittles 🎀',
+                    farm: '🇨🇭 SUISSE FARMZ',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductZKS.png', 
+                    video: 'VideoZKS.mov',
+                    description: 'Nouvelle Récolte 2026 ☕️🤍 \n Une sélection ultra gourmande🔥\n Ce 3x filtré 45u sur la strain Zkittles mélange parfaitement des notes creamy, sucré et vanilla gas avec une texture propre, mousseuse et ultra fondante 😮‍💨\n\n 👃 Profil aromatique :\n À l’ouverture, ça dégage direct une odeur de bonbon sucree , avec un fond légèrement kushy et gazeux très raffiné. On retrouve aussi une petite touche vanillée/lactée qui rappelle un dessert premium bien gourmand 🤍🍪\n\n 👅 Goût :\n En bouche, c’est hyper doux et épais :  Zkittles , sucre vanillé, petite note noisette et un fond gas subtil qui équilibre parfaitement le côté sucré. La fumée est grasse, propre et laisse un goût creamy/café très longtemps après la taffe 🤤☁️\n\n 💥 Effets :\n Une frappe puissante mais smooth ⚡️\n\n Ça commence par une montée euphorique et relaxante avant de laisser une grosse détente physique avec un mood lourd et confortable 😵‍💫🔥\n Parfait pour les amateurs de strains gourmandes modernes avec beaucoup de terpènes.\n\n ✨ Nouvelle récolte 2026\n Un 45u premium ultra gourmand qui risque de faire très mal cette année ☕️🤍',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
                     id: 'PURPLE STORM 😈',
                     flag: '🇲🇦',
                     name: 'PURPLE STORM 😈',
@@ -1110,7 +1182,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-                {
+                /* {
                     id: 'MELONATTA 🍈 🍯 ',
                     flag: '🇲🇦',
                     name: 'MELONATTA 🍈🍯',
@@ -1127,7 +1199,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                 {
                     id: 'LEMON SORBET ❄️',
                     flag: '🇲🇦',
@@ -1347,6 +1419,57 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategHash.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'Banana Candy 🍌',
+                    flag: '🇲🇦',
+                    name: 'Banana Candy 🍌',
+                    farm: '🧪 Kilogrammes Farm',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductBCY.png', 
+                    video: 'VideoBCY.mov',
+                    description: '🌕 SUPER MOUSSEUX 🌕 \n\n Une vraie pépite signée KGF 🦊\n Ce jaune super mousseux sur la strain Banana Candy  envoie un profil ultra gourmand et fruité, avec une texture bien grasse et mousseuse comme les amateurs aiment 🔥\n\n 👃 Aromatique :\n À l’ouverture, ça dégage direct une grosse odeur de banane sucré.\n\n Derrière, t’as une légère touche creamy/gazeuse avec un fond un peu tropical qui reste longtemps au nez. Une strain connue pour son profil dessert fruité ultra propre.  \n\n 👅 Goût :\n En bouche c’est super doux et bien terpy 😮‍💨\n On retrouve un gout de banane fruits et candy sucré avec une finition légèrement crémeuse. La fumée est épaisse, propre et ultra savoureuse du début à la fin.\n\n 💨 Effets :\n Bonne grosse détente mentale et physique, montée euphorique puis relaxation bien lourde 🫠\n Parfait pour les amateurs de hash premium avec une vraie identité gustative.\n\n ✨ Texture mousseuse\n ✨ Full terpènes\n ✨ Très propre à la combustion\n ✨ Grosse frappe 2026\n\n Banana candy by KGF = du très très lourd 🍌🚀',
+                    tarifs: [
+                        { weight: '10g', price: 60.00 },
+                        { weight: '20g', price: 100.00 },
+                        { weight: '50g', price: 200.00 },
+                        { weight: '100g', price: 330.00 },
+                    ]
+                },
+                {
+                    id: 'Cherry Soda 🍒',
+                    flag: '🇲🇦',
+                    name: 'Cherry Soda 🍒',
+                    farm: '🧪 Kilogrammes Farm',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductCSA.png', 
+                    video: 'VideoCSA.mov',
+                    description: '🌕 SUPER MOUSSEUX 🌕 \n\n Une vraie pépite signée KGF 🦊\n Ce jaune super mousseux sur la strain Cherry Soda  envoie un profil ultra gourmand et fruité, avec une texture bien grasse et mousseuse comme les amateurs aiment 🔥\n\n 👃 Aromatique :\n À l’ouverture, ça dégage direct une grosse odeur de cerise sucré.\n Derrière, t’as une légère touche creamy/gazeuse avec un fond un peu tropical qui reste longtemps au nez. Une strain connue pour son profil dessert fruité ultra propre.  \n\n 👅 Goût :\n En bouche c’est super doux et bien terpy 😮‍💨\n On retrouve un mélange de cerise fruits exotiques et candy sucré avec une finition légèrement crémeuse. La fumée est épaisse, propre et ultra savoureuse du début à la fin.\n\n 💨 Effets :\n Bonne grosse détente mentale et physique, montée euphorique puis relaxation bien lourde 🫠\n Parfait pour les amateurs de hash premium avec une vraie identité gustative.\n\n ✨ Texture mousseuse\n ✨ Full terpènes\n ✨ Très propre à la combustion\n ✨ Grosse frappe 2026\n\n Cherry soda by KGF = du très très lourd 🍒🚀',
+                    tarifs: [
+                        { weight: '10g', price: 60.00 },
+                        { weight: '20g', price: 100.00 },
+                        { weight: '50g', price: 200.00 },
+                        { weight: '100g', price: 330.00 },
+                    ]
+                },
+                {
+                    id: 'MANGO',
+                    flag: '🇲🇦',
+                    name: 'MANGO 🥭',
+                    farm: '🧪 Kilogrammes Farm',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductMan.png', 
+                    video: 'VideoMan.mov',
+                    description: '🌕 SUPER MOUSSEUX 🌕 \n\n Une vraie pépite signée KGF 🦊\n Ce jaune super mousseux sur la strain MANGO  envoie un profil ultra gourmand et fruité, avec une texture bien grasse et mousseuse comme les amateurs aiment 🔥\n\n 👃 Aromatique :\n À l’ouverture, ça dégage direct une grosse odeur de mangue sucré,  bonbon fruité 🍬🍈\n Derrière, t’as une légère touche creamy/gazeuse avec un fond un peu tropical qui reste longtemps au nez. Une strain connue pour son profil dessert fruité ultra propre.  \n\n 👅 Goût :\n En bouche c’est super doux et bien terpy 😮‍💨\n On retrouve un mélange de mangue mûr, fruits exotiques et candy sucré avec une finition légèrement crémeuse. La fumée est épaisse, propre et ultra savoureuse du début à la fin.\n\n 💨 Effets :\n Bonne grosse détente mentale et physique, montée euphorique puis relaxation bien lourde 🫠\n Parfait pour les amateurs de hash premium avec une vraie identité gustative.\n\n ✨ Texture mousseuse\n ✨ Full terpènes\n ✨ Très propre à la combustion\n ✨ Grosse frappe 2026\n\n Mango by KGF = du très très lourd 🥭🚀',
+                    tarifs: [
+                        { weight: '10g', price: 60.00 },
+                        { weight: '20g', price: 100.00 },
+                        { weight: '50g', price: 200.00 },
+                        { weight: '100g', price: 330.00 },
+                    ]
+                },
                 {
                     id: '💥 Berry w7 💥',
                     flag: '🇲🇦',
