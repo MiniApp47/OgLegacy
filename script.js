@@ -88,14 +88,14 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoCCC.mov',
                     description: '⚡🇺🇸 Static plasma us 🇺🇸⚡  \n\n 💎🔥 Une variété connue pour son parfum gourmand et son effet équilibré. Son nom vient de son arôme qui rappelle le lait sucré restant au fond d’un bol de céréales. 🔥💎\n ✨ À quoi ça ressemble ?\n Dès l’ouverture, Cereal Milk dégage une odeur douce et agréable 🤤💨.\n\n 🥣 Notes de céréales sucrées\n 🍦 Touches crémeuses et vanillées\n 🍬 Parfum gourmand et réconfortant\n 🍓 Légères nuances fruitées\n\n 😮‍💨 Et au goût ?\n Chaque bouffée offre une saveur douce et persistante 💨✨.\n 🥛 Saveur crémeuse\n 🍪 Notes sucrées et gourmandes\n 🍦 Arrière-goût vanillé\n ☁️ Fumée douce et agréable\n ✨ Longueur en bouche appréciée\n\n 🧠 Quels effets ?\n Les effets peuvent varier selon la personne et le produit, mais sont souvent décrits comme :\n\n 😁 Bonne humeur\n 💬 Plus sociable et détendu\n 🌈 Sensation de bien-être\n 🧠 Relaxation mentale\n 💆‍♂️ Détente physique modérée\n ✨ Sensation générale de confort\n\n 🏆 En résumé\n ⚡🥣 Cereal Milk est appréciée pour son côté gourmand, ses saveurs crémeuses et son équilibre entre détente et bonne humeur. Une variété souvent choisie pour un moment agréable et relaxant. 💎🔥💨👑✨',
                     tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
+                        { weight: '5G', price: 110.00 },
+                        { weight: '10G', price: 200.00},
+                        { weight: '25G', price: 450.00 },
                     ]
                 },
                 {
                     id: '🧩 GIRAFE PUZZY 🧩',
-                    flag: '🇲🇦',
+                    flag: '🇺🇸',
                     name: '🧩 GIRAFE PUZZY 🧩', 
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
@@ -104,14 +104,14 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoPZ.mov',
                     description: '🧩⚡️ PLASMA STATIC ⚡️🧩 \n\n 💎🔥 Une variété qui mise avant tout sur l’intensité de ses terpènes et la qualité de son extraction. Une référence moderne qui séduit autant par son caractère que par son expérience globale. 🔥💎\n ✨ À quoi ça ressemble ?\n Dès l’ouverture, Static Plasma dévoile un parfum puissant et complexe 🤤💨. Un mélange d’agrumes, de fraîcheur et de notes sucrées qui attire immédiatement l’attention.\n\n 😮‍💨 Et au goût ?\n Chaque bouffée révèle une palette aromatique riche et persistante 💨✨.\n 🍋 Attaque fraîche et vive\n 🥭 Saveurs intenses et complexes\n 🍬 Douceur subtile en arrière-plan\n ☁️ Fumée agréable et soyeuse\n ✨ Belle longueur en bouche\n\n 🏆 En résumé\n Static Plasma est une variété appréciée pour son identité marquée et sa richesse aromatique 💎🔥.\n\n 😁 Bien-être\n 🌈 Bonne humeur\n 🧠 Relaxation mentale\n 💆‍♂️ Détente corporelle\n ☁️ Sensation de confort\n ✨ Expérience harmonieuse\n\n ⚡🧩 Une variété moderne et expressive qui combine caractère, richesse aromatique et moment de détente particulièrement agréable. 🔥💎💨👑✨',
                     tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
+                        { weight: '5G', price: 110.00 },
+                        { weight: '10G', price: 200.00},
+                        { weight: '25G', price: 450.00 },
                     ]
                 },
                 {
                     id: '🦞 BLUE LOBSTER 🦞',
-                    flag: '🇲🇦',
+                    flag: '🇺🇸',
                     name: '🦞 BLUE LOBSTER 🦞', 
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
@@ -120,9 +120,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoBLL.mp4',
                     description: '🦞⚡️ PLASMA STATIC ⚡️🦞 \n\n 💎🌊 Une sélection qui combine caractère, finesse et richesse aromatique. Blue Lobster n’est pas le genre de variété qui cherche à impressionner par l’excès, mais plutôt par son équilibre et son identité unique. 🌊💎\n ✨ Une génétique qui se démarque\n Dès les premiers instants, Blue Lobster dévoile un profil sophistiqué et moderne 🎯. Entre fraîcheur, douceur et profondeur aromatique, elle offre une expérience complète qui séduit aussi bien les connaisseurs que les curieux.\n\n ⚡ Les effets\n 😁 Sensation de bien-être rapide\n 🌈 Humeur positive et détendue\n 🧠 Relaxation mentale agréable\n 💆‍♂️ Relâchement corporel progressif\n ☁️ Sensation de confort et de légèreté\n ✨ Expérience équilibrée et harmonieuse\n\n 🌟 Ce qui fait sa différence\n Blue Lobster se distingue par sa complexité aromatique et sa capacité à évoluer tout au long de la dégustation. Chaque bouffée révèle de nouvelles nuances, offrant une expérience riche sans jamais devenir lourde.',
                     tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
+                        { weight: '5G', price: 110.00 },
+                        { weight: '10G', price: 200.00},
+                        { weight: '25G', price: 450.00 },
                     ]
                 },
                 {
