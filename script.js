@@ -976,7 +976,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 250.00 },
                     ]
                 }, */
-                 {
+                /*  {
                     id: 'Chocolato 🍪',
                     flag: '🇲🇦',
                     name: 'Chocolato 🍪',
@@ -990,7 +990,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '5G', price: 150.00 },
                         { weight: '10G', price: 250.00 },
                     ]
-                },
+                }, */
               /*      {
                     id: 'Peach Lassi 🍑',
                     flag: '🇲🇦',
