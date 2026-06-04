@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             name: 'CANAL TÉLÉGRAM 💙',
-            url: 'https://t.me/oglegsecour',
+            url: 'https://t.me/+qHFh_JeCp405MTc0',
             id: 'telegram-main',
             className: 'telegram', // Garde le style Bleu Telegram
             text: "CANAL TÉLÉGRAM 💙"
