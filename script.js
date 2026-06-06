@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 450.00 },
                     ]
                 },
-                {
+               /*  {
                     id: 'super boof 🦍⛽️',
                     flag: '🇲🇦',
                     name: 'SUPER BOOF 🦍⛽️', 
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                },
+                }, */
               /*   {
                     id: 'IPANEMA 🍍🥭',
                     flag: '🇲🇦',
@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 320.00 },
                     ]
                 }, */
-                {
+                /* {
                     id: 'GAZ MONKEY 🦍⛽️ ⚡️💎',
                     flag: '🇲🇦',
                     name: 'GAZ MONKEY 🦍⛽️', 
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                },
+                }, */
                 {
                     id: 'RAINBOW x SPRITZER 🌈🍹',
                     flag: '🇲🇦',
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 450.00 },
                     ]
                 },
-                {
+                /* {
                     id: 'CHERRY PIE 🍒🥧⚡️',
                     flag: '🇲🇦',
                     name: 'CHERRY PIE 🍒🥧⚡️', 
@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                },
+                }, */
                 {
                     id: 'HONEY BANANA 🍯🍌⚡️',
                     flag: '🇲🇦',
@@ -585,7 +585,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                     ]
                 }, */
-                {
+               /*  {
                     id: 'SHARPEI 🐶🔥',
                     flag: '🇺🇸',
                     name: 'SHARPEI 🐶🔥',
@@ -601,7 +601,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25g', price: 220.00 },
                         { weight: '50g', price: 400.00 },
                     ]
-                },
+                }, */
             /*     {
                     id: 'ARCHIVE RUNTZ 🍬⛽️🔥',
                     flag: '🇺🇸',
@@ -864,6 +864,22 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
+                 {
+                    id: '🍓 SINFUL STRAWBERRY',
+                    flag: '🇲🇦',
+                    name: '🧊🍓 SINFUL STRAWBERRY',
+                    farm: 'HASBULLA FARM 🇲🇦',
+                    promoEligible: true,
+                    type: 'Frozen',
+                    image: 'ProductSin.png', 
+                    video: 'VideoSin.mp4',
+                    description: '🧊🍓 Sinful Strawberry — Hasbulla Farm\n 🤯🤯🥶💆‍♂️🔥🔥☄️🌪️⭐️💨\n\n 🔥Pour les connaisseurs 🔥\n\n 🧬 Génétique : Stuntz × Strawberry Poptartz\n ⚖️ Hybride équilibrée\n 🍓 Arômes dominants : fraise mûre, fruits rouges\n 🍬 Notes gourmandes de bonbon et de dessert\n 🍦 Fond crémeux avec une légère touche épicée\n\n ✨ Effets mentaux\n\n 😄 Euphorie agréable\n 😊 Bonne humeur durable\n 🗣️ Effet sociable et convivial\n 🎨 Créativité légère à modérée\n 🧠 Relaxation mentale sans lourdeur excessive\n\n 🛋️ Effets physiques\n\n 😌 Détente progressive du corps\n 💆 Sensation de relâchement musculaire\n 🌊 Bien-être général\n\n ⚡ Montée plus rapide\n 🔥 Effets plus concentrés\n 🍓 Saveurs fruitées plus prononcées\n 😌 Relaxation corporelle \n 🌬️ Expérience aromatique plus riche grâce à la concentration des terpènes\n\n Résumé :\n 🍓 + 🍬 + 😄 + 😌 + 🧊\n\n Une variété au profil très gourmand, avec une dominante fraise sucrée, une montée joyeuse et sociable, suivie d’une détente physique confortable sans être excessivement assommante. ✨🌿',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                    ]
+                },
               /*   {
                     id: '🥭 FORBIDDEN MANGO',
                     flag: '🇲🇦',
