@@ -535,6 +535,74 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: '💜👑 JEALOUSY 👑💜',
+                    flag: '🇺🇸',
+                    name: '💜👑 JEALOUSY 👑💜',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductGJ.png', 
+                    video: 'VideoGJ.mp4',
+                    description: '🔥 Une variété qui s’est imposée parmi les références modernes grâce à son mélange de puissance, d’élégance et de complexité aromatique. Récompensée à plusieurs reprises, elle est devenue un incontournable pour les amateurs de génétiques haut de gamme. 🔥\n ✨ Ce qu’elle apporte\n\n 😄 Euphorie intense et agréable\n 🧠 Montée cérébrale stimulante\n 😌 Relaxation corporelle progressive\n 🎯 Sensation de bien-être durable\n 🌙 Effet puissant qui peut devenir très relaxant en fin de session\n\n 👃 Profil aromatique\n\n ⛽ Notes gazy et funky\n 🍬 Douceur sucrée caractéristique\n 🍋 Touches d’agrumes et de fruits mûrs\n 🌲 Fond terreux et légèrement épicé\n 💜 Un profil complexe qui évolue tout au long de la dégustation\n\n 💨 L’expérience\n ealousy offre généralement une montée rapide qui apporte bonne humeur, confiance et confort mental. Progressivement, le corps se détend sans forcément provoquer un effet “couch-lock” immédiat. Son équilibre entre intensité mentale et détente physique en fait une variété très appréciée aussi bien en journée qu’en soirée selon la tolérance de chacun.\n\n ⭐ Pourquoi les connaisseurs l’apprécient ?\n\n 👑 Génétique devenue une référence moderne\n ❄️ Têtes souvent très résineuses et colorées\n ⛽ Profil terpénique riche et sophistiqué\n 🔥 Puissance souvent au rendez-vous\n 💎 Une variété reconnue pour son équilibre entre saveur, caractère et effets, capable de satisfaire aussi bien les amateurs de profils sucrés que les passionnés de notes plus gazy et complexes. 💜✨',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                }, 
+                {
+                    id: '🥣🥛 CEREAL MILK 🥛🥣',
+                    flag: '🇺🇸',
+                    name: '🥣🥛 CEREAL MILK 🥛🥣',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductGSM.png', 
+                    video: 'VideoGSM.mp4',
+                    description: '🔥 Une variété devenue incontournable grâce à son profil terpénique unique, à mi-chemin entre les céréales sucrées, le lait crémeux et une puissance moderne parfaitement maîtrisée. Très appréciée des amateurs de génétiques américaines pour son équilibre entre saveur et effet. 🔥\n ✨ Ce qu’elle apporte\n\n 😄 Euphorie propre et immédiate\n 🧠 Esprit léger et positif\n 🎯 Bonne clarté mentale\n 😌 Relaxation progressive sans lourdeur excessive\n 💨 Effet équilibré qui peut accompagner aussi bien une discussion qu’un moment de détente\n\n 👃 Profil aromatique\n\n 🥣 Céréales sucrées\n 🥛 Lait crémeux\n 🍦 Notes vanillées et gourmandes\n 🍬 Fond sucré rappelant parfois les marshmallows\n 🍋 Légère touche fruitée et citronnée selon les phénotypes\n\n 💨 L’expérience\n\n Dès les premières bouffées, Cereal Milk se distingue par sa douceur et son côté gourmand. L’effet démarre souvent par une montée euphorique et agréable qui améliore l’humeur, avant d’évoluer vers une détente confortable sans écraser l’esprit. C’est cette combinaison entre puissance, saveurs et équilibre qui lui a valu sa réputation.\n ⭐ Pourquoi les connaisseurs l’apprécient ?\n\n 🥛 Terpènes ultra gourmands et reconnaissables\n ❄️ Production de résine souvent impressionnante\n 🧠 Effet à la fois lucide et relaxant\n 🍦 Profil moderne très recherché dans les génétiques américaines\n 🔥 Une variété qui a marqué toute une génération de cultivars “dessert” et qui reste aujourd’hui une référence du haut de gamme. 💎✨',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                }, 
+                {
+                    id: '🍇💜 GRAPE SODA 💜🍇',
+                    flag: '🇺🇸',
+                    name: '🍇💜 GRAPE SODA 💜🍇',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductGS.png', 
+                    video: 'VideoGS.mp4',
+                    description: '🔥 Une variété qui ne cherche pas à en faire trop : elle mise sur un profil terpénique riche et une détente profonde. Très appréciée des connaisseurs pour son identité marquée autour du raisin et son effet relaxant qui s’installe progressivement. 🔥\n ✨ Ce qu’elle apporte\n\n 😌 Relaxation physique prononcée\n 🧠 Apaisement mental sans agitation\n 😊 Sensation de bien-être durable\n 🌙 Effet qui invite naturellement à ralentir le rythme\n 🍽️ Peut ouvrir l’appétit en fin de session\n\n 👃 Profil aromatique\n\n 🍇 Raisin mûr dominant\n 🍬 Notes de bonbon au raisin\n 🌲 Fond légèrement terreux et résineux\n 🍋 Pointe d’agrumes qui apporte de la fraîcheur\n\n 💨 L’expérience\n L’effet débute généralement par une sensation de confort mental et de bonne humeur avant de laisser place à une détente corporelle plus marquée. Une variété souvent recherchée pour les moments calmes, lorsque l’objectif est simplement de profiter de la session sans être bousculé.\n\n ⭐ Pourquoi les amateurs l’apprécient ?\n\n 💜 Terpènes très reconnaissables\n ❄️ Têtes souvent très résineuses\n 😌 Relaxation propre et agréable\n 🍇 Signature raisin difficile à confondre\n 🔥 Un classique pour ceux qui aiment les profils sucrés et profonds sans sacrifier la puissance.',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                }, 
+                {
+                    id: '🍨🌿 GELATO #33 🌿🍨',
+                    flag: '🇺🇸',
+                    name: '🍨🌿 GELATO #33 🌿🍨',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductG3.png', 
+                    video: 'VideoG3.mp4',
+                    description: '💎🔥 Une des variétés les plus célèbres de la famille Gelato, réputée pour son équilibre entre puissance, saveurs gourmandes et effets agréables. 🔥💎\n\n ✨ Origines\n Gelato #33 est issue du croisement entre la variété Sunset Sherbet et Thin Mint GSC (Girl Scout Cookies). Cette génétique lui a permis de devenir une référence mondiale dans l’univers du cannabis.  \n\n 🌈 Aspect\n\n • Têtes denses et compactes 🟣🟢\n • Couleurs vert foncé à violettes ✨\n • Couvertes d’une épaisse couche de résine givrée ❄️\n • Pistils orange vif 🧡  \n\n 👃 Arômes & Saveurs\n\n 🍦 Crémeux et gourmand\n 🍓 Notes de fruits rouges et d’agrumes\n 🍪 Fond biscuité et légèrement mentholé\n 🍋 Touches sucrées et citronnées  \n\n ⚡ Effets recherchés\n\n 😄 Euphorie et bonne humeur\n 🧠 Sensation de bien-être mental\n 🎨 Créativité et sociabilité\n 😌 Relaxation corporelle sans forcément être assommante\n 🌙 À dose plus élevée, elle peut devenir très relaxante et favoriser le repos  \n\n 🎯 Profil général\n\n • Hybride équilibrée (légère dominance indica selon les phénotypes)\n • THC souvent situé entre 20 % et 29 % 🔥\n • Adaptée aussi bien pour se détendre que pour profiter d’une activité calme ou entre amis.  \n\n ⭐ En résumé\n Gelato #33 est souvent appréciée pour son mélange de détente physique et d’euphorie mentale. Elle procure généralement un effet heureux, relaxant et agréable, accompagné d’un profil aromatique crémeux et sucré qui a fait sa réputation. 🍨✨',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                }, 
+                {
                     id: 'Lemon cherry 🇺🇸 🍋🔥',
                     flag: '🇺🇸',
                     name: 'Lemon cherry 🇺🇸 🍋🔥',
