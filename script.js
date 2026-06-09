@@ -202,9 +202,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     video: 'VideoHBS.mov',
                     description: '⚡🍯 STATIC SIFT PLASMA 70-130u 🍯⚡  \n\n 💎🔥 Un static sift premium sélectionné sur la tranche 70-130 microns, réputée pour offrir un excellent équilibre entre pureté, richesse aromatique et puissance. Cette extraction met en avant des trichomes soigneusement isolés afin de préserver un maximum de terpènes et de saveurs.  \n\n ✨ Génétique\n 🧬 Honey Bananas x Spritzer\n Une combinaison qui marie le caractère sucré et crémeux de Honey Bananas avec le profil frais et pétillant de Spritzer, donnant naissance à un hash moderne particulièrement expressif.\n\n 👃 Profil aromatique\n\n 🍯 Miel doux et gourmand\n 🍌 Banane mûre\n 🍬 Notes crémeuses et sucrées\n 🍋 Légère touche d’agrumes pétillante\n\n 😮‍💨 Effets\n\n ⚡ Euphorie rapide et agréable\n 🧠 Bien-être mental et humeur positive\n 😌 Relaxation corporelle progressive\n 🎵 Idéal pour une session détente, musique ou fin de journée\n\n 🎯 Pour les connaisseurs\n 🔥 Le calibre 70-130u est souvent recherché pour sa capacité à conserver une belle complexité aromatique tout en offrant une excellente qualité de résine.  \n 💎 Secret House Smoke Farm propose ici un plasma gourmand et très parfumé, où les notes de miel et de banane dominent la dégustation. Une pièce qui séduira les amateurs de hash moderne à la recherche d’un profil riche, doux et particulièrement savoureux. 🍯🍌✨',
                     tarifs: [
-                        { weight: '5G', price: 110.00 },
-                        { weight: '10G', price: 200.00},
-                        { weight: '25G', price: 450.00 },
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 130.00},
+                        { weight: '25G', price: 300.00 },
+                        { weight: '50G', price: 450.00 },
+                        { weight: '100G', price: 800.00 },
                     ]
                 },
                 {
