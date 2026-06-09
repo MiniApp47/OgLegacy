@@ -113,9 +113,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     promoEligible: true,
                     type: 'JauneUsa',
                     image: 'ProductPerm.jpg', 
+                    video:'VideoPerm.mp4',
                     description: '🔥 Une mousse réputée pour son caractère unique et sa puissance. Son profil est marqué par des notes de gaz, de crème et de marqueur, ce qui lui donne une identité immédiatement reconnaissable.\n\n 💨 Effets recherchés :\n 😌 Détente profonde\n 😊 Sensation de bien-être\n 🧠 Esprit apaisé\n 🛋️ Relaxation physique marquée\n 🌙 Peut devenir très relaxante en fin de session\n\n ⭐ Pourquoi les amateurs l’apprécient ?\n ✔️ Arômes puissants et originaux\n ✔️ Goût qui reste longtemps en bouche\n ✔️ Effets durables\n ✔️ Idéale pour se poser et profiter du moment\n\n 🇺🇸💎 Pour les vrais connaisseurs de mousse US, la Permanent Marker est souvent considérée comme une référence moderne grâce à son profil terpénique atypique, puissant et facilement identifiable. Une variété qui ne passe jamais inaperçue et qui a su se faire une place parmi les génétiques les plus appréciées de ces dernières années.\n 🏆 En bref : Une mousse de caractère, riche en saveurs et en sensations, pensée pour ceux qui recherchent une expérience authentique et typiquement West Coast. 🌊🔥🧱💨',
                     tarifs: [
-                        { weight: '10G', price: 50.00 },
+                        { weight: '10G', price: 60.00 },
                         { weight: '50G', price: 200.00 },
                         { weight: '100G', price: 350.00 },
                     ]
@@ -190,6 +191,22 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'HONEY (BANANAS x SPRITZER) 🍌🍯',
+                    flag: '🇺🇸',
+                    name: 'HONEY (BANANAS x SPRITZER) 🍌🍯', 
+                    farm: '🌟 By Secret House Smoke Farm 🌟',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductHBS.png',
+                    video: 'VideoHBS.mov',
+                    description: '⚡🍯 STATIC SIFT PLASMA 70-130u 🍯⚡  \n\n 💎🔥 Un static sift premium sélectionné sur la tranche 70-130 microns, réputée pour offrir un excellent équilibre entre pureté, richesse aromatique et puissance. Cette extraction met en avant des trichomes soigneusement isolés afin de préserver un maximum de terpènes et de saveurs.  \n\n ✨ Génétique\n 🧬 Honey Bananas x Spritzer\n Une combinaison qui marie le caractère sucré et crémeux de Honey Bananas avec le profil frais et pétillant de Spritzer, donnant naissance à un hash moderne particulièrement expressif.\n\n 👃 Profil aromatique\n\n 🍯 Miel doux et gourmand\n 🍌 Banane mûre\n 🍬 Notes crémeuses et sucrées\n 🍋 Légère touche d’agrumes pétillante\n\n 😮‍💨 Effets\n\n ⚡ Euphorie rapide et agréable\n 🧠 Bien-être mental et humeur positive\n 😌 Relaxation corporelle progressive\n 🎵 Idéal pour une session détente, musique ou fin de journée\n\n 🎯 Pour les connaisseurs\n 🔥 Le calibre 70-130u est souvent recherché pour sa capacité à conserver une belle complexité aromatique tout en offrant une excellente qualité de résine.  \n 💎 Secret House Smoke Farm propose ici un plasma gourmand et très parfumé, où les notes de miel et de banane dominent la dégustation. Une pièce qui séduira les amateurs de hash moderne à la recherche d’un profil riche, doux et particulièrement savoureux. 🍯🍌✨',
+                    tarifs: [
+                        { weight: '5G', price: 110.00 },
+                        { weight: '10G', price: 200.00},
+                        { weight: '25G', price: 450.00 },
+                    ]
+                },
                 {
                     id: '⚡🥣 CEREAL MILK 🥣⚡',
                     flag: '🇺🇸',
@@ -286,7 +303,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 320.00 },
                     ]
                 }, */
-                {
+                /* {
                     id: 'RAINBOW x SPRITZER 🌈🍹',
                     flag: '🇲🇦',
                     name: 'RAINBOW x SPRITZER 🌈🍹', 
@@ -302,7 +319,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 300.00 },
                         { weight: '50G', price: 450.00 },
                     ]
-                },
+                }, */
                 /* {
                     id: 'CHERRY PIE 🍒🥧⚡️',
                     flag: '🇲🇦',
@@ -319,7 +336,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 320.00 },
                     ]
                 }, */
-                {
+               /*  {
                     id: 'HONEY BANANA 🍯🍌⚡️',
                     flag: '🇲🇦',
                     name: 'HONEY BANANA 🍯🍌⚡️', 
@@ -334,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                },
+                }, */
                /*  {
                     id: 'STATIC RS11 🍬⛽',
                     flag: '🇲🇦',
@@ -351,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 320.00 },
                     ]
                 }, */
-                {
+               /*  {
                     id: 'SPRITE RS 🍋🥤',
                     flag: '🇲🇦',
                     name: 'SPRITE RS 🍋🥤', 
@@ -366,7 +383,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                },
+                }, */
              /*    {
                     id: 'CAP JUNKY HASH 🧪🔥',
                     flag: '🇲🇦',
