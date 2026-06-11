@@ -1063,7 +1063,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
-                 {
+               /*   {
                     id: '🍓 SINFUL STRAWBERRY',
                     flag: '🇲🇦',
                     name: '🧊🍓 SINFUL STRAWBERRY',
@@ -1078,7 +1078,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 120.00 },
                         { weight: '25G', price: 250.00 },
                     ]
-                },
+                }, */
               /*   {
                     id: '🥭 FORBIDDEN MANGO',
                     flag: '🇲🇦',
@@ -1337,7 +1337,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
-                {
+               /*  {
                     id: 'El Mero  💥💥',
                     flag: '🇲🇦',
                     name: 'El Mero 🌰',
@@ -1408,7 +1408,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                 {
                     id: 'PURPLE STORM 😈',
                     flag: '🇲🇦',
