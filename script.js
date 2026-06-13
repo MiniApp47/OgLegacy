@@ -1063,6 +1063,20 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
+                 {
+                    id: '🫒❄️🔥 OLIVE 🔥❄️🫒',
+                    flag: '🇲🇦',
+                    name: '🫒❄️🔥 OLIVE 🔥❄️🫒',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Frozen',
+                    image: 'ProductOli.png', 
+                    video: 'VideoOli.mp4',
+                    description: '✨ Pourquoi est-il si recherché ? ✨\n\n ❄️ Texture grasse, souple et fondante\n 🌿 Forte concentration en terpènes pour un maximum de saveurs\n 🔥 Combustion propre et agréable\n 🫒 Format emblématique devenu une référence dans le monde du hash moderne\n 💎 Aspect travaillé qui reflète souvent un produit de qualité supérieure\n 🏆 Considéré par beaucoup comme une qualité top du top, destinée aux amateurs les plus exigeants\n\n 😌💨 Effets généralement recherchés :\n\n 🧘 Relaxation profonde du corps\n 😊 Sensation de bien-être et de détente\n 🧠 Apaisement mental agréable\n ⏳ Effets durables et équilibrés\n\n 👃🍯 Ce qui plaît aux amateurs :\n\n 🌿 Arômes intenses et authentiques\n ❄️ Terpènes préservés grâce au procédé Frozen\n 🤤 Texture fondante très appréciée\n 💨 Expérience riche en saveurs du début à la fin\n\n 🔥🏆 Pour les vrais connaisseurs :\n L’Olive Frozen n’est pas une variété mais un format devenu culte 🫒👑. Très populaire auprès des amateurs de résines premium 💎, il est recherché pour sa présentation soignée, sa texture exceptionnelle 🤤 et l’intensité de son profil aromatique 🌿🍯. Souvent considéré comme le haut de gamme du Frozen, il s’est imposé comme une référence incontournable pour ceux qui recherchent ce qui se fait de mieux en matière de résine moderne ❄️🔥💨🏆.',
+                    tarifs: [
+                        { weight: '1 olive', price: 90.00 },
+                    ]
+                }
                /*   {
                     id: '🍓 SINFUL STRAWBERRY',
                     flag: '🇲🇦',
@@ -1337,6 +1351,24 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'El Mero  💥💥',
+                    flag: '🇲🇦',
+                    name: 'El Mero 🌰',
+                    farm: '🇨🇭 SUISSE FARMZ',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductEM.png', 
+                    video: 'VideoEM.mov',
+                    description: '☕️🤍🔥 Nouvelle Récolte 2026 – Suisse Farm 🔥🤍☕️\n 🇨🇭💎 Une sélection ultra gourmande tout droit venue de Suisse Farm, pensée pour les amateurs de filtrés premium et de profils riches en terpènes. 💎🇨🇭\n 🌿✨ 3x Filtré 45u – El Mero ✨🌿\n\n ✨ Profil aromatique ✨\n El Mero dévoile un profil particulièrement gourmand et raffiné 🤤🔥. Dès l’ouverture, une vague d’arômes crémeux et pâtissiers 🍪🥛 envahit les sens, accompagnée de notes de café fraîchement torréfié ☕, de caramel fondant 🍮 et de fruits à coque grillés 🌰. En fond, une touche kush légèrement terreuse 🌿 apporte équilibre et profondeur à l’ensemble.\n\n 😮‍💨🍬 Goût\n À la dégustation, El Mero confirme tout son potentiel gourmand 🤍🔥. L’attaque est douce, ronde et crémeuse ☁️, portée par des saveurs de café latte ☕🥛 et de biscuit caramélisé 🍪. Des notes de noisette grillée 🌰 et de vanille 🍦 viennent ensuite enrichir le palais avant de laisser place à une finale longue, onctueuse et légèrement épicée 🌿✨.\n\n ⚡🧠 Effets\n Une expérience harmonieuse et réconfortante 😌💨.\n\n 😁 Sensation de bien-être rapide\n ✨ Humeur positive et apaisée\n 🧘 Relaxation mentale progressive\n 💆 Détente corporelle confortable\n ☁️ Effet enveloppant et chaleureux\n 🌙 Parfait pour les fins de journée et les moments de détente\n\n 🏆🇨🇭 Le verdict\n Avec cette Nouvelle Récolte 2026 signée Suisse Farm, El Mero s’impose comme une référence pour les amateurs de résines gourmandes et soigneusement travaillées 💎🔥. Son profil café-caramel ultra réconfortant, sa fumée soyeuse et sa belle richesse aromatique en font une pièce de choix dans la catégorie des 45u premium.',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
                /*  {
                     id: 'El Mero  💥💥',
                     flag: '🇲🇦',
