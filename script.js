@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
-                {
+             /*    {
                     id: 'HONEY (BANANAS x SPRITZER) 🍌🍯',
                     flag: '🇺🇸',
                     name: 'HONEY (BANANAS x SPRITZER) 🍌🍯', 
@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 200.00},
                         { weight: '25G', price: 450.00 },
                     ]
-                },
+                }, */
                /*  {
                     id: 'super boof 🦍⛽️',
                     flag: '🇲🇦',
@@ -536,7 +536,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 850.00}
                     ]
                 }, */
-                 {
+                 /* {
                     id: '🌟 CALYPSO',
                     flag: '🇲🇦',
                     name: '🌟 CALYPSO',
@@ -553,7 +553,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 450.00},
                         { weight: '100G', price: 800.00}
                     ]
-                },  
+                },   */
                  /* {
                     id: '🌑 BLACK CHERRY',
                     flag: '🇲🇦',
@@ -665,7 +665,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategWeed.png', // Ton image de catégorie Weed
 
             products: [
-                {
+              /*   {
                     id: '💜👑 JEALOUSY 👑💜',
                     flag: '🇺🇸',
                     name: '💜👑 JEALOUSY 👑💜',
@@ -732,7 +732,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25g', price: 220.00 },
                         { weight: '50g', price: 400.00 },
                     ]
-                }, 
+                },  */
                 {
                     id: 'Lemon cherry 🇺🇸 🍋🔥',
                     flag: '🇺🇸',
@@ -750,7 +750,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                     ]
                 }, 
-                {
+              /*   {
                     id: 'Larry bird 🍬⛽️🔥',
                     flag: '🇺🇸',
                     name: 'Larry bird 🍬⛽️🔥',
@@ -766,7 +766,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25g', price: 220.00 },
                         { weight: '50g', price: 400.00 },
                     ]
-                }, 
+                },  */
                /*  {
                     id: 'ROCKET 🚀🔥',
                     flag: '🇺🇸',
@@ -1063,7 +1063,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
-                 {
+                /*  {
                     id: '🫒❄️🔥 OLIVE 🔥❄️🫒',
                     flag: '🇲🇦',
                     name: '🫒❄️🔥 OLIVE 🔥❄️🫒',
@@ -1076,7 +1076,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '1 olive', price: 90.00 },
                     ]
-                }
+                } */
                /*   {
                     id: '🍓 SINFUL STRAWBERRY',
                     flag: '🇲🇦',
@@ -1351,7 +1351,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
-                {
+              /*   {
                     id: 'El Mero  💥💥',
                     flag: '🇲🇦',
                     name: 'El Mero 🌰',
@@ -1368,7 +1368,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                /*  {
                     id: 'El Mero  💥💥',
                     flag: '🇲🇦',
@@ -1441,7 +1441,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 }, */
-                {
+               /*  {
                     id: 'PURPLE STORM 😈',
                     flag: '🇲🇦',
                     name: 'PURPLE STORM 😈',
@@ -1512,7 +1512,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 280.00 },
                         { weight: '100G', price: 450.00 },
                     ]
-                },
+                }, */
                 /*  {
                     id: '🍯 FRITTER LICKER 🔥',
                     flag: '🇲🇦',
