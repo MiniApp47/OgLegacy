@@ -372,22 +372,22 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 800.00 },
                     ]
                 },
-                /* {
+                {
                     id: 'SPRITZER 🌈🍹',
                     flag: '🇲🇦',
                     name: 'SPRITZER 🌈🍹', 
                     farm: '🏀 LAKERS FARM',
                     promoEligible: true,
                     type: 'STATIC',
-                    image: 'ProductCh.png',
-                    video: 'VideoCh.mp4',
-                    description: '⚡️ PLASMA STATIC ⚡️ \n\n gourmand signé LAKERS FARM. La strain Cherry Pie envoie direct une vague sucrée et fruitée dès l’ouverture du pot 🔥\n\n 👃 Aromatique :\n Une grosse odeur de cerise sucrée mélangée à une pâte dessert crémeuse, avec un fond légèrement terreux et gazeux typique des grosses génétiques US. Le profil est riche, profond et ultra addictif.\n\n 👅 Goût :\n En bouche, c’est un vrai dessert : cerise mûre 🍒, notes pâtissières sucrées 🥧, avec une légère touche creamy et kush qui reste longtemps après l’expiration. Très terpy, très propre, chaque taffe est lourde en saveur.\n\n 💨 Effet :\n Une vraie frappe de static : détente puissante, montée rapide, effet lourd et relaxant sans perdre le côté euphorique. Parfait pour les amateurs de static bien fort avec un goût premium.\n PLASMA STATIC by LAKERS FARM = qualité très sérieuse ⚡️🍒',
+                    image: 'ProductSpii.png',
+                    video: 'VideoSpii.mp4',
+                    description: '⚡️ PLASMA STATIC ⚡️ \n\n 💎🔥 Un Static Plasma qui met en avant toute la richesse aromatique de la génétique Spritzer, une variété réputée pour son profil ultra gourmand et sa production de résine exceptionnelle. Les extractions issues de Spritzer sont particulièrement appréciées des amateurs de hash moderne pour leur puissance aromatique et leur texture fondante.  \n\n ✨ Les effets recherchés :\n 😌 Sensation de détente progressive sans être trop lourde\n 😊 Humeur positive et euphorique\n 🧠 Esprit léger et agréable\n 💨 Moment relaxant tout en restant fonctionnel\n 🔥 Effet propre et équilibré, apprécié en journée comme en soirée  \n\n 🌿 Profil aromatique :\n 🍇 Raisin sucré\n 🍬 Bonbon fruité\n 🍊 Notes d’agrumes et de mandarine\n ⛽ Fond légèrement gazzy et crémeux\n 🍓 Touches de fruits rouges et de baies  \n\n ❄️ Texture Plasma Static :\n ✨ Très riche en têtes de trichomes sélectionnées\n 🤤 Texture grasse, souple et fondante\n 💎 Aspect clair et propre caractéristique des Static haut de gamme\n 🌿 Conservation maximale des terpènes grâce au procédé d’extraction statique  \n\n 🏆 Un hash qui plaira particulièrement aux amateurs de profils candy, raisin et agrumes, avec une fumée douce, savoureuse et une belle longueur en bouche. Une variété souvent recherchée par les connaisseurs de résines modernes pour son équilibre entre saveurs et effets.  \n 🔥 Pour les vrais connaisseurs de Static US, le Spritzer est considéré comme l’une des génétiques les plus intéressantes à travailler en hash grâce à son rendement en résine et à son profil “candy gas” particulièrement marqué.',
                     tarifs: [
                         { weight: '5G', price: 80.00 },
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                }, */
+                },
                 {
                     id: 'CHERRY PIE 🍒🥧⚡️',
                     flag: '🇲🇦',
