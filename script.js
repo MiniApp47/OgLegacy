@@ -1417,16 +1417,16 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
-              /*   {
-                    id: 'El Mero  💥💥',
+                {
+                    id: '🍋⛰️🇲🇦 Lemon’s',
                     flag: '🇲🇦',
-                    name: 'El Mero 🌰',
-                    farm: '🇨🇭 SUISSE FARMZ',
+                    name: '🍋⛰️🇲🇦 Lemon’s',
+                    farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: '3xFiltre',
-                    image: 'ProductEM.png', 
-                    video: 'VideoEM.mov',
-                    description: '☕️🤍🔥 Nouvelle Récolte 2026 – Suisse Farm 🔥🤍☕️\n 🇨🇭💎 Une sélection ultra gourmande tout droit venue de Suisse Farm, pensée pour les amateurs de filtrés premium et de profils riches en terpènes. 💎🇨🇭\n 🌿✨ 3x Filtré 45u – El Mero ✨🌿\n\n ✨ Profil aromatique ✨\n El Mero dévoile un profil particulièrement gourmand et raffiné 🤤🔥. Dès l’ouverture, une vague d’arômes crémeux et pâtissiers 🍪🥛 envahit les sens, accompagnée de notes de café fraîchement torréfié ☕, de caramel fondant 🍮 et de fruits à coque grillés 🌰. En fond, une touche kush légèrement terreuse 🌿 apporte équilibre et profondeur à l’ensemble.\n\n 😮‍💨🍬 Goût\n À la dégustation, El Mero confirme tout son potentiel gourmand 🤍🔥. L’attaque est douce, ronde et crémeuse ☁️, portée par des saveurs de café latte ☕🥛 et de biscuit caramélisé 🍪. Des notes de noisette grillée 🌰 et de vanille 🍦 viennent ensuite enrichir le palais avant de laisser place à une finale longue, onctueuse et légèrement épicée 🌿✨.\n\n ⚡🧠 Effets\n Une expérience harmonieuse et réconfortante 😌💨.\n\n 😁 Sensation de bien-être rapide\n ✨ Humeur positive et apaisée\n 🧘 Relaxation mentale progressive\n 💆 Détente corporelle confortable\n ☁️ Effet enveloppant et chaleureux\n 🌙 Parfait pour les fins de journée et les moments de détente\n\n 🏆🇨🇭 Le verdict\n Avec cette Nouvelle Récolte 2026 signée Suisse Farm, El Mero s’impose comme une référence pour les amateurs de résines gourmandes et soigneusement travaillées 💎🔥. Son profil café-caramel ultra réconfortant, sa fumée soyeuse et sa belle richesse aromatique en font une pièce de choix dans la catégorie des 45u premium.',
+                    image: 'ProductL.png', 
+                    video: 'VideoL.mov',
+                    description: '🍋⛰️🇲🇦 Filtre X3 – Dry Sift 90u \n Le Filtre X3 90u Lemon’s est généralement considéré comme un hash marocain moderne de bonne qualité, obtenu par trois filtrations successives afin d’éliminer un maximum d’impuretés végétales et de conserver principalement les têtes de trichomes. Le grade 90 microns (90u) est souvent recherché car il correspond à une taille de résine réputée pour offrir un bon équilibre entre puissance, pureté et richesse aromatique.  \n\n 🍋 Profil aromatique\n La variété Lemon’s est connue pour développer des notes : \n • Citron frais 🍋 \n • Zestes d’agrumes 🍊 \n • Léger côté sucré et crémeux 🍬 \n • Fond terreux typique du hash marocain 🇲🇦\n\n ✨ Texture\n • Souple et grasse à température ambiante 🤤\n  • Peut devenir très malléable lorsqu’il est légèrement chauffé 🔥 \n • Couleur souvent blonde à dorée selon le lot 🌟\n\n 😌 Effets généralement recherchés\n  • Montée cérébrale agréable 🧠\n  • Sensation de bien-être et de détente 😌\n  • Humeur positive et légère euphorie 😊\n  • Relaxation progressive sans être trop assommante 🌙\n\n 💎 Pour les connaisseurs\n Le Filtre X3 90u se situe souvent au-dessus d’un dry classique ou d’une mousse commerciale grâce à son nettoyage plus poussé et à sa concentration plus élevée en trichomes.\n\n 🔥 En résumé :\n Un hash marocain moderne, propre et parfumé, dominé par des arômes citronnés intenses, offrant une expérience équilibrée entre saveurs, détente et plaisir aromatique. Idéal pour ceux qui apprécient les profils agrumes et les dry sift bien travaillés. 🍋⛰️🇲🇦',
                     tarifs: [
                         { weight: '5G', price: 50.00 },
                         { weight: '10G', price: 80.00 },
@@ -1434,7 +1434,25 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                }, */
+                },
+                {
+                    id: '🍒🔥 Local River Cherries 🔥🍒',
+                    flag: '🇲🇦',
+                    name: '🍒🔥 Local River Cherries 🔥🍒',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductLRC.png', 
+                    video: 'VideoLRC.mov',
+                    description: '🍒🔥 Dry-Sift 90u  🔥🍒\n 💎 Le Local River Cherries 90u est un dry-sift haut de gamme élaboré à partir d’une génétique orientée cerise sucrée, souvent accompagnée de notes fruitées et légèrement crémeuses. Le tamisage en 90 microns (90u) permet de récupérer une grande quantité de têtes de trichomes matures, recherchées pour leur richesse en terpènes et leur pureté.  \n\n ✨ Ce qui le distingue : \n • 🍒 Arômes dominants de cerise mûre et fruits rouges. \n • 🍬 Fond légèrement sucré rappelant parfois le bonbon ou la pâtisserie. \n • 🧈 Texture grasse et malléable lorsqu’il est bien conservé. \n • 💨 Fumée douce et savoureuse, appréciée des amateurs de résines modernes. \n • 🌿 Profil terpénique très présent grâce à la sélection 90u.  \n\n ⚡ Effets généralement recherchés : \n • 😄 Euphorie agréable et bonne humeur.\n  • 🧠 Sensation de détente mentale sans être trop lourde.\n  • 🤤 Moment de relaxation idéal en fin de journée.\n  • 🛋️ Effet physique progressif, confortable et relaxant.  \n\n 🏆 Pour les connaisseurs, un 90u bien travaillé est souvent considéré comme l’un des meilleurs compromis entre puissance, richesse aromatique et qualité de combustion. Les plages comprises entre 73u et 120u sont d’ailleurs souvent citées parmi les plus intéressantes pour obtenir les têtes de trichomes les plus qualitatives.  \n 🍒💨 Local River Cherries 90u s’adresse avant tout aux amateurs de résines fruitées qui recherchent une expérience savoureuse, propre et riche en terpènes.',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
                /*  {
                     id: 'El Mero  💥💥',
                     flag: '🇲🇦',
