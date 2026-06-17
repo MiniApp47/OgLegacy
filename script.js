@@ -732,6 +732,23 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                  {
+                    id: '🍇💜 GRAPE SODA 💜🍇',
+                    flag: '🇺🇸',
+                    name: '🍇💜 GRAPE SODA 💜🍇',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductGrp.png', 
+                    video: 'VideoGrp.mp4',
+                    description: '🔥 Une variété qui ne cherche pas à en faire trop : elle mise sur un profil terpénique riche et une détente profonde. Très appréciée des connaisseurs pour son identité marquée autour du raisin et son effet relaxant qui s’installe progressivement. 🔥\n\n ✨ Ce qu’elle apporte\n 😌 Relaxation physique prononcée\n 🧠 Apaisement mental sans agitation\n 😊 Sensation de bien-être durable\n 🌙 Effet qui invite naturellement à ralentir le rythme\n 🍽️ Peut ouvrir l’appétit en fin de session\n\n 👃 Profil aromatique\n 🍇 Raisin mûr dominant\n 🍬 Notes de bonbon au raisin\n 🌲 Fond légèrement terreux et résineux\n 🍋 Pointe d’agrumes qui apporte de la fraîcheur\n\n 💨 L’expérience\n L’effet débute généralement par une sensation de confort mental et de bonne humeur avant de laisser place à une détente corporelle plus marquée. Une variété souvent recherchée pour les moments calmes, lorsque l’objectif est simplement de profiter de la session sans être bousculé.\n\n ⭐ Pourquoi les amateurs l’apprécient ?\n 💜 Terpènes très reconnaissables\n ❄️ Têtes souvent très résineuses\n 😌 Relaxation propre et agréable\n 🍇 Signature raisin difficile à confondre\n 🔥 Un classique pour ceux qui aiment les profils sucrés et profonds sans sacrifier la puissance.',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                }, 
+                 {
                     id: '🌴🔥 CALI MIAMI 🔥🌴',
                     flag: '🇺🇸',
                     name: '🌴🔥 CALI MIAMI 🔥🌴',
