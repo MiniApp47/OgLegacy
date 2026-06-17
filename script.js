@@ -731,6 +731,40 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategWeed.png', // Ton image de catégorie Weed
 
             products: [
+                 {
+                    id: '🌴🔥 CALI MIAMI 🔥🌴',
+                    flag: '🇺🇸',
+                    name: '🌴🔥 CALI MIAMI 🔥🌴',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductCM.png', 
+                    video: 'VideoCM.mp4',
+                    description: '💎 Une variété inspirée de l’univers californien et de l’ambiance tropicale de Miami. Bien que son pedigree puisse varier selon les breeders, elle est généralement appréciée pour son profil aromatique gourmand et exotique. 💎\n\n ✨ Au nez :\n 🍊 Notes d’agrumes sucrés\n 🥭 Touches de fruits tropicaux (mangue, ananas)\n 🍬 Fond légèrement candy et crémeux\n ⛽ Une pointe gazeuse typique des génétiques modernes\n\n ✨ À la dégustation :\n 💨 Fumée douce et savoureuse\n 🍭 Saveurs fruitées persistantes\n 🌴 Mélange équilibré entre fraîcheur exotique et gourmandise\n\n ✨ Effets généralement recherchés :\n 😌 Sensation de bien-être et de détente\n 😊 Humeur positive et euphorique\n 🧠 Esprit léger et créatif\n 🛋️ Relaxation progressive sans être trop écrasante\n\n 👑 Une variété qui plaît particulièrement aux amateurs de profils fruités modernes, avec des terpènes expressifs et une fumée agréable du début à la fin. Un choix souvent apprécié par ceux qui recherchent un compromis entre puissance, saveur et confort de dégustation. 🔥🌴🍬💨',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                }, 
+                 {
+                    id: '🍰⛽ Cali Gascake ⛽🍰',
+                    flag: '🇺🇸',
+                    name: '🍰⛽ Cali Gascake ⛽🍰',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductCG.png', 
+                    video: 'VideoCG.mp4',
+                    description: '💎 Une variété très appréciée des amateurs de profils gassy/cake, mélangeant des notes de carburant, de vanille crémeuse et de pâtisserie sucrée. Les génétiques les plus souvent associées à Gas Cake proviennent du croisement High Octane × Jungle Cake, ce qui lui donne un profil puissant et très résineux.  \n\n ✨ Effets généralement recherchés :\n 😌 Relaxation profonde du corps\n 😊 Sensation de bien-être et d’euphorie\n 🧠 Esprit détendu sans être complètement assommé au départ\n 🍕 Ouverture de l’appétit\n 😴 Peut devenir très relaxante en fin de session  \n\n 👃 Profil aromatique :\n ⛽ Diesel / essence prononcé\n 🍰 Vanille crémeuse\n 🍬 Notes pâtissières et sucrées\n 🌿 Fond terreux et légèrement épicé  \n\n 🔥 Pour les connaisseurs :\n La Cali Gascake est souvent recherchée pour son équilibre entre la gourmandise des variétés « Cake » et la puissance terpènique des lignées « Gas ». Elle offre généralement une fumée riche, grasse et très parfumée, avec une détente marquée qui plaît aux amateurs de fleurs ou de hash haut de gamme.',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                }, 
               /*   {
                     id: '💜👑 JEALOUSY 👑💜',
                     flag: '🇺🇸',
