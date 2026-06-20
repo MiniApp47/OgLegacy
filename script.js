@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
               
             ]
         },
-          {
+        /*   {
             id: 'Jaune USA',
             name: 'Jaune USA 🇺🇸',
             type: 'Jaune USA',
@@ -180,9 +180,9 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 220.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                }, */
+                },
             ]
-        },
+        }, */
         {
             id: 'STATIC',
             name: 'STATIC 🇲🇦',
@@ -2425,7 +2425,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     { name: '10g : Cali 🇨🇦💎', targetId: 'PurpleBud' },
                     { name: '10g : Frozen Sift 🫒❄️', targetId: 'Frozensift' },
                     { name: '10g : Fresh Frozen 🪵🧊', targetId: 'Buchettes' },
-                    { name: '2g : KGF Static 🇲🇦✨', targetId: '220u' } // J'ai mis StaticUSA en exemple, mets l'ID de ta Cali
+                    { name: '2g : KGF Static 🇲🇦✨', targetId: '220u' } // usa'ai mis StaticUSA en exemple, mets l'ID de ta Cali
                 ],
                 
                 // Description formatée avec les sauts de ligne
