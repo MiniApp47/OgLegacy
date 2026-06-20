@@ -257,7 +257,23 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 450.00 },
                     ]
                 }, */
-               /*  {
+                {
+                    id: 'MOTORBREAD',
+                    flag: '🇲🇦',
+                    name: 'MOTORBREAD 🛵', 
+                    farm: '🏀 LAKERS FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductSB.png',
+                    video: 'VideoSB.mov',
+                    description: '⚡️ PLASMA STATIC ⚡️ \n\n La Motorbread est une variété qui séduit les amateurs de profils gazeux, crémeux et puissants. Réputée pour son caractère intense, elle développe un mélange complexe de notes de carburant, de pâte sucrée, d’épices et de terre, offrant une expérience aromatique riche et persistante.\n ✨ En version Plasma Static de Lakers Farm, on peut s’attendre à :\n\n 🔬 Une pureté exceptionnelle\n Sélection minutieuse des trichomes.\n Extraction très propre et raffinée.\n Texture grasse, fondante et homogène.\n Concentration élevée en terpènes.\n\n ⛽🍞 Profil terpénique\n Diesel puissant\n Essence fraîche\n Notes pâtissières et crémeuses\n Épices douces\n Fond terreux typé OG\n\n 😮‍💨 Effets généralement recherchés\n Relaxation profonde du corps\n Sensation de bien-être durable\n Euphorie calme et agréable\n Expérience idéale pour les moments de détente\n\n 💎 Pourquoi les connaisseurs l’apprécient ?\n La Motorbread combine la puissance des variétés gazy avec des nuances plus gourmandes et crémeuses. En extraction Plasma Static, son profil terpénique gagne encore en intensité, offrant une dégustation particulièrement savoureuse et complexe.\n\n 🏆 Lakers Farm Motorbread Plasma Static\n ➡️ Une résine premium destinée aux amateurs de gaz, de crème et de gros terpènes, avec une texture haut de gamme et une signature aromatique qui reste longtemps en bouche. Un vrai plaisir pour les connaisseurs de hash moderne. 🔥⛽🍞💎',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 150.00},
+                        { weight: '25G', price: 320.00 },
+                    ]
+                },
+                {
                     id: 'super boof 🦍⛽️',
                     flag: '🇲🇦',
                     name: 'SUPER BOOF 🦍⛽️', 
@@ -272,8 +288,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                }, */
-              /*   {
+                },
+                {
                     id: 'IPANEMA 🍍🥭',
                     flag: '🇲🇦',
                     name: 'IPANEMA 🍍🥭', 
@@ -288,7 +304,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                }, */
+                },
                 /* {
                     id: 'GAZ MONKEY 🦍⛽️ ⚡️💎',
                     flag: '🇲🇦',
