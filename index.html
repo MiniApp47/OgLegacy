@@ -119,7 +119,7 @@
             border-radius: 20px;
             border: 1px solid #7d1a03;
             width: 70%;
-                }
+        }
 
         #page-loader img {
             width: 80px;
@@ -338,12 +338,12 @@
 
         .product-card {
             background: linear-gradient(145deg, #a902d2, #9c210e);
-    border: 1px solid #b43107;
-    border-radius: 15px;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-    color: #151516;
+            border: 1px solid #b43107;
+            border-radius: 15px;
+            overflow: hidden;
+            cursor: pointer;
+            position: relative;
+            color: #151516;
         }
 
         .card-badge {
@@ -508,17 +508,17 @@
 
         .tarif-item {
             padding: 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    background: linear-gradient(#ef233c, #8300ff30);
-    border: 2px solid #e53d07;
-    width: 45%;
-    height: auto;
-    flex-direction: column;
-    margin-top: 10px;
-    color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            background: linear-gradient(#ef233c, #8300ff30);
+            border: 2px solid #e53d07;
+            width: 45%;
+            height: auto;
+            flex-direction: column;
+            margin-top: 10px;
+            color: black;
         }
 
         .box-tarif {
@@ -530,8 +530,10 @@
             text-align: center;
             width: 80%;
             padding: 1vh;
-            position: relative; /* Important ! */
-    overflow: visible;  /* Important pour que la bulle puisse dépasser */
+            position: relative;
+            /* Important ! */
+            overflow: visible;
+            /* Important pour que la bulle puisse dépasser */
 
         }
 
@@ -755,11 +757,11 @@
         #page-info .contact-logo,
         #page-contact .contact-logo {
             height: 15vh;
-    width: 15vh;
-    margin-bottom: 6vh;
-    border-radius: 20px;
-    margin-top: 2vh;
-    box-shadow: 0px 0px 10px 2px #9c210e;
+            width: 15vh;
+            margin-bottom: 6vh;
+            border-radius: 20px;
+            margin-top: 2vh;
+            box-shadow: 0px 0px 10px 2px #9c210e;
         }
 
         #page-info .contact-card,
@@ -1163,47 +1165,54 @@
             border-color: #fff;
             transform: scale(0.98);
         }
-/* =========================================
+
+        /* =========================================
    NOUVEAUX STYLES UNIQUES (Frozen Sift)
    ========================================= */
 
-/* 🍒 SOUR CHERRY (Rouge Cerise Profond) */
-.variant-btn.style-cherry.active {
-    background: linear-gradient(135deg, #b71c1c, #880e4f) !important;
-    border-color: #ff5252 !important;
-    color: white;
-    box-shadow: 0 4px 12px rgba(183, 28, 28, 0.4);
-}
-.add-to-cart-btn.style-cherry {
-    background: linear-gradient(135deg, #b71c1c, #880e4f) !important;
-    box-shadow: 0 4px 15px rgba(183, 28, 28, 0.5);
-}
+        /* 🍒 SOUR CHERRY (Rouge Cerise Profond) */
+        .variant-btn.style-cherry.active {
+            background: linear-gradient(135deg, #b71c1c, #880e4f) !important;
+            border-color: #ff5252 !important;
+            color: white;
+            box-shadow: 0 4px 12px rgba(183, 28, 28, 0.4);
+        }
 
-/* 🏆 ACAPULCO GOLD (Or Brillant) */
-.variant-btn.style-gold.active {
-    background: linear-gradient(135deg, #FFD700, #FFA000) !important;
-    border-color: #FFF176 !important;
-    color: black; /* Texte noir pour lisibilité sur le jaune */
-    text-shadow: none; /* Pas d'ombre sur texte noir */
-    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.4);
-}
-.add-to-cart-btn.style-gold {
-    background: linear-gradient(135deg, #FFD700, #FFA000) !important;
-    color: black !important; /* Icone noire */
-    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.5);
-}
+        .add-to-cart-btn.style-cherry {
+            background: linear-gradient(135deg, #b71c1c, #880e4f) !important;
+            box-shadow: 0 4px 15px rgba(183, 28, 28, 0.5);
+        }
 
-/* 🦍 GORILLA GLUE (Terreux Foncé / Chocolat) */
-.variant-btn.style-glue.active {
-    background: linear-gradient(135deg, #4E342E, #3E2723) !important;
-    border-color: #8D6E63 !important;
-    color: white;
-    box-shadow: 0 4px 12px rgba(62, 39, 35, 0.5);
-}
-.add-to-cart-btn.style-glue {
-    background: linear-gradient(135deg, #4E342E, #3E2723) !important;
-    box-shadow: 0 4px 15px rgba(62, 39, 35, 0.6);
-}
+        /* 🏆 ACAPULCO GOLD (Or Brillant) */
+        .variant-btn.style-gold.active {
+            background: linear-gradient(135deg, #FFD700, #FFA000) !important;
+            border-color: #FFF176 !important;
+            color: black;
+            /* Texte noir pour lisibilité sur le jaune */
+            text-shadow: none;
+            /* Pas d'ombre sur texte noir */
+            box-shadow: 0 4px 12px rgba(255, 215, 0, 0.4);
+        }
+
+        .add-to-cart-btn.style-gold {
+            background: linear-gradient(135deg, #FFD700, #FFA000) !important;
+            color: black !important;
+            /* Icone noire */
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.5);
+        }
+
+        /* 🦍 GORILLA GLUE (Terreux Foncé / Chocolat) */
+        .variant-btn.style-glue.active {
+            background: linear-gradient(135deg, #4E342E, #3E2723) !important;
+            border-color: #8D6E63 !important;
+            color: white;
+            box-shadow: 0 4px 12px rgba(62, 39, 35, 0.5);
+        }
+
+        .add-to-cart-btn.style-glue {
+            background: linear-gradient(135deg, #4E342E, #3E2723) !important;
+            box-shadow: 0 4px 15px rgba(62, 39, 35, 0.6);
+        }
 
         /* Couleurs variantes */
         .style-purple.active,
@@ -1335,14 +1344,14 @@
 
         .subtitle1 {
             background: linear-gradient(45deg, #5c2232bf, #442254b0);
-    height: 10vh;
-    width: 40vh;
-    font-size: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #e53d07;
-    border-radius: 20px;
+            height: 10vh;
+            width: 40vh;
+            font-size: 2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #e53d07;
+            border-radius: 20px;
         }
 
         .carousel-container {
@@ -1440,31 +1449,36 @@
         }
 
 
-/* La bulle elle-même */
-.tarif-badge {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -20px;
-    right: -35px;
-    background: #ff3b30;
-    color: white;
-    font-size: 15px;
-    height: 3vh;
-    /* font-weight: bold; */
-    padding: 2px 8px;
-    border-radius: 12px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    z-index: 10;
-    animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
+        /* La bulle elle-même */
+        .tarif-badge {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: -20px;
+            right: -35px;
+            background: #ff3b30;
+            color: white;
+            font-size: 15px;
+            height: 3vh;
+            /* font-weight: bold; */
+            padding: 2px 8px;
+            border-radius: 12px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 10;
+            animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
 
-/* Petite animation sympa */
-@keyframes popIn {
-    from { transform: scale(0); }
-    to { transform: scale(1); }
-}
+        /* Petite animation sympa */
+        @keyframes popIn {
+            from {
+                transform: scale(0);
+            }
+
+            to {
+                transform: scale(1);
+            }
+        }
     </style>
 </head>
 
@@ -1522,10 +1536,11 @@
                         </button>
                         <div class="accordion-content">
                             <p>
-                                📍 Zone 92 (Gennevilliers)
+                                📍 <b>Zone : Paris 18ème</b>
                                 <br><br>
-                                • 15h - 00h ⏰
-                                • Transports à proximité 🚊
+                                🚆 <b>Accès RER E :</b> Depuis Gare du Nord (Magenta), Saint-Lazare ou La Défense.
+                                <br>
+                                🚉 <b>Arrêt :</b> Descendre à la gare <b>Rosa Parks</b>.
                             </p>
                         </div>
                     </div>
@@ -1803,7 +1818,7 @@
             <p class="subtitle1">Bientot Disponibles ⏳</p>
 
 
-           <!--  <div class="carousel-container">
+            <!--  <div class="carousel-container">
                 <div class="carousel-track">
                      <div class="carousel-card">
                         <img src="Avis1.jpg" alt="Avis client 1" onclick="openImage(this)">
@@ -1824,7 +1839,7 @@
                 <div class="swipe-indicator">Swipe pour voir la suite ➡️</div>
             </div> -->
 
-          <!--   <div class="avis-footer">
+            <!--   <div class="avis-footer">
                 <button id="btn-open-channel" class="main-action-btn potato-btn">
                     VOIR TOUS LES AVIS SUR POTATO 🥔
                 </button>
