@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
                     promoEligible: true,
                     type: '3xFiltre',
-                    image: 'ProductUsa4.jpg',
+                    image: 'ProductUsa3.jpg',
                     video:'VideoCCH.mp4',
                       description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n  🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy. \n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
                       tarifs: [
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
                     promoEligible: true,
                     type: '3xFiltre',
-                    image: 'ProductGel.png',
+                    image: 'ProductUsa1.jpg',
                     video:'VideoGel.mp4',
                       description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🎂 Gelato : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
                       tarifs: [
