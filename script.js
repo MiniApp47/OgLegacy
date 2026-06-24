@@ -122,6 +122,58 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 },*/
                 {
+                    id: 'PermanentMarker 🖍️',
+                    flag: '🇲🇦',
+                    name: 'PermanentMarker 🖍️',
+                    farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductUsaP.jpg',
+                    video:'VideoPerm4.mp4',
+                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🖍️ PermanentMarker : Sédation profonde, notes d\'aromes brut.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
+                      tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'Candy Crush 🍭',
+                    flag: '🇲🇦',
+                    name: 'Candy Crush 🍭',
+                    farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductUsa4.jpg',
+                    video:'VideoCCH.mp4',
+                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n  🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy. \n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
+                      tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                    {
+                    id: 'Gelato 🎂',
+                    flag: '🇲🇦',
+                    name: 'Gelato 🎂',
+                    farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductGel.png',
+                    video:'VideoGel.mp4',
+                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🎂 Gelato : Détente corporelle totale, goût fruité et gazeux.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
+                      tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                
+              /*   {
                     id: 'Jaune mousseux 🥵',
                     flag: '🇲🇦',
                     name: 'Jaune mousseux 🥵',
@@ -146,7 +198,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 220.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
+                
                   /* {
                     id: 'BLUE LOBSTER 🦞💙',
                     flag: '🇲🇦',
