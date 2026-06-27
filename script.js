@@ -1293,10 +1293,34 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'ProductOl.png', 
                     video: 'VideoOl.mp4',
                     description: '🫒❄️🔥 SÉLECTION PREMIUM 🔥❄️🫒 \n 💎 Une sélection d’olives de Frozen, Static et Double Static.\n\n 🌿 Variétés disponibles :\n 🍬 Double Static – Profil riche et résineux, très apprécié pour son intensité aromatique.\n 🫐 Gelato Blue – Notes crémeuses et fruitées avec une touche sucrée de baies.\n 🍌 Pink Banana Runtz – Saveurs exotiques de banane et de bonbon fruité.\n 🥷 Ninja Runtz – Profil gourmand, sucré et légèrement crémeux.\n 💜 Purple Kush Cali Connection – Arômes terreux et épicés, avec une touche de raisin.\n 🍒 Lemon Cherry Gelato – Mélange explosif de citron, de cerise et de crème.\n 🌴 Jungle Cookie – Notes sucrées et biscuitées avec une pointe tropicale.\n 🍒🍋 Lemon Cherry Runtz – Alliance parfaite entre agrumes, cerise et bonbon.\n 🍈 Melonade – Saveurs fraîches de melon et d’agrumes.\n 💜 Purple Indica Cali Connection – Profil profond, floral et fruité.\n 🍊 Orange Bud – Arômes d’orange fraîche et d’agrumes sucrés.\n 🍬 Runtz – Référence incontournable aux saveurs de bonbons fruités.\n 🍊 Mandarin Cookie – Mélange gourmand de mandarine et de biscuit sucré.\n 💎 Static Full Melt – Résine d’exception, extrêmement riche en terpènes et à la texture fondante.\n 🍰 Hashringan Ice Cream Cake – Profil crémeux et pâtissier, aux notes de vanille et de dessert gourmand.\n 🥤 Hashringan Fanta Juice – Explosion d’agrumes et de fruits sucrés, avec une touche tropicale rafraîchissante.\n 🍇 Hashringan Grape Juicy – Saveurs intenses de raisin et de fruits rouges, au profil sucré et gourmand.\n 🏁 Fin du Game Purple Kush – Notes profondes de terre, d’épices et de raisin, avec un caractère puissant et authentique.\n\n 💎 Une collection pensée pour les véritables amateurs de résines modernes et de profils terpéniques d’exception. 🫒❄️🔥',
+                    
+                    // 👇 NOUVELLE STRUCTURE DE VARIANTES
+                    variantTitle: 'Choisis ta variété 🫒 :',
+                    jars: [
+                        { name: 'Double Static', emoji: '🍬', colorClass: 'style-gold' },
+                        { name: 'Gelato Blue', emoji: '🫐', colorClass: 'style-blue' },
+                        { name: 'Pink Banana Runtz', emoji: '🍌', colorClass: 'style-yellow' },
+                        { name: 'Ninja Runtz', emoji: '🥷', colorClass: 'style-glue' },
+                        { name: 'Purple Kush CC', emoji: '💜', colorClass: 'style-purple' },
+                        { name: 'Lemon Cherry Gelato', emoji: '🍒', colorClass: 'style-cherry' },
+                        { name: 'Jungle Cookie', emoji: '🌴', colorClass: 'style-green' },
+                        { name: 'Lemon Cherry Runtz', emoji: '🍋', colorClass: 'style-passion' },
+                        { name: 'Melonade', emoji: '🍈', colorClass: 'style-melon' },
+                        { name: 'Purple Indica CC', emoji: '💜', colorClass: 'style-indigo' },
+                        { name: 'Orange Bud', emoji: '🍊', colorClass: 'style-orange' },
+                        { name: 'Runtz', emoji: '🍬', colorClass: 'style-pink' },
+                        { name: 'Mandarin Cookie', emoji: '🍊', colorClass: 'style-brown' },
+                        { name: 'Static Full Melt', emoji: '💎', colorClass: 'style-silver' },
+                        { name: 'Hashringan Ice Cream', emoji: '🍰', colorClass: 'style-white' },
+                        { name: 'Hashringan Fanta', emoji: '🥤', colorClass: 'style-fanta' },
+                        { name: 'Hashringan Grape', emoji: '🍇', colorClass: 'style-grape' },
+                        { name: 'Fin du Game Purple', emoji: '🏁', colorClass: 'style-dark' }
+                    ],
+
                     tarifs: [
                         { weight: '1 olive', price: 120.00 },
                     ]
-                }
+                },
                /*   {
                     id: '🍓 SINFUL STRAWBERRY',
                     flag: '🇲🇦',
@@ -3151,7 +3175,10 @@ function renderProductListSimple(categoryId) {
             const cartBtns = document.querySelectorAll('.add-to-cart-btn');
             const updateCartButtonsColor = (colorClass) => {
                 cartBtns.forEach(btn => {
-                    btn.classList.remove('style-purple', 'style-red', 'style-green', 'style-yellow', 'style-orange', 'style-brown', 'style-passion', 'style-melon', 'style-gold', 'style-cherry', 'style-glue');
+                    btn.classList.remove('style-purple', 'style-red', 'style-green', 'style-yellow', 'style-orange', 
+                        'style-brown', 'style-passion', 'style-melon', 'style-gold', 'style-cherry', 
+                        'style-glue', 'style-blue', 'style-pink', 'style-indigo', 'style-silver', 
+                        'style-white', 'style-grape', 'style-fanta', 'style-dark');
                     if (colorClass) btn.classList.add(colorClass);
                 });
             };
