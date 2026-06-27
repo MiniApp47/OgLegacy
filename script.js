@@ -1283,20 +1283,20 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
-                /*  {
+                 {
                     id: '🫒❄️🔥 OLIVE 🔥❄️🫒',
                     flag: '🇲🇦',
                     name: '🫒❄️🔥 OLIVE 🔥❄️🫒',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Frozen',
-                    image: 'ProductOli.png', 
-                    video: 'VideoOli.mp4',
-                    description: '✨ Pourquoi est-il si recherché ? ✨\n\n ❄️ Texture grasse, souple et fondante\n 🌿 Forte concentration en terpènes pour un maximum de saveurs\n 🔥 Combustion propre et agréable\n 🫒 Format emblématique devenu une référence dans le monde du hash moderne\n 💎 Aspect travaillé qui reflète souvent un produit de qualité supérieure\n 🏆 Considéré par beaucoup comme une qualité top du top, destinée aux amateurs les plus exigeants\n\n 😌💨 Effets généralement recherchés :\n\n 🧘 Relaxation profonde du corps\n 😊 Sensation de bien-être et de détente\n 🧠 Apaisement mental agréable\n ⏳ Effets durables et équilibrés\n\n 👃🍯 Ce qui plaît aux amateurs :\n\n 🌿 Arômes intenses et authentiques\n ❄️ Terpènes préservés grâce au procédé Frozen\n 🤤 Texture fondante très appréciée\n 💨 Expérience riche en saveurs du début à la fin\n\n 🔥🏆 Pour les vrais connaisseurs :\n L’Olive Frozen n’est pas une variété mais un format devenu culte 🫒👑. Très populaire auprès des amateurs de résines premium 💎, il est recherché pour sa présentation soignée, sa texture exceptionnelle 🤤 et l’intensité de son profil aromatique 🌿🍯. Souvent considéré comme le haut de gamme du Frozen, il s’est imposé comme une référence incontournable pour ceux qui recherchent ce qui se fait de mieux en matière de résine moderne ❄️🔥💨🏆.',
+                    image: 'ProductOl.png', 
+                    video: 'VideoOl.mp4',
+                    description: '🫒❄️🔥 SÉLECTION PREMIUM 🔥❄️🫒 \n 💎 Une sélection d’olives de Frozen, Static et Double Static.\n\n 🌿 Variétés disponibles :\n 🍬 Double Static – Profil riche et résineux, très apprécié pour son intensité aromatique.\n 🫐 Gelato Blue – Notes crémeuses et fruitées avec une touche sucrée de baies.\n 🍌 Pink Banana Runtz – Saveurs exotiques de banane et de bonbon fruité.\n 🥷 Ninja Runtz – Profil gourmand, sucré et légèrement crémeux.\n 💜 Purple Kush Cali Connection – Arômes terreux et épicés, avec une touche de raisin.\n 🍒 Lemon Cherry Gelato – Mélange explosif de citron, de cerise et de crème.\n 🌴 Jungle Cookie – Notes sucrées et biscuitées avec une pointe tropicale.\n 🍒🍋 Lemon Cherry Runtz – Alliance parfaite entre agrumes, cerise et bonbon.\n 🍈 Melonade – Saveurs fraîches de melon et d’agrumes.\n 💜 Purple Indica Cali Connection – Profil profond, floral et fruité.\n 🍊 Orange Bud – Arômes d’orange fraîche et d’agrumes sucrés.\n 🍬 Runtz – Référence incontournable aux saveurs de bonbons fruités.\n 🍊 Mandarin Cookie – Mélange gourmand de mandarine et de biscuit sucré.\n 💎 Static Full Melt – Résine d’exception, extrêmement riche en terpènes et à la texture fondante.\n 🍰 Hashringan Ice Cream Cake – Profil crémeux et pâtissier, aux notes de vanille et de dessert gourmand.\n 🥤 Hashringan Fanta Juice – Explosion d’agrumes et de fruits sucrés, avec une touche tropicale rafraîchissante.\n 🍇 Hashringan Grape Juicy – Saveurs intenses de raisin et de fruits rouges, au profil sucré et gourmand.\n 🏁 Fin du Game Purple Kush – Notes profondes de terre, d’épices et de raisin, avec un caractère puissant et authentique.\n\n 💎 Une collection pensée pour les véritables amateurs de résines modernes et de profils terpéniques d’exception. 🫒❄️🔥',
                     tarifs: [
-                        { weight: '1 olive', price: 90.00 },
+                        { weight: '1 olive', price: 120.00 },
                     ]
-                } */
+                }
                /*   {
                     id: '🍓 SINFUL STRAWBERRY',
                     flag: '🇲🇦',
