@@ -1318,7 +1318,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     ],
 
                     tarifs: [
-                        { weight: '1 olive', price: 120.00 },
+                        { weight: '1 olive', price: 90.00 },
                     ]
                 },
                /*   {
