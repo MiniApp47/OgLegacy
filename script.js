@@ -1596,6 +1596,60 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
+                    id: 'KitKat 🌰',
+                    flag: '🇲🇦',
+                    name: 'KitKat 🌰',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductKit.jpg', 
+                    video: '',
+                    description: '💨🔥 Une véritable gourmandise pour les amateurs de filtré premium 🔥💨\n 🍫🍪 120U – KitKat 🍪🍫\n\n ✨ Profil aromatique ✨\n Dès l’ouverture, KitKat dévoile un profil terpénique ultra-gourmand 💥🍫. Une vague de chocolat au lait envahit instantanément les sens, dominée par le cacao doux 🍫, le biscuit croquant 🍪 et une pointe de noisette torréfiée 🌰. En arrière-plan, des notes sucrées et lactées rappellent la célèbre barre chocolatée, accompagnées d’un fond terreux discret typique des bonnes résines 🌱✨.\n\n 😮‍💨🍫 Goût\n En bouche, c’est une véritable explosion chocolatée 💥🍫. L’attaque est douce et sucrée ⚡, rapidement équilibrée par une rondeur biscuitée rappelant une gaufrette croustillante 🍪🤤. La fumée est dense, propre et particulièrement savoureuse grâce à la triple filtration ☁️✨. La finale laisse une persistance longue et gourmande, avec des notes de cacao qui restent agréablement sur le palais 😋.\n\n ⚡🧠 Effets\n KitKat offre une montée chaleureuse et réconfortante 🚀✨.\n\n 😁 Sensation de bien-être immédiate\n 🌞 Effet positif et chill\n 🧠 Esprit apaisé et détendu\n ✨ Sensation de douceur mentale\n 😌 Relaxation progressive du corps\n 🌙 Parfait pour une fin de journée gourmande\n\n 🏆🍫 Le verdict\n KitKat s’impose comme une évidence pour les amateurs de profils chocolatés et de filtrés premium 🔥🍫. Son bouquet aromatique intense, sa fumée propre et son goût ultra-gourmand en font une variété qui marque les esprits dès les premières bouffées 💨✨.',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'Snickers 🧸',
+                    flag: '🇲🇦',
+                    name: 'Snickers 🧸',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductSni.jpg', 
+                    video: '',
+                    description: '💨🔥 Une frappe lourde et ultra-gourmande pour les puristes du filtré 🔥💨\n 🥜🍫 120U – Snickers 🍫🥜\n\n ✨ Profil aromatique ✨\n Dès l’ouverture, Snickers dévoile un profil terpénique lourd et complexe 💥🥜. Une vague de caramel fondant envahit instantanément les sens, dominée par la cacahuète grillée 🥜, le chocolat noir 🍫 et le nougat sucré 🍬. En arrière-plan, des notes terreuses et crémeuses rappellent un dessert riche, accompagnées d’un fond kush bien prononcé 🌱✨.\n\n 😮‍💨🥜 Goût\n En bouche, c’est une véritable explosion de saveurs denses 💥🍫. L’attaque est riche et caramélisée ⚡, rapidement équilibrée par une profondeur de fruits à coque rappelant la célèbre barre gourmande 🥜🤤. La fumée est épaisse, propre et particulièrement savoureuse grâce au processus 3X Filtré ☁️✨. La finale laisse une persistance longue et terreuse, avec des notes de caramel salé qui restent agréablement sur le palais 😋.\n\n ⚡🧠 Effets\n Snickers offre une montée puissante et enveloppante 🚀✨.\n\n 😁 Sensation d\'euphorie immédiate\n 🌞 Effet lourd et profondément stimulant\n 🧠 Esprit déconnecté des tensions\n ✨ Sensation de lourdeur agréable\n 😌 Relaxation totale et rapide du corps\n 🌙 Idéal pour s\'écraser dans le canapé après une grosse journée\n\n 🏆🥜 Le verdict\n Snickers s’impose comme un poids lourd pour les amateurs de profils denses, caramélisés et de filtrés premium 🔥🥜. Son bouquet aromatique complexe, sa fumée épaisse et son goût ultra-réconfortant en font une variété qui marque les esprits dès les premières bouffées 💨✨.',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                 {
+                    id: 'LEMON SORBET ❄️',
+                    flag: '🇲🇦',
+                    name: 'LEMON SORBET ❄️',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductLemon.png', 
+                    video: 'VideoLemon.mp4',
+                    description: '💨🔥 Une vraie grosse frappe pour les amateurs de filtré premium 🔥💨\n 🍋🍨 120U – Lemon Sorbet 🍨🍋\n\n ✨ Profil aromatique ✨\n Dès l’ouverture, Lemon Sorbet dévoile un profil terpénique explosif 💥🍋. Une vague d’agrumes ultra-fraîche envahit instantanément les sens, dominée par le citron jaune 🍋, le citron confit 🍬 et le zeste d’agrumes fraîchement râpé 🌿. En arrière-plan, des notes sucrées et crémeuses rappellent un sorbet citron artisanal 🍨, accompagnées d’une légère touche florale et d’un fond kush discret 🌱✨.\n\n 😮‍💨🍋 Goût\n En bouche, c’est une véritable explosion citronnée 💥🍋. L’attaque est vive et acidulée ⚡, rapidement équilibrée par une douceur crémeuse rappelant une glace au citron artisanale 🍨🤤. La fumée est dense, propre et particulièrement savoureuse grâce à la sélection 120U ☁️✨. La finale laisse une persistance longue et fraîche, avec des notes d’agrumes qui restent agréablement sur le palais 😋.\n\n ⚡🧠 Effets\n Lemon Sorbet offre une montée rapide et agréable 🚀✨.\n\n 😁 Sensation de bonne humeur immédiate\n 🌞 Effet positif et stimulant\n 🧠 Esprit léger et détendu\n ✨ Sensation de clarté mentale\n 😌 Relaxation progressive du corps\n 🌙 Équilibre idéal entre détente et plaisir gustatif\n\n 🏆🍋 Le verdict\n Lemon Sorbet s’impose comme une référence pour les amateurs de profils citronnés puissants et de filtrés premium 🔥🍋. Son bouquet aromatique intense, sa fumée propre et son goût gourmand en font une variété qui marque les esprits dès les premières bouffées 💨✨.',
+                    tarifs: [
+                        { weight: '5G', price: 60.00 },
+                        { weight: '10G', price: 100.00 },
+                        { weight: '25G', price: 200.00 },
+                        { weight: '50G', price: 280.00 },
+                        { weight: '100G', price: 450.00 },
+                    ]
+                },
+               /*  {
                     id: '🍋⛰️🇲🇦 Lemon’s',
                     flag: '🇲🇦',
                     name: '🍋⛰️🇲🇦 Lemon’s',
@@ -1630,7 +1684,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                /*  {
                     id: 'El Mero  💥💥',
                     flag: '🇲🇦',
