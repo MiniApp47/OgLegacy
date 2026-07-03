@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
             name: 'WEED HOLLANDE 🇳🇱🌷',
             type: 'WeedH',
             quality: 'WEED HOLLANDE 🇳🇱🌷',
-            image: 'CategHo.png', // Ton image de catégorie Weed
+            image: 'CategHo.jpg', // Ton image de catégorie Weed
 
             products: [
                 {
