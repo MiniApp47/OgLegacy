@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
             name: 'WEED HOLLANDE 🇳🇱🌷',
             type: 'WeedH',
             quality: 'WEED HOLLANDE 🇳🇱🌷',
-            image: 'CategHo.jpg', // Ton image de catégorie Weed
+            image: 'CategHo.png', // Ton image de catégorie Weed
 
             products: [
                 {
@@ -121,23 +121,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 350.00 },
                     ]
                 },*/
-                {
-                    id: 'PermanentMarker 🖍️',
-                    flag: '🇲🇦',
-                    name: 'PermanentMarker 🖍️',
-                    farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
-                    promoEligible: true,
-                    type: '3xFiltre',
-                    image: 'ProductUsaP.jpg',
-                    video:'VideoPerm4.mp4',
-                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🖍️ PermanentMarker : Sédation profonde, notes d\'aromes brut.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
-                      tarifs: [
-                        { weight: '10G', price: 60.00 },
-                        { weight: '20G', price: 100.00 },
-                        { weight: '50G', price: 220.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },
+               
                 {
                     id: 'Candy Crush 🍭',
                     flag: '🇲🇦',
@@ -172,7 +156,23 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-                
+                /*  {
+                    id: 'PermanentMarker 🖍️',
+                    flag: '🇲🇦',
+                    name: 'PermanentMarker 🖍️',
+                    farm: 'CALI DRY SIFT PRENIUM 🥵🍯🇺🇸',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductUsaP.jpg',
+                    video:'VideoPerm4.mp4',
+                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n 🖍️ PermanentMarker : Sédation profonde, notes d\'aromes brut.\n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
+                      tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                }, */
               /*   {
                     id: 'Jaune mousseux 🥵',
                     flag: '🇲🇦',
@@ -310,7 +310,57 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 450.00 },
                     ]
                 }, */
+                 {
+                    id: '⚡🍇❄️ FORBIDDEN',
+                    flag: '🇲🇦',
+                    name: '⚡🍇❄️ FORBIDDEN', 
+                    farm: '🎻 MOZART FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductForr.jpg',
+                    video: 'VideoForr.mp4',
+                    description: '⚡🍇❄️ PLASMA STATIC ❄️🍇⚡ \n\n 💎 Type d’extraction\n Static Sift hautement purifié.\n Forte concentration en trichomes.\n Très peu de matière végétale résiduelle.\n Résine destinée aux amateurs de hash moderne premium.\n\n 🍇🍬 Profil aromatique\n Notes de fruits noirs et fruits rouges.\n Touches sucrées rappelant le bonbon et le raisin.\n Fond crémeux avec une légère pointe gassy.\n Odeur puissante et complexe dès l’ouverture.\n\n 🤤 Texture\n Souple et grasse.\n Aspect brillant et résineux.\n Se travaille facilement à température ambiante.\n Fusion lente et propre.\n\n 💨 Effets généralement recherchés\n Montée euphorique et relaxante.\n Sensation de bien-être assez rapide.\n Relaxation musculaire progressive.\n Effet équilibré entre détente mentale et physique.\n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n Terpènes très présents.\n Extraction particulièrement propre.\n Saveurs persistantes.\n Excellent compromis entre puissance et plaisir gustatif.\n\n ⚡💎 PLASMA STATIC FORBIDDEN – MOZART FARM 💎⚡\n ✨ Une résine moderne qui séduit par sa richesse aromatique et sa pureté. Son profil mêlant fruits noirs, notes sucrées et fond crémeux en fait un hash particulièrement apprécié des amateurs de Static recherchant une expérience terpénique intense. 🤤🍇❄️\n\n 👑 Destiné aux vrais connaisseurs de résines premium qui privilégient avant tout la qualité d’extraction, les saveurs et la richesse des terpènes. 👑🔥🍇',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 150.00},
+                        { weight: '25G', price: 320.00 },
+                    ]
+                },
                 {
+                    id: '🍬🍓❄️ CANDY FRUIT',
+                    flag: '🇲🇦',
+                    name: '🍬🍓❄️ CANDY FRUIT', 
+                    farm: '🎻 MOZART FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductCF.jpg',
+                    video: 'VideoCF.mp4',
+                    description: '🍬🍓❄️ DOUBLE STATIC ❄️🍓🍬 \n\n Le Double Static Candy Fruit de Mozart Farm semble être une résine orientée sur un profil très fruité et sucré, dans l’esprit des variétés modernes inspirées des génétiques Candy, Runtz, Zkittlez ou Fruit Cocktail\n\n ✨ Ce qui le distingue :\n Double purification statique pour obtenir un hash très propre.\n Forte concentration en têtes de trichomes.\n Excellent niveau de préservation des terpènes.\n Résine destinée aux amateurs de qualité premium.  \n\n 🍭 Profil aromatique\n Bonbon fruité très prononcé.\n Notes de fruits rouges, fruits exotiques et agrumes sucrés.\n Fond crémeux rappelant parfois certaines génétiques type Runtz ou Candy.\n Odeur puissante dès l’ouverture.  \n\n 🤤 Texture\n Souple et grasse.\n Très malléable à température ambiante.\n Aspect brillant avec une belle richesse en résine.\n Fond généralement mieux qu’un dry sift classique.  \n\n 💨 Effets recherchés\n Euphorie légère et agréable au départ.\n Sensation de bien-être et de détente.\n Relaxation corporelle progressive.\n Effet souvent décrit comme équilibré entre plaisir gustatif et puissance.  \n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n aveurs très marquées.\n Longueur en bouche importante.\n Extraction particulièrement propre.\n Excellent compromis entre gourmandise et puissance.  \n\n 🍬💎 DOUBLE STATIC CANDY FRUIT – MOZART FARM 💎🍬\n ✨ Résine premium aux terpènes ultra gourmands, dominée par des notes de bonbons fruités et de fruits mûrs. Grâce à son extraction Double Static, elle offre une texture fondante, une grande pureté et une expression aromatique intense qui séduit particulièrement les amateurs de hash moderne haut de gamme. ❄️🤤🔥\n\n 🍓🍭 Un hash pensé pour les vrais connaisseurs qui recherchent avant tout le goût, les terpènes et une qualité d’extraction irréprochable. 🍭🍓',
+                    tarifs: [
+                        { weight: '5G', price: 90.00 },
+                        { weight: '10G', price: 160.00},
+                        { weight: '25G', price: 380.00 },
+                        { weight: '50G', price: 800.00 },
+                    ]
+                },
+                {
+                    id: '🍉❄️ WATERMELON',
+                    flag: '🇲🇦',
+                    name: '🍉❄️ WATERMELON', 
+                    farm: '🎻 MOZART FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductMel1.jpg',
+                    video: 'VideoMel.mp4',
+                    description: '🍉❄️ DOUBLE STATIC ❄️🍉 \n\n 💎 Type d’extraction : Double Static Sift\n Le « Double Static » désigne une double purification des trichomes par électricité statique afin d’éliminer un maximum d’impuretés végétales. Le résultat est généralement plus pur, plus fondant et plus riche en terpènes qu’un hash classique.  \n\n 🍉 Profil aromatique\n Notes sucrées rappelant la pastèque mûre.\n Fond légèrement crémeux et terreux typique des résines premium.\n Odeur très expressive à froid, avec une belle intensité terpénique.  \n\n 🤤 Texture\n Souple et grasse.\n Facile à travailler à température ambiante.\n Tendance à devenir plus collante lorsqu’elle est conservée dans de bonnes conditions.  \n\n ✨ Effets généralement recherchés\n Sensation de détente progressive.\n Effet mental agréable sans être trop lourd au départ.\n Relaxation corporelle marquée en fin d’expérience.\n Souvent apprécié pour les moments calmes en soirée.  \n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n Très bonne conservation des terpènes.\n Pureté élevée grâce au double tri statique.\n Saveurs plus nettes et plus persistantes qu’une mousse ou un dry classique.\n Format recherché par les amateurs de résines premium modernes.  \n\n 🫒🍉💎 Le Double Static Watermelon de Mozart Farm s’adresse surtout aux amateurs de hash premium qui recherchent une résine propre, fondante et extrêmement parfumée, avec un profil sucré et frais rappelant la pastèque. 💎🍉🫒',
+                    tarifs: [
+                        { weight: '5G', price: 90.00 },
+                        { weight: '10G', price: 160.00},
+                        { weight: '25G', price: 380.00 },
+                        { weight: '50G', price: 800.00 },
+                    ]
+                },
+                /* {
                     id: 'MOTORBREAD',
                     flag: '🇲🇦',
                     name: 'MOTORBREAD 🛵', 
@@ -318,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     promoEligible: true,
                     type: 'STATIC',
                     image: 'ProductMB.png',
-                    video: 'VideoMB.mov',
+                    video: 'VideoMB.mp4',
                     description: '⚡️ PLASMA STATIC ⚡️ \n\n La Motorbread est une variété qui séduit les amateurs de profils gazeux, crémeux et puissants. Réputée pour son caractère intense, elle développe un mélange complexe de notes de carburant, de pâte sucrée, d’épices et de terre, offrant une expérience aromatique riche et persistante.\n ✨ En version Plasma Static de Lakers Farm, on peut s’attendre à :\n\n 🔬 Une pureté exceptionnelle\n Sélection minutieuse des trichomes.\n Extraction très propre et raffinée.\n Texture grasse, fondante et homogène.\n Concentration élevée en terpènes.\n\n ⛽🍞 Profil terpénique\n Diesel puissant\n Essence fraîche\n Notes pâtissières et crémeuses\n Épices douces\n Fond terreux typé OG\n\n 😮‍💨 Effets généralement recherchés\n Relaxation profonde du corps\n Sensation de bien-être durable\n Euphorie calme et agréable\n Expérience idéale pour les moments de détente\n\n 💎 Pourquoi les connaisseurs l’apprécient ?\n La Motorbread combine la puissance des variétés gazy avec des nuances plus gourmandes et crémeuses. En extraction Plasma Static, son profil terpénique gagne encore en intensité, offrant une dégustation particulièrement savoureuse et complexe.\n\n 🏆 Lakers Farm Motorbread Plasma Static\n ➡️ Une résine premium destinée aux amateurs de gaz, de crème et de gros terpènes, avec une texture haut de gamme et une signature aromatique qui reste longtemps en bouche. Un vrai plaisir pour les connaisseurs de hash moderne. 🔥⛽🍞💎',
                     tarifs: [
                         { weight: '5G', price: 80.00 },
@@ -357,7 +407,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                },
+                }, */
                 /* {
                     id: 'GAZ MONKEY 🦍⛽️ ⚡️💎',
                     flag: '🇲🇦',
@@ -391,57 +441,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 450.00 },
                     ]
                 }, */
-                {
-                    id: '⚡🍇❄️ FORBIDDEN',
-                    flag: '🇲🇦',
-                    name: '⚡🍇❄️ FORBIDDEN', 
-                    farm: '🎻 MOZART FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductForr.png',
-                    video: 'VideoForr.mp4',
-                    description: '⚡🍇❄️ PLASMA STATIC ❄️🍇⚡ \n\n 💎 Type d’extraction\n Static Sift hautement purifié.\n Forte concentration en trichomes.\n Très peu de matière végétale résiduelle.\n Résine destinée aux amateurs de hash moderne premium.\n\n 🍇🍬 Profil aromatique\n Notes de fruits noirs et fruits rouges.\n Touches sucrées rappelant le bonbon et le raisin.\n Fond crémeux avec une légère pointe gassy.\n Odeur puissante et complexe dès l’ouverture.\n\n 🤤 Texture\n Souple et grasse.\n Aspect brillant et résineux.\n Se travaille facilement à température ambiante.\n Fusion lente et propre.\n\n 💨 Effets généralement recherchés\n Montée euphorique et relaxante.\n Sensation de bien-être assez rapide.\n Relaxation musculaire progressive.\n Effet équilibré entre détente mentale et physique.\n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n Terpènes très présents.\n Extraction particulièrement propre.\n Saveurs persistantes.\n Excellent compromis entre puissance et plaisir gustatif.\n\n ⚡💎 PLASMA STATIC FORBIDDEN – MOZART FARM 💎⚡\n ✨ Une résine moderne qui séduit par sa richesse aromatique et sa pureté. Son profil mêlant fruits noirs, notes sucrées et fond crémeux en fait un hash particulièrement apprécié des amateurs de Static recherchant une expérience terpénique intense. 🤤🍇❄️\n\n 👑 Destiné aux vrais connaisseurs de résines premium qui privilégient avant tout la qualité d’extraction, les saveurs et la richesse des terpènes. 👑🔥🍇',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                },
-                {
-                    id: '🍬🍓❄️ CANDY FRUIT',
-                    flag: '🇲🇦',
-                    name: '🍬🍓❄️ CANDY FRUIT', 
-                    farm: '🎻 MOZART FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductCF.png',
-                    video: 'VideoCF.mp4',
-                    description: '🍬🍓❄️ DOUBLE STATIC ❄️🍓🍬 \n\n Le Double Static Candy Fruit de Mozart Farm semble être une résine orientée sur un profil très fruité et sucré, dans l’esprit des variétés modernes inspirées des génétiques Candy, Runtz, Zkittlez ou Fruit Cocktail\n\n ✨ Ce qui le distingue :\n Double purification statique pour obtenir un hash très propre.\n Forte concentration en têtes de trichomes.\n Excellent niveau de préservation des terpènes.\n Résine destinée aux amateurs de qualité premium.  \n\n 🍭 Profil aromatique\n Bonbon fruité très prononcé.\n Notes de fruits rouges, fruits exotiques et agrumes sucrés.\n Fond crémeux rappelant parfois certaines génétiques type Runtz ou Candy.\n Odeur puissante dès l’ouverture.  \n\n 🤤 Texture\n Souple et grasse.\n Très malléable à température ambiante.\n Aspect brillant avec une belle richesse en résine.\n Fond généralement mieux qu’un dry sift classique.  \n\n 💨 Effets recherchés\n Euphorie légère et agréable au départ.\n Sensation de bien-être et de détente.\n Relaxation corporelle progressive.\n Effet souvent décrit comme équilibré entre plaisir gustatif et puissance.  \n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n aveurs très marquées.\n Longueur en bouche importante.\n Extraction particulièrement propre.\n Excellent compromis entre gourmandise et puissance.  \n\n 🍬💎 DOUBLE STATIC CANDY FRUIT – MOZART FARM 💎🍬\n ✨ Résine premium aux terpènes ultra gourmands, dominée par des notes de bonbons fruités et de fruits mûrs. Grâce à son extraction Double Static, elle offre une texture fondante, une grande pureté et une expression aromatique intense qui séduit particulièrement les amateurs de hash moderne haut de gamme. ❄️🤤🔥\n\n 🍓🍭 Un hash pensé pour les vrais connaisseurs qui recherchent avant tout le goût, les terpènes et une qualité d’extraction irréprochable. 🍭🍓',
-                    tarifs: [
-                        { weight: '5G', price: 90.00 },
-                        { weight: '10G', price: 160.00},
-                        { weight: '25G', price: 380.00 },
-                        { weight: '50G', price: 800.00 },
-                    ]
-                },
-                {
-                    id: '🍉❄️ WATERMELON',
-                    flag: '🇲🇦',
-                    name: '🍉❄️ WATERMELON', 
-                    farm: '🎻 MOZART FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductMel1.png',
-                    video: 'VideoMel.mp4',
-                    description: '🍉❄️ DOUBLE STATIC ❄️🍉 \n\n 💎 Type d’extraction : Double Static Sift\n Le « Double Static » désigne une double purification des trichomes par électricité statique afin d’éliminer un maximum d’impuretés végétales. Le résultat est généralement plus pur, plus fondant et plus riche en terpènes qu’un hash classique.  \n\n 🍉 Profil aromatique\n Notes sucrées rappelant la pastèque mûre.\n Fond légèrement crémeux et terreux typique des résines premium.\n Odeur très expressive à froid, avec une belle intensité terpénique.  \n\n 🤤 Texture\n Souple et grasse.\n Facile à travailler à température ambiante.\n Tendance à devenir plus collante lorsqu’elle est conservée dans de bonnes conditions.  \n\n ✨ Effets généralement recherchés\n Sensation de détente progressive.\n Effet mental agréable sans être trop lourd au départ.\n Relaxation corporelle marquée en fin d’expérience.\n Souvent apprécié pour les moments calmes en soirée.  \n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n Très bonne conservation des terpènes.\n Pureté élevée grâce au double tri statique.\n Saveurs plus nettes et plus persistantes qu’une mousse ou un dry classique.\n Format recherché par les amateurs de résines premium modernes.  \n\n 🫒🍉💎 Le Double Static Watermelon de Mozart Farm s’adresse surtout aux amateurs de hash premium qui recherchent une résine propre, fondante et extrêmement parfumée, avec un profil sucré et frais rappelant la pastèque. 💎🍉🫒',
-                    tarifs: [
-                        { weight: '5G', price: 90.00 },
-                        { weight: '10G', price: 160.00},
-                        { weight: '25G', price: 380.00 },
-                        { weight: '50G', price: 800.00 },
-                    ]
-                },
-                {
+                /* {
                     id: 'SPRITZER 🌈🍹',
                     flag: '🇲🇦',
                     name: 'SPRITZER 🌈🍹', 
@@ -488,7 +488,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                },
+                }, */
                /*  {
                     id: 'STATIC RS11 🍬⛽',
                     flag: '🇲🇦',
@@ -800,6 +800,97 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategWeed.png', // Ton image de catégorie Weed
 
             products: [
+                /* {
+                    id: 'Cherry runtz 🍒',
+                    flag: '🇺🇸',
+                    name: 'Cherry runtz 🍒',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductCHR.jpg', 
+                    images:['ProductCHRR.jpg'],
+                    video: '',
+                    description: '',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                }, */
+                {
+                    id: 'Pech sherbet 🍨',
+                    flag: '🇺🇸',
+                    name: 'Pech sherbet 🍨',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductPS.jpg', 
+                    images:['ProductPSS.jpg'],
+                    video: '',
+                    description: '',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'GlueBerry 🧴',
+                    flag: '🇺🇸',
+                    name: 'GlueBerry 🧴',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'productGL.jpg', 
+                    images:['ProductGLL.jpg'],
+                    video: '',
+                    description: '',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'ROCKET 🚀🔥',
+                    flag: '🇺🇸',
+                    name: 'ROCKET 🚀🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductROCK.jpg', 
+                    images:['ProductROCKK.jpg'],
+                    video: '',
+                    description: 'Une strain qui porte parfaitement son nom. Rocket envoie une vraie montée puissante avec un profil moderne ultra terpy, mélangeant gaz, fruits sucrés et notes crémeuses pour une fumée lourde et premium.\n\n 👃 Aromatique :\n Dès l’ouverture, ça explose avec une odeur gazeuse bien forte ⛽️ accompagnée de touches fruitées et sucrées. On retrouve aussi un fond creamy/kush qui donne beaucoup de profondeur au profil.\n\n 👅 Goût :\n En bouche, c’est intense : mélange de candy fruité 🍬, gaz lourd et légère touche tropicale qui reste longtemps après la taffe. La fumée est épaisse, propre et ultra savoureuse.\n\n 💨 Effet :\n Montée rapide et puissante 🚀 avec un gros effet euphorique au début avant une détente physique bien lourde. Une vraie frappe pour les amateurs de strains qui tapent fort.\n\n 🌿 Buds bien résineux, full terpènes et qualité premium.',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                },
+                {
+                    id: '⛽🔥 E85 ',
+                    flag: '🇺🇸',
+                    name: '⛽🔥 E85',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'Product85.jpg', 
+                    images:['Product855.jpg'],
+                    video: '',
+                    description: 'Une strain au caractère brutal, inspirée par les profils fuel/gas modernes. La E85 est connue pour son mélange intense entre douceur sucrée et puissance “diesel”, avec une vraie identité lourde et marquante.\n\n 👃 Aromatique :\n Dès l’ouverture, t’as un gros hit gazeux ⛽, avec des notes diesel bien présentes. Derrière, ça s’équilibre avec une touche sucrée et crémeuse 🍬, parfois légèrement fruitée, qui rappelle certaines génétiques type Gelato/Runtz.\n Un fond terreux et kushy vient renforcer le côté profond et “sale”.\n\n 👅 Goût :\n En bouche, c’est puissant et complexe :\n * Attaque : gazeuse et intense ⛽\n * Milieu : mélange sucré/crémeux qui adoucit le profil 🤤\n * Finale : une lourde note diesel qui reste longtemps en bouche\n Le rendu est lourd, épais et très persistant, parfait pour ceux qui aiment les profils gas bien marqués.\n\n 👀 Aspect :\n Buds denses, bien compactes, avec une grosse couche de trichomes ✨, souvent avec des nuances vert foncé et parfois violettes.\n\n 💥 Effets :\n Puissants et rapides : une montée cérébrale forte, suivie d’un effet relaxant lourd, typique des strains bien gas.\n\n 🔥 Une strain pour les amateurs de fuel pur, entre douceur moderne et puissance brute.',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                        { weight: '100g', price: 750.00 },
+                    ]
+                },
                  {
                     id: '🌴💣 SUPER BOMBE 💣🌴',
                     flag: '🇺🇸',
@@ -807,7 +898,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
-                    image: 'ProductS.png', 
+                    image: 'ProductS.jpg', 
                     video: 'VideoSB.mp4',
                     description: '✨ Cette génétique est appréciée pour son profil aromatique très expressif :\n 🍬 Notes sucrées et fruitées\n ⛽ Fond gazeux et légèrement diesel\n 🍋 Touches d’agrumes selon les phénotypes\n ❄️ Têtes très résineuses et visuellement attractives\n\n 💨 Effets généralement recherchés :\n 😁 Euphorie rapide\n 🚀 Sensation cérébrale puissante\n 😌 Relaxation progressive du corps\n 🎨 Peut favoriser la créativité et la bonne humeur\n\n 👃 Ce qui séduit les connaisseurs, c’est surtout son mélange entre douceur sucrée et caractère gassy, offrant une fumée riche en terpènes et une belle longueur en bouche.  \n\n 💎 Une variété moderne qui mise avant tout sur l’intensité aromatique, la résine et une expérience complète du premier nez jusqu’à la dernière bouffée. 🔥🌴💨',                    
                     tarifs: [
@@ -824,7 +915,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
-                    image: 'ProductG.png', 
+                    image: 'ProductG.jpg', 
                     video: 'VideoG.mp4',
                     description: '💎🔥 Une des variétés les plus célèbres de la famille Gelato, réputée pour son équilibre entre puissance, saveurs gourmandes et effets agréables. 🔥💎\n\n ✨ Origines\n Gelato #33 est issue du croisement entre la variété Sunset Sherbet et Thin Mint GSC (Girl Scout Cookies). Cette génétique lui a permis de devenir une référence mondiale dans l’univers du cannabis.  \n\n 🌈 Aspect\n • Têtes denses et compactes 🟣🟢\n • Couleurs vert foncé à violettes ✨\n • Couvertes d’une épaisse couche de résine givrée ❄️\n • Pistils orange vif 🧡  \n\n 👃 Arômes & Saveurs\n 🍦 Crémeux et gourmand\n 🍓 Notes de fruits rouges et d’agrumes\n 🍪 Fond biscuité et légèrement mentholé\n 🍋 Touches sucrées et citronnées  \n\n ⚡ Effets recherchés\n 😄 Euphorie et bonne humeur\n 🧠 Sensation de bien-être mental\n 🎨 Créativité et sociabilité\n 😌 Relaxation corporelle sans forcément être assommante\n 🌙 À dose plus élevée, elle peut devenir très relaxante et favoriser le repos  \n\n 🎯 Profil général\n • Hybride équilibrée (légère dominance indica selon les phénotypes)\n • THC souvent situé entre 20 % et 29 % 🔥\n • Adaptée aussi bien pour se détendre que pour profiter d’une activité calme ou entre amis.  \n\n ⭐ En résumé\n Gelato #33 est souvent appréciée pour son mélange de détente physique et d’euphorie mentale. Elle procure généralement un effet heureux, relaxant et agréable, accompagné d’un profil aromatique crémeux et sucré qui a fait sa réputation. 🍨✨',                    
                     tarifs: [
@@ -834,7 +925,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                     ]
                 }, 
-                 {
+                /*  {
                     id: '🍇💜 GRAPE SODA 💜🍇',
                     flag: '🇺🇸',
                     name: '🍇💜 GRAPE SODA 💜🍇',
@@ -850,7 +941,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25g', price: 220.00 },
                         { weight: '50g', price: 400.00 },
                     ]
-                }, 
+                }, */ 
                  {
                     id: '🌴🔥 CALI MIAMI 🔥🌴',
                     flag: '🇺🇸',
@@ -953,7 +1044,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                     ]
                 },  */
-                {
+               /*  {
                     id: 'Lemon cherry 🇺🇸 🍋🔥',
                     flag: '🇺🇸',
                     name: 'Lemon cherry 🇺🇸 🍋🔥',
@@ -969,7 +1060,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25g', price: 220.00 },
                         { weight: '50g', price: 400.00 },
                     ]
-                }, 
+                },  */
               /*   {
                     id: 'Larry bird 🍬⛽️🔥',
                     flag: '🇺🇸',
@@ -1283,6 +1374,22 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'L\'Etoile ✨',
+                    flag: '🇺🇸',
+                    name: 'L\'Etoile ✨',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductEti.jpg', 
+                    video: '',
+                    description: '',
+                    tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                    ]
+                },
                  {
                     id: '🫒❄️🔥 OLIVE 🔥❄️🫒',
                     flag: '🇲🇦',
@@ -1290,7 +1397,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Frozen',
-                    image: 'ProductOl.png', 
+                    image: 'ProductOl.jpg', 
                     video: 'VideoOl.mp4',
                     description: '🫒❄️🔥 SÉLECTION PREMIUM 🔥❄️🫒 \n 💎 Une sélection d’olives de Frozen, Static et Double Static.\n\n 🌿 Variétés disponibles :\n 🍬 Double Static – Profil riche et résineux, très apprécié pour son intensité aromatique.\n 🫐 Gelato Blue – Notes crémeuses et fruitées avec une touche sucrée de baies.\n 🍌 Pink Banana Runtz – Saveurs exotiques de banane et de bonbon fruité.\n 🥷 Ninja Runtz – Profil gourmand, sucré et légèrement crémeux.\n 💜 Purple Kush Cali Connection – Arômes terreux et épicés, avec une touche de raisin.\n 🍒 Lemon Cherry Gelato – Mélange explosif de citron, de cerise et de crème.\n 🌴 Jungle Cookie – Notes sucrées et biscuitées avec une pointe tropicale.\n 🍒🍋 Lemon Cherry Runtz – Alliance parfaite entre agrumes, cerise et bonbon.\n 🍈 Melonade – Saveurs fraîches de melon et d’agrumes.\n 💜 Purple Indica Cali Connection – Profil profond, floral et fruité.\n 🍊 Orange Bud – Arômes d’orange fraîche et d’agrumes sucrés.\n 🍬 Runtz – Référence incontournable aux saveurs de bonbons fruités.\n 🍊 Mandarin Cookie – Mélange gourmand de mandarine et de biscuit sucré.\n 💎 Static Full Melt – Résine d’exception, extrêmement riche en terpènes et à la texture fondante.\n 🍰 Hashringan Ice Cream Cake – Profil crémeux et pâtissier, aux notes de vanille et de dessert gourmand.\n 🥤 Hashringan Fanta Juice – Explosion d’agrumes et de fruits sucrés, avec une touche tropicale rafraîchissante.\n 🍇 Hashringan Grape Juicy – Saveurs intenses de raisin et de fruits rouges, au profil sucré et gourmand.\n 🏁 Fin du Game Purple Kush – Notes profondes de terre, d’épices et de raisin, avec un caractère puissant et authentique.\n\n 💎 Une collection pensée pour les véritables amateurs de résines modernes et de profils terpéniques d’exception. 🫒❄️🔥',
                     
@@ -1595,7 +1702,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
-                {
+                 {
                     id: 'KitKat 🌰',
                     flag: '🇲🇦',
                     name: 'KitKat 🌰',
@@ -1635,10 +1742,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     id: 'LEMON SORBET ❄️',
                     flag: '🇲🇦',
                     name: 'LEMON SORBET ❄️',
-                    farm: '🌾 No Farm 🌾',
+                    farm: 'Est Side Cartel 🥷',
                     promoEligible: true,
                     type: '3xFiltre',
-                    image: 'ProductLemon.png', 
+                    image: 'ProductLemon.jpg', 
                     video: 'VideoLemon.mp4',
                     description: '💨🔥 Une vraie grosse frappe pour les amateurs de filtré premium 🔥💨\n 🍋🍨 120U – Lemon Sorbet 🍨🍋\n\n ✨ Profil aromatique ✨\n Dès l’ouverture, Lemon Sorbet dévoile un profil terpénique explosif 💥🍋. Une vague d’agrumes ultra-fraîche envahit instantanément les sens, dominée par le citron jaune 🍋, le citron confit 🍬 et le zeste d’agrumes fraîchement râpé 🌿. En arrière-plan, des notes sucrées et crémeuses rappellent un sorbet citron artisanal 🍨, accompagnées d’une légère touche florale et d’un fond kush discret 🌱✨.\n\n 😮‍💨🍋 Goût\n En bouche, c’est une véritable explosion citronnée 💥🍋. L’attaque est vive et acidulée ⚡, rapidement équilibrée par une douceur crémeuse rappelant une glace au citron artisanale 🍨🤤. La fumée est dense, propre et particulièrement savoureuse grâce à la sélection 120U ☁️✨. La finale laisse une persistance longue et fraîche, avec des notes d’agrumes qui restent agréablement sur le palais 😋.\n\n ⚡🧠 Effets\n Lemon Sorbet offre une montée rapide et agréable 🚀✨.\n\n 😁 Sensation de bonne humeur immédiate\n 🌞 Effet positif et stimulant\n 🧠 Esprit léger et détendu\n ✨ Sensation de clarté mentale\n 😌 Relaxation progressive du corps\n 🌙 Équilibre idéal entre détente et plaisir gustatif\n\n 🏆🍋 Le verdict\n Lemon Sorbet s’impose comme une référence pour les amateurs de profils citronnés puissants et de filtrés premium 🔥🍋. Son bouquet aromatique intense, sa fumée propre et son goût gourmand en font une variété qui marque les esprits dès les premières bouffées 💨✨.',
                     tarifs: [
@@ -1960,6 +2067,23 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategHash.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'Wazabis 🈯',
+                    flag: '🇲🇦',
+                    name: 'Wazabis 🈯',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductWaza.jpg', 
+                    video: '',
+                    description: '',
+                    tarifs: [
+                        { weight: '10g', price: 60.00 },
+                        { weight: '20g', price: 100.00 },
+                        { weight: '50g', price: 200.00 },
+                        { weight: '100g', price: 330.00 },
+                    ]
+                },
                 {
                     id: 'Banana Candy 🍌',
                     flag: '🇲🇦',
