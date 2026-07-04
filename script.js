@@ -244,6 +244,73 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
+                 {
+                    id: 'HONEY (BANANAS x SPRITZER) 🍌🍯',
+                    flag: '🇺🇸',
+                    name: 'HONEY (BANANAS x SPRITZER) 🍌🍯', 
+                    farm: '🌟 By Secret House Smoke Farm 🌟',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductHBS.jpg',
+                    video: 'VideoHBS.mp4',
+                    description: '⚡🍯 STATIC SIFT PLASMA 70-130u 🍯⚡  \n\n 💎🔥 Un static sift premium sélectionné sur la tranche 70-130 microns, réputée pour offrir un excellent équilibre entre pureté, richesse aromatique et puissance. Cette extraction met en avant des trichomes soigneusement isolés afin de préserver un maximum de terpènes et de saveurs.  \n\n ✨ Génétique\n 🧬 Honey Bananas x Spritzer\n Une combinaison qui marie le caractère sucré et crémeux de Honey Bananas avec le profil frais et pétillant de Spritzer, donnant naissance à un hash moderne particulièrement expressif.\n\n 👃 Profil aromatique\n\n 🍯 Miel doux et gourmand\n 🍌 Banane mûre\n 🍬 Notes crémeuses et sucrées\n 🍋 Légère touche d’agrumes pétillante\n\n 😮‍💨 Effets\n\n ⚡ Euphorie rapide et agréable\n 🧠 Bien-être mental et humeur positive\n 😌 Relaxation corporelle progressive\n 🎵 Idéal pour une session détente, musique ou fin de journée\n\n 🎯 Pour les connaisseurs\n 🔥 Le calibre 70-130u est souvent recherché pour sa capacité à conserver une belle complexité aromatique tout en offrant une excellente qualité de résine.  \n 💎 Secret House Smoke Farm propose ici un plasma gourmand et très parfumé, où les notes de miel et de banane dominent la dégustation. Une pièce qui séduira les amateurs de hash moderne à la recherche d’un profil riche, doux et particulièrement savoureux. 🍯🍌✨',
+                    tarifs: [
+                        { weight: '3G', price: 50.00 },
+                        { weight: '10G', price: 140.00},
+                        { weight: '25G', price: 250.00 },
+                        { weight: '50G', price: 450.00 },
+                    ]
+                },
+                {
+                    id: '⚡🍇❄️ FORBIDDEN',
+                    flag: '🇲🇦',
+                    name: '⚡🍇❄️ FORBIDDEN', 
+                    farm: '🎻 MOZART FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductForr.jpg',
+                    video: 'VideoForr.mp4',
+                    description: '⚡🍇❄️ PLASMA STATIC ❄️🍇⚡ \n\n 💎 Type d’extraction\n Static Sift hautement purifié.\n Forte concentration en trichomes.\n Très peu de matière végétale résiduelle.\n Résine destinée aux amateurs de hash moderne premium.\n\n 🍇🍬 Profil aromatique\n Notes de fruits noirs et fruits rouges.\n Touches sucrées rappelant le bonbon et le raisin.\n Fond crémeux avec une légère pointe gassy.\n Odeur puissante et complexe dès l’ouverture.\n\n 🤤 Texture\n Souple et grasse.\n Aspect brillant et résineux.\n Se travaille facilement à température ambiante.\n Fusion lente et propre.\n\n 💨 Effets généralement recherchés\n Montée euphorique et relaxante.\n Sensation de bien-être assez rapide.\n Relaxation musculaire progressive.\n Effet équilibré entre détente mentale et physique.\n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n Terpènes très présents.\n Extraction particulièrement propre.\n Saveurs persistantes.\n Excellent compromis entre puissance et plaisir gustatif.\n\n ⚡💎 PLASMA STATIC FORBIDDEN – MOZART FARM 💎⚡\n ✨ Une résine moderne qui séduit par sa richesse aromatique et sa pureté. Son profil mêlant fruits noirs, notes sucrées et fond crémeux en fait un hash particulièrement apprécié des amateurs de Static recherchant une expérience terpénique intense. 🤤🍇❄️\n\n 👑 Destiné aux vrais connaisseurs de résines premium qui privilégient avant tout la qualité d’extraction, les saveurs et la richesse des terpènes. 👑🔥🍇',
+                    tarifs: [
+                        { weight: '5G', price: 80.00 },
+                        { weight: '10G', price: 150.00},
+                        { weight: '25G', price: 320.00 },
+                    ]
+                },
+                {
+                    id: '🍬🍓❄️ CANDY FRUIT',
+                    flag: '🇲🇦',
+                    name: '🍬🍓❄️ CANDY FRUIT', 
+                    farm: '🎻 MOZART FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductCF.jpg',
+                    video: 'VideoCF.mp4',
+                    description: '🍬🍓❄️ DOUBLE STATIC ❄️🍓🍬 \n\n Le Double Static Candy Fruit de Mozart Farm semble être une résine orientée sur un profil très fruité et sucré, dans l’esprit des variétés modernes inspirées des génétiques Candy, Runtz, Zkittlez ou Fruit Cocktail\n\n ✨ Ce qui le distingue :\n Double purification statique pour obtenir un hash très propre.\n Forte concentration en têtes de trichomes.\n Excellent niveau de préservation des terpènes.\n Résine destinée aux amateurs de qualité premium.  \n\n 🍭 Profil aromatique\n Bonbon fruité très prononcé.\n Notes de fruits rouges, fruits exotiques et agrumes sucrés.\n Fond crémeux rappelant parfois certaines génétiques type Runtz ou Candy.\n Odeur puissante dès l’ouverture.  \n\n 🤤 Texture\n Souple et grasse.\n Très malléable à température ambiante.\n Aspect brillant avec une belle richesse en résine.\n Fond généralement mieux qu’un dry sift classique.  \n\n 💨 Effets recherchés\n Euphorie légère et agréable au départ.\n Sensation de bien-être et de détente.\n Relaxation corporelle progressive.\n Effet souvent décrit comme équilibré entre plaisir gustatif et puissance.  \n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n aveurs très marquées.\n Longueur en bouche importante.\n Extraction particulièrement propre.\n Excellent compromis entre gourmandise et puissance.  \n\n 🍬💎 DOUBLE STATIC CANDY FRUIT – MOZART FARM 💎🍬\n ✨ Résine premium aux terpènes ultra gourmands, dominée par des notes de bonbons fruités et de fruits mûrs. Grâce à son extraction Double Static, elle offre une texture fondante, une grande pureté et une expression aromatique intense qui séduit particulièrement les amateurs de hash moderne haut de gamme. ❄️🤤🔥\n\n 🍓🍭 Un hash pensé pour les vrais connaisseurs qui recherchent avant tout le goût, les terpènes et une qualité d’extraction irréprochable. 🍭🍓',
+                    tarifs: [
+                        { weight: '5G', price: 90.00 },
+                        { weight: '10G', price: 160.00},
+                        { weight: '25G', price: 380.00 },
+                        { weight: '50G', price: 800.00 },
+                    ]
+                },
+                {
+                    id: '🍉❄️ WATERMELON',
+                    flag: '🇲🇦',
+                    name: '🍉❄️ WATERMELON', 
+                    farm: '🎻 MOZART FARM',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductMel1.jpg',
+                    video: 'VideoMel.mp4',
+                    description: '🍉❄️ DOUBLE STATIC ❄️🍉 \n\n 💎 Type d’extraction : Double Static Sift\n Le « Double Static » désigne une double purification des trichomes par électricité statique afin d’éliminer un maximum d’impuretés végétales. Le résultat est généralement plus pur, plus fondant et plus riche en terpènes qu’un hash classique.  \n\n 🍉 Profil aromatique\n Notes sucrées rappelant la pastèque mûre.\n Fond légèrement crémeux et terreux typique des résines premium.\n Odeur très expressive à froid, avec une belle intensité terpénique.  \n\n 🤤 Texture\n Souple et grasse.\n Facile à travailler à température ambiante.\n Tendance à devenir plus collante lorsqu’elle est conservée dans de bonnes conditions.  \n\n ✨ Effets généralement recherchés\n Sensation de détente progressive.\n Effet mental agréable sans être trop lourd au départ.\n Relaxation corporelle marquée en fin d’expérience.\n Souvent apprécié pour les moments calmes en soirée.  \n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n Très bonne conservation des terpènes.\n Pureté élevée grâce au double tri statique.\n Saveurs plus nettes et plus persistantes qu’une mousse ou un dry classique.\n Format recherché par les amateurs de résines premium modernes.  \n\n 🫒🍉💎 Le Double Static Watermelon de Mozart Farm s’adresse surtout aux amateurs de hash premium qui recherchent une résine propre, fondante et extrêmement parfumée, avec un profil sucré et frais rappelant la pastèque. 💎🍉🫒',
+                    tarifs: [
+                        { weight: '5G', price: 90.00 },
+                        { weight: '10G', price: 160.00},
+                        { weight: '25G', price: 380.00 },
+                        { weight: '50G', price: 800.00 },
+                    ]
+                },
              /*    {
                     id: 'HONEY (BANANAS x SPRITZER) 🍌🍯',
                     flag: '🇺🇸',
@@ -310,56 +377,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 450.00 },
                     ]
                 }, */
-                 {
-                    id: '⚡🍇❄️ FORBIDDEN',
-                    flag: '🇲🇦',
-                    name: '⚡🍇❄️ FORBIDDEN', 
-                    farm: '🎻 MOZART FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductForr.jpg',
-                    video: 'VideoForr.mp4',
-                    description: '⚡🍇❄️ PLASMA STATIC ❄️🍇⚡ \n\n 💎 Type d’extraction\n Static Sift hautement purifié.\n Forte concentration en trichomes.\n Très peu de matière végétale résiduelle.\n Résine destinée aux amateurs de hash moderne premium.\n\n 🍇🍬 Profil aromatique\n Notes de fruits noirs et fruits rouges.\n Touches sucrées rappelant le bonbon et le raisin.\n Fond crémeux avec une légère pointe gassy.\n Odeur puissante et complexe dès l’ouverture.\n\n 🤤 Texture\n Souple et grasse.\n Aspect brillant et résineux.\n Se travaille facilement à température ambiante.\n Fusion lente et propre.\n\n 💨 Effets généralement recherchés\n Montée euphorique et relaxante.\n Sensation de bien-être assez rapide.\n Relaxation musculaire progressive.\n Effet équilibré entre détente mentale et physique.\n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n Terpènes très présents.\n Extraction particulièrement propre.\n Saveurs persistantes.\n Excellent compromis entre puissance et plaisir gustatif.\n\n ⚡💎 PLASMA STATIC FORBIDDEN – MOZART FARM 💎⚡\n ✨ Une résine moderne qui séduit par sa richesse aromatique et sa pureté. Son profil mêlant fruits noirs, notes sucrées et fond crémeux en fait un hash particulièrement apprécié des amateurs de Static recherchant une expérience terpénique intense. 🤤🍇❄️\n\n 👑 Destiné aux vrais connaisseurs de résines premium qui privilégient avant tout la qualité d’extraction, les saveurs et la richesse des terpènes. 👑🔥🍇',
-                    tarifs: [
-                        { weight: '5G', price: 80.00 },
-                        { weight: '10G', price: 150.00},
-                        { weight: '25G', price: 320.00 },
-                    ]
-                },
-                {
-                    id: '🍬🍓❄️ CANDY FRUIT',
-                    flag: '🇲🇦',
-                    name: '🍬🍓❄️ CANDY FRUIT', 
-                    farm: '🎻 MOZART FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductCF.jpg',
-                    video: 'VideoCF.mp4',
-                    description: '🍬🍓❄️ DOUBLE STATIC ❄️🍓🍬 \n\n Le Double Static Candy Fruit de Mozart Farm semble être une résine orientée sur un profil très fruité et sucré, dans l’esprit des variétés modernes inspirées des génétiques Candy, Runtz, Zkittlez ou Fruit Cocktail\n\n ✨ Ce qui le distingue :\n Double purification statique pour obtenir un hash très propre.\n Forte concentration en têtes de trichomes.\n Excellent niveau de préservation des terpènes.\n Résine destinée aux amateurs de qualité premium.  \n\n 🍭 Profil aromatique\n Bonbon fruité très prononcé.\n Notes de fruits rouges, fruits exotiques et agrumes sucrés.\n Fond crémeux rappelant parfois certaines génétiques type Runtz ou Candy.\n Odeur puissante dès l’ouverture.  \n\n 🤤 Texture\n Souple et grasse.\n Très malléable à température ambiante.\n Aspect brillant avec une belle richesse en résine.\n Fond généralement mieux qu’un dry sift classique.  \n\n 💨 Effets recherchés\n Euphorie légère et agréable au départ.\n Sensation de bien-être et de détente.\n Relaxation corporelle progressive.\n Effet souvent décrit comme équilibré entre plaisir gustatif et puissance.  \n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n aveurs très marquées.\n Longueur en bouche importante.\n Extraction particulièrement propre.\n Excellent compromis entre gourmandise et puissance.  \n\n 🍬💎 DOUBLE STATIC CANDY FRUIT – MOZART FARM 💎🍬\n ✨ Résine premium aux terpènes ultra gourmands, dominée par des notes de bonbons fruités et de fruits mûrs. Grâce à son extraction Double Static, elle offre une texture fondante, une grande pureté et une expression aromatique intense qui séduit particulièrement les amateurs de hash moderne haut de gamme. ❄️🤤🔥\n\n 🍓🍭 Un hash pensé pour les vrais connaisseurs qui recherchent avant tout le goût, les terpènes et une qualité d’extraction irréprochable. 🍭🍓',
-                    tarifs: [
-                        { weight: '5G', price: 90.00 },
-                        { weight: '10G', price: 160.00},
-                        { weight: '25G', price: 380.00 },
-                        { weight: '50G', price: 800.00 },
-                    ]
-                },
-                {
-                    id: '🍉❄️ WATERMELON',
-                    flag: '🇲🇦',
-                    name: '🍉❄️ WATERMELON', 
-                    farm: '🎻 MOZART FARM',
-                    promoEligible: true,
-                    type: 'STATIC',
-                    image: 'ProductMel1.jpg',
-                    video: 'VideoMel.mp4',
-                    description: '🍉❄️ DOUBLE STATIC ❄️🍉 \n\n 💎 Type d’extraction : Double Static Sift\n Le « Double Static » désigne une double purification des trichomes par électricité statique afin d’éliminer un maximum d’impuretés végétales. Le résultat est généralement plus pur, plus fondant et plus riche en terpènes qu’un hash classique.  \n\n 🍉 Profil aromatique\n Notes sucrées rappelant la pastèque mûre.\n Fond légèrement crémeux et terreux typique des résines premium.\n Odeur très expressive à froid, avec une belle intensité terpénique.  \n\n 🤤 Texture\n Souple et grasse.\n Facile à travailler à température ambiante.\n Tendance à devenir plus collante lorsqu’elle est conservée dans de bonnes conditions.  \n\n ✨ Effets généralement recherchés\n Sensation de détente progressive.\n Effet mental agréable sans être trop lourd au départ.\n Relaxation corporelle marquée en fin d’expérience.\n Souvent apprécié pour les moments calmes en soirée.  \n\n 🔥 Pourquoi les connaisseurs l’apprécient ?\n Très bonne conservation des terpènes.\n Pureté élevée grâce au double tri statique.\n Saveurs plus nettes et plus persistantes qu’une mousse ou un dry classique.\n Format recherché par les amateurs de résines premium modernes.  \n\n 🫒🍉💎 Le Double Static Watermelon de Mozart Farm s’adresse surtout aux amateurs de hash premium qui recherchent une résine propre, fondante et extrêmement parfumée, avec un profil sucré et frais rappelant la pastèque. 💎🍉🫒',
-                    tarifs: [
-                        { weight: '5G', price: 90.00 },
-                        { weight: '10G', price: 160.00},
-                        { weight: '25G', price: 380.00 },
-                        { weight: '50G', price: 800.00 },
-                    ]
-                },
+                 
                 /* {
                     id: 'MOTORBREAD',
                     flag: '🇲🇦',
