@@ -244,6 +244,24 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
+
+                {
+                    id: 'STRAWBERRY PINK',
+                    flag: '🇺🇸',
+                    name: '🍓 STRAWBERRY PINK 🌷', 
+                    farm: '🌸 The Pink Farms 🌸',
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductSTP.jpg',
+                    video: 'VideoSTP.mp4',
+                    description: '⚡️🌸 STATIC SIFT PLASMA 🌸⚡️ \n\n Une exclusivité ultra premium signée 🌸 The Pink Farms 🌸. La Strawberry Pink est une extraction static d\'élite qui repousse les limites des profils fruités et floraux. Une véritable masterclass pour les palais les plus exigeants 🔥\n\n 👃 Aromatique :\n Dès l’ouverture, une explosion de fraise bien mûre et sucrée 🍓, enveloppée par des notes florales délicates 🌷. En arrière-plan, on retrouve un fond candy crémeux et une légère touche gazeuse ⛽️ qui vient rappeler l\'ADN US de cette génétique exceptionnelle.\n\n 👅 Goût :\n En bouche, c’est une expérience luxueuse : attaque gourmande sur la fraise bonbon, suivie d\'une rondeur lactée et florale qui tapisse le palais. La texture du static offre une combustion parfaite et une fumée épaisse, douce et ultra propre ☁️✨.\n\n 💨 Effets :\n Montée rapide avec un high très joyeux et euphorique 🚀. L\'esprit reste clair et créatif tandis qu\'une relaxation physique profonde s\'installe progressivement 😌. Idéal pour chiller avec une vibe ultra positive.\n\n 🏆 Le verdict :\n Un static sift full terpènes, à la texture sableuse et fondante. The Pink Farms livre ici un produit d\'une pureté maximale, alliant douceur extrême et vraie frappe de connaisseur 💎🍓.',
+                    tarifs: [
+                        { weight: '3G', price: 50.00 },
+                        { weight: '10G', price: 140.00},
+                        { weight: '25G', price: 250.00 },
+                        { weight: '50G', price: 450.00 },
+                    ]
+                },
                  {
                     id: 'HONEY (BANANAS x SPRITZER) 🍌🍯',
                     flag: '🇺🇸',
