@@ -2209,7 +2209,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 330.00 },
                     ]
                 },
-                {
+                /* {
                     id: 'MANGO',
                     flag: '🇲🇦',
                     name: 'MANGO 🥭',
@@ -2242,7 +2242,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 200.00 },
                         { weight: '100g', price: 330.00 },
                     ]
-                },
+                }, */
                 {
                     id: '🌕🍈 SUPER MOUSSEUX 🍈🌕',
                     flag: '🇲🇦',
