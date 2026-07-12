@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     ]
                 },*/
                
-                {
+               /*  {
                     id: 'Candy Crush 🍭',
                     flag: '🇲🇦',
                     name: 'Candy Crush 🍭',
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 220.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                 /*  {
                     id: 'PermanentMarker 🖍️',
                     flag: '🇲🇦',
