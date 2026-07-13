@@ -836,6 +836,108 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategWeed.png', // Ton image de catégorie Weed
 
             products: [
+                 {
+                    id: '💜🫐 BLURPLE 🇺🇸🔥',
+                    flag: '🇺🇸',
+                    name: '💜🫐 BLURPLE 🇺🇸🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductBLU.jpg', 
+                    video: '',
+                    description: '(Blue Dream × Mendocino Purps)\n 💎 Type : Hybride équilibrée 🌿⚖️\n\n ━━━━━━━━━━━━━━━━━━\n\n 👃 TERPÈNES & ARÔMES\n\n 🫐 Myrtille fraîche\n 🍇 Raisin sucré\n 🍓 Fruits rouges\n 🌸 Notes florales\n 🌲 Léger côté boisé et terreux\n 🍬 Une odeur gourmande qui rappelle les bonbons aux fruits.\n\n ━━━━━━━━━━━━━━━━━━\n\n 😋 SAVEURS\n\n 🫐 Fruitées\n 🍇 Sucrées\n 🍬 Douces\n 🌸 Florales\n 🌿 Avec une légère touche terreuse en fin de bouche.\n\n ━━━━━━━━━━━━━━━━━━\n\n ✨ EFFETS SOUVENT RAPPORTÉS\n\n 😄 Bonne humeur\n 😁 Sourires faciles\n 🌞 Sensation de bien-être\n 🧠 Esprit détendu\n 🎨 Créativité\n 🎶 Musique encore plus immersive\n 🎮 Moment chill\n 🎬 Films & séries encore plus agréables\n 💆 Relaxation progressive\n 😴 À forte dose, elle peut favoriser l’endormissement.\n\n ━━━━━━━━━━━━━━━━━━\n\n ⭐ LES +\n\n 💜 Profil aromatique fruité et gourmand\n ❄️ Très résineuse\n 🌿 Effet souvent décrit comme équilibré\n 😊 Sensation de détente sans être immédiatement assommante chez de nombreuses personnes\n 🎉 Adaptée à une soirée détente ou à un moment convivial entre amis.\n\n ━━━━━━━━━━━━━━━━━━\n\n 🌟 NOTE GLOBALE\n\n 👃 Arômes : ⭐⭐⭐⭐⭐\n 😋 Saveurs : ⭐⭐⭐⭐⭐\n 😊 Bien-être : ⭐⭐⭐⭐☆\n 💎 Résine : ⭐⭐⭐⭐⭐\n\n 💜🫐 “Une variété appréciée pour ses arômes gourmands de baies, son équilibre entre détente et bonne humeur, et son caractère idéal pour un moment chill.” 🇺🇸🔥',                    
+                    tarifs: [
+                        { weight: '5g', price: 50.00 },
+                        { weight: '10g', price: 90.00 },
+                        { weight: '25g', price: 200.00 },
+                        { weight: '50g', price: 350.00 },
+                    ]
+                },
+                {
+                    id: '🧼🍭 ZOAP 🇺🇸🔥',
+                    flag: '🇺🇸',
+                    name: '🧼🍭 ZOAP 🇺🇸🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductZP.jpg', 
+                    video: '',
+                    description: '💎 Type : Hybride 🌿⚖️\n\n ━━━━━━━━━━━━━━━━━━\n\n 👃 TERPÈNES & ARÔMES\n\n 🍬 Bonbons fruités\n 🍊 Agrumes sucrés\n 🌸 Notes florales\n 🧼 Légère touche “savonneuse” qui lui donne son identité\n 🍓 Fruits rouges\n 🌿 Fond crémeux et légèrement terreux\n\n ━━━━━━━━━━━━━━━━━━\n\n 😋 SAVEURS\n\n 🍭 Sucrées\n 🍬 Gourmandes\n 🍊 Agrumes\n 🫐 Fruits mûrs\n 🌸 Florales\n 🧁 Finale douce et crémeuse\n\n ━━━━━━━━━━━━━━━━━━\n\n ✨ EFFETS SOUVENT RAPPORTÉS\n\n 😄 Bonne humeur\n ✨ Sensation d’euphorie\n 🧠 Esprit clair et inspiré\n 🎨 Créativité\n 💬 Envie de discuter et de partager\n 🎶 Musique encore plus immersive\n 🎮 Moment chill\n 😌 Relaxation progressive\n 🌙 En fin d’effet, sensation de détente plus marquée chez certaines personnes\n\n ━━━━━━━━━━━━━━━━━━\n\n ⭐ LES +\n\n 🍭 Saveur unique et gourmande\n 🧼 Profil aromatique original, souvent décrit comme « soapy »\n 🌿 Effet souvent décrit comme équilibré entre énergie légère et détente\n 😊 Convient aussi bien pour un moment entre amis que pour une soirée tranquille\n 💎 Variété très appréciée pour son profil terpénique\n\n ━━━━━━━━━━━━━━━━━━\n\n 🌟 NOTE GLOBALE\n\n 👃 Arômes : ⭐⭐⭐⭐⭐\n 😋 Saveurs : ⭐⭐⭐⭐⭐\n 😊 Bien-être : ⭐⭐⭐⭐☆\n 💎 Originalité : ⭐⭐⭐⭐⭐\n\n 🧼🍭 “Une variété devenue incontournable en Californie, réputée pour son parfum unique mêlant douceur, fruits et notes florales, avec un effet souvent décrit comme équilibré et agréable.” 🇺🇸🔥',                    
+                    tarifs: [
+                        { weight: '5g', price: 50.00 },
+                        { weight: '10g', price: 90.00 },
+                        { weight: '25g', price: 200.00 },
+                        { weight: '50g', price: 350.00 },
+                    ]
+                },
+                {
+                    id: '🍒🔴 RED POP 🇺🇸🔥',
+                    flag: '🇺🇸',
+                    name: '🍒🔴 RED POP 🇺🇸🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductRDP.jpg', 
+                    video: '',
+                    description: '💎 Type : Hybride 🌿⚖️\n\n ━━━━━━━━━━━━━━━━━━\n\n 👃 TERPÈNES & ARÔMES\n\n 🍒 Cerise mûre\n 🍓 Fruits rouges\n 🍬 Bonbons sucrés\n 🍇 Baies gourmandes\n 🌸 Légères notes florales\n 🌿 Fond crémeux et légèrement terreux\n\n ━━━━━━━━━━━━━━━━━━\n\n 😋 SAVEURS\n\n 🍒 Cerise sucrée\n 🍓 Fruits rouges\n 🍭 Bonbon fruité\n 🍇 Baies\n 🍬 Finale douce et gourmande\n\n ━━━━━━━━━━━━━━━━━━\n\n ✨ EFFETS SOUVENT RAPPORTÉS\n\n 😄 Bonne humeur\n ✨ Euphorie légère\n 🧠 Esprit détendu\n 🎨 Créativité\n 💬 Moments conviviaux\n 🎶 Musique encore plus immersive\n 🎬 Films & séries plus agréables\n 💆 Relaxation progressive\n 🌙 À dose plus élevée, sensation de détente plus profonde chez certaines personnes\n\n ━━━━━━━━━━━━━━━━━━\n\n ⭐ LES +\n\n 🍒 Profil aromatique gourmand rappelant les bonbons à la cerise\n 🍭 Saveurs sucrées et fruitées\n 😊 Effet souvent décrit comme équilibré entre bonne humeur et relaxation\n 🌿 Très appréciée pour son goût intense\n 💎 Variété recherchée par les amateurs de profils fruités\n\n ━━━━━━━━━━━━━━━━━━\n\n 🌟 NOTE GLOBALE\n\n 👃 Arômes : ⭐⭐⭐⭐⭐\n 😋 Saveurs : ⭐⭐⭐⭐⭐\n 😊 Bien-être : ⭐⭐⭐⭐☆\n 🍒 Gourmandise : ⭐⭐⭐⭐⭐\n\n 🍒🔴 “Une variété qui séduit par ses notes intenses de cerise et de fruits rouges, associées à un effet souvent décrit comme joyeux, relaxant et idéal pour un moment de détente.” 🇺🇸🔥',                    
+                    tarifs: [
+                        { weight: '5g', price: 50.00 },
+                        { weight: '10g', price: 90.00 },
+                        { weight: '25g', price: 200.00 },
+                        { weight: '50g', price: 350.00 },
+                    ]
+                },
+                {
+                    id: '🍩❄️ FROSTED DONUTS 🇺🇸🔥',
+                    flag: '🇺🇸',
+                    name: '🍩❄️ FROSTED DONUTS 🇺🇸🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductFD.jpg', 
+                    video: '',
+                    description: '💎 Type : Hybride 🌿⚖️\n\n ━━━━━━━━━━━━━━━━━━\n\n 👃 TERPÈNES & ARÔMES\n\n 🍩 Pâtisserie sucrée\n 🍦 Vanille crémeuse\n 🍪 Biscuit fraîchement sorti du four\n 🍬 Bonbons gourmands\n 🌸 Légères notes florales\n 🌿 Fond légèrement terreux et gazeux\n\n ━━━━━━━━━━━━━━━━━━\n\n 😋 SAVEURS\n\n 🍩 Donut glacé\n 🍦 Vanille\n 🍪 Biscuit beurré\n 🍬 Sucrée et gourmande\n 🥛 Finale crémeuse\n\n ━━━━━━━━━━━━━━━━━━\n\n ✨ EFFETS SOUVENT RAPPORTÉS\n\n 😄 Bonne humeur\n ✨ Euphorie progressive\n 🧠 Esprit calme\n 💆 Détente physique agréable\n 🎮 Moment chill\n 🎶 Musique encore plus immersive\n 🎬 Films & séries plus captivants\n 😌 Sensation de relaxation durable\n 🌙 À dose plus élevée, elle peut favoriser une profonde détente et le repos.\n\n ━━━━━━━━━━━━━━━━━━\n\n ⭐ LES +\n\n 🍩 Saveur dessert très gourmande\n 🍦 Profil crémeux et sucré\n ❄️ Fleurs généralement très résineuses\n 😊 Effet souvent décrit comme relaxant tout en conservant une sensation de bien-être\n 🌿 Idéale pour une soirée détente\n\n ━━━━━━━━━━━━━━━━━━\n\n 🌟 NOTE GLOBALE\n\n 👃 Arômes : ⭐⭐⭐⭐⭐\n 😋 Saveurs : ⭐⭐⭐⭐⭐\n 😊 Bien-être : ⭐⭐⭐⭐☆\n 🍩 Gourmandise : ⭐⭐⭐⭐⭐\n\n 🍩❄️ “Une variété appréciée pour son profil dessert ultra gourmand, ses notes de vanille et de pâtisserie, ainsi que sa relaxation progressive idéale pour un moment cocooning.” 🇺🇸🔥',                    
+                    tarifs: [
+                        { weight: '5g', price: 50.00 },
+                        { weight: '10g', price: 90.00 },
+                        { weight: '25g', price: 200.00 },
+                        { weight: '50g', price: 350.00 },
+                    ]
+                },
+                {
+                    id: '🔫⚡ LASER GUN 🇺🇸🔥',
+                    flag: '🇺🇸',
+                    name: '🔫⚡ LASER GUN 🇺🇸🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductLG.jpg', 
+                    video: '',
+                    description: '💎 Type : Hybride 🌿⚖️\n\n ━━━━━━━━━━━━━━━━━━\n\n 👃 TERPÈNES & ARÔMES\n\n ⛽ Diesel\n 🍋 Agrumes\n 🌲 Pin frais\n 🍬 Légère touche sucrée\n 🌿 Notes terreuses\n 🧄 Nuances épicées et légèrement « funky »\n\n ━━━━━━━━━━━━━━━━━━\n\n 😋 SAVEURS\n\n ⛽ Gazeuse\n 🍋 Citronnée\n 🌲 Boisée\n 🌿 Terreuse\n 🍬 Douce en fin de bouche\n\n ━━━━━━━━━━━━━━━━━━\n\n ✨ EFFETS SOUVENT RAPPORTÉS\n\n ⚡ Montée rapide\n 😄 Bonne humeur\n 🧠 Esprit clair\n 🎨 Créativité\n 💬 Envie de discuter\n 🎶 Musique encore plus immersive\n 🎮 Moments chill\n 💆 Relaxation progressive du corps\n 🌙 À dose plus élevée, sensation de détente plus profonde chez certaines personnes\n\n ━━━━━━━━━━━━━━━━━━\n\n ⭐ LES +\n\n ⛽ Profil “gas” très apprécié\n 🍋 Notes d’agrumes rafraîchissantes\n 🌿 Effet souvent décrit comme équilibré entre stimulation mentale et relaxation\n 😊 Convient aussi bien à un moment convivial qu’à une soirée détente\n 💎 Variété appréciée des amateurs de génétiques modernes\n\n ━━━━━━━━━━━━━━━━━━\n\n 🌟 NOTE GLOBALE\n\n 👃 Arômes : ⭐⭐⭐⭐⭐\n 😋 Saveurs : ⭐⭐⭐⭐☆\n 😊 Bien-être : ⭐⭐⭐⭐☆\n ⛽ Intensité : ⭐⭐⭐⭐⭐\n\n 🔫⚡ “Une variété moderne réputée pour son profil gazeux relevé d’agrumes et de pin, avec un effet souvent décrit comme énergisant au départ puis progressivement relaxant.” 🇺🇸🔥',                    
+                    tarifs: [
+                        { weight: '5g', price: 50.00 },
+                        { weight: '10g', price: 90.00 },
+                        { weight: '25g', price: 200.00 },
+                        { weight: '50g', price: 350.00 },
+                    ]
+                },
+                {
+                    id: '🍬🌌 MEGA Z DARK 🇺🇸🔥',
+                    flag: '🇺🇸',
+                    name: '🍬🌌 MEGA Z DARK 🇺🇸🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductMZD.jpg', 
+                    video: '',
+                    description: '💎 Type : Hybride 🌿⚖️\n\n ━━━━━━━━━━━━━━━━━━\n\n 👃 TERPÈNES & ARÔMES\n\n 🍭 Bonbons sucrés\n 🍇 Raisin\n 🫐 Baies sauvages\n 🍬 Fruits confits\n 🌸 Légères notes florales\n ⛽ Subtiles touches gazeuses en fond\n\n ━━━━━━━━━━━━━━━━━━\n\n 😋 SAVEURS\n\n 🍬 Très sucrée\n 🍇 Raisin mûr\n 🫐 Fruits des bois\n 🍭 Bonbon fruité\n 🌿 Finale crémeuse avec une légère touche gazeuse\n\n ━━━━━━━━━━━━━━━━━━\n\n ✨ EFFETS SOUVENT RAPPORTÉS\n\n 😄 Bonne humeur\n ✨ Euphorie progressive\n 🧠 Esprit détendu\n 🎨 Créativité\n 💬 Moments conviviaux\n 🎶 Musique encore plus immersive\n 🎮 Session chill\n 💆 Relaxation corporelle agréable\n 🌙 À dose plus élevée, sensation de détente plus profonde chez certaines personnes\n\n ━━━━━━━━━━━━━━━━━━\n\n ⭐ LES +\n\n 🍬 Profil aromatique ultra gourmand\n 🍇 Saveurs riches en fruits et bonbons\n 🌿 Effet souvent décrit comme équilibré entre euphorie et relaxation\n 😊 Idéale pour une soirée détente ou un moment entre amis\n 💎 Variété appréciée pour son profil terpénique moderne\n\n ━━━━━━━━━━━━━━━━━━\n\n 🌟 NOTE GLOBALE\n\n 👃 Arômes : ⭐⭐⭐⭐⭐\n 😋 Saveurs : ⭐⭐⭐⭐⭐\n 😊 Bien-être : ⭐⭐⭐⭐☆\n 🍭 Gourmandise : ⭐⭐⭐⭐⭐\n\n 🍬🌌 “Une variété moderne réputée pour son profil très sucré, ses notes de fruits rouges et de bonbons, ainsi que son effet souvent décrit comme joyeux, relaxant et parfait pour une session chill.” 🇺🇸🔥',                    
+                    tarifs: [
+                        { weight: '5g', price: 50.00 },
+                        { weight: '10g', price: 90.00 },
+                        { weight: '25g', price: 200.00 },
+                        { weight: '50g', price: 350.00 },
+                    ]
+                },
                 {
                     id: 'Cherry runtz 🍒',
                     flag: '🇺🇸',
@@ -846,7 +948,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'ProductCHR.jpg', 
                     images:['ProductCHRR.jpg'],
                     video: '',
-                    description: '',                    
+                    description: '🍒🍬 CHERRY RUNTZ 🍬🍒\n\n Une variété ultra gourmande qui mélange parfaitement le caractère fruité de la cerise avec le célèbre profil sucré et crémeux de la famille Runtz. Dès l’ouverture, elle dévoile une identité moderne, intense et particulièrement agréable. 🔥💎\n\n 👃 Profil aromatique :\n 🍒 Cerise mûre et sucrée\n 🍬 Bonbon fruité\n 🍓 Fruits rouges\n 🍦 Fond crémeux et légèrement vanillé\n ⛽ Petite touche gazeuse en arrière-plan\n\n 👅 Goût :\n En bouche, l’attaque est dominée par une cerise sucrée et juteuse, rapidement accompagnée de notes de bonbons et de fruits rouges. La finale devient plus crémeuse, avec une légère touche gassy qui apporte du caractère et une belle longueur en bouche. 😮‍💨🍒\n\n ✨ Effets généralement recherchés :\n 😄 Euphorie et bonne humeur\n 🧠 Esprit détendu\n 🎨 Sensation créative et agréable\n 💆 Relaxation corporelle progressive\n 🌙 Peut devenir plus reposante en fin de session\n\n 🏆 Le verdict :\n Une Runtz fruitée, sucrée et pleine de caractère, idéale pour les amateurs de profils candy, cerise et crème. Une variété moderne aussi séduisante par ses arômes que par son équilibre. 🍒🍬🔥💎',                    
                     tarifs: [
                         { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
@@ -898,7 +1000,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'ProductPS.jpg', 
                     images:['ProductPSS.jpg'],
                     video: '',
-                    description: '',                    
+                    description: '🍑🍨 PEACH SHERBET 🍨🍑\n\n Une variété ultra gourmande inspirée des meilleurs profils dessert californiens. Peach Sherbet associe la douceur d’une pêche bien mûre à des notes crémeuses et légèrement acidulées, pour une expérience aromatique riche et rafraîchissante. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍑 Pêche mûre et juteuse\n 🍨 Sorbet fruité\n 🍦 Crème douce et vanillée\n 🍬 Bonbon légèrement acidulé\n 🍋 Petite touche d’agrumes frais\n\n 👅 Goût :\n Dès les premières bouffées, une saveur de pêche sucrée envahit le palais. Elle laisse ensuite apparaître une crème façon glace ou sorbet, accompagnée d’une légère fraîcheur citronnée. La fumée est douce, gourmande et laisse une belle saveur fruitée en bouche. 😮‍💨🍑\n\n ✨ Effets généralement recherchés :\n 😄 Bonne humeur\n 🌈 Sensation euphorique agréable\n 🧠 Esprit léger et détendu\n 💆 Relaxation physique progressive\n 🎶 Parfaite pour un moment calme et convivial\n\n 🏆 Le verdict :\n Une variété dessert fruitée, crémeuse et pleine de fraîcheur. Peach Sherbet conviendra parfaitement aux amateurs de saveurs sucrées qui recherchent un profil gourmand sans manquer de caractère. 🍑🍨✨🔥',                    
                     tarifs: [
                         { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
@@ -916,7 +1018,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: 'productGL.jpg', 
                     images:['ProductGLL.jpg'],
                     video: '',
-                    description: '',                    
+                    description: '🫐🧴 GLUEBERRY 🧴🫐\n\n Une génétique puissante qui combine un profil de fruits rouges et de baies avec le caractère collant, terreux et gazeux des variétés de la famille Glue. Une variété riche en arômes, résineuse et dotée d’une vraie personnalité. 🔥💎\n\n 👃 Profil aromatique :\n 🫐 Myrtille et fruits des bois\n 🍓 Fruits rouges sucrés\n ⛽ Notes de gaz et de diesel\n 🌿 Fond terreux et légèrement boisé\n 🍬 Petite douceur fruitée en finition\n\n 👅 Goût :\n L’attaque dévoile des saveurs de baies sucrées et de fruits mûrs. Progressivement, le côté Glue prend le dessus avec des notes terreuses, résineuses et gazeuses. La finale est longue, légèrement crémeuse et laisse un mélange de fruits noirs et de diesel sur le palais. 😮‍💨⛽\n\n ✨ Effets généralement recherchés :\n 🚀 Montée rapide et marquée\n 😄 Euphorie mentale\n 🧠 Esprit progressivement apaisé\n 💆 Relaxation corporelle profonde\n 🛋️ Idéale pour les moments de détente\n\n 🏆 Le verdict :\n Une variété complète qui équilibre parfaitement gourmandise fruitée et puissance gazeuse. GlueBerry s’adresse aux amateurs de profils complexes, résineux et riches en terpènes. 🫐⛽🧴🔥',                    
                     tarifs: [
                         { weight: '5g', price: 60.00 },
                         { weight: '10g', price: 100.00 },
@@ -1474,7 +1576,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     type: 'Weed',
                     image: 'ProductEti.jpg', 
                     video: '',
-                    description: '',
+                    description: '✨❄️ L’ÉTOILE ❄️✨\n\n Une sélection Frozen au profil élégant et lumineux, pensée pour les amateurs de résines modernes riches en terpènes. L’Étoile se distingue par une texture fondante, une belle expression aromatique et un équilibre entre douceur fruitée et caractère résineux. 💎🔥\n\n 👃 Profil aromatique :\n 🍋 Agrumes doux et frais\n 🍬 Notes sucrées de bonbon\n 🌸 Légère touche florale\n 🍦 Fond crémeux\n ⛽ Pointe gazeuse discrète en finition\n\n 👅 Goût :\n En bouche, L’Étoile développe une attaque douce et fruitée, suivie d’une rondeur crémeuse particulièrement agréable. Quelques notes citronnées et florales apportent de la fraîcheur, tandis que la finale légèrement gassy renforce son caractère. ☁️✨\n\n ❄️ Texture et qualité :\n 💎 Résine riche et soigneusement travaillée\n 🤲 Texture souple et fondante\n 🌈 Belle conservation des terpènes\n ☁️ Fumée dense, douce et aromatique\n 🔥 Combustion homogène\n\n 🏆 Le verdict :\n Une Frozen raffinée, gourmande et expressive, qui offre une dégustation équilibrée du premier nez jusqu’à la dernière bouffée. Une véritable étoile destinée aux amateurs de résines premium. ✨❄️💎🔥',
                     tarifs: [
                         { weight: '5G', price: 70.00 },
                         { weight: '10G', price: 120.00 },
@@ -2159,20 +2261,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                 {
-                    id: 'Wazabis 🈯',
+                    id: 'Mario 🍄',
                     flag: '🇲🇦',
-                    name: 'Wazabis 🈯',
+                    name: 'Mario 🍄',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
                     image: 'ProductWaza.jpg', 
                     video: '',
-                    description: '',
+                    description: '🍄⭐ MARIO ⭐🍄\n\n Une sélection au profil gourmand et bien équilibré, inspirée de l’univers emblématique de Mario. Cette variété se distingue par ses notes fruitées, sucrées et légèrement terreuses, avec une belle intensité aromatique dès l’ouverture. 🔥💎\n\n 👃 Profil aromatique :\n 🍓 Fruits rouges sucrés\n 🍄 Notes terreuses légères\n 🍬 Bonbon fruité\n 🍋 Petite touche d’agrumes\n 🌿 Fond végétal doux et naturel\n\n 👅 Goût :\n En bouche, Mario développe une attaque fruitée et sucrée, suivie de notes plus rondes et légèrement terreuses. La fumée reste douce, agréable et laisse un arrière-goût gourmand avec une petite fraîcheur citronnée. 😮‍💨🍄\n\n ✨ Effets généralement recherchés :\n 😄 Bonne humeur et euphorie\n 🧠 Esprit léger et détendu\n 🎮 Sensation agréable et conviviale\n 💆 Relaxation corporelle progressive\n 🌙 Parfaite pour se poser tranquillement\n\n 🏆 Le verdict :\n Une variété originale, fruitée et facile à apprécier, idéale pour les amateurs de profils sucrés avec une légère touche terreuse. Mario combine gourmandise, équilibre et bonne vibe dans une sélection pleine de caractère. 🍄⭐🔥💎',
                     tarifs: [
-                        { weight: '10g', price: 60.00 },
-                        { weight: '20g', price: 100.00 },
-                        { weight: '50g', price: 200.00 },
-                        { weight: '100g', price: 330.00 },
+                        { weight: '10g', price: 50.00 },
+                        { weight: '25g', price: 110.00 },
+                        { weight: '50g', price: 180.00 },
+                        { weight: '100g', price: 310.00 },
                     ]
                 },
                 {
