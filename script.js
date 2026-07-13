@@ -871,7 +871,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                     ]
                 }, 
-                 {
+                /*  {
                     id: '🍨🌿 GELATO #33 🌿🍨',
                     flag: '🇺🇸',
                     name: '🍨🌿 GELATO #33 🌿🍨',
@@ -887,7 +887,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25g', price: 220.00 },
                         { weight: '50g', price: 400.00 },
                     ]
-                }, 
+                },  */
                 {
                     id: 'Pech sherbet 🍨',
                     flag: '🇺🇸',
