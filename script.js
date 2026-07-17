@@ -916,7 +916,166 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategWeed.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'PermanentMarker 🖍️',
+                    flag: '🇺🇸',
+                    name: 'PermanentMarker 🖍️',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductPermm.jpg',
+                    video:'VideoPermm.mp4',
+                    description: '🖍️⛽ PERMANENT MARKER ⛽🖍️\n\n Une génétique américaine devenue incontournable grâce à son profil aromatique extrêmement reconnaissable. Permanent Marker combine des notes chimiques et gazeuses avec une douceur crémeuse et légèrement fruitée, pour une variété moderne pleine de caractère. 🇺🇸🔥\n\n 👃 Profil aromatique :\n ⛽ Gaz et carburant puissant\n 🖍️ Notes chimiques rappelant le marqueur\n 🍬 Bonbon sucré et légèrement fruité\n 🍦 Fond crémeux et vanillé\n 🌿 Petite touche terreuse en finition\n\n 👅 Goût :\n Dès les premières bouffées, le côté gassy et chimique prend rapidement toute la place. Il est ensuite adouci par des notes crémeuses, sucrées et légèrement fruitées. La finale reste longtemps en bouche avec une signature intense et facilement identifiable. 😮‍💨🖍️\n\n ✨ Effets généralement recherchés :\n 🚀 Montée rapide et marquée\n 😄 Euphorie mentale\n 🧠 Esprit progressivement apaisé\n 💆 Relaxation corporelle profonde\n 🛋️ Sensation lourde et confortable en fin de session\n\n 🏆 Le verdict :\n Une variété puissante et originale destinée aux amateurs de profils gas, chimiques et crémeux. Permanent Marker ne passe jamais inaperçue et reste une véritable référence parmi les génétiques US modernes. 🖍️⛽🔥💎',
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'OBAMA RUNTZ 🇺🇸⚡️',
+                    flag: '🇺🇸',
+                    name: 'OBAMA RUNTZ 🇺🇸⚡️', 
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductOR.jpg',
+                    video: 'VideoOR.mp4',
+                    description: '🇺🇸⚡ OBAMA RUNTZ ⚡🇺🇸\n\n Une sélection au profil moderne qui mélange parfaitement la gourmandise sucrée de la famille Runtz avec des notes plus profondes, crémeuses et gazeuses. Obama Runtz dévoile une identité riche et équilibrée, pensée pour les amateurs de grosses génétiques américaines. 🔥💎\n\n 👃 Profil aromatique :\n 🍬 Bonbon fruité et sucré\n 🍓 Fruits rouges et baies mûres\n 🍦 Crème vanillée\n 🌿 Notes terreuses et légèrement boisées\n ⛽ Fond gazeux typiquement US\n\n 👅 Goût :\n En bouche, l’attaque est dominée par des saveurs candy et fruitées, accompagnées d’une belle rondeur crémeuse. Une touche plus terreuse et gazeuse apparaît progressivement, offrant une finale profonde et persistante. 😮‍💨🍬\n\n ✨ Effets généralement recherchés :\n 😄 Euphorie et bonne humeur\n 🧠 Sensation mentale légère et agréable\n 🎵 Moment convivial et détendu\n 💆 Relaxation corporelle progressive\n 🌙 Effet plus posé au fil de la session\n\n 🏆 Le verdict :\n Une Runtz gourmande, fruitée et gassy qui équilibre parfaitement douceur et caractère. Obama Runtz s’adresse aux amateurs de profils candy modernes avec une finition plus lourde et profonde. 🇺🇸⚡🍬🔥',
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                },
                  {
+                    id: '🥣🥛 CEREAL MILK 🥛🥣',
+                    flag: '🇺🇸',
+                    name: '🥣🥛 CEREAL MILK 🥛🥣',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductGSM.jpg', 
+                    video: 'VideoGSM.mp4',
+                    description: '🔥 Une variété devenue incontournable grâce à son profil terpénique unique, à mi-chemin entre les céréales sucrées, le lait crémeux et une puissance moderne parfaitement maîtrisée. Très appréciée des amateurs de génétiques américaines pour son équilibre entre saveur et effet. 🔥\n ✨ Ce qu’elle apporte\n\n 😄 Euphorie propre et immédiate\n 🧠 Esprit léger et positif\n 🎯 Bonne clarté mentale\n 😌 Relaxation progressive sans lourdeur excessive\n 💨 Effet équilibré qui peut accompagner aussi bien une discussion qu’un moment de détente\n\n 👃 Profil aromatique\n\n 🥣 Céréales sucrées\n 🥛 Lait crémeux\n 🍦 Notes vanillées et gourmandes\n 🍬 Fond sucré rappelant parfois les marshmallows\n 🍋 Légère touche fruitée et citronnée selon les phénotypes\n\n 💨 L’expérience\n\n Dès les premières bouffées, Cereal Milk se distingue par sa douceur et son côté gourmand. L’effet démarre souvent par une montée euphorique et agréable qui améliore l’humeur, avant d’évoluer vers une détente confortable sans écraser l’esprit. C’est cette combinaison entre puissance, saveurs et équilibre qui lui a valu sa réputation.\n ⭐ Pourquoi les connaisseurs l’apprécient ?\n\n 🥛 Terpènes ultra gourmands et reconnaissables\n ❄️ Production de résine souvent impressionnante\n 🧠 Effet à la fois lucide et relaxant\n 🍦 Profil moderne très recherché dans les génétiques américaines\n 🔥 Une variété qui a marqué toute une génération de cultivars “dessert” et qui reste aujourd’hui une référence du haut de gamme. 💎✨',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                }, 
+                {
+                    id: 'GlueBerry 🧴',
+                    flag: '🇺🇸',
+                    name: 'GlueBerry 🧴',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'productGL.jpg', 
+                    video: 'VideoGL.mp4',
+                    description: '🫐🧴 GLUEBERRY 🧴🫐\n\n Une génétique puissante qui combine un profil de fruits rouges et de baies avec le caractère collant, terreux et gazeux des variétés de la famille Glue. Une variété riche en arômes, résineuse et dotée d’une vraie personnalité. 🔥💎\n\n 👃 Profil aromatique :\n 🫐 Myrtille et fruits des bois\n 🍓 Fruits rouges sucrés\n ⛽ Notes de gaz et de diesel\n 🌿 Fond terreux et légèrement boisé\n 🍬 Petite douceur fruitée en finition\n\n 👅 Goût :\n L’attaque dévoile des saveurs de baies sucrées et de fruits mûrs. Progressivement, le côté Glue prend le dessus avec des notes terreuses, résineuses et gazeuses. La finale est longue, légèrement crémeuse et laisse un mélange de fruits noirs et de diesel sur le palais. 😮‍💨⛽\n\n ✨ Effets généralement recherchés :\n 🚀 Montée rapide et marquée\n 😄 Euphorie mentale\n 🧠 Esprit progressivement apaisé\n 💆 Relaxation corporelle profonde\n 🛋️ Idéale pour les moments de détente\n\n 🏆 Le verdict :\n Une variété complète qui équilibre parfaitement gourmandise fruitée et puissance gazeuse. GlueBerry s’adresse aux amateurs de profils complexes, résineux et riches en terpènes. 🫐⛽🧴🔥',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'Cherry runtz 🍒',
+                    flag: '🇺🇸',
+                    name: 'Cherry runtz 🍒',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductCHR.jpg', 
+                    images:['ProductCHRR.jpg'],
+                    video: '',
+                    description: '🍒🍬 CHERRY RUNTZ 🍬🍒\n\n Une variété ultra gourmande qui mélange parfaitement le caractère fruité de la cerise avec le célèbre profil sucré et crémeux de la famille Runtz. Dès l’ouverture, elle dévoile une identité moderne, intense et particulièrement agréable. 🔥💎\n\n 👃 Profil aromatique :\n 🍒 Cerise mûre et sucrée\n 🍬 Bonbon fruité\n 🍓 Fruits rouges\n 🍦 Fond crémeux et légèrement vanillé\n ⛽ Petite touche gazeuse en arrière-plan\n\n 👅 Goût :\n En bouche, l’attaque est dominée par une cerise sucrée et juteuse, rapidement accompagnée de notes de bonbons et de fruits rouges. La finale devient plus crémeuse, avec une légère touche gassy qui apporte du caractère et une belle longueur en bouche. 😮‍💨🍒\n\n ✨ Effets généralement recherchés :\n 😄 Euphorie et bonne humeur\n 🧠 Esprit détendu\n 🎨 Sensation créative et agréable\n 💆 Relaxation corporelle progressive\n 🌙 Peut devenir plus reposante en fin de session\n\n 🏆 Le verdict :\n Une Runtz fruitée, sucrée et pleine de caractère, idéale pour les amateurs de profils candy, cerise et crème. Une variété moderne aussi séduisante par ses arômes que par son équilibre. 🍒🍬🔥💎',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                },
+                 {
+                    id: '🌴💣 SUPER BOMBE 💣🌴',
+                    flag: '🇺🇸',
+                    name: '🌴💣 SUPER BOMBE 💣🌴',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductS.jpg', 
+                    video: 'VideoSB.mp4',
+                    description: '✨ Cette génétique est appréciée pour son profil aromatique très expressif :\n 🍬 Notes sucrées et fruitées\n ⛽ Fond gazeux et légèrement diesel\n 🍋 Touches d’agrumes selon les phénotypes\n ❄️ Têtes très résineuses et visuellement attractives\n\n 💨 Effets généralement recherchés :\n 😁 Euphorie rapide\n 🚀 Sensation cérébrale puissante\n 😌 Relaxation progressive du corps\n 🎨 Peut favoriser la créativité et la bonne humeur\n\n 👃 Ce qui séduit les connaisseurs, c’est surtout son mélange entre douceur sucrée et caractère gassy, offrant une fumée riche en terpènes et une belle longueur en bouche.  \n\n 💎 Une variété moderne qui mise avant tout sur l’intensité aromatique, la résine et une expérience complète du premier nez jusqu’à la dernière bouffée. 🔥🌴💨',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                }, 
+                /*  {
+                    id: '🍨🌿 GELATO #33 🌿🍨',
+                    flag: '🇺🇸',
+                    name: '🍨🌿 GELATO #33 🌿🍨',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductG.jpg', 
+                    video: 'VideoG.mp4',
+                    description: '💎🔥 Une des variétés les plus célèbres de la famille Gelato, réputée pour son équilibre entre puissance, saveurs gourmandes et effets agréables. 🔥💎\n\n ✨ Origines\n Gelato #33 est issue du croisement entre la variété Sunset Sherbet et Thin Mint GSC (Girl Scout Cookies). Cette génétique lui a permis de devenir une référence mondiale dans l’univers du cannabis.  \n\n 🌈 Aspect\n • Têtes denses et compactes 🟣🟢\n • Couleurs vert foncé à violettes ✨\n • Couvertes d’une épaisse couche de résine givrée ❄️\n • Pistils orange vif 🧡  \n\n 👃 Arômes & Saveurs\n 🍦 Crémeux et gourmand\n 🍓 Notes de fruits rouges et d’agrumes\n 🍪 Fond biscuité et légèrement mentholé\n 🍋 Touches sucrées et citronnées  \n\n ⚡ Effets recherchés\n 😄 Euphorie et bonne humeur\n 🧠 Sensation de bien-être mental\n 🎨 Créativité et sociabilité\n 😌 Relaxation corporelle sans forcément être assommante\n 🌙 À dose plus élevée, elle peut devenir très relaxante et favoriser le repos  \n\n 🎯 Profil général\n • Hybride équilibrée (légère dominance indica selon les phénotypes)\n • THC souvent situé entre 20 % et 29 % 🔥\n • Adaptée aussi bien pour se détendre que pour profiter d’une activité calme ou entre amis.  \n\n ⭐ En résumé\n Gelato #33 est souvent appréciée pour son mélange de détente physique et d’euphorie mentale. Elle procure généralement un effet heureux, relaxant et agréable, accompagné d’un profil aromatique crémeux et sucré qui a fait sa réputation. 🍨✨',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                },  */
+                {
+                    id: 'Pech sherbet 🍨',
+                    flag: '🇺🇸',
+                    name: 'Pech sherbet 🍨',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductPS.jpg', 
+                    images:['ProductPSS.jpg'],
+                    video: '',
+                    description: '🍑🍨 PEACH SHERBET 🍨🍑\n\n Une variété ultra gourmande inspirée des meilleurs profils dessert californiens. Peach Sherbet associe la douceur d’une pêche bien mûre à des notes crémeuses et légèrement acidulées, pour une expérience aromatique riche et rafraîchissante. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍑 Pêche mûre et juteuse\n 🍨 Sorbet fruité\n 🍦 Crème douce et vanillée\n 🍬 Bonbon légèrement acidulé\n 🍋 Petite touche d’agrumes frais\n\n 👅 Goût :\n Dès les premières bouffées, une saveur de pêche sucrée envahit le palais. Elle laisse ensuite apparaître une crème façon glace ou sorbet, accompagnée d’une légère fraîcheur citronnée. La fumée est douce, gourmande et laisse une belle saveur fruitée en bouche. 😮‍💨🍑\n\n ✨ Effets généralement recherchés :\n 😄 Bonne humeur\n 🌈 Sensation euphorique agréable\n 🧠 Esprit léger et détendu\n 💆 Relaxation physique progressive\n 🎶 Parfaite pour un moment calme et convivial\n\n 🏆 Le verdict :\n Une variété dessert fruitée, crémeuse et pleine de fraîcheur. Peach Sherbet conviendra parfaitement aux amateurs de saveurs sucrées qui recherchent un profil gourmand sans manquer de caractère. 🍑🍨✨🔥',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'ROCKET 🚀🔥',
+                    flag: '🇺🇸',
+                    name: 'ROCKET 🚀🔥',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductROCK.jpg', 
+                    images:['ProductROCKK.jpg'],
+                    video: '',
+                    description: 'Une strain qui porte parfaitement son nom. Rocket envoie une vraie montée puissante avec un profil moderne ultra terpy, mélangeant gaz, fruits sucrés et notes crémeuses pour une fumée lourde et premium.\n\n 👃 Aromatique :\n Dès l’ouverture, ça explose avec une odeur gazeuse bien forte ⛽️ accompagnée de touches fruitées et sucrées. On retrouve aussi un fond creamy/kush qui donne beaucoup de profondeur au profil.\n\n 👅 Goût :\n En bouche, c’est intense : mélange de candy fruité 🍬, gaz lourd et légère touche tropicale qui reste longtemps après la taffe. La fumée est épaisse, propre et ultra savoureuse.\n\n 💨 Effet :\n Montée rapide et puissante 🚀 avec un gros effet euphorique au début avant une détente physique bien lourde. Une vraie frappe pour les amateurs de strains qui tapent fort.\n\n 🌿 Buds bien résineux, full terpènes et qualité premium.',                    
+                    tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+                    ]
+                },
+            ]
+        },
+
+        /* {
                     id: '💜🫐 BLURPLE 🇺🇸🔥',
                     flag: '🇺🇸',
                     name: '💜🫐 BLURPLE 🇺🇸🔥',
@@ -1017,115 +1176,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25g', price: 200.00 },
                         { weight: '50g', price: 350.00 },
                     ]
-                },
-                {
-                    id: 'Cherry runtz 🍒',
-                    flag: '🇺🇸',
-                    name: 'Cherry runtz 🍒',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductCHR.jpg', 
-                    images:['ProductCHRR.jpg'],
-                    video: '',
-                    description: '🍒🍬 CHERRY RUNTZ 🍬🍒\n\n Une variété ultra gourmande qui mélange parfaitement le caractère fruité de la cerise avec le célèbre profil sucré et crémeux de la famille Runtz. Dès l’ouverture, elle dévoile une identité moderne, intense et particulièrement agréable. 🔥💎\n\n 👃 Profil aromatique :\n 🍒 Cerise mûre et sucrée\n 🍬 Bonbon fruité\n 🍓 Fruits rouges\n 🍦 Fond crémeux et légèrement vanillé\n ⛽ Petite touche gazeuse en arrière-plan\n\n 👅 Goût :\n En bouche, l’attaque est dominée par une cerise sucrée et juteuse, rapidement accompagnée de notes de bonbons et de fruits rouges. La finale devient plus crémeuse, avec une légère touche gassy qui apporte du caractère et une belle longueur en bouche. 😮‍💨🍒\n\n ✨ Effets généralement recherchés :\n 😄 Euphorie et bonne humeur\n 🧠 Esprit détendu\n 🎨 Sensation créative et agréable\n 💆 Relaxation corporelle progressive\n 🌙 Peut devenir plus reposante en fin de session\n\n 🏆 Le verdict :\n Une Runtz fruitée, sucrée et pleine de caractère, idéale pour les amateurs de profils candy, cerise et crème. Une variété moderne aussi séduisante par ses arômes que par son équilibre. 🍒🍬🔥💎',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                },
-                 {
-                    id: '🌴💣 SUPER BOMBE 💣🌴',
-                    flag: '🇺🇸',
-                    name: '🌴💣 SUPER BOMBE 💣🌴',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductS.jpg', 
-                    video: 'VideoSB.mp4',
-                    description: '✨ Cette génétique est appréciée pour son profil aromatique très expressif :\n 🍬 Notes sucrées et fruitées\n ⛽ Fond gazeux et légèrement diesel\n 🍋 Touches d’agrumes selon les phénotypes\n ❄️ Têtes très résineuses et visuellement attractives\n\n 💨 Effets généralement recherchés :\n 😁 Euphorie rapide\n 🚀 Sensation cérébrale puissante\n 😌 Relaxation progressive du corps\n 🎨 Peut favoriser la créativité et la bonne humeur\n\n 👃 Ce qui séduit les connaisseurs, c’est surtout son mélange entre douceur sucrée et caractère gassy, offrant une fumée riche en terpènes et une belle longueur en bouche.  \n\n 💎 Une variété moderne qui mise avant tout sur l’intensité aromatique, la résine et une expérience complète du premier nez jusqu’à la dernière bouffée. 🔥🌴💨',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                }, 
-                /*  {
-                    id: '🍨🌿 GELATO #33 🌿🍨',
-                    flag: '🇺🇸',
-                    name: '🍨🌿 GELATO #33 🌿🍨',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductG.jpg', 
-                    video: 'VideoG.mp4',
-                    description: '💎🔥 Une des variétés les plus célèbres de la famille Gelato, réputée pour son équilibre entre puissance, saveurs gourmandes et effets agréables. 🔥💎\n\n ✨ Origines\n Gelato #33 est issue du croisement entre la variété Sunset Sherbet et Thin Mint GSC (Girl Scout Cookies). Cette génétique lui a permis de devenir une référence mondiale dans l’univers du cannabis.  \n\n 🌈 Aspect\n • Têtes denses et compactes 🟣🟢\n • Couleurs vert foncé à violettes ✨\n • Couvertes d’une épaisse couche de résine givrée ❄️\n • Pistils orange vif 🧡  \n\n 👃 Arômes & Saveurs\n 🍦 Crémeux et gourmand\n 🍓 Notes de fruits rouges et d’agrumes\n 🍪 Fond biscuité et légèrement mentholé\n 🍋 Touches sucrées et citronnées  \n\n ⚡ Effets recherchés\n 😄 Euphorie et bonne humeur\n 🧠 Sensation de bien-être mental\n 🎨 Créativité et sociabilité\n 😌 Relaxation corporelle sans forcément être assommante\n 🌙 À dose plus élevée, elle peut devenir très relaxante et favoriser le repos  \n\n 🎯 Profil général\n • Hybride équilibrée (légère dominance indica selon les phénotypes)\n • THC souvent situé entre 20 % et 29 % 🔥\n • Adaptée aussi bien pour se détendre que pour profiter d’une activité calme ou entre amis.  \n\n ⭐ En résumé\n Gelato #33 est souvent appréciée pour son mélange de détente physique et d’euphorie mentale. Elle procure généralement un effet heureux, relaxant et agréable, accompagné d’un profil aromatique crémeux et sucré qui a fait sa réputation. 🍨✨',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                },  */
-                {
-                    id: 'Pech sherbet 🍨',
-                    flag: '🇺🇸',
-                    name: 'Pech sherbet 🍨',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductPS.jpg', 
-                    images:['ProductPSS.jpg'],
-                    video: '',
-                    description: '🍑🍨 PEACH SHERBET 🍨🍑\n\n Une variété ultra gourmande inspirée des meilleurs profils dessert californiens. Peach Sherbet associe la douceur d’une pêche bien mûre à des notes crémeuses et légèrement acidulées, pour une expérience aromatique riche et rafraîchissante. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍑 Pêche mûre et juteuse\n 🍨 Sorbet fruité\n 🍦 Crème douce et vanillée\n 🍬 Bonbon légèrement acidulé\n 🍋 Petite touche d’agrumes frais\n\n 👅 Goût :\n Dès les premières bouffées, une saveur de pêche sucrée envahit le palais. Elle laisse ensuite apparaître une crème façon glace ou sorbet, accompagnée d’une légère fraîcheur citronnée. La fumée est douce, gourmande et laisse une belle saveur fruitée en bouche. 😮‍💨🍑\n\n ✨ Effets généralement recherchés :\n 😄 Bonne humeur\n 🌈 Sensation euphorique agréable\n 🧠 Esprit léger et détendu\n 💆 Relaxation physique progressive\n 🎶 Parfaite pour un moment calme et convivial\n\n 🏆 Le verdict :\n Une variété dessert fruitée, crémeuse et pleine de fraîcheur. Peach Sherbet conviendra parfaitement aux amateurs de saveurs sucrées qui recherchent un profil gourmand sans manquer de caractère. 🍑🍨✨🔥',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                },
-                {
-                    id: 'GlueBerry 🧴',
-                    flag: '🇺🇸',
-                    name: 'GlueBerry 🧴',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'productGL.jpg', 
-                    images:['ProductGLL.jpg'],
-                    video: '',
-                    description: '🫐🧴 GLUEBERRY 🧴🫐\n\n Une génétique puissante qui combine un profil de fruits rouges et de baies avec le caractère collant, terreux et gazeux des variétés de la famille Glue. Une variété riche en arômes, résineuse et dotée d’une vraie personnalité. 🔥💎\n\n 👃 Profil aromatique :\n 🫐 Myrtille et fruits des bois\n 🍓 Fruits rouges sucrés\n ⛽ Notes de gaz et de diesel\n 🌿 Fond terreux et légèrement boisé\n 🍬 Petite douceur fruitée en finition\n\n 👅 Goût :\n L’attaque dévoile des saveurs de baies sucrées et de fruits mûrs. Progressivement, le côté Glue prend le dessus avec des notes terreuses, résineuses et gazeuses. La finale est longue, légèrement crémeuse et laisse un mélange de fruits noirs et de diesel sur le palais. 😮‍💨⛽\n\n ✨ Effets généralement recherchés :\n 🚀 Montée rapide et marquée\n 😄 Euphorie mentale\n 🧠 Esprit progressivement apaisé\n 💆 Relaxation corporelle profonde\n 🛋️ Idéale pour les moments de détente\n\n 🏆 Le verdict :\n Une variété complète qui équilibre parfaitement gourmandise fruitée et puissance gazeuse. GlueBerry s’adresse aux amateurs de profils complexes, résineux et riches en terpènes. 🫐⛽🧴🔥',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                },
-                {
-                    id: 'ROCKET 🚀🔥',
-                    flag: '🇺🇸',
-                    name: 'ROCKET 🚀🔥',
-                    farm: '🌾 No Farm 🌾',
-                    promoEligible: true,
-                    type: 'Weed',
-                    image: 'ProductROCK.jpg', 
-                    images:['ProductROCKK.jpg'],
-                    video: '',
-                    description: 'Une strain qui porte parfaitement son nom. Rocket envoie une vraie montée puissante avec un profil moderne ultra terpy, mélangeant gaz, fruits sucrés et notes crémeuses pour une fumée lourde et premium.\n\n 👃 Aromatique :\n Dès l’ouverture, ça explose avec une odeur gazeuse bien forte ⛽️ accompagnée de touches fruitées et sucrées. On retrouve aussi un fond creamy/kush qui donne beaucoup de profondeur au profil.\n\n 👅 Goût :\n En bouche, c’est intense : mélange de candy fruité 🍬, gaz lourd et légère touche tropicale qui reste longtemps après la taffe. La fumée est épaisse, propre et ultra savoureuse.\n\n 💨 Effet :\n Montée rapide et puissante 🚀 avec un gros effet euphorique au début avant une détente physique bien lourde. Une vraie frappe pour les amateurs de strains qui tapent fort.\n\n 🌿 Buds bien résineux, full terpènes et qualité premium.',                    
-                    tarifs: [
-                        { weight: '5g', price: 60.00 },
-                        { weight: '10g', price: 100.00 },
-                        { weight: '25g', price: 220.00 },
-                        { weight: '50g', price: 400.00 },
-                    ]
-                },
-            ]
-        },
+                }, */
                 /* {
                     id: 'Pech sherbet 🍨',
                     flag: '🇺🇸',
