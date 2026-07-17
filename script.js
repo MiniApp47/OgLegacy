@@ -974,7 +974,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
-                    image: 'productGL.jpg', 
+                    image: 'ProductGL.jpg', 
                     video: 'VideoGL.mp4',
                     description: '🫐🧴 GLUEBERRY 🧴🫐\n\n Une génétique puissante qui combine un profil de fruits rouges et de baies avec le caractère collant, terreux et gazeux des variétés de la famille Glue. Une variété riche en arômes, résineuse et dotée d’une vraie personnalité. 🔥💎\n\n 👃 Profil aromatique :\n 🫐 Myrtille et fruits des bois\n 🍓 Fruits rouges sucrés\n ⛽ Notes de gaz et de diesel\n 🌿 Fond terreux et légèrement boisé\n 🍬 Petite douceur fruitée en finition\n\n 👅 Goût :\n L’attaque dévoile des saveurs de baies sucrées et de fruits mûrs. Progressivement, le côté Glue prend le dessus avec des notes terreuses, résineuses et gazeuses. La finale est longue, légèrement crémeuse et laisse un mélange de fruits noirs et de diesel sur le palais. 😮‍💨⛽\n\n ✨ Effets généralement recherchés :\n 🚀 Montée rapide et marquée\n 😄 Euphorie mentale\n 🧠 Esprit progressivement apaisé\n 💆 Relaxation corporelle profonde\n 🛋️ Idéale pour les moments de détente\n\n 🏆 Le verdict :\n Une variété complète qui équilibre parfaitement gourmandise fruitée et puissance gazeuse. GlueBerry s’adresse aux amateurs de profils complexes, résineux et riches en terpènes. 🫐⛽🧴🔥',                    
                     tarifs: [
