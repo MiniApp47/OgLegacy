@@ -2027,6 +2027,96 @@ document.addEventListener('DOMContentLoaded', function () {
 
             products: [
                  {
+                    id: 'Banana Limonade 🍹',
+                    flag: '🇲🇦',
+                    name: 'Banana Limonade 🍹',
+                    farm: '👨‍🌾 DHF Farmz 👨‍🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductBL.jpg', 
+                    video: '',
+                    description: '💨🔥 Une sélection fruitée et pétillante signée DHF Farmz 🔥💨\n 🍌🍋 120U PREMIUM – Banana Limonade 🍋🍌\n\n ✨ Profil aromatique ✨\n Dès l’ouverture, Banana Limonade dévoile un profil terpénique frais et ultra-gourmand 🤤🍹. Une vague de banane mûre et crémeuse 🍌 envahit les sens, rapidement accompagnée de notes de citron pressé 🍋, de soda acidulé 🥤 et de bonbon fruité 🍬. En arrière-plan, une légère touche tropicale et gazeuse apporte du relief et équilibre parfaitement la douceur de l’ensemble ✨.\n\n 😮‍💨🍹 Goût\n En bouche, l’attaque est douce et crémeuse, dominée par la banane sucrée 🍌. Une fraîcheur citronnée apparaît ensuite, rappelant une limonade artisanale bien glacée 🍋🧊. La sélection 120U Premium offre une fumée dense, propre et particulièrement savoureuse ☁️✨. La finale reste longtemps sur le palais avec un mélange de fruits tropicaux, de citron candy et de crème légère.\n\n 💎 Texture & qualité\n ✨ Sélection 120 microns premium\n 🤲 Texture souple et homogène\n 🌈 Belle conservation du profil aromatique\n ☁️ Fumée douce et parfumée\n 🔥 Finition propre et soigneusement travaillée\n\n 🏆🍌 Le verdict\n Banana Limonade est une référence gourmande pour les amateurs de profils fruités, frais et légèrement acidulés. DHF Farmz propose ici un 120U Premium original, équilibré et rempli de saveurs tropicales. 🍌🍋🍹💎',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                 {
+                    id: 'Pineapple Juice 🍍',
+                    flag: '🇲🇦',
+                    name: 'Pineapple Juice 🍍',
+                    farm: '👨‍🌾 DHF Farmz 👨‍🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductPJ.jpg', 
+                    video: '',
+                    description: '💨🔥 Une vague tropicale ultra-fraîche signée DHF Farmz 🔥💨\n 🍍🥤 120U PREMIUM – Pineapple Juice 🥤🍍\n\n ✨ Profil aromatique ✨\n Pineapple Juice libère dès l’ouverture un parfum tropical particulièrement intense 🌴🔥. L’ananas mûr et juteux 🍍 domine largement le profil, accompagné de notes d’agrumes sucrés 🍊, de jus de fruits frais 🥤 et d’une légère touche candy 🍬. En fond, une nuance crémeuse et discrètement gazeuse apporte davantage de profondeur à l’ensemble.\n\n 😮‍💨🍍 Goût\n À la dégustation, l’attaque rappelle un véritable jus d’ananas fraîchement pressé 🍍🥤. Les saveurs sont douces, sucrées et légèrement acidulées, avec une petite touche tropicale qui reste longtemps sur le palais. La sélection 120U Premium apporte une fumée dense, soyeuse et particulièrement riche en arômes ☁️✨.\n\n 💎 Texture & qualité\n ✨ Sélection premium en 120 microns\n 🤲 Matière fine, souple et homogène\n 🌴 Profil tropical très expressif\n ☁️ Fumée douce et aromatique\n 🔥 Travail propre signé DHF Farmz\n\n 🏆🍍 Le verdict\n Pineapple Juice s’adresse aux amateurs de profils exotiques, fruités et rafraîchissants. Un 120U Premium gourmand qui restitue parfaitement la douceur et l’acidité d’un ananas bien mûr. 🍍🌴🥤💎',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                 {
+                    id: 'Black Papaya ♣️',
+                    flag: '🇲🇦',
+                    name: 'Black Papaya ♣️',
+                    farm: '👨‍🌾 DHF Farmz 👨‍🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductBP.jpg', 
+                    video: '',
+                    description: '💨🔥 Une sélection exotique, sombre et raffinée signée DHF Farmz 🔥💨\n ♣️🥭 120U PREMIUM – Black Papaya 🥭♣️\n\n ✨ Profil aromatique ✨\n Dès l’ouverture, Black Papaya impose un profil profond et particulièrement complexe 😮‍💨🔥. Des notes de papaye mûre 🥭, de fruits tropicaux et de mangue sucrée se mélangent à une base plus sombre, légèrement terreuse et épicée 🌿. Une touche crémeuse ainsi qu’un fond gazeux discret apportent du caractère à cette sélection premium.\n\n 😮‍💨🥭 Goût\n En bouche, l’attaque est fruitée et généreuse, dominée par la papaye et les fruits exotiques bien mûrs 🥭🌴. Elle évolue ensuite vers des saveurs plus profondes, mêlant terre douce, épices légères et crème tropicale. La fumée issue de la sélection 120U Premium est dense, ronde et persistante ☁️✨.\n\n 💎 Texture & qualité\n ✨ Sélection de trichomes en 120 microns\n 🤲 Texture souple et riche\n 🌈 Profil aromatique complexe\n ☁️ Fumée épaisse et savoureuse\n 🔥 Finition premium et homogène\n\n 🏆♣️ Le verdict\n Black Papaya offre un équilibre original entre gourmandise tropicale et profondeur aromatique. Une pièce 120U Premium destinée aux amateurs de profils fruités, crémeux et légèrement terreux. ♣️🥭🌴💎',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                 {
+                    id: 'Peach Tsunami 🌊',
+                    flag: '🇲🇦',
+                    name: 'Peach Tsunami 🌊',
+                    farm: '👨‍🌾 DHF Farmz 👨‍🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductPT.jpg', 
+                    video: '',
+                    description: '💨🔥 Une énorme vague fruitée signée DHF Farmz 🔥💨\n 🍑🌊 120U PREMIUM – Peach Tsunami 🌊🍑\n\n ✨ Profil aromatique ✨\n Peach Tsunami porte parfaitement son nom : dès l’ouverture, une vague puissante de pêche mûre et juteuse 🍑 envahit instantanément les sens 🌊. Elle est accompagnée de notes de bonbon fruité 🍬, de sorbet à la pêche 🍨 et d’agrumes légèrement acidulés 🍊. Une touche crémeuse et florale vient arrondir le profil et lui apporter beaucoup de finesse.\n\n 😮‍💨🍑 Goût\n En bouche, l’attaque est intensément fruitée, rappelant une pêche blanche bien mûre et un nectar frais 🍑🥤. Une douceur candy apparaît ensuite, accompagnée d’une légère fraîcheur acidulée. Grâce à la sélection 120U Premium, la fumée reste propre, dense et particulièrement expressive ☁️✨. La finale laisse une longue saveur de pêche sucrée sur le palais.\n\n 💎 Texture & qualité\n ✨ Sélection premium en 120 microns\n 🤲 Texture fine, souple et homogène\n 🍑 Profil fruité très marqué\n ☁️ Fumée douce et persistante\n 🔥 Travail précis signé DHF Farmz\n\n 🏆🌊 Le verdict\n Peach Tsunami est une véritable vague de saveurs pour les amateurs de profils fruités, sucrés et rafraîchissants. Un 120U Premium gourmand avec une signature pêche particulièrement intense. 🍑🌊🍬💎',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                 {
+                    id: 'Tropicana Glue 🍼',
+                    flag: '🇲🇦',
+                    name: 'Tropicana Glue 🍼',
+                    farm: '👨‍🌾 DHF Farmz 👨‍🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductTG.jpg', 
+                    video: '',
+                    description: '💨🔥 Une combinaison fruitée et résineuse signée DHF Farmz 🔥💨\n 🍊🍼 120U PREMIUM – Tropicana Glue 🍼🍊\n\n ✨ Profil aromatique ✨\n Tropicana Glue combine la fraîcheur explosive des agrumes avec le caractère plus profond et résineux des profils Glue 🔥. Dès l’ouverture, des notes d’orange sanguine 🍊, de mandarine sucrée et de fruits tropicaux envahissent les sens. Elles sont accompagnées d’un fond terreux, crémeux et légèrement gazeux qui apporte une vraie complexité aromatique.\n\n 😮‍💨🍊 Goût\n En bouche, l’attaque est fraîche et citronnée, dominée par l’orange sucrée et les agrumes zestés 🍊🍋. Le profil évolue ensuite vers des notes plus rondes, résineuses et crémeuses, avec une finition légèrement terreuse et gassy. La sélection 120U Premium offre une fumée dense, propre et riche en saveurs ☁️✨.\n\n 💎 Texture & qualité\n ✨ Sélection de qualité en 120 microns\n 🤲 Texture souple et homogène\n 🍊 Belle intensité aromatique\n ☁️ Fumée dense et savoureuse\n 🔥 Équilibre entre fraîcheur et profondeur\n\n 🏆🍼 Le verdict\n Tropicana Glue propose un équilibre réussi entre agrumes tropicaux, douceur crémeuse et caractère résineux. Un 120U Premium moderne, expressif et particulièrement complet signé DHF Farmz. 🍊🍼⛽💎',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                 {
                     id: 'KitKat 🌰',
                     flag: '🇲🇦',
                     name: 'KitKat 🌰',
