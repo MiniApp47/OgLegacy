@@ -1054,7 +1054,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                     ]
                 },
-                {
+               /*  {
                     id: 'ROCKET 🚀🔥',
                     flag: '🇺🇸',
                     name: 'ROCKET 🚀🔥',
@@ -1071,7 +1071,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25g', price: 220.00 },
                         { weight: '50g', price: 400.00 },
                     ]
-                },
+                }, */
             ]
         },
 
