@@ -105,6 +105,107 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategJauneUsa.png', // Ton image de catégorie Weed
 
             products: [
+                 {
+                    id: 'White truffle 🍄',
+                    flag: '🇺🇸',
+                    name: 'White truffle 🍄',
+                    farm: '🌾 WEST COAST MOUSSE',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductUsa3.jpg',
+                    video:'VideoCCH.mp4',
+                      description: '🍄🤍 WHITE TRUFFLE — WEST COAST MOUSSE 🤍🍄\n\n Une mousse premium au profil profond, crémeux et raffiné. White Truffle se distingue par son mélange de notes terreuses, boisées et légèrement gazeuses, accompagné d’une douceur gourmande qui apporte beaucoup de rondeur à l’ensemble. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍄 Notes terreuses et boisées\n 🌰 Noisette et fruits à coque\n 🍦 Fond crémeux et vanillé\n 🌿 Légère touche végétale\n ⛽ Finition gazeuse discrète\n\n 👅 Goût :\n En bouche, l’attaque est ronde et crémeuse, avec des saveurs de noisette grillée et de sous-bois. Une douceur légèrement vanillée apparaît ensuite, avant de laisser place à une finale plus profonde, terreuse et gassy qui reste longtemps sur le palais. 😮‍💨🍄\n\n 💛 Texture & qualité :\n ☁️ Mousseuse et homogène\n 🤲 Souple et facile à travailler\n ✨ Profil aromatique riche\n 🔥 Fumée dense et savoureuse\n 💎 Finition premium West Coast\n\n 🏆 Le verdict :\n White Truffle est une sélection élégante et pleine de caractère, idéale pour les amateurs de profils crémeux, terreux et légèrement gazeux. Une mousse raffinée qui change des saveurs fruitées classiques. 🍄🤍⛽🔥',
+                      tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                 {
+                    id: 'Pink Lemonade 🥤',
+                    flag: '🇺🇸',
+                    name: 'Pink Lemonade 🥤',
+                    farm: '🌾 WEST COAST MOUSSE',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductPK.jpg',
+                    video: 'VideoPK.mp4',
+                      description: '🍓🍋 PINK LEMONADE — WEST COAST MOUSSE 🥤💗\n\n Une mousse ultra fraîche et fruitée qui rappelle une limonade rose bien glacée. Pink Lemonade mélange des agrumes acidulés, des fruits rouges sucrés et une touche candy pour créer un profil vif, gourmand et particulièrement rafraîchissant. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍋 Citron frais et zesté\n 🍓 Fraise et fruits rouges\n 🥤 Limonade sucrée\n 🍬 Bonbon acidulé\n 🌸 Petite touche florale\n\n 👅 Goût :\n Dès la première bouffée, une vague de citron sucré et de fruits rouges envahit le palais. L’acidité reste parfaitement équilibrée par une douceur candy et légèrement crémeuse. La finale est fraîche, fruitée et persistante, comme une limonade rose artisanale. 😮‍💨🍓🍋\n\n 💛 Texture & qualité :\n ☁️ Mousseuse et légère\n 🤲 Facile à travailler\n ✨ Arômes frais et expressifs\n 🔥 Fumée douce et parfumée\n 💎 Sélection premium West Coast\n\n 🏆 Le verdict :\n Pink Lemonade est parfaite pour les amateurs de profils citronnés, fruités et sucrés. Une mousse moderne, colorée et rafraîchissante qui ne passe pas inaperçue. 🥤💗🍓🔥',
+                      tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                 {
+                    id: 'BISCOTTI 🍪',
+                    flag: '🇺🇸',
+                    name: 'BISCOTTI 🍪',
+                    farm: '🌾 WEST COAST MOUSSE',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductBisco.jpg',
+                    video:'VideoBisco.mp4',
+                      description: '🍪🔥 BISCOTTI — WEST COAST MOUSSE 🔥🍪\n\n Une mousse gourmande inspirée des meilleurs profils dessert américains. Biscotti développe un mélange riche de biscuit sucré, de crème vanillée et de notes légèrement épicées, accompagné d’un fond kush et gazeux qui lui apporte beaucoup de caractère. 🇺🇸💎\n\n 👃 Profil aromatique :\n 🍪 Biscuit chaud et pâte sucrée\n 🍦 Vanille et crème douce\n 🌰 Amande et noisette grillée\n 🌶️ Légères notes épicées\n ⛽ Fond kush et gazeux\n\n 👅 Goût :\n En bouche, l’attaque rappelle un biscuit tout juste sorti du four, avec des notes de vanille, de caramel et de fruits à coque. Le profil devient ensuite plus profond et légèrement épicé, avant une finale kush et gassy qui reste longtemps sur le palais. 😮‍💨🍪\n\n 💛 Texture & qualité :\n ☁️ Mousseuse et souple\n 🤲 Facile à effriter\n ✨ Profil gourmand très marqué\n 🔥 Fumée dense et crémeuse\n 💎 Finition premium West Coast\n\n 🏆 Le verdict :\n Biscotti est une valeur sûre pour les amateurs de profils pâtissiers, crémeux et gazeux. Une mousse riche et réconfortante avec une véritable identité Cali dessert. 🍪🍦⛽🔥',
+                      tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                 {
+                    id: 'Candy Crush 🍭',
+                    flag: '🇺🇸',
+                    name: 'Candy Crush 🍭',
+                    farm: '🌾 WEST COAST MOUSSE',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductUsa3.jpg',
+                    video:'VideoCCH.mp4',
+                      description: '🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d\'une technique "Dry Sift" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l\'ancienne version. \n\n  🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy. \n\n 🍯 Texture : Jaune mousseux d’exception qui s\'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫',
+                      tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                {
+                    id: 'ORANGE CREAMPOP 🔥💛',
+                    flag: '🇺🇸',
+                    name: 'ORANGE CREAMPOP 🔥💛',
+                    farm: '🌾 WEST COAST MOUSSE',
+                    promoEligible: true,
+                    type: 'JauneUsa',
+                    image: 'ProductOre.png', 
+                    video: 'VideoOre.mov',
+                    description: 'Un jaune mousseux ultra gourmand qui frappe direct dès l’ouverture du pochon 🍊💨\n La strain Orange Creampop ramène un profil ultra crémeux et fruité, avec une vraie identité cali premium 🇺🇸✨\n\n 👃 Profil aromatique :\n Une grosse odeur d’orange sucrée type bonbon crémeux, mélangée à des notes vanilla cream et une légère touche gazeuse bien propre 🍦🍊⛽️\n Le mousseux est gras, collant et hyper parfumé.\n\n 👅 Goût :\n En bouche c’est une vraie dinguerie 😮‍💨\n Tu retrouves un mélange parfait entre agrumes sucrés, crème vanillée et une petite finition légèrement candy qui reste longtemps sur le palais 🍬🍊\n Une fumée douce, lourde et ultra savoureuse.\n\n 💥 Effets :\n Bonne grosse défonce relaxante mais propre 🧠🔥\n Ça monte progressivement avec un effet lourd sur le corps tout en gardant un mood chill et agréable. Parfait pour se poser tranquillement le soir 😴💨\n ⭐️ Texture mousseuse\n ⭐️ Goût ultra prononcé\n ⭐️ Cali vibes\n ⭐️ Très gros niveau de qualité',
+                    tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
+                   {
+                    id: '🤯🚀 PERMANENT MARKER',
+                    flag: '🇺🇸',
+                    name: '🤯🚀 PERMANENT MARKER',
+                    farm: '🌾 WEST COAST MOUSSE',
+                    promoEligible: true,
+                    type: 'JauneUsa',
+                    image: 'ProductPerm.jpg', 
+                    video:'VideoPerm.mp4',
+                    description: '🔥 Une mousse réputée pour son caractère unique et sa puissance. Son profil est marqué par des notes de gaz, de crème et de marqueur, ce qui lui donne une identité immédiatement reconnaissable.\n\n 💨 Effets recherchés :\n 😌 Détente profonde\n 😊 Sensation de bien-être\n 🧠 Esprit apaisé\n 🛋️ Relaxation physique marquée\n 🌙 Peut devenir très relaxante en fin de session\n\n ⭐ Pourquoi les amateurs l’apprécient ?\n ✔️ Arômes puissants et originaux\n ✔️ Goût qui reste longtemps en bouche\n ✔️ Effets durables\n ✔️ Idéale pour se poser et profiter du moment\n\n 🇺🇸💎 Pour les vrais connaisseurs de mousse US, la Permanent Marker est souvent considérée comme une référence moderne grâce à son profil terpénique atypique, puissant et facilement identifiable. Une variété qui ne passe jamais inaperçue et qui a su se faire une place parmi les génétiques les plus appréciées de ces dernières années.\n 🏆 En bref : Une mousse de caractère, riche en saveurs et en sensations, pensée pour ceux qui recherchent une expérience authentique et typiquement West Coast. 🌊🔥🧱💨',
+                    tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '50G', price: 200.00 },
+                        { weight: '100G', price: 350.00 },
+                    ]
+                },
                 {
                     id: 'GELATO',
                     flag: '🇺🇸',
@@ -118,7 +219,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '9G', price: 50.00 },
                         { weight: '25G', price: 120.00 },
                         { weight: '50G', price: 200.00 },
-                        { weight: '100G', price: 350.00 },
+                        { weight: '100G', price: 300.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -134,7 +235,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '9G', price: 50.00 },
                         { weight: '25G', price: 120.00 },
                         { weight: '50G', price: 200.00 },
-                        { weight: '100G', price: 350.00 },
+                        { weight: '100G', price: 300.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -150,7 +251,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '9G', price: 50.00 },
                         { weight: '25G', price: 120.00 },
                         { weight: '50G', price: 200.00 },
-                        { weight: '100G', price: 350.00 },
+                        { weight: '100G', price: 300.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -166,7 +267,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '9G', price: 50.00 },
                         { weight: '25G', price: 120.00 },
                         { weight: '50G', price: 200.00 },
-                        { weight: '100G', price: 350.00 },
+                        { weight: '100G', price: 300.00, badge: 'PROMO ⚡️' },
                     ]
                 },
                 {
@@ -182,10 +283,27 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '9G', price: 50.00 },
                         { weight: '25G', price: 120.00 },
                         { weight: '50G', price: 200.00 },
-                        { weight: '100G', price: 350.00 },
+                        { weight: '100G', price: 300.00, badge: 'PROMO ⚡️' },
                     ]
                 }
                   /* {
+                    id: 'ORANGE CREAMPOP 🔥💛',
+                    flag: '🇲🇦',
+                    name: 'ORANGE CREAMPOP 🔥💛',
+                    farm: '🌾 WEST COAST MOUSSE',
+                    promoEligible: true,
+                    type: 'JauneUsa',
+                    image: 'ProductOre.png', 
+                    video: 'VideoOre.mov',
+                    description: 'Un jaune mousseux ultra gourmand qui frappe direct dès l’ouverture du pochon 🍊💨\n La strain Orange Creampop ramène un profil ultra crémeux et fruité, avec une vraie identité cali premium 🇺🇸✨\n\n 👃 Profil aromatique :\n Une grosse odeur d’orange sucrée type bonbon crémeux, mélangée à des notes vanilla cream et une légère touche gazeuse bien propre 🍦🍊⛽️\n Le mousseux est gras, collant et hyper parfumé.\n\n 👅 Goût :\n En bouche c’est une vraie dinguerie 😮‍💨\n Tu retrouves un mélange parfait entre agrumes sucrés, crème vanillée et une petite finition légèrement candy qui reste longtemps sur le palais 🍬🍊\n Une fumée douce, lourde et ultra savoureuse.\n\n 💥 Effets :\n Bonne grosse défonce relaxante mais propre 🧠🔥\n Ça monte progressivement avec un effet lourd sur le corps tout en gardant un mood chill et agréable. Parfait pour se poser tranquillement le soir 😴💨\n ⭐️ Texture mousseuse\n ⭐️ Goût ultra prononcé\n ⭐️ Cali vibes\n ⭐️ Très gros niveau de qualité',
+                    tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                }
+                   {
                     id: '🤯🚀 PERMANENT MARKER',
                     flag: '🇺🇸',
                     name: '🤯🚀 PERMANENT MARKER',
@@ -1714,7 +1832,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25G', price: 250.00 },
                     ]
                 },
-                 {
+                /*  {
                     id: '🫒❄️🔥 OLIVE 🔥❄️🫒',
                     flag: '🇲🇦',
                     name: '🫒❄️🔥 OLIVE 🔥❄️🫒',
@@ -1751,7 +1869,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     tarifs: [
                         { weight: '1 olive', price: 90.00 },
                     ]
-                },
+                }, */
                /*   {
                     id: '🍓 SINFUL STRAWBERRY',
                     flag: '🇲🇦',
@@ -2498,7 +2616,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 310.00 },
                     ]
                 },
-                {
+                /* {
                     id: 'Banana Candy 🍌',
                     flag: '🇲🇦',
                     name: 'Banana Candy 🍌',
@@ -2531,7 +2649,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 200.00 },
                         { weight: '100g', price: 330.00 },
                     ]
-                },
+                }, */
                 /* {
                     id: 'MANGO',
                     flag: '🇲🇦',
@@ -2566,7 +2684,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100g', price: 330.00 },
                     ]
                 }, */
-                {
+               /*  {
                     id: '🌕🍈 SUPER MOUSSEUX 🍈🌕',
                     flag: '🇲🇦',
                     name: '🌕🍈 Moon Melon 🍈🌕',
@@ -2582,7 +2700,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 200.00 },
                         { weight: '100g', price: 330.00 },
                     ]
-                },
+                }, */
                 /* {
                     id: 'NICOLE KUSH ✨',
                     flag: '🇺🇸',
