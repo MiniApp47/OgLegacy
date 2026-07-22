@@ -219,7 +219,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '9G', price: 50.00 },
                         { weight: '25G', price: 120.00 },
                         { weight: '50G', price: 200.00 },
-                        { weight: '100G', price: 300.00, badge: 'PROMO ⚡️' },
+                        {
+              weight: "100G",
+              price: 300.0,
+              oldPrice: 350.0,
+              badge: "PROMO ⚡️",
+            },
                     ]
                 },
                 {
@@ -235,7 +240,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '9G', price: 50.00 },
                         { weight: '25G', price: 120.00 },
                         { weight: '50G', price: 200.00 },
-                        { weight: '100G', price: 300.00, badge: 'PROMO ⚡️' },
+                        {
+              weight: "100G",
+              price: 300.0,
+              oldPrice: 350.0,
+              badge: "PROMO ⚡️",
+            },
                     ]
                 },
                 {
@@ -251,7 +261,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '9G', price: 50.00 },
                         { weight: '25G', price: 120.00 },
                         { weight: '50G', price: 200.00 },
-                        { weight: '100G', price: 300.00, badge: 'PROMO ⚡️' },
+                        {
+              weight: "100G",
+              price: 300.0,
+              oldPrice: 350.0,
+              badge: "PROMO ⚡️",
+            },
                     ]
                 },
                 {
@@ -267,7 +282,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '9G', price: 50.00 },
                         { weight: '25G', price: 120.00 },
                         { weight: '50G', price: 200.00 },
-                        { weight: '100G', price: 300.00, badge: 'PROMO ⚡️' },
+                        {
+              weight: "100G",
+              price: 300.0,
+              oldPrice: 350.0,
+              badge: "PROMO ⚡️",
+            },
                     ]
                 },
                 {
@@ -283,7 +303,12 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '9G', price: 50.00 },
                         { weight: '25G', price: 120.00 },
                         { weight: '50G', price: 200.00 },
-                        { weight: '100G', price: 300.00, badge: 'PROMO ⚡️' },
+                        {
+              weight: "100G",
+              price: 300.0,
+              oldPrice: 350.0,
+              badge: "PROMO ⚡️",
+            },
                     ]
                 }
                   /* {
@@ -3851,7 +3876,14 @@ function renderProductListSimple(categoryId) {
             <div class="tarif-item">
                 <div class="box-tarif">
                 ${tarif.badge ? `<span class="tarif-badge">${tarif.badge}</span>` : ''} <div class="tarif-wieght">${tarif.weight}</div>
-                    <div class="tarif-price">${tarif.price.toFixed(2)}€</div>
+                    <div class="tarif-price">
+    ${
+        Number.isFinite(tarif.oldPrice) && tarif.oldPrice > tarif.price
+            ? `<span class="old-price">${tarif.oldPrice.toFixed(2)}€</span>`
+            : ''
+    }
+    <span class="current-price">${tarif.price.toFixed(2)}€</span>
+</div>
                 </div>
                 <button class="add-to-cart-btn" data-product-id="${product.id}" data-weight="${tarif.weight}" data-price="${tarif.price}">
                     <svg width="20" height="20"><use href="#icon-cart"/></svg>
