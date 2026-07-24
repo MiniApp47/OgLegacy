@@ -1841,6 +1841,23 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
+                {
+          id: "G.M.O 🧬",
+          flag: "🇺🇸",
+          name: "G.M.O 🧬",
+          farm: "⛰️ Mountain Brothers ⛰️",
+          promoEligible: true,
+          type: "FROZEN",
+          image: "ProductGmo.jpg",
+          video: "",
+          description:
+              "🧬❄️ G.M.O — MOUNTAIN BROTHERS ❄️🧬\n\nUne sélection Frozen premium au profil terpénique puissant et très reconnaissable. G.M.O se distingue par son caractère profond, résineux et aromatique, avec une identité bien marquée destinée aux vrais connaisseurs. 🇺🇸🔥\n\n👃 Profil aromatique :\n🧄 Notes gassy et épicées\n🍄 Touches terreuses et boisées\n🌿 Fond végétal naturel\n🧈 Légère rondeur crémeuse\n⛽ Finition intense et persistante\n\n👅 Goût :\nEn bouche, G.M.O développe une attaque riche et profonde, avec des notes terreuses, épicées et légèrement crémeuses. Le profil reste long en bouche, avec une finition gassy très appréciée des amateurs de saveurs marquées. 😮‍💨🧬\n\n❄️ Texture & qualité :\n💎 Frozen soigneusement sélectionné\n🤲 Texture souple et agréable à travailler\n🌈 Belle conservation des terpènes\n🔥 Profil aromatique intense\n☁️ Fumée dense et savoureuse\n\n🏔️ Le verdict :\nUne Frozen de caractère signée Mountain Brothers, pensée pour ceux qui aiment les profils puissants, terreux et gassy. G.M.O combine intensité aromatique, texture premium et vraie identité de connaisseur. 🧬❄️⛰️🔥",
+                tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                    ],
+        },
                /*  {
                     id: 'L\'Etoile ✨',
                     flag: '🇺🇸',
@@ -2169,6 +2186,25 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
+                {
+          id: "€ 4️⃣1️⃣",
+          flag: "🇲🇦",
+          name: "€ 4️⃣1️⃣",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "Product41.jpg",
+          video: "",
+          description:
+              "🍫🔥 € 4️⃣1️⃣ — 3X FILTRE PREMIUM 🔥🍫\n\nUne sélection 3X Filtre Premium au profil riche, propre et particulièrement agréable. € 4️⃣1️⃣ se distingue par une texture soignée, une belle intensité aromatique et un équilibre réussi entre gourmandise, rondeur et caractère. 🇲🇦💎\n\n👃 Profil aromatique :\n🍫 Notes chocolatées et gourmandes\n🌰 Touches de fruits à coque\n🍯 Fond doux et légèrement sucré\n🌿 Petite note végétale propre\n🔥 Finition résineuse élégante\n\n👅 Goût :\nEn bouche, € 4️⃣1️⃣ développe une attaque douce et gourmande, marquée par des notes chocolatées et une légère rondeur sucrée. Le profil reste harmonieux tout au long de la dégustation, avec une finale plus résineuse et persistante très agréable. 😮‍💨🍫\n\n✨ Texture & qualité :\n💎 3X Filtre soigneusement travaillé\n🤲 Texture souple et facile à manipuler\n🌈 Belle conservation des arômes\n☁️ Fumée dense et agréable\n🔥 Profil propre et régulier\n\n🏆 Le verdict :\nUne 3X Filtre Premium gourmande et bien équilibrée, parfaite pour les amateurs de profils doux, chocolatés et résineux. € 4️⃣1️⃣ combine qualité, caractère et plaisir de dégustation dans une sélection très propre. 🍫🔥💎",
+          tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+          ],
+        },
                  {
                     id: 'Banana Limonade 🍹',
                     flag: '🇲🇦',
