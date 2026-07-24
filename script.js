@@ -1179,7 +1179,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                     ]
                 },  */
-                {
+                /* {
                     id: 'Pech sherbet 🍨',
                     flag: '🇺🇸',
                     name: 'Pech sherbet 🍨',
@@ -1196,7 +1196,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25g', price: 220.00 },
                         { weight: '50g', price: 400.00 },
                     ]
-                },
+                }, */
                /*  {
                     id: 'ROCKET 🚀🔥',
                     flag: '🇺🇸',
@@ -1841,7 +1841,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
-                {
+               /*  {
                     id: 'L\'Etoile ✨',
                     flag: '🇺🇸',
                     name: 'L\'Etoile ✨',
@@ -1856,7 +1856,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 120.00 },
                         { weight: '25G', price: 250.00 },
                     ]
-                },
+                }, */
                 /*  {
                     id: '🫒❄️🔥 OLIVE 🔥❄️🫒',
                     flag: '🇲🇦',
@@ -2277,7 +2277,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-                {
+              /*   {
                     id: 'Snickers 🧸',
                     flag: '🇲🇦',
                     name: 'Snickers 🧸',
@@ -2294,7 +2294,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                 /*  {
                     id: 'LEMON SORBET ❄️',
                     flag: '🇲🇦',
