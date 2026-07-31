@@ -105,6 +105,48 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategJauneUsa.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'Papaya',
+                    flag: '🇺🇸',
+                    name: 'PAPAYA 🥭',
+                    farm: '👹 MONSTER CALI-MOUSSE 👹',
+                    promoEligible: true,
+                    type: 'JauneUsa',
+                    image: 'ProductPap.jpg', 
+                    description: '👹🥭 MONSTER CALI-MOUSSE — PAPAYA 🥭👹\n\nUne mousse jaune au profil tropical, fruité et gourmand, inspirée des saveurs exotiques de la papaye bien mûre. Papaya développe une identité douce, sucrée et légèrement crémeuse, parfaite pour les amateurs de profils fruités et modernes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🥭 Papaye mûre et fruits tropicaux\n🍑 Notes de pêche et fruits jaunes\n🍬 Douceur candy légère\n🍦 Fond crémeux et rond\n🌿 Petite touche végétale propre\n\n👅 Goût :\nEn bouche, Papaya offre une attaque très fruitée, avec des notes tropicales sucrées et une rondeur crémeuse agréable. La dégustation reste douce, parfumée et équilibrée, avec une finale exotique qui reste bien présente. 😮‍💨🥭\n\n💛 Texture & qualité :\n☁️ Mousseuse et souple\n🤲 Facile à travailler\n✨ Arômes fruités bien marqués\n🔥 Fumée douce et parfumée\n💎 Sélection Monster Cali-Mousse\n\n🏆 Le verdict :\nPapaya est une Cali-Mousse gourmande et exotique, idéale pour ceux qui aiment les profils fruités, sucrés et tropicaux. Une sélection douce, parfumée et très agréable à découvrir. 👹🥭🔥',
+                    tarifs: [
+                        { weight: '9G', price: 50.00 },
+                        { weight: '25G', price: 120.00 },
+                        { weight: '50G', price: 200.00 },
+                        {
+              weight: "100G",
+              price: 300.0,
+              oldPrice: 350.0,
+              badge: "PROMO ⚡️",
+            },
+                    ]
+                },
+                {
+                    id: 'RUNTZ',
+                    flag: '🇺🇸',
+                    name: 'RUNTZ 🍁',
+                    farm: '👹 MONSTER CALI-MOUSSE 👹',
+                    promoEligible: true,
+                    type: 'JauneUsa',
+                    image: 'ProductRun.jpg', 
+                    description: '👹🍁 MONSTER CALI-MOUSSE — RUNTZ 🍁👹\n\nUne mousse jaune inspirée d’une des génétiques les plus connues pour son profil candy, fruité et crémeux. Runtz se distingue par une odeur sucrée très reconnaissable, avec une belle rondeur aromatique et une identité typiquement Cali. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍬 Bonbon sucré et candy\n🍇 Fruits rouges et raisin doux\n🍦 Crème vanillée légère\n🌸 Petite touche florale\n⛽ Fond gazeux discret\n\n👅 Goût :\nEn bouche, Runtz développe une attaque douce et sucrée, avec des saveurs fruitées très gourmandes. Le côté crémeux arrive ensuite pour arrondir le profil, avant une finition légèrement gassy qui apporte du caractère sans casser la douceur. 😮‍💨🍬\n\n💛 Texture & qualité :\n☁️ Mousseuse et homogène\n🤲 Souple et facile à manipuler\n✨ Profil candy très expressif\n🔥 Fumée douce et aromatique\n💎 Finition premium Monster Cali-Mousse\n\n🏆 Le verdict :\nRuntz est une valeur sûre pour les amateurs de profils candy, fruités et crémeux. Une Cali-Mousse douce, gourmande et bien équilibrée, avec une vraie identité moderne. 👹🍁🍬🔥',
+                    tarifs: [
+                        { weight: '9G', price: 50.00 },
+                        { weight: '25G', price: 120.00 },
+                        { weight: '50G', price: 200.00 },
+                        {
+              weight: "100G",
+              price: 300.0,
+              oldPrice: 350.0,
+              badge: "PROMO ⚡️",
+            },
+                    ]
+                },
                    {
                     id: 'White truffle 🍄',
                     flag: '🇺🇸',
