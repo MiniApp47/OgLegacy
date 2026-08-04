@@ -557,7 +557,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 450.00 },
                     ]
                 },
-                /* {
+                {
                     id: '⚡🍇❄️ FORBIDDEN',
                     flag: '🇲🇦',
                     name: '⚡🍇❄️ FORBIDDEN', 
@@ -572,7 +572,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                }, */
+                },
                 {
                     id: '🍬🍓❄️ CANDY FRUIT',
                     flag: '🇲🇦',
@@ -1896,6 +1896,19 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategFrozen.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'OLIVE',
+                    flag: '🇲🇦',
+                    name: '🍫 OLIVE 🍯🫒',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'FROZEN',
+                    image: 'ProductOL1.png', // ⚠️ A changer
+                    videos: ['VideoOL1.mp4','VideoOL2.mp4'],
+                    tarifs: [
+                        { weight: '1 Olive', price: 120.00 },
+                    ]
+                },
                 {
           id: "G.M.O 🧬",
           flag: "🇺🇸",
