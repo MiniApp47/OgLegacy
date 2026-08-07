@@ -1114,6 +1114,78 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategWeed.png', // Ton image de catégorie Weed
 
             products: [
+                 {
+          id: "Frosted cherry Cookie",
+          flag: "🇺🇸",
+          name: "Frosted cherry Cookie 🍪",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "Weed",
+          image: "ProductFCC.png",
+          video: "VideoFCC.mp4",
+          description:
+              "🍪🍒 FROSTED CHERRY COOKIE — CALI PREMIUM 🍒🍪\n\nUne sélection au profil dessert, fruité et crémeux, pensée pour les amateurs de saveurs sucrées et modernes. Frosted Cherry Cookie mélange la gourmandise du biscuit avec une touche de cerise sucrée et une finition douce très agréable. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍒 Cerise sucrée\n🍪 Biscuit gourmand\n🍦 Crème vanillée\n🍬 Notes candy légères\n🌿 Fond doux et propre\n\n👅 Goût :\nEn bouche, Frosted Cherry Cookie développe une attaque fruitée et sucrée, suivie de notes biscuitées et crémeuses. Le profil est rond, gourmand et bien équilibré, avec une finale douce qui rappelle un dessert à la cerise. 😮‍💨🍒\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Arômes fruités et gourmands\n☁️ Fumée douce et parfumée\n🔥 Profil dessert bien marqué\n🍪 Identité sucrée et moderne\n\n🏆 Le verdict :\nUne variété gourmande et pleine de douceur, idéale pour les amateurs de profils dessert, cherry et cookie. Frosted Cherry Cookie combine fruit, crème et biscuit dans une sélection très plaisante. 🍪🍒🔥",
+          tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+          ],
+        },
+        {
+          id: "Trade",
+          flag: "🇺🇸",
+          name: "Trade 📊",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "Weed",
+          image: "ProductT.png",
+          video: "VideoT.mp4",
+          description:
+              "📊🔥 TRADE — CALI PREMIUM 🔥📊\n\nUne sélection moderne au profil propre, équilibré et bien travaillé. Trade se distingue par une identité aromatique ronde, légèrement sucrée et résineuse, avec une belle présence dès l’ouverture. 🇺🇸💎\n\n👃 Profil aromatique :\n🍬 Notes sucrées légères\n🌿 Fond végétal propre\n⛽ Petite touche gassy\n🍦 Rondeur crémeuse discrète\n🔥 Finition résineuse élégante\n\n👅 Goût :\nEn bouche, Trade développe une attaque douce et aromatique, avec un mélange équilibré entre notes sucrées, résineuses et légèrement crémeuses. La dégustation reste propre, agréable et régulière, avec une finale bien présente. 😮‍💨📊\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil aromatique équilibré\n☁️ Fumée douce et dense\n🔥 Bonne régularité\n📊 Produit simple, propre et efficace\n\n🏆 Le verdict :\nUne sélection fiable et équilibrée, parfaite pour ceux qui recherchent un profil propre, doux et légèrement gassy. Trade mise sur la régularité, la qualité et une belle rondeur aromatique. 📊🔥🇺🇸",
+          tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+          ],
+        },
+        {
+          id: "Lemon chery gelonade",
+          flag: "🇺🇸",
+          name: "Lemon Cherry Gelonade 🍨",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "Weed",
+          image: "ProductLCG.png",
+          video: "VideoLCG.mp4",
+          description:
+              "🍋🍒🍨 LEMON CHERRY GELONADE — CALI PREMIUM 🍨🍒🍋\n\nUne sélection fruitée, fraîche et gourmande qui mélange des notes citronnées, cerise sucrée et crème glacée. Lemon Cherry Gelonade offre un profil moderne, coloré et très aromatique, parfait pour les amateurs de saveurs fruitées. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🍒 Cerise sucrée\n🍨 Crème glacée douce\n🍬 Notes candy fruitées\n🌸 Petite touche florale\n\n👅 Goût :\nEn bouche, Lemon Cherry Gelonade démarre sur une fraîcheur citronnée, rapidement équilibrée par la douceur de la cerise et une rondeur crémeuse. Le profil est fruité, sucré et très agréable, avec une finale fraîche et gourmande. 😮‍💨🍋🍒\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Arômes fruités bien marqués\n☁️ Fumée douce et parfumée\n🔥 Profil candy frais\n🍨 Rondeur crémeuse en finition\n\n🏆 Le verdict :\nUne variété fraîche, fruitée et gourmande, idéale pour ceux qui aiment les profils lemon, cherry et candy. Lemon Cherry Gelonade combine peps, douceur et vraie identité Cali. 🍋🍒🍨🔥",
+          tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+          ],
+        },
+        {
+          id: "Blueberry 🌀",
+          flag: "🇺🇸",
+          name: "Blueberry 🌀",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "Weed",
+          image: "ProductBB.png",
+          video: "VideoBB.mp4",
+          description:
+              "🌀🫐 BLUEBERRY — CALI PREMIUM 🫐🌀\n\nUne sélection fruitée et douce, centrée sur un profil myrtille sucrée, baies mûres et rondeur crémeuse. Blueberry est une valeur sûre pour les amateurs de saveurs fruitées, simples et efficaces. 🇺🇸🔥\n\n👃 Profil aromatique :\n🫐 Myrtille sucrée\n🍓 Fruits rouges mûrs\n🍬 Douceur candy légère\n🍦 Fond crémeux discret\n🌿 Petite touche végétale propre\n\n👅 Goût :\nEn bouche, Blueberry développe une attaque douce et fruitée, avec des notes de myrtille et de fruits rouges bien présentes. La dégustation reste ronde, agréable et parfumée, avec une finale sucrée qui reste longtemps sur le palais. 😮‍💨🫐\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil fruité expressif\n☁️ Fumée douce et aromatique\n🔥 Saveur claire et régulière\n🌀 Identité fruitée reconnaissable\n\n🏆 Le verdict :\nUne variété fruitée, douce et efficace, parfaite pour ceux qui aiment les profils berry, sucrés et crémeux. Blueberry combine gourmandise, fraîcheur et simplicité dans une sélection très agréable. 🌀🫐🔥",
+          tarifs: [
+                        { weight: '5g', price: 60.00 },
+                        { weight: '10g', price: 100.00 },
+                        { weight: '25g', price: 220.00 },
+                        { weight: '50g', price: 400.00 },
+          ],
+        },
                 {
                     id: 'PermanentMarker 🖍️',
                     flag: '🇺🇸',
@@ -2256,6 +2328,63 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
+                {
+          id: "GMO",
+          flag: "🇲🇦",
+          name: "GMO 🎗",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductGMOO.jpg",
+          video: "",
+          description:
+                "🎗🍫 GMO — 3X FILTRE PREMIUM 🍫🎗\n\nUne sélection 3X Filtre au profil puissant, profond et bien marqué. GMO se distingue par son caractère terreux, résineux et légèrement épicé, avec une vraie identité de connaisseur. 🇲🇦🔥\n\n👃 Profil aromatique :\n🧄 Notes puissantes et épicées\n🌿 Fond végétal propre\n🍄 Touches terreuses\n🧈 Légère rondeur crémeuse\n🔥 Finition résineuse persistante\n\n👅 Goût :\nEn bouche, GMO développe une attaque riche et profonde, avec des notes terreuses et épicées bien présentes. La texture apporte une belle rondeur, tandis que la finale reste intense, propre et longue en bouche. 😮‍💨🎗\n\n✨ Texture & qualité :\n💎 3X Filtre soigneusement travaillé\n🤲 Texture souple et agréable\n🌈 Arômes bien conservés\n☁️ Fumée dense et savoureuse\n🔥 Profil premium régulier\n\n🏆 Le verdict :\nUne 3X Filtre de caractère, idéale pour les amateurs de profils profonds, terreux et résineux. GMO offre une vraie signature aromatique, simple, efficace et très propre. 🎗🍫🔥",
+          tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+          ],
+        },
+        {
+          id: "Weeding Cake",
+          flag: "🇲🇦",
+          name: "Weeding Cake 🎂",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductWC.jpg",
+          video: "",
+          description:
+                "🎂🍫 WEEDING CAKE — 3X FILTRE PREMIUM 🍫🎂\n\nUne sélection 3X Filtre gourmande et crémeuse, inspirée des profils dessert américains. Weeding Cake mélange douceur sucrée, notes pâtissières et rondeur aromatique pour une expérience riche et agréable. 🇲🇦🔥\n\n👃 Profil aromatique :\n🎂 Notes de gâteau sucré\n🍦 Crème vanillée\n🍪 Biscuit et pâte douce\n🍯 Légère touche miellée\n🌿 Fond végétal propre\n\n👅 Goût :\nEn bouche, Weeding Cake offre une attaque douce et gourmande, avec des notes de crème, de biscuit et de dessert sucré. La dégustation reste ronde, propre et bien équilibrée, avec une finale douce qui reste agréablement en bouche. 😮‍💨🎂\n\n✨ Texture & qualité :\n💎 3X Filtre premium\n🤲 Texture souple et homogène\n🌈 Profil gourmand bien présent\n☁️ Fumée douce et aromatique\n🔥 Finition propre et régulière\n\n🏆 Le verdict :\nUne 3X Filtre parfaite pour les amateurs de profils sucrés, crémeux et pâtissiers. Weeding Cake combine gourmandise, douceur et qualité dans une sélection très agréable. 🎂🍫🔥",
+          tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+          ],
+        },
+        {
+          id: "Cereal Milk",
+          flag: "🇲🇦",
+          name: "Cereal Milk 🥣",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductCM.jpg",
+          video: "",
+          description:
+                "🥣🍫 CEREAL MILK — 3X FILTRE PREMIUM 🍫🥣\n\nUne sélection 3X Filtre au profil ultra gourmand, crémeux et sucré. Cereal Milk rappelle les notes douces d’un bol de céréales sucrées avec un fond lacté et vanillé très agréable. 🇲🇦🔥\n\n👃 Profil aromatique :\n🥣 Céréales sucrées\n🥛 Notes lactées et crémeuses\n🍦 Vanille douce\n🍪 Biscuit léger\n🍬 Fond candy gourmand\n\n👅 Goût :\nEn bouche, Cereal Milk développe une attaque douce et crémeuse, avec des notes de céréales sucrées, de vanille et de biscuit. Le profil reste rond, gourmand et très agréable, avec une finale sucrée qui reste bien présente. 😮‍💨🥣\n\n✨ Texture & qualité :\n💎 3X Filtre soigneusement sélectionné\n🤲 Texture souple et facile à travailler\n🌈 Arômes gourmands bien conservés\n☁️ Fumée douce et parfumée\n🔥 Profil propre et équilibré\n\n🏆 Le verdict :\nUne 3X Filtre gourmande et moderne, parfaite pour les amateurs de profils crémeux, sucrés et dessert. Cereal Milk est une valeur sûre pour ceux qui aiment les saveurs douces et bien rondes. 🥣🍫🔥",
+          tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+          ],
+        },
                 {
           id: "€ 4️⃣1️⃣",
           flag: "🇲🇦",
