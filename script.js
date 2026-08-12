@@ -2330,7 +2330,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
-                {
+              /*   {
           id: "GMO",
           flag: "🇲🇦",
           name: "GMO 🎗",
@@ -2348,7 +2348,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
           ],
-        },
+        }, */
         {
           id: "Weeding Cake",
           flag: "🇲🇦",
