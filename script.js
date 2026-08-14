@@ -1985,7 +1985,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '1 Olive', price: 120.00 },
                     ]
                 },
-                {
+            /*     {
           id: "G.M.O 🧬",
           flag: "🇺🇸",
           name: "G.M.O 🧬",
@@ -2001,7 +2001,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 120.00 },
                         { weight: '25G', price: 250.00 },
                     ],
-        },
+        }, */
                /*  {
                     id: 'L\'Etoile ✨',
                     flag: '🇺🇸',
@@ -2333,7 +2333,7 @@ document.addEventListener('DOMContentLoaded', function () {
               /*   {
           id: "GMO",
           flag: "🇲🇦",
-          name: "GMO 🎗",
+          name: "GMO 🎗",g
           farm: "🌾 No Farm 🌾",
           promoEligible: true,
           type: "3xFiltre",
