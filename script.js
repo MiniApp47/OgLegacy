@@ -542,7 +542,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 450.00 },
                     ]
                 }, */
-                {
+                /* {
                     id: '⚡🍇❄️ FORBIDDEN',
                     flag: '🇲🇦',
                     name: '⚡🍇❄️ FORBIDDEN', 
@@ -557,7 +557,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '10G', price: 150.00},
                         { weight: '25G', price: 320.00 },
                     ]
-                },
+                }, */
                 {
                     id: '🍬🍓❄️ CANDY FRUIT',
                     flag: '🇲🇦',
@@ -2424,7 +2424,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 }, */
-                 {
+                /*  {
                     id: 'Pineapple Juice 🍍',
                     flag: '🇲🇦',
                     name: 'Pineapple Juice 🍍',
@@ -2495,7 +2495,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                 /*  {
                     id: 'KitKat 🌰',
                     flag: '🇲🇦',
