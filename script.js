@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-                {
+              /*   {
                     id: 'ORANGE CREAMPOP 🔥💛',
                     flag: '🇺🇸',
                     name: 'ORANGE CREAMPOP 🔥💛',
@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 220.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
                    {
                     id: '🤯🚀 PERMANENT MARKER',
                     flag: '🇺🇸',
@@ -1274,7 +1274,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50g', price: 400.00 },
                     ]
                 },
-                 {
+                /*  {
                     id: '🌴💣 SUPER BOMBE 💣🌴',
                     flag: '🇺🇸',
                     name: '🌴💣 SUPER BOMBE 💣🌴',
@@ -1290,7 +1290,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '25g', price: 220.00 },
                         { weight: '50g', price: 400.00 },
                     ]
-                }, 
+                },  */
                 /*  {
                     id: '🍨🌿 GELATO #33 🌿🍨',
                     flag: '🇺🇸',
@@ -2330,6 +2330,24 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'Categ3X.png', // Ton image de catégorie Weed
 
             products: [
+                {
+                    id: 'Peach Tsunami 🌊',
+                    flag: '🇲🇦',
+                    name: 'Peach Tsunami 🌊',
+                    farm: '👨‍🌾 DHF Farmz 👨‍🌾',
+                    promoEligible: true,
+                    type: '3xFiltre',
+                    image: 'ProductPT.jpg', 
+                    video: '',
+                    description: '💨🔥 Une énorme vague fruitée signée DHF Farmz 🔥💨\n 🍑🌊 120U PREMIUM – Peach Tsunami 🌊🍑\n\n ✨ Profil aromatique ✨\n Peach Tsunami porte parfaitement son nom : dès l’ouverture, une vague puissante de pêche mûre et juteuse 🍑 envahit instantanément les sens 🌊. Elle est accompagnée de notes de bonbon fruité 🍬, de sorbet à la pêche 🍨 et d’agrumes légèrement acidulés 🍊. Une touche crémeuse et florale vient arrondir le profil et lui apporter beaucoup de finesse.\n\n 😮‍💨🍑 Goût\n En bouche, l’attaque est intensément fruitée, rappelant une pêche blanche bien mûre et un nectar frais 🍑🥤. Une douceur candy apparaît ensuite, accompagnée d’une légère fraîcheur acidulée. Grâce à la sélection 120U Premium, la fumée reste propre, dense et particulièrement expressive ☁️✨. La finale laisse une longue saveur de pêche sucrée sur le palais.\n\n 💎 Texture & qualité\n ✨ Sélection premium en 120 microns\n 🤲 Texture fine, souple et homogène\n 🍑 Profil fruité très marqué\n ☁️ Fumée douce et persistante\n 🔥 Travail précis signé DHF Farmz\n\n 🏆🌊 Le verdict\n Peach Tsunami est une véritable vague de saveurs pour les amateurs de profils fruités, sucrés et rafraîchissants. Un 120U Premium gourmand avec une signature pêche particulièrement intense. 🍑🌊🍬💎',
+                    tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
               /*   {
           id: "GMO",
           flag: "🇲🇦",
