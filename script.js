@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategHo.jpg', // Ton image de catégorie Weed
 
             products: [
-                 {
+                /*  {
           id: "SuperSilverHaze",
           flag: "🇳🇱",
           name: "Super Silver Haze 🥬🥒",
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
           description:
               "NOUVELLE ARRIVAGE : \n\n 🥬🥒 SUPER SILVER HAZE — HOLLANDE 🇳🇱🥒🥬\n\nUne grande classique hollandaise au profil frais, végétal et citronné. La Super Silver Haze est une sélection appréciée des connaisseurs pour son identité old school, son parfum expressif et sa vraie signature Haze européenne. 🇳🇱🔥\n\n👃 Profil aromatique :\n🍋 Notes citronnées et fraîches\n🌿 Arômes Haze classiques\n🥒 Touches vertes et végétales\n🌶️ Petite pointe épicée\n🌬️ Fond légèrement encensé\n\n👅 Goût :\nEn bouche, la Super Silver Haze développe une attaque fraîche et citronnée, accompagnée de notes végétales et légèrement épicées. La dégustation reste vive, propre et aromatique, avec une finale Haze bien marquée qui reste en bouche. 😮‍💨🥬\n\n✨ Qualité & sélection :\n💎 Profil old school reconnu\n🌱 Arômes frais et naturels\n🔥 Sélection hollandaise classique\n☁️ Fumée douce et parfumée\n🇳🇱 Référence appréciée des amateurs de Haze\n\n🏆 Le verdict :\nUne valeur sûre pour ceux qui aiment les profils frais, citronnés et typiquement hollandais. Super Silver Haze combine fraîcheur, caractère et authenticité dans une sélection simple, efficace et pleine de personnalité. 🥬🥒🇳🇱🔥",
           tarifs: [{ weight: "10g", price: 70.0 }],
-        },
+        }, */
                 {
                     id: '🧠🍀AMNESIA CORE CUT 🍀🧠',
                     flag: '🇳🇱',
@@ -2367,7 +2367,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '100G', price: 400.00 },
           ],
         }, */
-        {
+        /* {
           id: "Weeding Cake",
           flag: "🇲🇦",
           name: "Weeding Cake 🎂",
@@ -2385,8 +2385,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
           ],
-        },
-        {
+        }, */
+       /*  {
           id: "Cereal Milk",
           flag: "🇲🇦",
           name: "Cereal Milk 🥣",
@@ -2404,7 +2404,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 250.00 },
                         { weight: '100G', price: 400.00 },
           ],
-        },
+        }, */
                 {
           id: "€ 4️⃣1️⃣",
           flag: "🇲🇦",
