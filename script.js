@@ -507,6 +507,24 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'CategDouble.png', // Ton image de catégorie Weed
 
             products: [
+                {
+          id: "La Bomba x Spriter 💣",
+          flag: "🇺🇸",
+          name: "La Bomba x Spriter 💣",
+          farm: '🌾 No Farm 🌾',
+          promoEligible: true,
+          type: "STATIC",
+          image: "ProductKBS.jpg",
+          video: "VideoKBS.mp4",
+          description:
+              "💣🧤 LA BOMBA x SPRITER — STATIC SIFT 🧤💣\n\nUne sélection Static au profil explosif, aromatique et ultra travaillé. La Bomba x Spriter mélange une base puissante et résineuse avec une touche fruitée, gazeuse et légèrement sucrée qui lui donne une vraie identité premium. 🇺🇸🔥\n\n👃 Profil aromatique :\n💣 Notes puissantes et résineuses\n🍬 Touche candy légèrement sucrée\n🍋 Agrumes frais et zestés\n⛽ Fond gassy bien présent\n🌿 Finition végétale propre\n\n👅 Goût :\nEn bouche, La Bomba x Spriter développe une attaque intense, avec un mélange de notes fruitées, gazeuses et résineuses. Le profil reste riche et long en bouche, avec une finale propre, lourde et très aromatique. 😮‍💨💣\n\n🧤 Texture & qualité :\n💎 Static Sift soigneusement travaillé\n🤲 Texture premium et agréable à manipuler\n🌈 Belle conservation des terpènes\n☁️ Fumée dense et savoureuse\n🔥 Profil puissant et bien équilibré\n\n🏆 Le verdict :\nUne Static de caractère, pensée pour les amateurs de profils forts, gassy et fruités. La Bomba x Spriter combine intensité, gourmandise et finition premium dans une sélection qui porte bien son nom. 💣🧤🔥",
+          tarifs: [
+                        { weight: '3G', price: 50.00 },
+                        { weight: '10G', price: 140.00},
+                        { weight: '25G', price: 250.00 },
+                        { weight: '50G', price: 450.00 },
+          ],
+        },
 
                 {
                     id: 'STRAWBERRY PINK',
