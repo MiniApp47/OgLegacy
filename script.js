@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function () {
             
                     ]
                 },
-                   {
+                  /*  {
                     id: 'White truffle 🍄',
                     flag: '🇺🇸',
                     name: 'White truffle 🍄',
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         { weight: '50G', price: 200.00 },
                         { weight: '100G', price: 350.00 },
                     ]
-                },
+                }, */
                  /* {
                     id: 'Pink Lemonade 🥤',
                     flag: '🇺🇸',
