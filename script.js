@@ -519,8 +519,8 @@ document.addEventListener("DOMContentLoaded", function () {
           farm: "🌾 No Farm 🌾",
           promoEligible: true,
           type: "STATIC",
-          image: "ProductPPS.jpg",
-          video: "VideoPPS.mp4",
+          image: "ProductPPS.png",
+          video: "VideoPPS.mov",
           description:   "🔮🧤 PLASMA STATIC — STATIC SIFT PREMIUM 🧤🔮\n\nUne sélection Static au profil profond, brillant et très aromatique. Plasma Static se distingue par son caractère résineux, sa texture travaillée et une identité premium pensée pour les amateurs de produits propres et puissants en arômes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🔮 Notes résineuses intenses\n🍬 Touche sucrée légèrement candy\n⛽ Fond gassy bien présent\n🌿 Nuances végétales propres\n🔥 Finition profonde et persistante\n\n👅 Goût :\nEn bouche, Plasma Static développe une attaque riche et aromatique, avec un mélange de notes sucrées, gazeuses et résineuses. La dégustation reste longue, propre et bien équilibrée, avec une finale marquée qui donne une vraie impression premium. 😮‍💨🔮\n\n🧤 Texture & qualité :\n💎 Static Sift soigneusement travaillé\n🤲 Texture premium agréable à manipuler\n🌈 Belle conservation des terpènes\n☁️ Fumée dense et savoureuse\n🔥 Profil propre, intense et régulier\n\n🏆 Le verdict :\nUne Static élégante et pleine de caractère, idéale pour ceux qui aiment les profils résineux, gassy et bien travaillés. Plasma Static combine intensité, propreté et finition haut de gamme dans une sélection très solide. 🔮🧤🔥",
           tarifs: [
             { weight: "3G", price: 50.0 },
