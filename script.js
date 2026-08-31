@@ -239,7 +239,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 }, */
-        {
+       /*  {
           id: "🤯🚀 PERMANENT MARKER",
           flag: "🇺🇸",
           name: "🤯🚀 PERMANENT MARKER",
@@ -255,7 +255,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 200.0 },
             { weight: "100G", price: 350.0 },
           ],
-        },
+        }, */
         {
           id: "GELATO",
           flag: "🇺🇸",
@@ -1157,7 +1157,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
           ],
         },
-        {
+        /* {
           id: "Frosted cherry Cookie",
           flag: "🇺🇸",
           name: "Frosted cherry Cookie 🍪",
@@ -1174,7 +1174,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
           ],
-        },
+        }, */
         {
           id: "Trade",
           flag: "🇺🇸",
@@ -1229,7 +1229,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
           ],
         },
-        {
+       /*  {
           id: "PermanentMarker 🖍️",
           flag: "🇺🇸",
           name: "PermanentMarker 🖍️",
@@ -1246,7 +1246,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
           ],
-        },
+        }, */
         {
           id: "OBAMA RUNTZ 🇺🇸⚡️",
           flag: "🇺🇸",
@@ -1265,7 +1265,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
           ],
         },
-        {
+       /*  {
           id: "🥣🥛 CEREAL MILK 🥛🥣",
           flag: "🇺🇸",
           name: "🥣🥛 CEREAL MILK 🥛🥣",
@@ -1282,7 +1282,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
           ],
-        },
+        }, */
         {
           id: "GlueBerry 🧴",
           flag: "🇺🇸",
