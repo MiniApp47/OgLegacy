@@ -2016,6 +2016,29 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategFrozen.png", // Ton image de catégorie Weed
 
       products: [
+         {
+          id: "FROZEN ❄️",
+          flag: "🇲🇦",
+          name: "FROZEN ❄️",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "Frozen",
+          image: "ProductF.jpg",
+          video: "VideoF.mp4",
+          description:
+              "",
+          variantTitle: "Saveurs Frozen ❄️ :",
+          jars: [
+            { name: "yellowgas", emoji: "🍯", colorClass: "style-brown" },
+            { name: "tropcherry", emoji: "🍇", colorClass: "style-red" },
+            { name: "pink limez", emoji: "🍋", colorClass: "style-yellow" },
+          ],
+          tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+          ],
+        },
         {
           id: "OLIVE",
           flag: "🇲🇦",
@@ -2024,7 +2047,7 @@ document.addEventListener("DOMContentLoaded", function () {
           promoEligible: true,
           type: "FROZEN",
           image: "ProductOLL.png", // ⚠️ A changer
-          video: "VideoOL.mp4",
+          video: "VideoOLL.mp4",
           description:
             "🫒🍯 OLIVE — FROZEN PREMIUM 🍯🫒\n\nUne sélection Frozen originale et gourmande, pensée pour les amateurs de résines riches, fondantes et pleines de caractère. Olive se distingue par son format atypique, sa texture travaillée et son profil aromatique profond, mêlant douceur sucrée, notes résineuses et belle rondeur en bouche. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍫 Notes chocolatées et gourmandes\n🍯 Douceur miellée\n🌰 Touches de fruits à coque\n🌿 Fond végétal et résineux\n🔥 Légère finition terreuse élégante\n\n👅 Goût :\nEn bouche, Olive développe une attaque douce et gourmande, portée par des notes chocolatées et une rondeur sucrée très agréable. Le profil évolue ensuite vers quelque chose de plus résineux et légèrement terreux, avec une finale propre, riche et persistante. 😮‍💨🫒\n\n❄️ Texture & qualité :\n💎 Frozen soigneusement travaillé\n🤲 Texture souple, dense et agréable à manipuler\n🌈 Bonne conservation des arômes\n☁️ Fumée épaisse et savoureuse\n🔥 Profil équilibré et régulier\n\n🏆 Le verdict :\nUne Frozen gourmande et pleine de caractère, idéale pour ceux qui recherchent une résine originale, fondante et bien travaillée. Olive combine douceur, profondeur aromatique et vraie identité premium dans un format qui ne passe pas inaperçu. 🫒🍯🍫🔥",
           tarifs: [{ weight: "1 Olive", price: 120.0 }],
