@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 }, */
-        {
+        /* {
           id: "BISCOTTI 🍪",
           flag: "🇺🇸",
           name: "BISCOTTI 🍪",
@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 220.0 },
             { weight: "100G", price: 400.0 },
           ],
-        },
+        }, */
         /*   {
                     id: 'ORANGE CREAMPOP 🔥💛',
                     flag: '🇺🇸',
