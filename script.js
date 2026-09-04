@@ -2403,25 +2403,7 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "Categ3X.png", // Ton image de catégorie Weed
 
       products: [
-        {
-          id: "Weeding Cake",
-          flag: "🇲🇦",
-          name: "Weeding Cake 🎂",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductWC.jpg",
-          video: "VideoWC.mov",
-          description:
-                "🎂🍫 WEEDING CAKE — 3X FILTRE PREMIUM 🍫🎂\n\nUne sélection 3X Filtre gourmande et crémeuse, inspirée des profils dessert américains. Weeding Cake mélange douceur sucrée, notes pâtissières et rondeur aromatique pour une expérience riche et agréable. 🇲🇦🔥\n\n👃 Profil aromatique :\n🎂 Notes de gâteau sucré\n🍦 Crème vanillée\n🍪 Biscuit et pâte douce\n🍯 Légère touche miellée\n🌿 Fond végétal propre\n\n👅 Goût :\nEn bouche, Weeding Cake offre une attaque douce et gourmande, avec des notes de crème, de biscuit et de dessert sucré. La dégustation reste ronde, propre et bien équilibrée, avec une finale douce qui reste agréablement en bouche. 😮‍💨🎂\n\n✨ Texture & qualité :\n💎 3X Filtre premium\n🤲 Texture souple et homogène\n🌈 Profil gourmand bien présent\n☁️ Fumée douce et aromatique\n🔥 Finition propre et régulière\n\n🏆 Le verdict :\nUne 3X Filtre parfaite pour les amateurs de profils sucrés, crémeux et pâtissiers. Weeding Cake combine gourmandise, douceur et qualité dans une sélection très agréable. 🎂🍫🔥",
-          tarifs: [
-                        { weight: '5G', price: 50.00 },
-                        { weight: '10G', price: 80.00 },
-                        { weight: '20G', price: 140.00 },
-                        { weight: '50G', price: 250.00 },
-                        { weight: '100G', price: 400.00 },
-          ],
-        },
+        
         {
           id: "FILTRED ⚡",
           flag: "🇲🇦",
