@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "WEED HOLLANDE 🇳🇱🌷",
       type: "WeedH",
       quality: "WEED HOLLANDE 🇳🇱🌷",
-      image: "CategHo.jpg", // Ton image de catégorie Weed
+      image: "CategHo.png", // Ton image de catégorie Weed
 
       products: [
         /*  {
@@ -119,7 +119,8 @@ document.addEventListener("DOMContentLoaded", function () {
           farm: "👹 MONSTER CALI-MOUSSE 👹",
           promoEligible: true,
           type: "JauneUsa",
-          image: "ProductPap.jpg",
+          image: "ProductPA.jpg",
+          video: "VideoMS.mov",
           description:
             "👹🥭 MONSTER CALI-MOUSSE — PAPAYA 🥭👹\n\nUne mousse jaune au profil tropical, fruité et gourmand, inspirée des saveurs exotiques de la papaye bien mûre. Papaya développe une identité douce, sucrée et légèrement crémeuse, parfaite pour les amateurs de profils fruités et modernes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🥭 Papaye mûre et fruits tropicaux\n🍑 Notes de pêche et fruits jaunes\n🍬 Douceur candy légère\n🍦 Fond crémeux et rond\n🌿 Petite touche végétale propre\n\n👅 Goût :\nEn bouche, Papaya offre une attaque très fruitée, avec des notes tropicales sucrées et une rondeur crémeuse agréable. La dégustation reste douce, parfumée et équilibrée, avec une finale exotique qui reste bien présente. 😮‍💨🥭\n\n💛 Texture & qualité :\n☁️ Mousseuse et souple\n🤲 Facile à travailler\n✨ Arômes fruités bien marqués\n🔥 Fumée douce et parfumée\n💎 Sélection Monster Cali-Mousse\n\n🏆 Le verdict :\nPapaya est une Cali-Mousse gourmande et exotique, idéale pour ceux qui aiment les profils fruités, sucrés et tropicaux. Une sélection douce, parfumée et très agréable à découvrir. 👹🥭🔥",
           tarifs: [
@@ -132,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         },
-        {
+       /*  {
           id: "RUNTZ",
           flag: "🇺🇸",
           name: "RUNTZ 🍁",
@@ -151,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function () {
               price: 350.0,
             },
           ],
-        },
+        }, */
         /*  {
                     id: 'White truffle 🍄',
                     flag: '🇺🇸',
@@ -263,7 +264,8 @@ document.addEventListener("DOMContentLoaded", function () {
           farm: "👹 MONSTER CALI-MOUSSE 👹",
           promoEligible: true,
           type: "JauneUsa",
-          image: "ProductGel.jpg",
+          image: "ProductGe.jpg",
+                    video: "VideoMS.mov",
           description:
             "👹🍦 MONSTER CALI-MOUSSE — GELATO 🍦👹\n\n Une mousse jaune ultra gourmande qui met en avant tout le caractère crémeux et fruité de la célèbre Gelato. Dès l’ouverture, elle dévoile un parfum riche, sucré et moderne, avec une vraie identité Cali. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍦 Crème glacée et vanille douce\n 🍓 Fruits rouges sucrés\n 🍊 Agrumes légèrement acidulés\n 🍬 Notes de bonbon\n ⛽ Fond gazeux discret\n\n 👅 Goût :\n En bouche, l’attaque est douce et crémeuse, accompagnée de saveurs fruitées rappelant les fruits rouges et les agrumes sucrés. La finale devient légèrement gazeuse et laisse un arrière-goût gourmand façon dessert. 😮‍💨🍦\n\n 💛 Texture :\n ☁️ Mousseuse et aérée\n 🤲 Facile à travailler\n ✨ Parfum intense dès l’ouverture\n 🔥 Combustion régulière\n\n 🏆 Le verdict :\n Une Cali-Mousse gourmande et équilibrée, idéale pour les amateurs de profils crémeux, fruités et légèrement gassy. Une valeur sûre signée Monster Cali-Mousse. 👹🍦🔥",
           tarifs: [
@@ -283,7 +285,8 @@ document.addEventListener("DOMContentLoaded", function () {
           farm: "👹 MONSTER CALI-MOUSSE 👹",
           promoEligible: true,
           type: "JauneUsa",
-          image: "ProductCP.jpg",
+          image: "ProductC.jpg",
+                    video: "VideoMS.mov",
           description:
             "👹🍒 MONSTER CALI-MOUSSE — CHERRY PIE 🥧👹\n\n Une mousse jaune au profil dessert intense, dominée par la cerise sucrée et les notes pâtissières. Cherry Pie mélange gourmandise fruitée, douceur crémeuse et petite touche gazeuse pour une identité riche et reconnaissable. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍒 Cerise mûre et fruits rouges\n 🥧 Pâte sucrée et biscuit\n 🍦 Crème douce et vanillée\n 🌿 Légère note terreuse\n ⛽ Fond gazeux subtil\n\n 👅 Goût :\n L’attaque rappelle une tarte à la cerise avec une belle douceur fruitée. Elle évolue ensuite vers des notes de pâte sucrée, de crème et de vanille, avant une finition légèrement terreuse et gassy qui reste longtemps en bouche. 😮‍💨🍒\n\n 💛 Texture :\n ☁️ Mousseuse et souple\n 🤲 Facile à effriter\n ✨ Riche en arômes\n 🔥 Fumée dense et savoureuse\n\n 🏆 Le verdict :\n Une Cali-Mousse très gourmande, pensée pour les amateurs de cerise, de profils pâtissiers et de saveurs dessert. Cherry Pie porte parfaitement la signature Monster Cali-Mousse. 👹🍒🥧🔥",
           tarifs: [
@@ -304,6 +307,7 @@ document.addEventListener("DOMContentLoaded", function () {
           promoEligible: true,
           type: "JauneUsa",
           image: "ProductTC.jpg",
+                    video: "VideoMS.mov",
           description:
             "👹🍊 MONSTER CALI-MOUSSE — TROPICANA CHERRY 🍒👹\n\n Une mousse jaune fruitée et explosive qui combine la douceur de la cerise avec la fraîcheur intense des agrumes. Tropicana Cherry développe un profil coloré, sucré et acidulé, parfaitement adapté aux amateurs de saveurs modernes. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍒 Cerise sucrée et fruits rouges\n 🍊 Orange fraîche et zestée\n 🍋 Agrumes acidulés\n 🍬 Bonbon fruité\n 🌸 Petite touche florale\n\n 👅 Goût :\n En bouche, une vague de cerise et d’orange sucrée arrive dès la première bouffée. Les agrumes apportent ensuite une fraîcheur légèrement acidulée, tandis qu’une douceur candy et florale équilibre parfaitement l’ensemble. 😮‍💨🍊\n\n 💛 Texture :\n ☁️ Mousseuse et légère\n ✨ Profil aromatique très expressif\n 🤲 Facile à travailler\n 🔥 Fumée douce et parfumée\n\n 🏆 Le verdict :\n Une Cali-Mousse vive, fruitée et rafraîchissante, avec un équilibre parfait entre cerise sucrée et agrumes pétillants. Une sélection pleine de caractère signée Monster Cali-Mousse. 👹🍒🍊🔥",
           tarifs: [
@@ -324,6 +328,7 @@ document.addEventListener("DOMContentLoaded", function () {
           promoEligible: true,
           type: "JauneUsa",
           image: "ProductPB.jpg",
+                    video: "VideoMS.mov",
           description:
             "👹🥜 MONSTER CALI-MOUSSE — PEANUT BUTTER 🥜👹\n\n Une mousse jaune au profil gourmand et original, inspirée des saveurs riches du beurre de cacahuète. Elle mélange des notes crémeuses, grillées et légèrement salées avec un fond terreux et gazeux typique des grosses sélections US. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🥜 Cacahuète grillée\n 🧈 Beurre crémeux\n 🍪 Biscuit et pâte sucrée\n 🌿 Fond terreux\n ⛽ Légère touche de gaz\n\n 👅 Goût :\n L’attaque est ronde et crémeuse, avec une saveur de cacahuète grillée et de biscuit. Elle évolue progressivement vers des notes plus terreuses et légèrement gazeuses, laissant une finale riche et persistante sur le palais. 😮‍💨🥜\n\n 💛 Texture :\n ☁️ Mousseuse et souple\n 🤲 Facile à travailler\n ✨ Profil gourmand très marqué\n 🔥 Fumée épaisse et savoureuse\n\n 🏆 Le verdict :\n Une Cali-Mousse différente des profils fruités classiques, destinée aux amateurs de saveurs crémeuses, grillées et gassy. Une sélection originale et pleine de caractère. 👹🥜🧈🔥",
           tarifs: [
@@ -343,7 +348,8 @@ document.addEventListener("DOMContentLoaded", function () {
           farm: "👹 MONSTER CALI-MOUSSE 👹",
           promoEligible: true,
           type: "JauneUsa",
-          image: "ProductR1.jpg",
+          image: "ProductRS.jpg",
+                    video: "VideoMS.mov",
           description:
             "👹🏎️ MONSTER CALI-MOUSSE — RS 11 🏎️👹\n\n Une mousse jaune inspirée de la célèbre RS11, connue pour son profil candy, fruité et crémeux accompagné d’une belle touche gazeuse. Une sélection moderne, riche en arômes et immédiatement reconnaissable. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍬 Bonbon fruité\n 🍓 Fruits rouges et baies\n 🍦 Crème vanillée\n 🌸 Notes florales légères\n ⛽ Fond gazeux et terreux\n\n 👅 Goût :\n En bouche, RS11 commence par une douceur candy très marquée, accompagnée de fruits rouges sucrés. Des notes crémeuses et florales apparaissent ensuite, avant une finale gassy plus profonde qui apporte du relief et une belle longueur en bouche. 😮‍💨🍬\n\n 💛 Texture :\n ☁️ Mousseuse et aérée\n 🤲 Souple et facile à effriter\n ✨ Terpènes riches et expressifs\n 🔥 Fumée dense et parfumée\n\n 🏆 Le verdict :\n Une Cali-Mousse premium au profil candy-gas parfaitement équilibré. RS11 conviendra aux amateurs de saveurs fruitées, crémeuses et puissantes, avec une vraie identité West Coast. 👹🏎️🍬🔥",
           tarifs: [
@@ -537,7 +543,7 @@ document.addEventListener("DOMContentLoaded", function () {
           promoEligible: true,
           type: "STATIC",
           image: "ProductKBS.jpg",
-          video: "VideoKBS.mp4",
+          video: "VideoKBS.mov",
           description:
             "💣🧤 LA BOMBA x SPRITER — STATIC SIFT 🧤💣\n\nUne sélection Static au profil explosif, aromatique et ultra travaillé. La Bomba x Spriter mélange une base puissante et résineuse avec une touche fruitée, gazeuse et légèrement sucrée qui lui donne une vraie identité premium. 🇺🇸🔥\n\n👃 Profil aromatique :\n💣 Notes puissantes et résineuses\n🍬 Touche candy légèrement sucrée\n🍋 Agrumes frais et zestés\n⛽ Fond gassy bien présent\n🌿 Finition végétale propre\n\n👅 Goût :\nEn bouche, La Bomba x Spriter développe une attaque intense, avec un mélange de notes fruitées, gazeuses et résineuses. Le profil reste riche et long en bouche, avec une finale propre, lourde et très aromatique. 😮‍💨💣\n\n🧤 Texture & qualité :\n💎 Static Sift soigneusement travaillé\n🤲 Texture premium et agréable à manipuler\n🌈 Belle conservation des terpènes\n☁️ Fumée dense et savoureuse\n🔥 Profil puissant et bien équilibré\n\n🏆 Le verdict :\nUne Static de caractère, pensée pour les amateurs de profils forts, gassy et fruités. La Bomba x Spriter combine intensité, gourmandise et finition premium dans une sélection qui porte bien son nom. 💣🧤🔥",
           tarifs: [
@@ -2047,7 +2053,7 @@ document.addEventListener("DOMContentLoaded", function () {
           promoEligible: true,
           type: "FROZEN",
           image: "ProductOLL.png", // ⚠️ A changer
-          video: "VideoOLL.mp4",
+          video: "VideoOLL.mov",
           description:
             "🫒🍯 OLIVE — FROZEN PREMIUM 🍯🫒\n\nUne sélection Frozen originale et gourmande, pensée pour les amateurs de résines riches, fondantes et pleines de caractère. Olive se distingue par son format atypique, sa texture travaillée et son profil aromatique profond, mêlant douceur sucrée, notes résineuses et belle rondeur en bouche. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍫 Notes chocolatées et gourmandes\n🍯 Douceur miellée\n🌰 Touches de fruits à coque\n🌿 Fond végétal et résineux\n🔥 Légère finition terreuse élégante\n\n👅 Goût :\nEn bouche, Olive développe une attaque douce et gourmande, portée par des notes chocolatées et une rondeur sucrée très agréable. Le profil évolue ensuite vers quelque chose de plus résineux et légèrement terreux, avec une finale propre, riche et persistante. 😮‍💨🫒\n\n❄️ Texture & qualité :\n💎 Frozen soigneusement travaillé\n🤲 Texture souple, dense et agréable à manipuler\n🌈 Bonne conservation des arômes\n☁️ Fumée épaisse et savoureuse\n🔥 Profil équilibré et régulier\n\n🏆 Le verdict :\nUne Frozen gourmande et pleine de caractère, idéale pour ceux qui recherchent une résine originale, fondante et bien travaillée. Olive combine douceur, profondeur aromatique et vraie identité premium dans un format qui ne passe pas inaperçu. 🫒🍯🍫🔥",
           tarifs: [{ weight: "1 Olive", price: 120.0 }],
@@ -2397,6 +2403,25 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "Categ3X.png", // Ton image de catégorie Weed
 
       products: [
+        {
+          id: "Weeding Cake",
+          flag: "🇲🇦",
+          name: "Weeding Cake 🎂",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductWC.jpg",
+          video: "VideoWC.mov",
+          description:
+                "🎂🍫 WEEDING CAKE — 3X FILTRE PREMIUM 🍫🎂\n\nUne sélection 3X Filtre gourmande et crémeuse, inspirée des profils dessert américains. Weeding Cake mélange douceur sucrée, notes pâtissières et rondeur aromatique pour une expérience riche et agréable. 🇲🇦🔥\n\n👃 Profil aromatique :\n🎂 Notes de gâteau sucré\n🍦 Crème vanillée\n🍪 Biscuit et pâte douce\n🍯 Légère touche miellée\n🌿 Fond végétal propre\n\n👅 Goût :\nEn bouche, Weeding Cake offre une attaque douce et gourmande, avec des notes de crème, de biscuit et de dessert sucré. La dégustation reste ronde, propre et bien équilibrée, avec une finale douce qui reste agréablement en bouche. 😮‍💨🎂\n\n✨ Texture & qualité :\n💎 3X Filtre premium\n🤲 Texture souple et homogène\n🌈 Profil gourmand bien présent\n☁️ Fumée douce et aromatique\n🔥 Finition propre et régulière\n\n🏆 Le verdict :\nUne 3X Filtre parfaite pour les amateurs de profils sucrés, crémeux et pâtissiers. Weeding Cake combine gourmandise, douceur et qualité dans une sélection très agréable. 🎂🍫🔥",
+          tarifs: [
+                        { weight: '5G', price: 50.00 },
+                        { weight: '10G', price: 80.00 },
+                        { weight: '20G', price: 140.00 },
+                        { weight: '50G', price: 250.00 },
+                        { weight: '100G', price: 400.00 },
+          ],
+        },
         {
           id: "FILTRED ⚡",
           flag: "🇲🇦",
@@ -2991,6 +3016,24 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategHash.png", // Ton image de catégorie Weed
 
       products: [
+         {
+          id: "ucky Charms 🍇",
+          flag: "🇲🇦",
+          name: "Lucky Charms 🍇",
+          farm: "🍀 FRUITY 🍀",
+          promoEligible: true,
+          type: "Weed",
+          image: "ProductLC.png",
+          video: "VideoLC.mov",
+          description:
+              "",          
+          tarifs: [
+            { weight: "10g", price: 50.0 },
+            { weight: "25g", price: 110.0 },
+            { weight: "50g", price: 180.0 },
+            { weight: "100g", price: 310.0 },
+          ],
+        },
          {
           id: "AZILA",
           flag: "🇲🇦",
