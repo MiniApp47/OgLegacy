@@ -1199,7 +1199,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
           ],
         },
-        {
+        /* {
           id: "Lemon chery gelonade",
           flag: "🇺🇸",
           name: "Lemon Cherry Gelonade 🍨",
@@ -1216,7 +1216,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
           ],
-        },
+        }, */
         {
           id: "Blueberry 🌀",
           flag: "🇺🇸",
@@ -1289,7 +1289,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
           ],
         }, */
-        {
+       /*  {
           id: "GlueBerry 🧴",
           flag: "🇺🇸",
           name: "GlueBerry 🧴",
@@ -1306,8 +1306,8 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
           ],
-        },
-        {
+        }, */
+       /*  {
           id: "Cherry runtz 🍒",
           flag: "🇺🇸",
           name: "Cherry runtz 🍒",
@@ -1325,7 +1325,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
           ],
-        },
+        }, */
         /*  {
                     id: '🌴💣 SUPER BOMBE 💣🌴',
                     flag: '🇺🇸',
