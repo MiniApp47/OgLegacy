@@ -1253,7 +1253,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
           ],
         }, */
-        {
+       /*  {
           id: "OBAMA RUNTZ 🇺🇸⚡️",
           flag: "🇺🇸",
           name: "OBAMA RUNTZ 🇺🇸⚡️",
@@ -1270,7 +1270,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
           ],
-        },
+        }, */
        /*  {
           id: "🥣🥛 CEREAL MILK 🥛🥣",
           flag: "🇺🇸",
@@ -2414,12 +2414,12 @@ document.addEventListener("DOMContentLoaded", function () {
           image: "ProductF.png",
           video: "VideoF.mov",
           description:
-              "⚡❄️ FILTRED — SÉLECTION PREMIUM ❄️⚡\n\nUne sélection filtrée au profil gourmand, propre et bien travaillé. FILTRED se distingue par une texture souple, une belle intensité aromatique et plusieurs saveurs bien marquées pour varier les plaisirs. 🇲🇦🔥\n\n👃 Saveurs disponibles :\n🍮 Super Caramelo : notes caramel, crème brûlée et douceur sucrée\n🍫 Nutella : profil cacao, noisette et rondeur gourmande\n🌸 Fanta : touche fruitée, sucrée et légèrement pétillante\n\n👅 Goût :\nEn bouche, FILTRED développe une attaque douce et aromatique, avec une belle rondeur selon la saveur choisie. Le profil reste propre, agréable et bien équilibré, avec une finale gourmande qui reste présente. 😮‍💨⚡\n\n✨ Texture & qualité :\n💎 Filtré soigneusement sélectionné\n🤲 Texture souple et facile à travailler\n🌈 Saveurs bien distinctes\n☁️ Fumée douce et parfumée\n🔥 Profil propre, régulier et gourmand\n\n🏆 Le verdict :\nUne sélection filtrée efficace et gourmande, parfaite pour ceux qui aiment choisir entre plusieurs profils aromatiques. FILTRED combine qualité, variété et finition propre dans une gamme simple et bien maîtrisée. ⚡❄️🔥",
+              "⚡❄️ FILTRED — SÉLECTION PREMIUM ❄️⚡\n\nUne sélection filtrée au profil gourmand, propre et bien travaillé. FILTRED se distingue par une texture souple, une belle intensité aromatique et plusieurs saveurs bien marquées pour varier les plaisirs. 🇲🇦🔥\n\n👃 Saveurs disponibles : \n🍫 Nutella : profil cacao, noisette et rondeur gourmande \n\n👅 Goût :\nEn bouche, FILTRED développe une attaque douce et aromatique, avec une belle rondeur selon la saveur choisie. Le profil reste propre, agréable et bien équilibré, avec une finale gourmande qui reste présente. 😮‍💨⚡\n\n✨ Texture & qualité :\n💎 Filtré soigneusement sélectionné\n🤲 Texture souple et facile à travailler\n🌈 Saveurs bien distinctes\n☁️ Fumée douce et parfumée\n🔥 Profil propre, régulier et gourmand\n\n🏆 Le verdict :\nUne sélection filtrée efficace et gourmande, parfaite pour ceux qui aiment choisir entre plusieurs profils aromatiques. FILTRED combine qualité, variété et finition propre dans une gamme simple et bien maîtrisée. ⚡❄️🔥",
           variantTitle: "Saveurs Filtrer ❄️ :",
           jars: [
             /* { name: "Super Caramelo", emoji: "🍮", colorClass: "style-brown" }, */
             { name: "Nutella", emoji: "🍫", colorClass: "style-red" },
-            { name: "Fanta", emoji: "🌸", colorClass: "style-yellow" },
+            /* { name: "Fanta", emoji: "🌸", colorClass: "style-yellow" }, */
           ],
           tarifs: [
             { weight: "5G", price: 50.0 },
