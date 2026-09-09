@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
               "NOUVELLE ARRIVAGE : \n\n 🥬🥒 SUPER SILVER HAZE — HOLLANDE 🇳🇱🥒🥬\n\nUne grande classique hollandaise au profil frais, végétal et citronné. La Super Silver Haze est une sélection appréciée des connaisseurs pour son identité old school, son parfum expressif et sa vraie signature Haze européenne. 🇳🇱🔥\n\n👃 Profil aromatique :\n🍋 Notes citronnées et fraîches\n🌿 Arômes Haze classiques\n🥒 Touches vertes et végétales\n🌶️ Petite pointe épicée\n🌬️ Fond légèrement encensé\n\n👅 Goût :\nEn bouche, la Super Silver Haze développe une attaque fraîche et citronnée, accompagnée de notes végétales et légèrement épicées. La dégustation reste vive, propre et aromatique, avec une finale Haze bien marquée qui reste en bouche. 😮‍💨🥬\n\n✨ Qualité & sélection :\n💎 Profil old school reconnu\n🌱 Arômes frais et naturels\n🔥 Sélection hollandaise classique\n☁️ Fumée douce et parfumée\n🇳🇱 Référence appréciée des amateurs de Haze\n\n🏆 Le verdict :\nUne valeur sûre pour ceux qui aiment les profils frais, citronnés et typiquement hollandais. Super Silver Haze combine fraîcheur, caractère et authenticité dans une sélection simple, efficace et pleine de personnalité. 🥬🥒🇳🇱🔥",
           tarifs: [{ weight: "10g", price: 70.0 }],
         }, */
-        {
+       /*  {
           id: "🧠🍀AMNESIA CORE CUT 🍀🧠",
           flag: "🇳🇱",
           name: "🧠🍀 AMNESIA CORE CUT 🍀🧠",
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
           description:
             "💎🔥 Considérée par de nombreux connaisseurs comme l’une des meilleures expressions de l’Amnesia, la Amnesia Core Cut est une sélection d’élite recherchée pour son profil terpénique puissant et son effet cérébral particulièrement intense. 🔥💎\n\n ✨ Les effets\n\n 🚀 Montée rapide et énergique\n 😄 Euphorie marquée\n 🧠 Stimulation mentale puissante\n 🎨 Créativité et concentration accrues\n 🗣️ Effet social apprécié des amateurs de sativas\n\n 👃 Les arômes\n\n 🍊 Agrumes frais et zestés\n 🌿 Notes Haze classiques\n 🌶️ Légères touches épicées et encensées\n\n 🌱 Pourquoi elle est si recherchée ? \n\n • Sélection réputée pour sa stabilité \n • Profil aromatique particulièrement intense \n • Forte production de résine ✨ \n • Expression fidèle de l’esprit Amnesia « old school » \n • Très appréciée des amateurs de Haze européennes\n\n 🏆 Pour les connaisseurs\n La Core Cut est souvent citée parmi les meilleures coupes d’Amnesia grâce à son équilibre entre puissance, saveurs citronnées explosives et effet mental clair. Beaucoup la considèrent comme une référence lorsqu’on parle de vraie Amnesia de haut niveau.\n\n ⭐ En résumé :\n Une Amnesia premium, ultra citronnée, résineuse et cérébrale, recherchée par les amateurs de Haze authentiques et les passionnés de génétiques européennes. 🔥⚡🧠💎🌿",
           tarifs: [{ weight: "10g", price: 70.0 }],
-        },
+        }, */
       ],
     },
     {
@@ -518,7 +518,7 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategDouble.png", // Ton image de catégorie Weed
 
       products: [
-        /* {
+        {
           id: "Plasma static",
           flag: "🇺🇸",
           name: "🔮 Plasma static 🔮",
@@ -534,7 +534,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25G", price: 250.0 },
             { weight: "50G", price: 450.0 },
           ],
-        }, */
+        },
         {
           id: "La Bomba x Spriter 💣",
           flag: "🇺🇸",
@@ -1146,6 +1146,42 @@ document.addEventListener("DOMContentLoaded", function () {
 
       products: [
         {
+          id: "Milk runtz",
+          flag: "🇺🇸",
+          name: "🥛 Milk runtz 🥛",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "Weed",
+          image: "ProductMR.jpg",
+          video: "VideoMR.mp4",
+          description:
+             "🥛🍬 MILK RUNTZ — CALI PREMIUM 🍬🥛\n\nUne sélection au profil doux, crémeux et ultra gourmand. Milk Runtz mélange une base candy fruitée avec une rondeur lactée très agréable, parfaite pour les amateurs de saveurs sucrées et modernes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🥛 Notes lactées et crémeuses\n🍬 Bonbon sucré type candy\n🍓 Fruits rouges doux\n🍦 Vanille légère\n⛽ Petite finition gassy discrète\n\n👅 Goût :\nEn bouche, Milk Runtz développe une attaque douce et sucrée, avec des notes fruitées bien rondes. Le côté crémeux arrive ensuite pour donner une sensation gourmande, presque dessert, avec une finale propre et parfumée. 😮‍💨🥛\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil candy/crémeux bien marqué\n☁️ Dégustation douce et aromatique\n🔥 Belle rondeur en bouche\n🥛 Identité gourmande originale\n\n🏆 Le verdict :\nUne variété douce, sucrée et crémeuse, idéale pour ceux qui aiment les profils candy avec une vraie rondeur lactée. Milk Runtz combine gourmandise, fraîcheur et finition premium. 🥛🍬🔥",
+          tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+          ],
+        },
+        {
+          id: "Perm chimera",
+          flag: "🇺🇸",
+          name: "🎄 Perm chimera 🎄",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "Weed",
+          image: "ProductPC.jpg",
+          video: "VideoPC.mp4",
+          description:
+             "🎄⛽ PERM CHIMERA — CALI PREMIUM ⛽🎄\n\nUne sélection au profil puissant en arômes, profond et très expressif. Perm Chimera mélange des notes gassy, crémeuses et légèrement fruitées, avec une identité moderne et bien marquée. 🇺🇸🔥\n\n👃 Profil aromatique :\n⛽ Notes gassy bien présentes\n🍦 Fond crémeux et rond\n🍬 Touche candy discrète\n🌿 Nuances végétales propres\n🔥 Finition résineuse intense\n\n👅 Goût :\nEn bouche, Perm Chimera développe une attaque riche et aromatique, avec une belle présence gassy dès le départ. Le profil devient ensuite plus rond, légèrement sucré et crémeux, avec une finale longue et bien marquée. 😮‍💨🎄\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Arômes profonds et expressifs\n☁️ Dégustation dense et savoureuse\n🔥 Profil moderne et travaillé\n🎄 Belle identité de connaisseur\n\n🏆 Le verdict :\nUne variété de caractère, parfaite pour les amateurs de profils gassy, crémeux et bien marqués. Perm Chimera combine profondeur aromatique, rondeur et finition premium. 🎄⛽🔥",
+          tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+          ],
+        },
+        {
           id: "🍰⛽ Cali Gascake ⛽🍰",
           flag: "🇺🇸",
           name: "🍰⛽ Cali Gascake ⛽🍰",
@@ -1217,7 +1253,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
           ],
         }, */
-        {
+       /*  {
           id: "Blueberry 🌀",
           flag: "🇺🇸",
           name: "Blueberry 🌀",
@@ -1234,7 +1270,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
           ],
-        },
+        }, */
        /*  {
           id: "PermanentMarker 🖍️",
           flag: "🇺🇸",
@@ -2403,6 +2439,44 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "Categ3X.png", // Ton image de catégorie Weed
 
       products: [
+        {
+          id: "Yellow Chem",
+          flag: "🇲🇦",
+          name: "Yellow Chem 🍯",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductYC.png",
+          video: "VideoYC.mp4",
+          description:
+              "🍯⚡ YELLOW CHEM — 3X FILTRE PREMIUM ⚡🍯\n\nUne sélection 3X Filtre au profil jaune, résineux et légèrement gassy. Yellow Chem se distingue par une belle texture, une rondeur aromatique propre et une identité à la fois douce, terreuse et puissante en goût. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍯 Notes jaunes et miellées\n⛽ Fond gassy bien présent\n🌿 Touches végétales propres\n🍋 Petite fraîcheur citronnée\n🔥 Finition résineuse persistante\n\n👅 Goût :\nEn bouche, Yellow Chem développe une attaque douce et aromatique, avec une rondeur légèrement sucrée. Le côté chem/gassy arrive ensuite pour donner plus de caractère, avec une finale propre, résineuse et longue. 😮‍💨🍯\n\n✨ Texture & qualité :\n💎 3X Filtre soigneusement travaillé\n🤲 Texture souple et homogène\n🌈 Arômes bien conservés\n☁️ Dégustation riche et parfumée\n🔥 Profil jaune/gaz bien équilibré\n\n🏆 Le verdict :\nUne 3X Filtre propre et bien équilibrée, idéale pour ceux qui aiment les profils jaunes, gassy et légèrement sucrés. Yellow Chem combine rondeur, caractère et finition premium. 🍯⚡🔥",
+          tarifs: [
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 80.0 },
+            { weight: "20G", price: 140.0 },
+            { weight: "50G", price: 250.0 },
+            { weight: "100G", price: 400.0 },
+          ],
+        },
+        {
+          id: "Dolce",
+          flag: "🇲🇦",
+          name: "Dolce 🍰",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductDO.png",
+          video: "VideoDO.mp4",
+          description:
+              "🍰🍫 DOLCE — 3X FILTRE PREMIUM 🍫🍰\n\nUne sélection 3X Filtre au profil dessert, doux et très gourmand. Dolce mise sur une belle rondeur aromatique, avec des notes sucrées, crémeuses et pâtissières qui donnent une identité élégante et agréable. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍰 Notes de gâteau sucré\n🍦 Crème vanillée\n🍫 Petite touche chocolatée\n🍯 Douceur miellée\n🌿 Fond végétal propre\n\n👅 Goût :\nEn bouche, Dolce développe une attaque douce et gourmande, avec des notes de crème, de gâteau et une légère touche sucrée. Le profil reste rond, propre et équilibré, avec une finale dessert très agréable. 😮‍💨🍰\n\n✨ Texture & qualité :\n💎 3X Filtre premium\n🤲 Texture souple et facile à travailler\n🌈 Profil gourmand bien présent\n☁️ Dégustation douce et aromatique\n🔥 Finition propre et régulière\n\n🏆 Le verdict :\nUne 3X Filtre parfaite pour les amateurs de profils sucrés, crémeux et pâtissiers. Dolce combine gourmandise, douceur et qualité dans une sélection très propre. 🍰🍫🔥",
+          tarifs: [
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 80.0 },
+            { weight: "20G", price: 140.0 },
+            { weight: "50G", price: 250.0 },
+            { weight: "100G", price: 400.0 },
+          ],
+        },
         
         {
           id: "FILTRED ⚡",
@@ -2524,7 +2598,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '100G', price: 400.00 },
           ],
         }, */
-        {
+        /* {
           id: "€ 4️⃣1️⃣",
           flag: "🇲🇦",
           name: "€ 4️⃣1️⃣",
@@ -2542,7 +2616,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 250.0 },
             { weight: "100G", price: 400.0 },
           ],
-        },
+        }, */
         /*  {
                     id: 'Banana Limonade 🍹',
                     flag: '🇲🇦',
