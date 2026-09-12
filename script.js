@@ -2071,7 +2071,7 @@ document.addEventListener("DOMContentLoaded", function () {
               "",
           variantTitle: "Saveurs Frozen ❄️ :",
           jars: [
-            { name: "yellowgas", emoji: "🍯", colorClass: "style-brown" },
+            /* { name: "yellowgas", emoji: "🍯", colorClass: "style-brown" }, */
             { name: "tropcherry", emoji: "🍇", colorClass: "style-red" },
             { name: "pink limez", emoji: "🍋", colorClass: "style-yellow" },
           ],
