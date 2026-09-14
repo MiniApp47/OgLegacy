@@ -2522,7 +2522,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100G", price: 400.0 },
           ],
         }, */
-        {
+       /*  {
           id: "Peach Tsunami 🌊",
           flag: "🇲🇦",
           name: "Peach Tsunami 🌊",
@@ -2540,7 +2540,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 250.0 },
             { weight: "100G", price: 400.0 },
           ],
-        },
+        }, */
         /*   {
           id: "GMO",
           flag: "🇲🇦",
