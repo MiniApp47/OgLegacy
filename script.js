@@ -3073,6 +3073,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
       products: [
          {
+          id: "NumberOne",
+          flag: "🇲🇦",
+          name: "NumberOne 🦈",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "Weed",
+          image: "ProductNO.jpg",
+          video: "VideoNO.mp4",
+          description:
+              "🦈 NumberOne — JAUNE CRÉMEUX PREMIUM 🦈\n\nUne sélection jaune crémeuse au profil doux, gourmand et bien travaillé. NumberOne se distingue par une texture mousseuse, une belle rondeur aromatique et une identité propre, pensée pour les amateurs de produits simples, efficaces et agréables à découvrir. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍯 Notes douces et légèrement miellées\n🍫 Petite touche chocolatée\n🌰 Fond gourmand et rond\n🌿 Nuance végétale propre\n🔥 Finition résineuse élégante\n\n👅 Goût :\nEn bouche, NumberOne développe une attaque douce et crémeuse, avec des notes sucrées et légèrement gourmandes. Le profil reste propre, rond et agréable, avec une finale discrètement résineuse qui reste bien présente. 😮‍💨🌊\n\n💛 Texture & qualité :\n☁️ Jaune mousseux et crémeux\n🤲 Texture souple et facile à travailler\n✨ Arômes bien équilibrés\n🔥 Profil propre et régulier\n💎 Sélection simple mais efficace\n\n🏆 Le verdict :\nUne valeur sûre pour ceux qui aiment les profils jaunes, crémeux et gourmands. NUMBER ONE combine douceur, texture propre et belle rondeur aromatique dans une sélection agréable au quotidien. 🌊🍯🔥",          
+          tarifs: [
+            { weight: "10g", price: 50.0 },
+            { weight: "25g", price: 110.0 },
+            { weight: "50g", price: 180.0 },
+            { weight: "100g", price: 310.0 },
+          ],
+        },
+         /* {
           id: "ucky Charms 🍇",
           flag: "🇲🇦",
           name: "Lucky Charms 🍇",
@@ -3107,7 +3125,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 180.0 },
             { weight: "100g", price: 310.0 },
           ],
-        },
+        }, */
        /*  {
           id: "Mario 🍄",
           flag: "🇲🇦",
