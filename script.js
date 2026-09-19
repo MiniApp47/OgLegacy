@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         }, */
-        /*  {
+         {
                     id: 'White truffle 🍄',
                     flag: '🇺🇸',
                     name: 'White truffle 🍄',
@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '50G', price: 200.00 },
                         { weight: '100G', price: 350.00 },
                     ]
-                }, */
+                },
         /* {
                     id: 'Pink Lemonade 🥤',
                     flag: '🇺🇸',
@@ -223,7 +223,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100G", price: 400.0 },
           ],
         }, */
-        /*   {
+          {
                     id: 'ORANGE CREAMPOP 🔥💛',
                     flag: '🇺🇸',
                     name: 'ORANGE CREAMPOP 🔥💛',
@@ -239,8 +239,8 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '50G', price: 220.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                }, */
-       /*  {
+                },
+        {
           id: "🤯🚀 PERMANENT MARKER",
           flag: "🇺🇸",
           name: "🤯🚀 PERMANENT MARKER",
@@ -256,7 +256,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 200.0 },
             { weight: "100G", price: 350.0 },
           ],
-        }, */
+        },
         {
           id: "GELATO",
           flag: "🇺🇸",
@@ -1253,7 +1253,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
           ],
         }, */
-       /*  {
+        {
           id: "Blueberry 🌀",
           flag: "🇺🇸",
           name: "Blueberry 🌀",
@@ -1261,7 +1261,7 @@ document.addEventListener("DOMContentLoaded", function () {
           promoEligible: true,
           type: "Weed",
           image: "ProductBB.png",
-          video: "VideoBB.mp4",
+          video: "VideoBB.mov",
           description:
             "🌀🫐 BLUEBERRY — CALI PREMIUM 🫐🌀\n\nUne sélection fruitée et douce, centrée sur un profil myrtille sucrée, baies mûres et rondeur crémeuse. Blueberry est une valeur sûre pour les amateurs de saveurs fruitées, simples et efficaces. 🇺🇸🔥\n\n👃 Profil aromatique :\n🫐 Myrtille sucrée\n🍓 Fruits rouges mûrs\n🍬 Douceur candy légère\n🍦 Fond crémeux discret\n🌿 Petite touche végétale propre\n\n👅 Goût :\nEn bouche, Blueberry développe une attaque douce et fruitée, avec des notes de myrtille et de fruits rouges bien présentes. La dégustation reste ronde, agréable et parfumée, avec une finale sucrée qui reste longtemps sur le palais. 😮‍💨🫐\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil fruité expressif\n☁️ Fumée douce et aromatique\n🔥 Saveur claire et régulière\n🌀 Identité fruitée reconnaissable\n\n🏆 Le verdict :\nUne variété fruitée, douce et efficace, parfaite pour ceux qui aiment les profils berry, sucrés et crémeux. Blueberry combine gourmandise, fraîcheur et simplicité dans une sélection très agréable. 🌀🫐🔥",
           tarifs: [
@@ -1270,7 +1270,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
           ],
-        }, */
+        },
        /*  {
           id: "PermanentMarker 🖍️",
           flag: "🇺🇸",
@@ -2059,6 +2059,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
       products: [
          {
+          id: "🍋 Limez x Cake 🎂",
+          flag: "🇺🇸",
+          name: "🍋 Limez x Cake 🎂",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "FROZEN",
+          image: "ProductLCC.png",
+          video: "VideoLCC.mov",
+          description:
+                "🍋🎂 LIMEZ x CAKE — FROZEN PREMIUM 🎂🍋\n\nUne sélection Frozen au profil gourmand, citronné et ultra soigné. Limez x Cake mélange la fraîcheur vive des agrumes avec une belle rondeur pâtissière, pour un résultat à la fois raffiné, moderne et très aromatique. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🎂 Notes de gâteau sucré\n🍦 Fond crémeux et vanillé\n🍬 Petite touche candy discrète\n🌿 Finition propre et élégante\n\n👅 Goût :\nEn bouche, Limez x Cake développe une attaque fraîche et citronnée, rapidement adoucie par des notes plus crémeuses et gourmandes. Le profil reste bien équilibré, avec une finale dessert légère et persistante particulièrement agréable. 😮‍💨🍋🎂\n\n❄️ Texture & qualité :\n💎 Frozen soigneusement travaillé\n🤲 Texture propre et agréable à manipuler\n🌈 Belle conservation des arômes\n☁️ Dégustation dense et savoureuse\n🔥 Profil gourmand et premium\n\n🏆 Le verdict :\nUne Frozen élégante et gourmande, parfaite pour ceux qui aiment les profils citronnés, crémeux et dessert. Limez x Cake combine fraîcheur, douceur et vraie identité premium dans une sélection qui se démarque clairement. 🍋🎂❄️🔥",
+                tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                    ],
+        },
+         /* {
           id: "FROZEN ❄️",
           flag: "🇲🇦",
           name: "FROZEN ❄️",
@@ -2071,7 +2088,7 @@ document.addEventListener("DOMContentLoaded", function () {
               "",
           variantTitle: "Saveurs Frozen ❄️ :",
           jars: [
-            /* { name: "yellowgas", emoji: "🍯", colorClass: "style-brown" }, */
+            /* { name: "yellowgas", emoji: "🍯", colorClass: "style-brown" }, 
             { name: "tropcherry", emoji: "🍇", colorClass: "style-red" },
             { name: "pink limez", emoji: "🍋", colorClass: "style-yellow" },
           ],
@@ -2080,7 +2097,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '10G', price: 120.00 },
                         { weight: '25G', price: 250.00 },
           ],
-        },
+        }, */
         {
           id: "OLIVE",
           flag: "🇲🇦",
@@ -2439,6 +2456,44 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "Categ3X.png", // Ton image de catégorie Weed
 
       products: [
+        {
+          id: "SPRITZER 🍸",
+          flag: "🇲🇦",
+          name: "SPRITZER 🍸",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductSP.png",
+          video: "VideoSP.mp4",
+          description:
+                "🍸✨ SPRITZER — 3X FILTRE PREMIUM ✨🍸\n\nUne sélection 3X Filtre au profil frais, fruité et raffiné. Spritzer se distingue par une belle vivacité aromatique, une touche légèrement sucrée et une identité moderne qui le rend particulièrement agréable pour les amateurs de profils expressifs. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍋 Notes fraîches et zestées\n🍇 Touche fruitée légère\n🍬 Fond sucré discret\n🌿 Nuance végétale propre\n✨ Finition élégante et parfumée\n\n👅 Goût :\nEn bouche, Spritzer développe une attaque fraîche et aromatique, avec une belle présence fruitée et une rondeur légère qui équilibre l’ensemble. Le profil reste propre, vif et agréable, avec une finale douce et parfumée. 😮‍💨🍸\n\n✨ Texture & qualité :\n💎 3X Filtre soigneusement sélectionné\n🤲 Texture souple et homogène\n🌈 Arômes frais bien conservés\n☁️ Dégustation douce et parfumée\n🔥 Profil propre, moderne et régulier\n\n🏆 Le verdict :\nUne 3X Filtre fraîche et élégante, idéale pour ceux qui aiment les profils fruités, légers et bien travaillés. Spritzer combine fraîcheur, gourmandise et finition premium dans une sélection très agréable. 🍸✨🔥",
+          tarifs: [
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 80.0 },
+            { weight: "20G", price: 140.0 },
+            { weight: "50G", price: 250.0 },
+            { weight: "100G", price: 400.0 },
+          ],
+        },
+        {
+          id: "DrySift 🧤",
+          flag: "🇲🇦",
+          name: "DrySift 🧤",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductDS.png",
+          video: "VideoDS.mp4",
+          description:
+                "🧤🍯 DRYSIFT — 3X FILTRE PREMIUM 🍯🧤\n\nUne sélection DrySift au profil propre, gourmand et bien travaillé. DrySift se distingue par une texture soignée, une belle richesse aromatique et une identité résineuse très agréable, pensée pour les amateurs de profils classiques mais efficaces. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍯 Notes douces et légèrement miellées\n🌿 Fond végétal propre\n🍫 Petite touche gourmande\n🌰 Nuances rondes et résineuses\n🔥 Finition élégante et persistante\n\n👅 Goût :\nEn bouche, DrySift développe une attaque douce et aromatique, avec une belle rondeur dès les premières notes. Le profil reste propre, équilibré et agréable, avec une finale légèrement gourmande et résineuse qui tient bien en bouche. 😮‍💨🧤\n\n✨ Texture & qualité :\n💎 Sélection soigneusement travaillée\n🤲 Texture souple et agréable à manipuler\n🌈 Arômes bien conservés\n☁️ Dégustation douce et savoureuse\n🔥 Profil propre et régulier\n\n🏆 Le verdict :\nUne valeur sûre pour ceux qui aiment les profils doux, résineux et bien équilibrés. DrySift combine simplicité, qualité et belle rondeur aromatique dans une sélection très propre. 🧤🍯🔥",
+          tarifs: [
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 80.0 },
+            { weight: "20G", price: 140.0 },
+            { weight: "50G", price: 250.0 },
+            { weight: "100G", price: 400.0 },
+          ],
+        },
         {
           id: "Yellow Chem",
           flag: "🇲🇦",
