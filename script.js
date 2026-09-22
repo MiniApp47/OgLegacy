@@ -2058,7 +2058,7 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategFrozen.png", // Ton image de catégorie Weed
 
       products: [
-         {
+       /*   {
           id: "🍋 Limez x Cake 🎂",
           flag: "🇺🇸",
           name: "🍋 Limez x Cake 🎂",
@@ -2074,7 +2074,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '10G', price: 120.00 },
                         { weight: '25G', price: 250.00 },
                     ],
-        },
+        }, */
          /* {
           id: "FROZEN ❄️",
           flag: "🇲🇦",
