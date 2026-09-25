@@ -2058,6 +2058,40 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategFrozen.png", // Ton image de catégorie Weed
 
       products: [
+         {
+          id: "Champaya",
+          flag: "🇺🇸",
+          name: "Frosty Diesel ⛽",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "FROZEN",
+          image: "ProductCY.jpg",
+          video: "VideoCY.mp4",
+          description:
+                  "🥭❄️ CHAMPAYA — FROZEN 160/73U ❄️🥭\n\nUne sélection Frozen premium au profil fruité, doux et très aromatique. Champaya se distingue par une belle expression tropicale, une texture soignée et une identité gourmande pensée pour les amateurs de profils frais et sucrés. 🇺🇸🔥\n\n👃 Profil aromatique :\n🥭 Notes tropicales et fruitées\n🍑 Fruits jaunes bien mûrs\n🍯 Fond doux légèrement miellé\n🍬 Petite touche candy\n🌿 Finition végétale propre\n\n👅 Goût :\nEn bouche, Champaya développe une attaque douce et fruitée, avec des notes exotiques bien présentes. Le profil reste rond, agréable et parfumé, avec une finale sucrée et fraîche qui reste longtemps en bouche. 😮‍💨🥭\n\n❄️ Texture & qualité :\n💎 Frozen 160/73u soigneusement travaillé\n🤲 Texture propre et agréable à manipuler\n🌈 Belle conservation des arômes\n☁️ Dégustation douce et savoureuse\n🔥 Profil fruité, propre et premium\n\n🏆 Le verdict :\nUne Frozen gourmande et tropicale, parfaite pour ceux qui aiment les profils fruités, doux et expressifs. Champaya combine fraîcheur, rondeur et finition premium dans une sélection très agréable. 🥭❄️🔥",
+                tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                    ],
+        },
+         {
+          id: "Frosty Diesel",
+          flag: "🇺🇸",
+          name: "Frosty Diesel ⛽",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "FROZEN",
+          image: "ProductFDD.jpg",
+          video: "VideoFD.mp4",
+          description:
+                  "⛽❄️ FROSTY DIESEL — FROZEN 160/73U ❄️⛽\n\nUne sélection Frozen premium au profil gassy, frais et puissant en arômes. Frosty Diesel se distingue par une identité diesel bien marquée, une texture soignée et une belle profondeur aromatique destinée aux amateurs de profils plus lourds et caractériels. 🇺🇸🔥\n\n👃 Profil aromatique :\n⛽ Notes diesel et gassy bien présentes\n🍋 Petite touche citronnée fraîche\n🌿 Fond végétal propre\n🔥 Finition résineuse intense\n❄️ Fraîcheur aromatique marquée\n\n👅 Goût :\nEn bouche, Frosty Diesel développe une attaque riche et aromatique, dominée par des notes gassy et légèrement citronnées. Le profil reste profond, propre et long en bouche, avec une finale résineuse qui apporte beaucoup de caractère. 😮‍💨⛽\n\n❄️ Texture & qualité :\n💎 Frozen 160/73u soigneusement sélectionné\n🤲 Texture propre et agréable à travailler\n🌈 Arômes bien conservés\n☁️ Dégustation dense et savoureuse\n🔥 Profil gassy, frais et premium\n\n🏆 Le verdict :\nUne Frozen de caractère, idéale pour ceux qui aiment les profils diesel, résineux et bien marqués. Frosty Diesel combine fraîcheur, intensité aromatique et finition premium dans une sélection très solide. ⛽❄️🔥",
+                tarifs: [
+                        { weight: '5G', price: 70.00 },
+                        { weight: '10G', price: 120.00 },
+                        { weight: '25G', price: 250.00 },
+                    ],
+        },
        /*   {
           id: "🍋 Limez x Cake 🎂",
           flag: "🇺🇸",
