@@ -2061,7 +2061,7 @@ document.addEventListener("DOMContentLoaded", function () {
          {
           id: "Champaya",
           flag: "🇺🇸",
-          name: "Frosty Diesel ⛽",
+          name: "Champaya 🥭",
           farm: "🌾 No Farm 🌾",
           promoEligible: true,
           type: "FROZEN",
