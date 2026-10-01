@@ -3162,6 +3162,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
       products: [
          {
+          id: "Fresh Juice 🍹",
+          flag: "🇲🇦",
+          name: "Fresh Juice 🍹",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "Weed",
+          image: "ProductFJ.jpg",
+          video: "VideoFJ.mp4",
+          description:
+            "Fresh Juice 🍹\n\n Une sélection au profil gourmand et bien équilibré, inspirée de l’univers emblématique de Mario. Cette variété se distingue par ses notes fruitées, sucrées et légèrement terreuses, avec une belle intensité aromatique dès l’ouverture. 🔥💎\n\n 👃 Profil aromatique :\n 🍓 Fruits rouges sucrés\n 🍄 Notes terreuses légères\n 🍬 Bonbon fruité\n 🍋 Petite touche d’agrumes\n 🌿 Fond végétal doux et naturel\n\n 👅 Goût :\n En bouche, Mario développe une attaque fruitée et sucrée, suivie de notes plus rondes et légèrement terreuses. La fumée reste douce, agréable et laisse un arrière-goût gourmand avec une petite fraîcheur citronnée. 😮‍💨🍄\n\n ✨ Effets généralement recherchés :\n 😄 Bonne humeur et euphorie\n 🧠 Esprit léger et détendu\n 🎮 Sensation agréable et conviviale\n 💆 Relaxation corporelle progressive\n 🌙 Parfaite pour se poser tranquillement\n\n 🏆 Le verdict :\n Une variété originale, fruitée et facile à apprécier, idéale pour les amateurs de profils sucrés avec une légère touche terreuse. Mario combine gourmandise, équilibre et bonne vibe dans une sélection pleine de caractère. 🍄⭐🔥💎",
+          tarifs: [
+            { weight: "10g", price: 50.0 },
+            { weight: "25g", price: 110.0 },
+            { weight: "50g", price: 180.0 },
+            { weight: "100g", price: 310.0 },
+          ],
+        },
+         /* {
           id: "NumberOne",
           flag: "🇲🇦",
           name: "NumberOne 🦈",
@@ -3178,7 +3196,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 180.0 },
             { weight: "100g", price: 310.0 },
           ],
-        },
+        }, */
          /* {
           id: "ucky Charms 🍇",
           flag: "🇲🇦",
