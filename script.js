@@ -1145,7 +1145,7 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategWeed.png", // Ton image de catégorie Weed
 
       products: [
-        {
+       /*  {
           id: "Milk runtz",
           flag: "🇺🇸",
           name: "🥛 Milk runtz 🥛",
@@ -1162,7 +1162,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
           ],
-        },
+        }, */
         {
           id: "Perm chimera",
           flag: "🇺🇸",
