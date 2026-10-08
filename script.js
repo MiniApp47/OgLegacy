@@ -2528,7 +2528,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100G", price: 400.0 },
           ],
         },
-        {
+        /* {
           id: "Yellow Chem",
           flag: "🇲🇦",
           name: "Yellow Chem 🍯",
@@ -2546,7 +2546,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 250.0 },
             { weight: "100G", price: 400.0 },
           ],
-        },
+        }, */
         {
           id: "Dolce",
           flag: "🇲🇦",
