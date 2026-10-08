@@ -2547,7 +2547,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100G", price: 400.0 },
           ],
         }, */
-        {
+        /* {
           id: "Dolce",
           flag: "🇲🇦",
           name: "Dolce 🍰",
@@ -2566,7 +2566,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100G", price: 400.0 },
           ],
         },
-        
+         */
         {
           id: "FILTRED ⚡",
           flag: "🇲🇦",
