@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         }, */
-         {
+  /*        {
                     id: 'White truffle 🍄',
                     flag: '🇺🇸',
                     name: 'White truffle 🍄',
@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '50G', price: 200.00 },
                         { weight: '100G', price: 350.00 },
                     ]
-                },
+                }, */
         /* {
                     id: 'Pink Lemonade 🥤',
                     flag: '🇺🇸',
@@ -240,7 +240,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-        {
+       /*  {
           id: "🤯🚀 PERMANENT MARKER",
           flag: "🇺🇸",
           name: "🤯🚀 PERMANENT MARKER",
@@ -256,7 +256,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 200.0 },
             { weight: "100G", price: 350.0 },
           ],
-        },
+        }, */
         {
           id: "GELATO",
           flag: "🇺🇸",
@@ -552,7 +552,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 450.0 },
           ],
         },
-        {
+       /*  {
           id: "La Bomba x Spriter 💣",
           flag: "🇺🇸",
           name: "La Bomba x Spriter 💣",
@@ -569,7 +569,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25G", price: 250.0 },
             { weight: "50G", price: 450.0 },
           ],
-        },
+        }, */
 
         /*     {
                     id: 'STRAWBERRY PINK',
@@ -2076,6 +2076,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
       products: [
          {
+          id: "Barbara bud",
+          flag: "🇺🇸",
+          name: "Barbara bud 🎂",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "FROZEN",
+          image: "ProductBB.jpg",
+          video: "VideoBB.mp4",
+          description:
+            "",
+          tarifs: [
+              { weight: '5G', price: 70.00 },
+              { weight: '10G', price: 120.00 },
+              { weight: '25G', price: 250.00 },
+                  ],
+        },
+         {
           id: "Champaya",
           flag: "🇺🇸",
           name: "Champaya 🥭",
@@ -2085,12 +2102,12 @@ document.addEventListener("DOMContentLoaded", function () {
           image: "ProductCY.jpg",
           video: "VideoCY.mp4",
           description:
-                  "🥭❄️ CHAMPAYA — FROZEN 160/73U ❄️🥭\n\nUne sélection Frozen premium au profil fruité, doux et très aromatique. Champaya se distingue par une belle expression tropicale, une texture soignée et une identité gourmande pensée pour les amateurs de profils frais et sucrés. 🇺🇸🔥\n\n👃 Profil aromatique :\n🥭 Notes tropicales et fruitées\n🍑 Fruits jaunes bien mûrs\n🍯 Fond doux légèrement miellé\n🍬 Petite touche candy\n🌿 Finition végétale propre\n\n👅 Goût :\nEn bouche, Champaya développe une attaque douce et fruitée, avec des notes exotiques bien présentes. Le profil reste rond, agréable et parfumé, avec une finale sucrée et fraîche qui reste longtemps en bouche. 😮‍💨🥭\n\n❄️ Texture & qualité :\n💎 Frozen 160/73u soigneusement travaillé\n🤲 Texture propre et agréable à manipuler\n🌈 Belle conservation des arômes\n☁️ Dégustation douce et savoureuse\n🔥 Profil fruité, propre et premium\n\n🏆 Le verdict :\nUne Frozen gourmande et tropicale, parfaite pour ceux qui aiment les profils fruités, doux et expressifs. Champaya combine fraîcheur, rondeur et finition premium dans une sélection très agréable. 🥭❄️🔥",
-                tarifs: [
-                        { weight: '5G', price: 70.00 },
-                        { weight: '10G', price: 120.00 },
-                        { weight: '25G', price: 250.00 },
-                    ],
+            "🥭❄️ CHAMPAYA — FROZEN 160/73U ❄️🥭\n\nUne sélection Frozen premium au profil fruité, doux et très aromatique. Champaya se distingue par une belle expression tropicale, une texture soignée et une identité gourmande pensée pour les amateurs de profils frais et sucrés. 🇺🇸🔥\n\n👃 Profil aromatique :\n🥭 Notes tropicales et fruitées\n🍑 Fruits jaunes bien mûrs\n🍯 Fond doux légèrement miellé\n🍬 Petite touche candy\n🌿 Finition végétale propre\n\n👅 Goût :\nEn bouche, Champaya développe une attaque douce et fruitée, avec des notes exotiques bien présentes. Le profil reste rond, agréable et parfumé, avec une finale sucrée et fraîche qui reste longtemps en bouche. 😮‍💨🥭\n\n❄️ Texture & qualité :\n💎 Frozen 160/73u soigneusement travaillé\n🤲 Texture propre et agréable à manipuler\n🌈 Belle conservation des arômes\n☁️ Dégustation douce et savoureuse\n🔥 Profil fruité, propre et premium\n\n🏆 Le verdict :\nUne Frozen gourmande et tropicale, parfaite pour ceux qui aiment les profils fruités, doux et expressifs. Champaya combine fraîcheur, rondeur et finition premium dans une sélection très agréable. 🥭❄️🔥",
+          tarifs: [
+              { weight: '5G', price: 70.00 },
+              { weight: '10G', price: 120.00 },
+              { weight: '25G', price: 250.00 },
+                  ],
         },
          {
           id: "Frosty Diesel",
@@ -2507,6 +2524,44 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "Categ3X.png", // Ton image de catégorie Weed
 
       products: [
+        {
+          id: "Bruce banner",
+          flag: "🇲🇦",
+          name: "Bruce Banner 🎗",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductBR.png",
+          video: "VideoBR.mp4",
+          description:
+                "",
+          tarifs: [
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 80.0 },
+            { weight: "20G", price: 140.0 },
+            { weight: "50G", price: 250.0 },
+            { weight: "100G", price: 400.0 },
+          ],
+        },
+        {
+          id: "mango sherbet",
+          flag: "🇲🇦",
+          name: "MANGO SHERBET 🍯",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductMS.png",
+          video: "VideoMS.mp4",
+          description:
+                "",
+          tarifs: [
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 80.0 },
+            { weight: "20G", price: 140.0 },
+            { weight: "50G", price: 250.0 },
+            { weight: "100G", price: 400.0 },
+          ],
+        },
         {
           id: "SPRITZER 🍸",
           flag: "🇲🇦",
