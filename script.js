@@ -223,7 +223,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100G", price: 400.0 },
           ],
         }, */
-          {
+          /* {
                     id: 'ORANGE CREAMPOP 🔥💛',
                     flag: '🇺🇸',
                     name: 'ORANGE CREAMPOP 🔥💛',
@@ -240,7 +240,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 },
-       /*  {
+    
           id: "🤯🚀 PERMANENT MARKER",
           flag: "🇺🇸",
           name: "🤯🚀 PERMANENT MARKER",
