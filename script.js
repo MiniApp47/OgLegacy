@@ -2525,6 +2525,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
       products: [
         {
+          id: "Guava Runtz",
+          flag: "🇲🇦",
+          name: "Guava Runtz 🍹",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductGR.jpg",
+          video: "VideoGR.mp4",
+          description:
+                "",
+          tarifs: [
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 80.0 },
+            { weight: "20G", price: 140.0 },
+            { weight: "50G", price: 250.0 },
+            { weight: "100G", price: 400.0 },
+          ],
+        },
+        {
           id: "Bruce banner",
           flag: "🇲🇦",
           name: "Bruce Banner 🎗",
