@@ -518,7 +518,7 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategDouble.png", // Ton image de catégorie Weed
 
       products: [
-         {
+        /*  {
                     id: '🍉❄️ WATERMELON',
                     flag: '🇲🇦',
                     name: '🍉❄️ WATERMELON', 
@@ -534,8 +534,8 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '25G', price: 380.00 },
                         { weight: '50G', price: 800.00 },
                     ]
-                },
-        {
+                }, */
+       /*  {
           id: "Plasma static",
           flag: "🇺🇸",
           name: "🔮 Plasma static 🔮",
@@ -551,7 +551,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25G", price: 250.0 },
             { weight: "50G", price: 450.0 },
           ],
-        },
+        }, */
        /*  {
           id: "La Bomba x Spriter 💣",
           flag: "🇺🇸",
