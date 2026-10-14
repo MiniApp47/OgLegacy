@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         }, */
-  /*        {
+        {
                     id: 'White truffle 🍄',
                     flag: '🇺🇸',
                     name: 'White truffle 🍄',
@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '50G', price: 200.00 },
                         { weight: '100G', price: 350.00 },
                     ]
-                }, */
+                },
         /* {
                     id: 'Pink Lemonade 🥤',
                     flag: '🇺🇸',
@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 }, */
-        /* {
+         {
           id: "BISCOTTI 🍪",
           flag: "🇺🇸",
           name: "BISCOTTI 🍪",
@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 220.0 },
             { weight: "100G", price: 400.0 },
           ],
-        }, */
+        }, 
           /* {
                     id: 'ORANGE CREAMPOP 🔥💛',
                     flag: '🇺🇸',
@@ -474,7 +474,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     ]
                 }, */
 
-        /* {
+        {
                     id: 'BLUE LOBSTER 🦞💙',
                     flag: '🇲🇦',
                     name: 'BLUE LOBSTER 🦞💙',
@@ -490,7 +490,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '50G', price: 220.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                },/* 
                 {
                     id: 'ORANGE CREAMPOP 🔥💛',
                     flag: '🇲🇦',
@@ -518,6 +518,20 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategDouble.png", // Ton image de catégorie Weed
 
       products: [
+         {
+                    id: 'OLIVE 🫒',
+                    flag: '🇲🇦',
+                    name: 'OLIVE 🫒',
+                    farm: "🌾 No Farm 🌾",
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductO.png', 
+                    video: 'VideoO.mp4',
+                    description: "🫒🧤 OLIVE — STATIC PREMIUM 🧤🫒\n\nUne sélection Static au format original, propre et bien travaillé. Olive se distingue par une texture soignée, une belle richesse aromatique et un profil rond, résineux et gourmand, pensé pour les amateurs de sélections premium qui sortent du lot. 🇲🇦🔥\n\n👃 Profil aromatique :\n🫒 Notes végétales propres et profondes\n🍯 Douceur légèrement miellée\n🌰 Touches rondes et gourmandes\n🌿 Fond résineux naturel\n🔥 Finition élégante et persistante\n\n👅 Goût :\nEn bouche, Olive développe une attaque douce et aromatique, avec une belle rondeur dès les premières notes. Le profil devient ensuite plus résineux et profond, avec une finale propre, longue et agréable. 😮‍💨🫒\n\n🧤 Texture & qualité :\n💎 Static soigneusement travaillé\n🤲 Format olive original et premium\n🌈 Belle conservation des arômes\n☁️ Dégustation dense et savoureuse\n🔥 Profil propre, rond et régulier\n\n🏆 Le verdict :\nUne Static originale et pleine de caractère, parfaite pour ceux qui aiment les formats premium et les profils résineux bien équilibrés. Olive combine présentation, qualité et belle intensité aromatique dans une sélection très propre. 🫒🧤🔥",
+                    tarifs: [
+                        { weight: '1 olive', price: 120.00 },
+                    ]
+                },
         /*  {
                     id: '🍉❄️ WATERMELON',
                     flag: '🇲🇦',
