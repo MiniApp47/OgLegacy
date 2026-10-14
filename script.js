@@ -1176,6 +1176,40 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategWeed.png", // Ton image de catégorie Weed
 
       products: [
+        {
+                    id: 'Lemon ad',
+                    flag: '🇺🇸',
+                    name: 'Lemon ad 🍋',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductLA.png', 
+                    video: 'VideoLA.mp4',
+                    description:   "🍋✨ LEMON AD — CALI PREMIUM ✨🍋\n\nUne sélection au profil frais, citronné et très aromatique. Lemon Ad se distingue par une belle vivacité, une touche fruitée bien marquée et une finition propre qui rappelle les meilleurs profils lemon modernes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🍬 Touche candy acidulée\n🌿 Fond végétal propre\n🍯 Légère douceur sucrée\n✨ Finition fraîche et parfumée\n\n👅 Goût :\nEn bouche, Lemon Ad développe une attaque vive et citronnée, rapidement équilibrée par une douceur fruitée légère. Le profil reste frais, propre et agréable, avec une finale zestée qui reste bien présente. 😮‍💨🍋\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil lemon expressif\n☁️ Dégustation douce et parfumée\n🔥 Belle fraîcheur aromatique\n🍋 Identité citronnée bien marquée\n\n🏆 Le verdict :\nUne variété parfaite pour ceux qui aiment les profils frais, citronnés et légèrement candy. Lemon Ad combine vivacité, douceur et finition premium dans une sélection très propre. 🍋✨🔥",                    
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
+        {
+                    id: 'Purple',
+                    flag: '🇺🇸',
+                    name: 'Purple 🔮',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductP.png', 
+                    video: 'VideoP.mp4',
+                    description:  "🔮🍇 PURPLE — CALI PREMIUM 🍇🔮\n\nUne sélection au profil fruité, profond et gourmand. Purple se distingue par ses notes de fruits violets, sa rondeur sucrée et une identité douce mais bien marquée, pensée pour les amateurs de profils berry et modernes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🍇 Raisin sucré et fruits violets\n🫐 Notes de baies mûres\n🍬 Touche candy légère\n🍦 Fond doux et légèrement crémeux\n🌿 Finition propre et fruitée\n\n👅 Goût :\nEn bouche, Purple développe une attaque fruitée et sucrée, avec une belle présence de raisin et de fruits rouges. Le profil devient ensuite plus rond et gourmand, avec une finale douce, parfumée et légèrement crémeuse. 😮‍💨🔮\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil fruité bien expressif\n☁️ Dégustation douce et aromatique\n🔥 Belle rondeur en bouche\n🔮 Identité purple reconnaissable\n\n🏆 Le verdict :\nUne variété idéale pour ceux qui aiment les profils fruités, sucrés et berry. Purple combine douceur, gourmandise et finition premium dans une sélection très agréable. 🔮🍇🔥",                    
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
        /*  {
           id: "Milk runtz",
           flag: "🇺🇸",
