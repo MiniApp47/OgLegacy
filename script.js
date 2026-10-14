@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Jaune USA 🇺🇸",
       type: "Jaune USA",
       quality: "Jaune USA 🇺🇸",
-      image: "CategJauneUsa.png", // Ton image de catégorie Weed
+      image: "CategJauneUsa.png", // Ton image de catégorie 
 
       products: [
         {
@@ -153,6 +153,23 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         }, */
+         {
+                    id: 'BLUE LOBSTER 🦞💙',
+                    flag: '🇲🇦',
+                    name: 'BLUE LOBSTER 🦞💙',
+                    farm: '🌾 WEST COAST MOUSSE',
+                    promoEligible: true,
+                    type: 'JauneUsa',
+                    image: 'ProductBlueL.png', 
+                    video: 'VideoBlueL.mov',
+                    description: 'Une variété lourde qui mélange parfaitement le côté fruité sucré et le gaz puissant typique des grosses génétiques US 🇺🇸🔥\n Le Blue Lobster en jaune mousseux envoie un profil très riche avec une fumée épaisse et ultra savoureuse 😮‍💨💨\n\n 👃 Profil aromatique :\n Dès l’ouverture, t’as une grosse odeur berry sucrée avec des notes crémeuses et un fond bien gassy ⛽️🫐🍬\n Le tout accompagné d’une petite touche marine/funky typique du Blue Lobster qui lui donne une vraie identité premium.\n\n 👅 Goût :\n En bouche c’est hyper gras et intense 🔥\n Tu sens les fruits bleus sucrés, une crème légère et surtout une finition diesel/gaz qui reste collée au palais longtemps 😵‍💫💨\n Très complexe et très propre à la combustion.\n\n 💥 Effets :\n Défonce lourde et euphorique au début avant de laisser place à une relaxation profonde 🧠💥\n Parfait pour les amateurs de produits qui cognent vraiment fort tout en gardant un goût incroyable.\n⭐️ Texture mousseuse premium\n⭐️ Très gros terps US\n⭐️ Fumée épaisse et savoureuse\n⭐️ Effet puissant et longue durée 🦞🔥',
+                    tarifs: [
+                        { weight: '10G', price: 60.00 },
+                        { weight: '20G', price: 100.00 },
+                        { weight: '50G', price: 220.00 },
+                        { weight: '100G', price: 400.00 },
+                    ]
+                },
         {
                     id: 'White truffle 🍄',
                     flag: '🇺🇸',
@@ -474,23 +491,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     ]
                 }, */
 
-        {
-                    id: 'BLUE LOBSTER 🦞💙',
-                    flag: '🇲🇦',
-                    name: 'BLUE LOBSTER 🦞💙',
-                    farm: '🌾 WEST COAST MOUSSE',
-                    promoEligible: true,
-                    type: 'JauneUsa',
-                    image: 'ProductBlueL.png', 
-                    video: 'VideoBlueL.mov',
-                    description: 'Une variété lourde qui mélange parfaitement le côté fruité sucré et le gaz puissant typique des grosses génétiques US 🇺🇸🔥\n Le Blue Lobster en jaune mousseux envoie un profil très riche avec une fumée épaisse et ultra savoureuse 😮‍💨💨\n\n 👃 Profil aromatique :\n Dès l’ouverture, t’as une grosse odeur berry sucrée avec des notes crémeuses et un fond bien gassy ⛽️🫐🍬\n Le tout accompagné d’une petite touche marine/funky typique du Blue Lobster qui lui donne une vraie identité premium.\n\n 👅 Goût :\n En bouche c’est hyper gras et intense 🔥\n Tu sens les fruits bleus sucrés, une crème légère et surtout une finition diesel/gaz qui reste collée au palais longtemps 😵‍💫💨\n Très complexe et très propre à la combustion.\n\n 💥 Effets :\n Défonce lourde et euphorique au début avant de laisser place à une relaxation profonde 🧠💥\n Parfait pour les amateurs de produits qui cognent vraiment fort tout en gardant un goût incroyable.\n⭐️ Texture mousseuse premium\n⭐️ Très gros terps US\n⭐️ Fumée épaisse et savoureuse\n⭐️ Effet puissant et longue durée 🦞🔥',
-                    tarifs: [
-                        { weight: '10G', price: 60.00 },
-                        { weight: '20G', price: 100.00 },
-                        { weight: '50G', price: 220.00 },
-                        { weight: '100G', price: 400.00 },
-                    ]
-                },/* 
+       /* 
                 {
                     id: 'ORANGE CREAMPOP 🔥💛',
                     flag: '🇲🇦',
@@ -515,7 +516,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "STATIC 🇲🇦",
       type: "DoubleStatic",
       quality: "STATIC 🇲🇦",
-      image: "CategDouble.png", // Ton image de catégorie Weed
+      image: "CategDouble.png", // Ton image de catégorie 
 
       products: [
          {
@@ -1176,6 +1177,40 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategWeed.png", // Ton image de catégorie Weed
 
       products: [
+        {
+                    id: 'La pink',
+                    flag: '🇺🇸',
+                    name: 'La pink 🩷',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductLP.png', 
+                    video: 'VideoLP.mp4',
+                    description:  "🩷🍬 LA PINK — CALI PREMIUM 🍬🩷\n\nUne sélection au profil doux, sucré et très gourmand. La Pink se distingue par une belle rondeur aromatique, des notes fruitées/candy bien présentes et une finition propre qui lui donne une vraie identité premium. 🇺🇸🔥\n\n👃 Profil aromatique :\n🩷 Notes candy sucrées\n🍓 Fruits rouges doux\n🍦 Fond crémeux léger\n🌸 Petite touche florale\n🌿 Finition propre et équilibrée\n\n👅 Goût :\nEn bouche, La Pink développe une attaque douce et fruitée, avec une belle présence sucrée et une rondeur très agréable. Le profil reste propre, gourmand et parfumé, avec une finale douce qui reste bien en bouche. 😮‍💨🩷\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil sucré et expressif\n☁️ Dégustation douce et aromatique\n🔥 Belle rondeur en bouche\n🩷 Identité moderne et gourmande\n\n🏆 Le verdict :\nUne variété parfaite pour ceux qui aiment les profils candy, fruités et crémeux. La Pink combine douceur, gourmandise et finition premium dans une sélection très propre. 🩷🍬🔥",                  
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
+        {
+                    id: 'Kim Tech',
+                    flag: '🇺🇸',
+                    name: 'Kim Tech 🤚',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductKT.png', 
+                    video: 'VideoKT.mp4',
+                    description:   "🤚⛽ KIM TECH — CALI PREMIUM ⛽🤚\n\nUne sélection au profil moderne, aromatique et bien travaillé. Kim Tech se distingue par une belle intensité, un côté légèrement gassy et une rondeur propre qui apporte beaucoup de caractère sans perdre en équilibre. 🇺🇸🔥\n\n👃 Profil aromatique :\n⛽ Notes gassy discrètes\n🍬 Touche candy légère\n🍦 Fond crémeux et rond\n🌿 Nuance végétale propre\n🔥 Finition résineuse élégante\n\n👅 Goût :\nEn bouche, Kim Tech développe une attaque riche et parfumée, avec un mélange de notes sucrées, crémeuses et légèrement gazeuses. Le profil reste propre, long et bien équilibré, avec une finale savoureuse qui marque bien son identité. 😮‍💨🤚\n\n🌿 Qualité & sélection :\n💎 Sélection Cali premium\n✨ Profil moderne et expressif\n☁️ Dégustation dense et parfumée\n🔥 Belle longueur aromatique\n🤚 Produit propre et bien fini\n\n🏆 Le verdict :\nUne variété de caractère, idéale pour ceux qui aiment les profils modernes, légèrement gassy et crémeux. Kim Tech combine intensité aromatique, rondeur et finition premium dans une sélection très solide. 🤚⛽🔥",                    
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
         {
                     id: 'Lemon ad',
                     flag: '🇺🇸',
