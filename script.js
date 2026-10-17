@@ -528,7 +528,7 @@ document.addEventListener("DOMContentLoaded", function () {
   promoEligible: true,
   type: 'STATIC',
   image: 'ProductCYY.jpg',
-  video: 'VideoCY.mp4',
+  video: 'VideoCYY.mp4',
   description:
     "🍋🟡 CALIPPO YELLOW — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée des agrumes ensoleillés et de la fraîcheur des sorbets citronnés. Calippo Yellow évoque un univers aromatique vif, fruité et légèrement gourmand. 🇲🇦✨\n\n👃 Profil aromatique :\n🍋 Citron jaune et zestes frais\n🍬 Nuances de bonbon acidulé\n🍯 Douceur légèrement sucrée\n🌿 Fond végétal discret\n❄️ Impression de fraîcheur citronnée\n\n👅 Signature aromatique :\nUn profil imaginé autour d'une ouverture citronnée, suivie de nuances candy et d'une douceur qui rappelle les desserts glacés aux agrumes. 🍋🧊\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🟡 Identité jaune et citronnée\n\n🏆 Le verdict :\nUne identité fraîche, acidulée et gourmande, dans l'esprit d'un Calippo au citron. 🍋🟡✨",
   tarifs: [
