@@ -527,7 +527,7 @@ document.addEventListener("DOMContentLoaded", function () {
   farm: '🎻 MOZART FARM',
   promoEligible: true,
   type: 'STATIC',
-  image: 'ProductCYY.jpg',
+  image: 'ProductCYYY.jpg',
   video: 'VideoCYY.mp4',
   description:
     "🍋🟡 CALIPPO YELLOW — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée des agrumes ensoleillés et de la fraîcheur des sorbets citronnés. Calippo Yellow évoque un univers aromatique vif, fruité et légèrement gourmand. 🇲🇦✨\n\n👃 Profil aromatique :\n🍋 Citron jaune et zestes frais\n🍬 Nuances de bonbon acidulé\n🍯 Douceur légèrement sucrée\n🌿 Fond végétal discret\n❄️ Impression de fraîcheur citronnée\n\n👅 Signature aromatique :\nUn profil imaginé autour d'une ouverture citronnée, suivie de nuances candy et d'une douceur qui rappelle les desserts glacés aux agrumes. 🍋🧊\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🟡 Identité jaune et citronnée\n\n🏆 Le verdict :\nUne identité fraîche, acidulée et gourmande, dans l'esprit d'un Calippo au citron. 🍋🟡✨",
@@ -537,9 +537,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { weight: '25G', price: 380.00 },
     { weight: '50G', price: 800.00 },
   ]
-},
-  
-                
+},     
 {
   id: 'Orangemandarina',
   flag: '🇲🇦',
@@ -547,7 +545,7 @@ document.addEventListener("DOMContentLoaded", function () {
   farm: '🎻 MOZART FARM',
   promoEligible: true,
   type: 'STATIC',
-  image: 'ProductOMA.jpg',
+  image: 'ProductOMAA.jpg',
   video: 'VideoOMA.mp4',
   description:
     "🍊🌞 ORANGEMANDARINA — MOZART FARM 🎻🧤\n\nUne sélection Static Sift à l'identité résolument fruitée, inspirée de la douceur des mandarines et de la fraîcheur des oranges mûres. Orangemandarina évoque les agrumes méditerranéens dans un univers aromatique lumineux. 🇲🇦✨\n\n👃 Profil aromatique :\n🍊 Mandarine douce et juteuse\n🍋 Zestes d'agrumes\n🍯 Nuances sucrées\n🌸 Légère touche florale\n🌿 Fond végétal discret\n\n👅 Signature aromatique :\nUne association imaginaire d'orange fraîche, de mandarine sucrée et de zestes délicatement acidulés, avec une nuance gourmande en arrière-plan. 🍊🌿\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🌞 Identité fraîche et ensoleillée\n\n🏆 Le verdict :\nUn univers aromatique fruité et lumineux qui met la mandarine à l'honneur. 🍊🌞✨",
@@ -557,9 +555,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { weight: '25G', price: 380.00 },
     { weight: '50G', price: 800.00 },
   ]
-},
-  
-                
+},          
 {
   id: 'Gush mint',
   flag: '🇲🇦',
@@ -567,7 +563,7 @@ document.addEventListener("DOMContentLoaded", function () {
   farm: '🎻 MOZART FARM',
   promoEligible: true,
   type: 'STATIC',
-  image: 'ProductGMT.jpg',
+  image: 'ProductGMTT.jpg',
   video: 'VideoGMT.mp4',
   description:
     "🍃❄️ GUSH MINT — MOZART FARM 🎻🧤\n\nUne sélection Static Sift à l'univers aromatique frais, végétal et crémeux. Gush Mint s'inspire de l'association entre la fraîcheur de la menthe et des notes plus douces, évoquant une gourmandise mentholée. 🇲🇦✨\n\n👃 Profil aromatique :\n🌱 Menthe fraîche\n🍦 Nuances crémeuses et vanillées\n🍬 Douceur sucrée discrète\n🌿 Touches végétales\n❄️ Finition aromatique rafraîchissante\n\n👅 Signature aromatique :\nUn contraste imaginé entre une ouverture mentholée et une douceur crémeuse, presque pâtissière, qui apporte de la rondeur à l'ensemble. 🍃🍦\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n❄️ Identité fraîche et crémeuse\n\n🏆 Le verdict :\nUne identité qui marie fraîcheur végétale et notes gourmandes, autour d'un thème menthe et crème. 🍃❄️✨",
@@ -577,9 +573,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { weight: '25G', price: 380.00 },
     { weight: '50G', price: 800.00 },
   ]
-},
-  
-               
+},             
 {
   id: 'Pineaple',
   flag: '🇲🇦',
@@ -587,7 +581,7 @@ document.addEventListener("DOMContentLoaded", function () {
   farm: '🎻 MOZART FARM',
   promoEligible: true,
   type: 'STATIC',
-  image: 'ProductPE.jpg',
+  image: 'ProductPEE.jpg',
   video: 'VideoPE.mp4',
   description:
     "🍍🌴 PINEAPLE — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée d'un univers tropical, sucré et ensoleillé. Pineaple évoque l'ananas bien mûr, les fruits exotiques et une douceur gourmande qui rappelle les vacances sous les tropiques. 🇲🇦✨\n\n👃 Profil aromatique :\n🍍 Ananas mûr\n🥭 Fruits tropicaux\n🍬 Nuances de bonbon fruité\n🍯 Douceur légèrement miellée\n🌿 Fond végétal discret\n\n👅 Signature aromatique :\nUn profil imaginé autour de l'ananas sucré, accompagné de nuances acidulées et d'une rondeur exotique rappelant les fruits jaunes. 🍍🥭\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🌴 Identité tropicale et fruitée\n\n🏆 Le verdict :\nUne identité exotique et lumineuse, entièrement construite autour de l'ananas et des fruits tropicaux. 🍍🌴✨",
@@ -597,9 +591,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { weight: '25G', price: 380.00 },
     { weight: '50G', price: 800.00 },
   ]
-},
-  
-                
+},      
 {
   id: 'Runtz',
   flag: '🇲🇦',
@@ -607,7 +599,7 @@ document.addEventListener("DOMContentLoaded", function () {
   farm: '🎻 MOZART FARM',
   promoEligible: true,
   type: 'STATIC',
-  image: 'ProductRZ.jpg',
+  image: 'ProductRZZ.jpg',
   video: 'VideoRZ.mp4',
   description:
     "🍬🌈 RUNTZ — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée des univers candy, fruités et colorés. Runtz évoque un mélange de fruits sucrés, de confiseries et de nuances crémeuses dans une identité aromatique moderne. 🇲🇦✨\n\n👃 Profil aromatique :\n🍬 Bonbons aux fruits\n🍇 Raisin et fruits rouges\n🍓 Notes de fraise sucrée\n🍦 Fond légèrement crémeux\n🌸 Nuances florales discrètes\n\n👅 Signature aromatique :\nUn univers imaginé autour des confiseries fruitées, où les baies sucrées rencontrent des nuances douces et crémeuses. 🍬🍇\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🌈 Identité candy et fruitée\n\n🏆 Le verdict :\nUne signature colorée et gourmande qui rappelle les assortiments de bonbons aux fruits. 🍬🌈✨",
@@ -617,9 +609,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { weight: '25G', price: 380.00 },
     { weight: '50G', price: 800.00 },
   ]
-},
-  
-               
+},       
 {
   id: 'Strawberry',
   flag: '🇲🇦',
@@ -627,7 +617,7 @@ document.addEventListener("DOMContentLoaded", function () {
   farm: '🎻 MOZART FARM',
   promoEligible: true,
   type: 'STATIC',
-  image: 'ProductSY.jpg',
+  image: 'ProductSYY.jpg',
   video: 'VideoSY.mp4',
   description:
     "🍓❤️ STRAWBERRY — MOZART FARM 🎻🧤\n\nUne sélection Static Sift à l'identité fruitée et gourmande, inspirée des fraises mûres et des fruits rouges. Strawberry évoque une douceur familière, délicatement sucrée, accompagnée de nuances florales et crémeuses. 🇲🇦✨\n\n👃 Profil aromatique :\n🍓 Fraise bien mûre\n🍒 Fruits rouges\n🍬 Douceur de confiserie\n🌸 Nuances florales\n🍦 Fond légèrement crémeux\n\n👅 Signature aromatique :\nUne composition imaginée autour de la fraise sucrée, relevée par des nuances de baies et une touche crémeuse évoquant les desserts aux fruits rouges. 🍓🍦\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n❤️ Identité fruitée et gourmande\n\n🏆 Le verdict :\nUne signature douce et fruitée inspirée de la fraise, entre fraîcheur des baies et gourmandise pâtissière. 🍓❤️✨",
@@ -637,9 +627,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { weight: '25G', price: 380.00 },
     { weight: '50G', price: 800.00 },
   ]
-},
-  
-               
+},     
 {
   id: 'Lemon Fruit',
   flag: '🇲🇦',
@@ -647,7 +635,7 @@ document.addEventListener("DOMContentLoaded", function () {
   farm: '🎻 MOZART FARM',
   promoEligible: true,
   type: 'STATIC',
-  image: 'ProductLF.jpg',
+  image: 'ProductLFF.jpg',
   video: 'VideoLF.mp4',
   description:
     "🍋🍊 LEMON FRUIT — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée de la fraîcheur du citron et de la douceur des fruits jaunes. Lemon Fruit évoque un univers aromatique vif, ensoleillé et gourmand, mêlant agrumes et nuances fruitées. 🇲🇦✨\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🍊 Orange douce\n🍑 Nuances de fruits jaunes\n🍬 Petite touche candy acidulée\n🌿 Fond végétal discret\n\n👅 Signature aromatique :\nUn mélange imaginé autour d'agrumes frais, d'une pointe d'acidité et d'une rondeur fruitée, évoquant une salade de fruits citronnée. 🍋🍊\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n✨ Identité citronnée et fruitée\n\n🏆 Le verdict :\nUne signature lumineuse qui associe citron, agrumes et fruits jaunes dans un univers frais et gourmand. 🍋🍊✨",
