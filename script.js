@@ -1391,7 +1391,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
           ],
         }, */
-        {
+        /* {
           id: "Perm chimera",
           flag: "🇺🇸",
           name: "🎄 Perm chimera 🎄",
@@ -1408,7 +1408,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
           ],
-        },
+        }, */
        /*  {
           id: "🍰⛽ Cali Gascake ⛽🍰",
           flag: "🇺🇸",
