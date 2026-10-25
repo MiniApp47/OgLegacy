@@ -1323,15 +1323,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     ]
                 }, 
         {
-                    id: 'T.R.U',
+                    id: 'Truffle',
                     flag: '🇺🇸',
-                    name: 'T.R.U ⚜️',
+                    name: 'Truffle ⚜️',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
                     image: 'ProductTR.png', 
                     video: 'VideoTR.mp4',
-                    description:  "⚜️💎 T.R.U — CALI SELECTION 💎⚜️\n\nUne sélection à l'identité élégante, profonde et raffinée. T.R.U évoque un univers aromatique complexe, où les nuances boisées rencontrent une douceur fruitée et des accents légèrement épicés. 🇺🇸✨\n\n👃 Profil aromatique :\n🌲 Notes boisées et végétales\n🍇 Fruits noirs et raisin\n🌶️ Nuances légèrement épicées\n🍯 Fond doux et rond\n🌸 Finition florale subtile\n\n🌈 Signature aromatique :\nUne composition imaginée autour d'une ouverture boisée, accompagnée de touches fruitées et d'une rondeur discrètement sucrée. Un contraste entre caractère et élégance. ⚜️🌿\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers aromatique profond\n🌲 Inspiration boisée\n⚜️ Signature raffinée\n\n🏆 Le verdict :\nUne identité distinguée qui mêle nuances boisées, fruits noirs et douceur aromatique. ⚜️💎✨",                  
+                    description:  "⚜️💎 Truffle — CALI SELECTION 💎⚜️\n\nUne sélection à l'identité élégante, profonde et raffinée. Truffle évoque un univers aromatique complexe, où les nuances boisées rencontrent une douceur fruitée et des accents légèrement épicés. 🇺🇸✨\n\n👃 Profil aromatique :\n🌲 Notes boisées et végétales\n🍇 Fruits noirs et raisin\n🌶️ Nuances légèrement épicées\n🍯 Fond doux et rond\n🌸 Finition florale subtile\n\n🌈 Signature aromatique :\nUne composition imaginée autour d'une ouverture boisée, accompagnée de touches fruitées et d'une rondeur discrètement sucrée. Un contraste entre caractère et élégance. ⚜️🌿\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers aromatique profond\n🌲 Inspiration boisée\n⚜️ Signature raffinée\n\n🏆 Le verdict :\nUne identité distinguée qui mêle nuances boisées, fruits noirs et douceur aromatique. ⚜️💎✨",                  
                     tarifs: [
             { weight: "5g", price: 60.0 },
             { weight: "10g", price: 100.0 },
@@ -1340,15 +1340,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     ]
                 }, 
         {
-                    id: 'LCD',
+                    id: 'Lemon Cherry',
                     flag: '🇺🇸',
-                    name: 'LCD 🌿',
+                    name: 'Lemon Cherry 🌿',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
                     image: 'ProductLCD.png', 
                     video: 'VideoLC.mp4',
-                    description:  "🌿🍬 LCD — CALI SELECTION 🍬🌿\n\nUne sélection à l'univers aromatique moderne, fruité et gourmand. LCD évoque une association de douceur candy, d'agrumes et de nuances crémeuses, pour une identité colorée et harmonieuse. 🇺🇸✨\n\n👃 Profil aromatique :\n🍋 Agrumes doux et zestés\n🍬 Bonbons fruités\n🍦 Nuances crémeuses\n🍒 Fruits rouges sucrés\n🌿 Fond végétal discret\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une ouverture fruitée et citronnée, progressivement accompagnée de notes sucrées et crémeuses. Une inspiration qui rappelle les desserts aux fruits et les confiseries acidulées. 🍬🍋\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers candy et fruité\n🌱 Inspiration végétale\n🍦 Nuances gourmandes\n\n🏆 Le verdict :\nUne signature douce et colorée qui associe fraîcheur des agrumes, fruits rouges et gourmandise crémeuse. 🌿🍬✨",                  
+                    description:  "🌿🍬 Lemon Cherry — CALI SELECTION 🍬🌿\n\nUne sélection à l'univers aromatique moderne, fruité et gourmand. Lemon Cherry évoque une association de douceur candy, d'agrumes et de nuances crémeuses, pour une identité colorée et harmonieuse. 🇺🇸✨\n\n👃 Profil aromatique :\n🍋 Agrumes doux et zestés\n🍬 Bonbons fruités\n🍦 Nuances crémeuses\n🍒 Fruits rouges sucrés\n🌿 Fond végétal discret\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une ouverture fruitée et citronnée, progressivement accompagnée de notes sucrées et crémeuses. Une inspiration qui rappelle les desserts aux fruits et les confiseries acidulées. 🍬🍋\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers candy et fruité\n🌱 Inspiration végétale\n🍦 Nuances gourmandes\n\n🏆 Le verdict :\nUne signature douce et colorée qui associe fraîcheur des agrumes, fruits rouges et gourmandise crémeuse. 🌿🍬✨",                  
                     tarifs: [
             { weight: "5g", price: 60.0 },
             { weight: "10g", price: 100.0 },
@@ -1374,15 +1374,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     ]
                 }, 
         {
-                    id: 'Gubu',
+                    id: 'Gubua',
                     flag: '🇺🇸',
-                    name: 'Gubu 🌻',
+                    name: 'Gubua 🌻',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
                     image: 'ProductGB.png', 
                     video: 'VideoGB.mp4',
-                    description: "🌻🍯 GUBU — CALI SELECTION 🍯🌻\n\nUne sélection à l'identité chaleureuse, végétale et gourmande. Gubu évoque un univers aromatique ensoleillé, inspiré du miel, des fleurs et des fruits jaunes, avec une rondeur douce et naturelle. 🇺🇸✨\n\n👃 Profil aromatique :\n🍯 Notes miellées\n🌻 Nuances florales\n🍑 Fruits jaunes mûrs\n🌰 Fond légèrement gourmand\n🌿 Touches végétales\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une douceur miellée, accompagnée de notes florales et de fruits jaunes. L'ensemble rappelle un jardin ensoleillé et une composition aromatique chaleureuse. 🌻🍯\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers doux et ensoleillé\n🌻 Inspiration florale\n🍑 Signature fruitée\n\n🏆 Le verdict :\nUne identité originale qui associe fleurs, miel et fruits jaunes dans un univers chaleureux et gourmand. 🌻🍯✨",                 
+                    description: "🌻🍯 GUBUA — CALI SELECTION 🍯🌻\n\nUne sélection à l'identité chaleureuse, végétale et gourmande. Gubua évoque un univers aromatique ensoleillé, inspiré du miel, des fleurs et des fruits jaunes, avec une rondeur douce et naturelle. 🇺🇸✨\n\n👃 Profil aromatique :\n🍯 Notes miellées\n🌻 Nuances florales\n🍑 Fruits jaunes mûrs\n🌰 Fond légèrement gourmand\n🌿 Touches végétales\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une douceur miellée, accompagnée de notes florales et de fruits jaunes. L'ensemble rappelle un jardin ensoleillé et une composition aromatique chaleureuse. 🌻🍯\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers doux et ensoleillé\n🌻 Inspiration florale\n🍑 Signature fruitée\n\n🏆 Le verdict :\nUne identité originale qui associe fleurs, miel et fruits jaunes dans un univers chaleureux et gourmand. 🌻🍯✨",                 
                     tarifs: [
             { weight: "5g", price: 60.0 },
             { weight: "10g", price: 100.0 },
