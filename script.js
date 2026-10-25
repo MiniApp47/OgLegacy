@@ -1306,6 +1306,108 @@ document.addEventListener("DOMContentLoaded", function () {
 
       products: [
         {
+                    id: 'Super sow',
+                    flag: '🇺🇸',
+                    name: 'Super sow 💧',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductSO.png', 
+                    video: 'VideoSO.mp4',
+                    description:  "💧🍋 SUPER SOW — CALI SELECTION 🍋💧\n\nUne sélection à l'identité fraîche, acidulée et fruitée. Super Sow évoque un univers aromatique vif, mêlant agrumes, notes végétales et douceur légèrement sucrée. 🇺🇸✨\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🍏 Pomme verte acidulée\n🍬 Petite touche candy\n🌿 Fond végétal et herbacé\n💧 Impression de fraîcheur\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une ouverture citronnée et légèrement acidulée, suivie de nuances fruitées plus douces. L'ensemble rappelle les confiseries aux agrumes et les fruits verts. 🍋🍏\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers frais et fruité\n🌱 Notes végétales naturelles\n💧 Signature acidulée\n\n🏆 Le verdict :\nUne identité vive et rafraîchissante qui associe citron, fruits verts et gourmandise acidulée. 💧🍋✨",                 
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
+        {
+                    id: 'T.R.U',
+                    flag: '🇺🇸',
+                    name: 'T.R.U ⚜️',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductTR.png', 
+                    video: 'VideoTR.mp4',
+                    description:  "⚜️💎 T.R.U — CALI SELECTION 💎⚜️\n\nUne sélection à l'identité élégante, profonde et raffinée. T.R.U évoque un univers aromatique complexe, où les nuances boisées rencontrent une douceur fruitée et des accents légèrement épicés. 🇺🇸✨\n\n👃 Profil aromatique :\n🌲 Notes boisées et végétales\n🍇 Fruits noirs et raisin\n🌶️ Nuances légèrement épicées\n🍯 Fond doux et rond\n🌸 Finition florale subtile\n\n🌈 Signature aromatique :\nUne composition imaginée autour d'une ouverture boisée, accompagnée de touches fruitées et d'une rondeur discrètement sucrée. Un contraste entre caractère et élégance. ⚜️🌿\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers aromatique profond\n🌲 Inspiration boisée\n⚜️ Signature raffinée\n\n🏆 Le verdict :\nUne identité distinguée qui mêle nuances boisées, fruits noirs et douceur aromatique. ⚜️💎✨",                  
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
+        {
+                    id: 'LCD',
+                    flag: '🇺🇸',
+                    name: 'LCD 🌿',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductLCD.png', 
+                    video: 'VideoLC.mp4',
+                    description:  "🌿🍬 LCD — CALI SELECTION 🍬🌿\n\nUne sélection à l'univers aromatique moderne, fruité et gourmand. LCD évoque une association de douceur candy, d'agrumes et de nuances crémeuses, pour une identité colorée et harmonieuse. 🇺🇸✨\n\n👃 Profil aromatique :\n🍋 Agrumes doux et zestés\n🍬 Bonbons fruités\n🍦 Nuances crémeuses\n🍒 Fruits rouges sucrés\n🌿 Fond végétal discret\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une ouverture fruitée et citronnée, progressivement accompagnée de notes sucrées et crémeuses. Une inspiration qui rappelle les desserts aux fruits et les confiseries acidulées. 🍬🍋\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers candy et fruité\n🌱 Inspiration végétale\n🍦 Nuances gourmandes\n\n🏆 Le verdict :\nUne signature douce et colorée qui associe fraîcheur des agrumes, fruits rouges et gourmandise crémeuse. 🌿🍬✨",                  
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
+        {
+                    id: 'BFR',
+                    flag: '🇺🇸',
+                    name: 'BFR 💮',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductBF.png', 
+                    video: 'VideoBF.mp4',
+                    description:  "💮🍓 BFR — CALI SELECTION 🍓💮\n\nUne sélection à l'identité florale, fruitée et délicate. BFR évoque un univers aromatique inspiré des baies rouges et des fleurs fraîches, avec une douceur gourmande et une touche végétale. 🇺🇸✨\n\n👃 Profil aromatique :\n🍓 Fraise et fruits rouges\n🫐 Baies mûres\n💮 Nuances florales\n🍬 Douceur candy\n🌿 Fond végétal discret\n\n🌈 Signature aromatique :\nUne association imaginée autour de fruits rouges sucrés, accompagnés de nuances florales légères. Le contraste entre baies gourmandes et fraîcheur végétale compose une identité délicate. 🍓💮\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers floral et fruité\n🌸 Inspiration botanique\n🍓 Signature fruits rouges\n\n🏆 Le verdict :\nUne identité florale et gourmande qui met à l'honneur les baies, les fleurs et la douceur des fruits rouges. 💮🍓✨",                  
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
+        {
+                    id: 'Gubu',
+                    flag: '🇺🇸',
+                    name: 'Gubu 🌻',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductGB.png', 
+                    video: 'VideoGB.mp4',
+                    description: "🌻🍯 GUBU — CALI SELECTION 🍯🌻\n\nUne sélection à l'identité chaleureuse, végétale et gourmande. Gubu évoque un univers aromatique ensoleillé, inspiré du miel, des fleurs et des fruits jaunes, avec une rondeur douce et naturelle. 🇺🇸✨\n\n👃 Profil aromatique :\n🍯 Notes miellées\n🌻 Nuances florales\n🍑 Fruits jaunes mûrs\n🌰 Fond légèrement gourmand\n🌿 Touches végétales\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une douceur miellée, accompagnée de notes florales et de fruits jaunes. L'ensemble rappelle un jardin ensoleillé et une composition aromatique chaleureuse. 🌻🍯\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers doux et ensoleillé\n🌻 Inspiration florale\n🍑 Signature fruitée\n\n🏆 Le verdict :\nUne identité originale qui associe fleurs, miel et fruits jaunes dans un univers chaleureux et gourmand. 🌻🍯✨",                 
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
+        {
+                    id: 'Bhb',
+                    flag: '🇺🇸',
+                    name: 'Bhb 🎃',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'Weed',
+                    image: 'ProductBH.png', 
+                    video: 'VideoBH.mp4',
+                    description:  "🎃🍪 BHB — CALI SELECTION 🍪🎃\n\nUne sélection à l'identité gourmande, ronde et chaleureuse. BHB évoque un univers aromatique inspiré des desserts épicés, des notes vanillées et d'une douceur légèrement boisée. 🇺🇸✨\n\n👃 Profil aromatique :\n🍪 Notes biscuitées\n🍦 Vanille douce\n🎃 Inspiration pâtissière\n🌰 Fruits à coque\n🌿 Fond végétal et boisé\n\n🌈 Signature aromatique :\nUne composition imaginée autour de nuances biscuitées et vanillées, accompagnées d'une rondeur légèrement épicée. Un univers qui rappelle les pâtisseries d'automne et les desserts gourmands. 🎃🍪\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers dessert et gourmand\n🍦 Inspiration crémeuse\n🌰 Nuances chaleureuses\n\n🏆 Le verdict :\nUne identité chaleureuse et originale, entre biscuit, vanille et nuances boisées, pour un univers aromatique inspiré de l'automne. 🎃🍪✨",                  
+                    tarifs: [
+            { weight: "5g", price: 60.0 },
+            { weight: "10g", price: 100.0 },
+            { weight: "25g", price: 220.0 },
+            { weight: "50g", price: 400.0 },
+                    ]
+                }, 
+        {
                     id: 'La pink',
                     flag: '🇺🇸',
                     name: 'La pink 🩷',
