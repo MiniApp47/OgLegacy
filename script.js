@@ -1308,13 +1308,13 @@ document.addEventListener("DOMContentLoaded", function () {
         {
                     id: 'Super sow',
                     flag: '🇺🇸',
-                    name: 'Super sow 💧',
+                    name: 'Super sour 💧',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
                     image: 'ProductSO.png', 
                     video: 'VideoSO.mp4',
-                    description:  "💧🍋 SUPER SOW — CALI SELECTION 🍋💧\n\nUne sélection à l'identité fraîche, acidulée et fruitée. Super Sow évoque un univers aromatique vif, mêlant agrumes, notes végétales et douceur légèrement sucrée. 🇺🇸✨\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🍏 Pomme verte acidulée\n🍬 Petite touche candy\n🌿 Fond végétal et herbacé\n💧 Impression de fraîcheur\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une ouverture citronnée et légèrement acidulée, suivie de nuances fruitées plus douces. L'ensemble rappelle les confiseries aux agrumes et les fruits verts. 🍋🍏\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers frais et fruité\n🌱 Notes végétales naturelles\n💧 Signature acidulée\n\n🏆 Le verdict :\nUne identité vive et rafraîchissante qui associe citron, fruits verts et gourmandise acidulée. 💧🍋✨",                 
+                    description:  "💧🍋 SUPER SOUR — CALI SELECTION 🍋💧\n\nUne sélection à l'identité fraîche, acidulée et fruitée. Super Sour évoque un univers aromatique vif, mêlant agrumes, notes végétales et douceur légèrement sucrée. 🇺🇸✨\n\n👃 Profil aromatique :\n🍋 Citron frais et zesté\n🍏 Pomme verte acidulée\n🍬 Petite touche candy\n🌿 Fond végétal et herbacé\n💧 Impression de fraîcheur\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une ouverture citronnée et légèrement acidulée, suivie de nuances fruitées plus douces. L'ensemble rappelle les confiseries aux agrumes et les fruits verts. 🍋🍏\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers frais et fruité\n🌱 Notes végétales naturelles\n💧 Signature acidulée\n\n🏆 Le verdict :\nUne identité vive et rafraîchissante qui associe citron, fruits verts et gourmandise acidulée. 💧🍋✨",                 
                     tarifs: [
             { weight: "5g", price: 60.0 },
             { weight: "10g", price: 100.0 },
@@ -1393,13 +1393,13 @@ document.addEventListener("DOMContentLoaded", function () {
         {
                     id: 'Bhb',
                     flag: '🇺🇸',
-                    name: 'Bhb 🎃',
+                    name: 'Bubble Gum 🎃',
                     farm: '🌾 No Farm 🌾',
                     promoEligible: true,
                     type: 'Weed',
                     image: 'ProductBH.png', 
                     video: 'VideoBH.mp4',
-                    description:  "🎃🍪 BHB — CALI SELECTION 🍪🎃\n\nUne sélection à l'identité gourmande, ronde et chaleureuse. BHB évoque un univers aromatique inspiré des desserts épicés, des notes vanillées et d'une douceur légèrement boisée. 🇺🇸✨\n\n👃 Profil aromatique :\n🍪 Notes biscuitées\n🍦 Vanille douce\n🎃 Inspiration pâtissière\n🌰 Fruits à coque\n🌿 Fond végétal et boisé\n\n🌈 Signature aromatique :\nUne composition imaginée autour de nuances biscuitées et vanillées, accompagnées d'une rondeur légèrement épicée. Un univers qui rappelle les pâtisseries d'automne et les desserts gourmands. 🎃🍪\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers dessert et gourmand\n🍦 Inspiration crémeuse\n🌰 Nuances chaleureuses\n\n🏆 Le verdict :\nUne identité chaleureuse et originale, entre biscuit, vanille et nuances boisées, pour un univers aromatique inspiré de l'automne. 🎃🍪✨",                  
+                    description:  "🎃🍪 Bubble Gum — CALI SELECTION 🍪🎃\n\nUne sélection à l'identité gourmande, ronde et chaleureuse. Bubble Gum évoque un univers aromatique inspiré des desserts épicés, des notes vanillées et d'une douceur légèrement boisée. 🇺🇸✨\n\n👃 Profil aromatique :\n🍪 Notes biscuitées\n🍦 Vanille douce\n🎃 Inspiration pâtissière\n🌰 Fruits à coque\n🌿 Fond végétal et boisé\n\n🌈 Signature aromatique :\nUne composition imaginée autour de nuances biscuitées et vanillées, accompagnées d'une rondeur légèrement épicée. Un univers qui rappelle les pâtisseries d'automne et les desserts gourmands. 🎃🍪\n\n🌿 Identité & sélection :\n💎 Collection Cali\n✨ Univers dessert et gourmand\n🍦 Inspiration crémeuse\n🌰 Nuances chaleureuses\n\n🏆 Le verdict :\nUne identité chaleureuse et originale, entre biscuit, vanille et nuances boisées, pour un univers aromatique inspiré de l'automne. 🎃🍪✨",                  
                     tarifs: [
             { weight: "5g", price: 60.0 },
             { weight: "10g", price: 100.0 },
@@ -1547,7 +1547,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
           ],
         }, */
-        {
+        /* {
           id: "Trade",
           flag: "🇺🇸",
           name: "Trade 📊",
@@ -1564,7 +1564,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
           ],
-        },
+        }, */
         /* {
           id: "Lemon chery gelonade",
           flag: "🇺🇸",
@@ -2837,7 +2837,7 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "Categ3X.png", // Ton image de catégorie Weed
 
       products: [
-        {
+       /*  {
           id: "Guava Runtz",
           flag: "🇲🇦",
           name: "Guava Runtz 🍹",
@@ -2855,7 +2855,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 250.0 },
             { weight: "100G", price: 400.0 },
           ],
-        },
+        }, */
         {
           id: "Bruce banner",
           flag: "🇲🇦",
