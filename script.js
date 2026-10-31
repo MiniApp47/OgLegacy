@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function () {
           farm: "👹 MONSTER CALI-MOUSSE 👹",
           promoEligible: true,
           type: "JauneUsa",
-          image: "ProductGe.jpg",
+          image: "ProductGee.jpg",
                     video: "VideoMS.mov",
           description:
             "👹🍦 MONSTER CALI-MOUSSE — GELATO 🍦👹\n\n Une mousse jaune ultra gourmande qui met en avant tout le caractère crémeux et fruité de la célèbre Gelato. Dès l’ouverture, elle dévoile un parfum riche, sucré et moderne, avec une vraie identité Cali. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍦 Crème glacée et vanille douce\n 🍓 Fruits rouges sucrés\n 🍊 Agrumes légèrement acidulés\n 🍬 Notes de bonbon\n ⛽ Fond gazeux discret\n\n 👅 Goût :\n En bouche, l’attaque est douce et crémeuse, accompagnée de saveurs fruitées rappelant les fruits rouges et les agrumes sucrés. La finale devient légèrement gazeuse et laisse un arrière-goût gourmand façon dessert. 😮‍💨🍦\n\n 💛 Texture :\n ☁️ Mousseuse et aérée\n 🤲 Facile à travailler\n ✨ Parfum intense dès l’ouverture\n 🔥 Combustion régulière\n\n 🏆 Le verdict :\n Une Cali-Mousse gourmande et équilibrée, idéale pour les amateurs de profils crémeux, fruités et légèrement gassy. Une valeur sûre signée Monster Cali-Mousse. 👹🍦🔥",
@@ -2388,6 +2388,23 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategFrozen.png", // Ton image de catégorie Weed
 
       products: [
+        {
+          id: "Mandarina",
+          flag: "🇺🇸",
+          name: "Mandarina 🍊",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "FROZEN",
+          image: "ProductMA.jpg",
+          video: "VideoMA.mp4",
+          description:
+            "",
+          tarifs: [
+              { weight: '5G', price: 70.00 },
+              { weight: '10G', price: 120.00 },
+              { weight: '25G', price: 250.00 },
+                  ],
+        },
          {
           id: "Barbara bud",
           flag: "🇺🇸",
@@ -2837,6 +2854,44 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "Categ3X.png", // Ton image de catégorie Weed
 
       products: [
+        {
+          id: "général",
+          flag: "🇲🇦",
+          name: "Général 💂",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductGE.jpg",
+          video: "VideoGE.mp4",
+          description:
+                "",
+          tarifs: [
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 80.0 },
+            { weight: "20G", price: 140.0 },
+            { weight: "50G", price: 250.0 },
+            { weight: "100G", price: 400.0 },
+          ],
+        },
+        {
+          id: "Ghost",
+          flag: "🇲🇦",
+          name: "Ghost 👻",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductGH.jpg",
+          video: "VideoGH.mp4",
+          description:
+                "",
+          tarifs: [
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 80.0 },
+            { weight: "20G", price: 140.0 },
+            { weight: "50G", price: 250.0 },
+            { weight: "100G", price: 400.0 },
+          ],
+        },
        /*  {
           id: "Guava Runtz",
           flag: "🇲🇦",
