@@ -2398,7 +2398,7 @@ document.addEventListener("DOMContentLoaded", function () {
           image: "ProductMA.jpg",
           video: "VideoMA.mp4",
           description:
-            "",
+            "🍊❄️ MANDARINA — FROZEN PREMIUM ❄️🍊\n\nUne sélection Frozen à l'identité fruitée, lumineuse et tropicale. Mandarina évoque toute la fraîcheur des agrumes, avec une belle douceur inspirée des mandarines mûres et des oranges sucrées. 🇺🇸✨\n\n👃 Profil aromatique :\n🍊 Mandarine mûre et juteuse\n🍋 Zestes d'agrumes frais\n🍬 Nuances candy fruitées\n🍯 Fond légèrement miellé\n🌸 Petite touche florale\n\n🌈 Signature aromatique :\nUne composition imaginée autour d'une ouverture vive et citronnée, suivie d'une douceur fruitée rappelant la mandarine fraîche. Les nuances sucrées et florales apportent une identité ensoleillée et gourmande. 🍊🌞\n\n❄️ Texture & présentation :\n💎 Sélection Frozen\n🧊 Univers frais et fruité\n🍊 Inspiration agrumes\n✨ Identité tropicale et lumineuse\n\n🏆 Le verdict :\nUne signature ensoleillée qui met la mandarine à l'honneur. Entre agrumes frais, douceur fruitée et nuances gourmandes, Mandarina affiche une identité pleine de fraîcheur. 🍊❄️🔥",
           tarifs: [
               { weight: '5G', price: 70.00 },
               { weight: '10G', price: 120.00 },
@@ -2864,7 +2864,7 @@ document.addEventListener("DOMContentLoaded", function () {
           image: "ProductGE.jpg",
           video: "VideoGE.mp4",
           description:
-                "",
+                "💂👑 GÉNÉRAL — 3X FILTRE PREMIUM 👑💂\n\nUne sélection 3X Filtre à l'identité affirmée, classique et raffinée. Général évoque un univers aromatique profond, mêlant notes résineuses, douceur gourmande et touches boisées. Une signature inspirée du savoir-faire marocain. 🇲🇦✨\n\n👃 Profil aromatique :\n🍯 Notes douces et miellées\n🌰 Touches de noisette grillée\n🌿 Fond végétal et résineux\n🍫 Nuances chocolatées\n🪵 Finition boisée et terreuse\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une ouverture douce et gourmande, accompagnée de nuances boisées et légèrement épicées. L'ensemble évoque une identité traditionnelle, profonde et équilibrée. 💂🌿\n\n✨ Texture & présentation :\n💎 Sélection 3X Filtre\n🤲 Univers résineux et authentique\n🇲🇦 Inspiration marocaine\n👑 Identité classique et élégante\n\n🏆 Le verdict :\nUne signature de caractère, entre douceur miellée, notes boisées et profondeur résineuse. Général porte une identité sobre, authentique et distinguée. 💂👑🔥",
           tarifs: [
             { weight: "5G", price: 50.0 },
             { weight: "10G", price: 80.0 },
@@ -2883,7 +2883,26 @@ document.addEventListener("DOMContentLoaded", function () {
           image: "ProductGH.jpg",
           video: "VideoGH.mp4",
           description:
-                "",
+                "👻❄️ GHOST — 3X FILTRE PREMIUM ❄️👻\n\nUne sélection 3X Filtre à l'identité mystérieuse, fraîche et aromatique. Ghost s'inspire d'un univers subtil, où des notes végétales rencontrent une douceur crémeuse et une pointe d'agrumes. 🇲🇦✨\n\n👃 Profil aromatique :\n🌬️ Impression de fraîcheur\n🍋 Notes citronnées légères\n🌿 Nuances végétales\n🍦 Fond doux et crémeux\n🌲 Touches boisées discrètes\n\n🌈 Signature aromatique :\nUne composition imaginée autour d'une ouverture fraîche et citronnée, suivie de notes plus rondes et légèrement crémeuses. Une identité qui joue sur le contraste entre fraîcheur et profondeur. 👻❄️\n\n✨ Texture & présentation :\n💎 Sélection 3X Filtre\n🤲 Inspiration résineuse\n🇲🇦 Collection d'origine marocaine\n🌫️ Univers mystérieux et raffiné\n\n🏆 Le verdict :\nUne signature originale qui associe fraîcheur citronnée, douceur crémeuse et nuances végétales. Ghost se distingue par son identité discrète et mystérieuse. 👻❄️✨",
+          tarifs: [
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 80.0 },
+            { weight: "20G", price: 140.0 },
+            { weight: "50G", price: 250.0 },
+            { weight: "100G", price: 400.0 },
+          ],
+        },
+         {
+          id: "Bruce banner",
+          flag: "🇲🇦",
+          name: "Bruce Banner 🎗",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductBR.jpg",
+          video: "VideoBR.mp4",
+          description:
+                "💚🎗 BRUCE BANNER — 3X FILTRE PREMIUM 🎗💚\n\nUne sélection 3X Filtre à l'univers aromatique expressif, fruité et végétal. Bruce Banner évoque une association de fruits rouges, d'agrumes et de notes terreuses, avec une identité inspirée des profils modernes. 🇲🇦✨\n\n👃 Profil aromatique :\n🍓 Fraise et fruits rouges\n🍋 Agrumes légèrement acidulés\n🌿 Notes végétales fraîches\n🍯 Fond doux et sucré\n🪵 Nuances terreuses et boisées\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une ouverture fruitée et acidulée, progressivement accompagnée de nuances végétales et terreuses. Le contraste entre les fruits rouges et les notes plus profondes lui donne une identité bien particulière. 🍓🌿\n\n✨ Texture & présentation :\n💎 Sélection 3X Filtre\n🤲 Univers résineux et fruité\n🇲🇦 Inspiration marocaine\n💚 Identité végétale et moderne\n\n🏆 Le verdict :\nUne signature aromatique originale, entre fruits rouges, agrumes et nuances terreuses. Bruce Banner évoque un mélange de fraîcheur, de gourmandise et de caractère. 💚🎗🔥",
           tarifs: [
             { weight: "5G", price: 50.0 },
             { weight: "10G", price: 80.0 },
@@ -2911,25 +2930,6 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100G", price: 400.0 },
           ],
         }, */
-        {
-          id: "Bruce banner",
-          flag: "🇲🇦",
-          name: "Bruce Banner 🎗",
-          farm: "🌾 No Farm 🌾",
-          promoEligible: true,
-          type: "3xFiltre",
-          image: "ProductBR.jpg",
-          video: "VideoBR.mp4",
-          description:
-                "",
-          tarifs: [
-            { weight: "5G", price: 50.0 },
-            { weight: "10G", price: 80.0 },
-            { weight: "20G", price: 140.0 },
-            { weight: "50G", price: 250.0 },
-            { weight: "100G", price: 400.0 },
-          ],
-        },
        /*  {
           id: "mango sherbet",
           flag: "🇲🇦",
