@@ -2415,7 +2415,7 @@ document.addEventListener("DOMContentLoaded", function () {
           image: "ProductBB.jpg",
           video: "VideoBB.mp4",
           description:
-            "",
+            "🎂🍓 BARBARA BUD — FROZEN PREMIUM 🍓🎂\n\nUne sélection Frozen à l'identité fruitée, gourmande et raffinée. Barbara Bud évoque un univers aromatique inspiré des desserts aux fruits, mêlant douceur pâtissière, notes tropicales et nuances crémeuses. Une signature originale aux inspirations Cali. 🇺🇸❄️✨\n\n👃 Profil aromatique :\n🍓 Notes de fraise et fruits rouges\n🍑 Pêche mûre et fruits jaunes\n🎂 Douceur de gâteau sucré\n🍦 Nuances crémeuses et vanillées\n🍬 Fond candy légèrement acidulé\n🌿 Petite touche végétale\n\n🌈 Signature aromatique :\nUn profil imaginé autour d'une ouverture fruitée, associant fraise, pêche et fruits tropicaux. Des nuances pâtissières et crémeuses viennent compléter cette composition, rappelant un dessert aux fruits frais et à la vanille. 🍓🍰\n\n❄️ Texture & présentation :\n💎 Sélection Frozen\n🧊 Univers fruité et gourmand\n🍦 Inspiration crémeuse et pâtissière\n🌈 Identité aromatique tropicale\n✨ Signature élégante et moderne\n\n🏆 Le verdict :\nUne identité gourmande qui marie fruits rouges, douceur crémeuse et inspirations pâtissières. Barbara Bud évoque un véritable dessert fruité dans l'univers Frozen. 🎂🍓❄️🔥",
           tarifs: [
               { weight: '5G', price: 70.00 },
               { weight: '10G', price: 120.00 },
