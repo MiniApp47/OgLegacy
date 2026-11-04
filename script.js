@@ -2892,7 +2892,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100G", price: 400.0 },
           ],
         },
-         {
+         /* {
           id: "Bruce banner",
           flag: "🇲🇦",
           name: "Bruce Banner 🎗",
@@ -2910,7 +2910,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 250.0 },
             { weight: "100G", price: 400.0 },
           ],
-        },
+        }, */
        /*  {
           id: "Guava Runtz",
           flag: "🇲🇦",
@@ -2949,7 +2949,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100G", price: 400.0 },
           ],
         }, */
-        {
+       /*  {
           id: "SPRITZER 🍸",
           flag: "🇲🇦",
           name: "SPRITZER 🍸",
@@ -2967,7 +2967,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 250.0 },
             { weight: "100G", price: 400.0 },
           ],
-        },
+        }, */
         {
           id: "Forbiden 🧤",
           flag: "🇲🇦",
