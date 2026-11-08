@@ -2420,7 +2420,7 @@ document.addEventListener("DOMContentLoaded", function () {
               { weight: '25G', price: 250.00 },
                   ],
         },
-         {
+         /* {
           id: "Barbara bud",
           flag: "🇺🇸",
           name: "Barbara bud 🎂",
@@ -2436,7 +2436,7 @@ document.addEventListener("DOMContentLoaded", function () {
               { weight: '10G', price: 120.00 },
               { weight: '25G', price: 250.00 },
                   ],
-        },
+        }, */
          {
           id: "Champaya",
           flag: "🇺🇸",
