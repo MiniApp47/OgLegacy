@@ -1422,7 +1422,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
                     ]
                 }, 
-        {
+       /*  {
                     id: 'La pink',
                     flag: '🇺🇸',
                     name: 'La pink 🩷',
@@ -1438,7 +1438,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
                     ]
-                }, 
+                },  */
         {
                     id: 'Kim Tech',
                     flag: '🇺🇸',
