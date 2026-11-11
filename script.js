@@ -112,7 +112,61 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategJauneUsa.png", // Ton image de catégorie 
 
       products: [
-        {
+          {
+          id: "White truffle 🍄",
+          flag: "🇺🇸",
+          name: "White truffle 🍄",
+          farm: "🌾 WEST COAST MOUSSE",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductWT.jpg",
+          video: "VideoWT.mp4",
+          description:
+            "🍄🤍 WHITE TRUFFLE — WEST COAST MOUSSE 🤍🍄\n\n Une mousse premium au profil profond, crémeux et raffiné. White Truffle se distingue par son mélange de notes terreuses, boisées et légèrement gazeuses, accompagné d’une douceur gourmande qui apporte beaucoup de rondeur à l’ensemble. 🇺🇸🔥\n\n 👃 Profil aromatique :\n 🍄 Notes terreuses et boisées\n 🌰 Noisette et fruits à coque\n 🍦 Fond crémeux et vanillé\n 🌿 Légère touche végétale\n ⛽ Finition gazeuse discrète\n\n 👅 Goût :\n En bouche, l’attaque est ronde et crémeuse, avec des saveurs de noisette grillée et de sous-bois. Une douceur légèrement vanillée apparaît ensuite, avant de laisser place à une finale plus profonde, terreuse et gassy qui reste longtemps sur le palais. 😮‍💨🍄\n\n 💛 Texture & qualité :\n ☁️ Mousseuse et homogène\n 🤲 Souple et facile à travailler\n ✨ Profil aromatique riche\n 🔥 Fumée dense et savoureuse\n 💎 Finition premium West Coast\n\n 🏆 Le verdict :\n White Truffle est une sélection élégante et pleine de caractère, idéale pour les amateurs de profils crémeux, terreux et légèrement gazeux. Une mousse raffinée qui change des saveurs fruitées classiques. 🍄🤍⛽🔥",
+          tarifs: [
+            { weight: "9G", price: 50.0 },
+            { weight: "25G", price: 120.0 },
+            { weight: "50G", price: 200.0 },
+            { weight: "100G", price: 350.0 },
+          ],
+        },
+         {
+          id: "BISCOTTI 🍪",
+          flag: "🇺🇸",
+          name: "BISCOTTI 🍪",
+          farm: "🌾 WEST COAST MOUSSE",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductBisco.jpg",
+          video: "VideoBisco.mp4",
+          description:
+            "🍪🔥 BISCOTTI — WEST COAST MOUSSE 🔥🍪\n\n Une mousse gourmande inspirée des meilleurs profils dessert américains. Biscotti développe un mélange riche de biscuit sucré, de crème vanillée et de notes légèrement épicées, accompagné d’un fond kush et gazeux qui lui apporte beaucoup de caractère. 🇺🇸💎\n\n 👃 Profil aromatique :\n 🍪 Biscuit chaud et pâte sucrée\n 🍦 Vanille et crème douce\n 🌰 Amande et noisette grillée\n 🌶️ Légères notes épicées\n ⛽ Fond kush et gazeux\n\n 👅 Goût :\n En bouche, l’attaque rappelle un biscuit tout juste sorti du four, avec des notes de vanille, de caramel et de fruits à coque. Le profil devient ensuite plus profond et légèrement épicé, avant une finale kush et gassy qui reste longtemps sur le palais. 😮‍💨🍪\n\n 💛 Texture & qualité :\n ☁️ Mousseuse et souple\n 🤲 Facile à effriter\n ✨ Profil gourmand très marqué\n 🔥 Fumée dense et crémeuse\n 💎 Finition premium West Coast\n\n 🏆 Le verdict :\n Biscotti est une valeur sûre pour les amateurs de profils pâtissiers, crémeux et gazeux. Une mousse riche et réconfortante avec une véritable identité Cali dessert. 🍪🍦⛽🔥",
+          tarifs: [
+            { weight: "9G", price: 50.0 },
+            { weight: "25G", price: 120.0 },
+            { weight: "50G", price: 200.0 },
+            { weight: "100G", price: 350.0 },
+          ],
+        },  
+         {
+          id: "Candy Crush 🍭",
+          flag: "🇺🇸",
+          name: "Candy Crush 🍭",
+          farm: "🌾 WEST COAST MOUSSE",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductUsa3.jpg",
+          video: "VideoCCH.mp4",
+          description:
+            "🇺🇸 DRY SIFT PREMIUM • UPGRADE AROMATIQUE & PUISSANCE 🇺🇸 \n\n Le Mousseux Made in Los Angeles monte en gamme. Ce nouveau batch bénéficie d'une technique \"Dry Sift\" optimisée : le goût Cali est beaucoup plus prononcé et la défonce frappe nettement plus fort que l'ancienne version. \n\n  🍭 Candy Land : Euphorie percutante, profil ultra-sucré candy. \n\n 🍯 Texture : Jaune mousseux d’exception qui s'effrite tout seul. Une frappe exclusive introuvable ailleurs. 🥵😱🍫",
+          tarifs: [
+            { weight: "9G", price: 50.0 },
+            { weight: "25G", price: 120.0 },
+            { weight: "50G", price: 200.0 },
+            { weight: "100G", price: 350.0 },
+          ],
+        },
+      /*   {
           id: "Papaya",
           flag: "🇺🇸",
           name: "PAPAYA 🥭",
@@ -132,7 +186,7 @@ document.addEventListener("DOMContentLoaded", function () {
               price: 350.0,
             },
           ],
-        },
+        }, */
        /*  {
           id: "RUNTZ",
           flag: "🇺🇸",
@@ -153,7 +207,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         }, */
-         {
+       /*   {
                     id: 'BLUE LOBSTER 🦞💙',
                     flag: '🇺🇸',
                     name: 'BLUE LOBSTER 🦞💙',
@@ -169,7 +223,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '50G', price: 220.00 },
                         { weight: '100G', price: 400.00 },
                     ]
-                },
+                }, */
        /*  {
                     id: 'White truffle 🍄',
                     flag: '🇺🇸',
@@ -204,7 +258,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '100G', price: 400.00 },
                     ]
                 }, */
-         {
+         /* {
           id: "BISCOTTI 🍪",
           flag: "🇺🇸",
           name: "BISCOTTI 🍪",
@@ -239,7 +293,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 220.0 },
             { weight: "100G", price: 400.0 },
           ],
-        }, 
+        },  */
           /* {
                     id: 'ORANGE CREAMPOP 🔥💛',
                     flag: '🇺🇸',
@@ -274,7 +328,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100G", price: 350.0 },
           ],
         }, */
-        {
+       /*  {
           id: "GELATO",
           flag: "🇺🇸",
           name: "GELATO 🍦",
@@ -294,7 +348,7 @@ document.addEventListener("DOMContentLoaded", function () {
               price: 350.0,
             },
           ],
-        },
+        }, */
         /* {
           id: "CHERRY PIE",
           flag: "🇺🇸",
@@ -316,7 +370,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         }, */
-        {
+        /* {
           id: "TROPICANA CHERRY",
           flag: "🇺🇸",
           name: "TROPICANA CHERRY 🍒",
@@ -357,7 +411,7 @@ document.addEventListener("DOMContentLoaded", function () {
               price: 350.0,
             },
           ],
-        },
+        }, */
        /*  {
           id: "RS11",
           flag: "🇺🇸",
@@ -519,6 +573,133 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategDouble.png", // Ton image de catégorie 
 
       products: [
+                        
+{
+  id: 'Orangemandarina',
+  flag: '🇲🇦',
+  name: 'Orangemandarina 🍊🌞',
+  farm: '🎻 MOZART FARM',
+  promoEligible: true,
+  type: 'STATIC',
+  image: 'ProductOMAA.jpg',
+  video: 'VideoOMA.mp4',
+  description:
+    "🍊🌞 ORANGEMANDARINA — MOZART FARM 🎻🧤\n\nUne sélection Static Sift à l'identité résolument fruitée, inspirée de la douceur des mandarines et de la fraîcheur des oranges mûres. Orangemandarina évoque les agrumes méditerranéens dans un univers aromatique lumineux. 🇲🇦✨\n\n👃 Profil aromatique :\n🍊 Mandarine douce et juteuse\n🍋 Zestes d'agrumes\n🍯 Nuances sucrées\n🌸 Légère touche florale\n🌿 Fond végétal discret\n\n👅 Signature aromatique :\nUne association imaginaire d'orange fraîche, de mandarine sucrée et de zestes délicatement acidulés, avec une nuance gourmande en arrière-plan. 🍊🌿\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🌞 Identité fraîche et ensoleillée\n\n🏆 Le verdict :\nUn univers aromatique fruité et lumineux qui met la mandarine à l'honneur. 🍊🌞✨",
+  tarifs: [
+    { weight: '3G', price: 50.00 },
+    { weight: '10G', price: 140.00 },
+    { weight: '25G', price: 250.00 },
+    { weight: '50G', price: 450.00 },
+  ]
+},          
+{
+  id: 'Gush mint',
+  flag: '🇲🇦',
+  name: 'Gush Mint 🍃❄️',
+  farm: '🎻 MOZART FARM',
+  promoEligible: true,
+  type: 'STATIC',
+  image: 'ProductGMTT.jpg',
+  video: 'VideoGMT.mp4',
+  description:
+    "🍃❄️ GUSH MINT — MOZART FARM 🎻🧤\n\nUne sélection Static Sift à l'univers aromatique frais, végétal et crémeux. Gush Mint s'inspire de l'association entre la fraîcheur de la menthe et des notes plus douces, évoquant une gourmandise mentholée. 🇲🇦✨\n\n👃 Profil aromatique :\n🌱 Menthe fraîche\n🍦 Nuances crémeuses et vanillées\n🍬 Douceur sucrée discrète\n🌿 Touches végétales\n❄️ Finition aromatique rafraîchissante\n\n👅 Signature aromatique :\nUn contraste imaginé entre une ouverture mentholée et une douceur crémeuse, presque pâtissière, qui apporte de la rondeur à l'ensemble. 🍃🍦\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n❄️ Identité fraîche et crémeuse\n\n🏆 Le verdict :\nUne identité qui marie fraîcheur végétale et notes gourmandes, autour d'un thème menthe et crème. 🍃❄️✨",
+  tarifs: [
+    { weight: '3G', price: 50.00 },
+    { weight: '10G', price: 140.00 },
+    { weight: '25G', price: 250.00 },
+    { weight: '50G', price: 450.00 },
+  ]
+},             
+{
+  id: 'Pineaple',
+  flag: '🇲🇦',
+  name: 'Pineaple 🍍🌴',
+  farm: '🎻 MOZART FARM',
+  promoEligible: true,
+  type: 'STATIC',
+  image: 'ProductPEE.jpg',
+  video: 'VideoPE.mp4',
+  description:
+    "🍍🌴 PINEAPLE — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée d'un univers tropical, sucré et ensoleillé. Pineaple évoque l'ananas bien mûr, les fruits exotiques et une douceur gourmande qui rappelle les vacances sous les tropiques. 🇲🇦✨\n\n👃 Profil aromatique :\n🍍 Ananas mûr\n🥭 Fruits tropicaux\n🍬 Nuances de bonbon fruité\n🍯 Douceur légèrement miellée\n🌿 Fond végétal discret\n\n👅 Signature aromatique :\nUn profil imaginé autour de l'ananas sucré, accompagné de nuances acidulées et d'une rondeur exotique rappelant les fruits jaunes. 🍍🥭\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🌴 Identité tropicale et fruitée\n\n🏆 Le verdict :\nUne identité exotique et lumineuse, entièrement construite autour de l'ananas et des fruits tropicaux. 🍍🌴✨",
+  tarifs: [
+    { weight: '3G', price: 50.00 },
+    { weight: '10G', price: 140.00 },
+    { weight: '25G', price: 250.00 },
+    { weight: '50G', price: 450.00 },
+  ]
+},   
+               
+{
+  id: 'Strawberry',
+  flag: '🇲🇦',
+  name: 'Strawberry 🍓❤️',
+  farm: '🎻 MOZART FARM',
+  promoEligible: true,
+  type: 'STATIC',
+  image: 'ProductSYY.jpg',
+  video: 'VideoSY.mp4',
+  description:
+    "🍓❤️ STRAWBERRY — MOZART FARM 🎻🧤\n\nUne sélection Static Sift à l'identité fruitée et gourmande, inspirée des fraises mûres et des fruits rouges. Strawberry évoque une douceur familière, délicatement sucrée, accompagnée de nuances florales et crémeuses. 🇲🇦✨\n\n👃 Profil aromatique :\n🍓 Fraise bien mûre\n🍒 Fruits rouges\n🍬 Douceur de confiserie\n🌸 Nuances florales\n🍦 Fond légèrement crémeux\n\n👅 Signature aromatique :\nUne composition imaginée autour de la fraise sucrée, relevée par des nuances de baies et une touche crémeuse évoquant les desserts aux fruits rouges. 🍓🍦\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n❤️ Identité fruitée et gourmande\n\n🏆 Le verdict :\nUne signature douce et fruitée inspirée de la fraise, entre fraîcheur des baies et gourmandise pâtissière. 🍓❤️✨",
+  tarifs: [
+            { weight: "3G", price: 50.0 },
+            { weight: "10G", price: 140.0 },
+            { weight: "25G", price: 250.0 },
+            { weight: "50G", price: 450.0 },
+  ]
+},
+         {
+                    id: 'OLIVE 🫒',
+                    flag: '🇲🇦',
+                    name: 'OLIVE 🫒',
+                    farm: "🌾 No Farm 🌾",
+                    promoEligible: true,
+                    type: 'STATIC',
+                    image: 'ProductO.png', 
+                    video: 'VideoO.mp4',
+                    description: "🫒🧤 OLIVE — STATIC PREMIUM 🧤🫒\n\nUne sélection Static au format original, propre et bien travaillé. Olive se distingue par une texture soignée, une belle richesse aromatique et un profil rond, résineux et gourmand, pensé pour les amateurs de sélections premium qui sortent du lot. 🇲🇦🔥\n\n👃 Profil aromatique :\n🫒 Notes végétales propres et profondes\n🍯 Douceur légèrement miellée\n🌰 Touches rondes et gourmandes\n🌿 Fond résineux naturel\n🔥 Finition élégante et persistante\n\n👅 Goût :\nEn bouche, Olive développe une attaque douce et aromatique, avec une belle rondeur dès les premières notes. Le profil devient ensuite plus résineux et profond, avec une finale propre, longue et agréable. 😮‍💨🫒\n\n🧤 Texture & qualité :\n💎 Static soigneusement travaillé\n🤲 Format olive original et premium\n🌈 Belle conservation des arômes\n☁️ Dégustation dense et savoureuse\n🔥 Profil propre, rond et régulier\n\n🏆 Le verdict :\nUne Static originale et pleine de caractère, parfaite pour ceux qui aiment les formats premium et les profils résineux bien équilibrés. Olive combine présentation, qualité et belle intensité aromatique dans une sélection très propre. 🫒🧤🔥",
+                    tarifs: [
+                        { weight: '1 olive', price: 110.00 },
+                    ]
+                },
+    
+         {
+          id: "Plasma static",
+          flag: "🇺🇸",
+          name: "🔮 Plasma static 🔮",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "STATIC",
+          image: "ProductPPS.png",
+          video: "VideoPPS.mov",
+          description:   "🔮🧤 PLASMA STATIC — STATIC SIFT PREMIUM 🧤🔮\n\nUne sélection Static au profil profond, brillant et très aromatique. Plasma Static se distingue par son caractère résineux, sa texture travaillée et une identité premium pensée pour les amateurs de produits propres et puissants en arômes. 🇺🇸🔥\n\n👃 Profil aromatique :\n🔮 Notes résineuses intenses\n🍬 Touche sucrée légèrement candy\n⛽ Fond gassy bien présent\n🌿 Nuances végétales propres\n🔥 Finition profonde et persistante\n\n👅 Goût :\nEn bouche, Plasma Static développe une attaque riche et aromatique, avec un mélange de notes sucrées, gazeuses et résineuses. La dégustation reste longue, propre et bien équilibrée, avec une finale marquée qui donne une vraie impression premium. 😮‍💨🔮\n\n🧤 Texture & qualité :\n💎 Static Sift soigneusement travaillé\n🤲 Texture premium agréable à manipuler\n🌈 Belle conservation des terpènes\n☁️ Fumée dense et savoureuse\n🔥 Profil propre, intense et régulier\n\n🏆 Le verdict :\nUne Static élégante et pleine de caractère, idéale pour ceux qui aiment les profils résineux, gassy et bien travaillés. Plasma Static combine intensité, propreté et finition haut de gamme dans une sélection très solide. 🔮🧤🔥",
+          tarifs: [
+            { weight: "3G", price: 50.0 },
+            { weight: "10G", price: 140.0 },
+            { weight: "25G", price: 250.0 },
+            { weight: "50G", price: 450.0 },
+          ],
+        },
+        {
+          id: "La Bomba x Spriter 💣",
+          flag: "🇺🇸",
+          name: "La Bomba x Spriter 💣",
+          farm: "🌟 By Secret House Smoke Farm 🌟",
+          promoEligible: true,
+          type: "STATIC",
+          image: "ProductKBS.jpg",
+          video: "VideoKBS.mp4",
+          description:
+              "💣🧤 LA BOMBA x SPRITER — STATIC SIFT 🧤💣\n\nUne sélection Static au profil explosif, aromatique et ultra travaillé. La Bomba x Spriter mélange une base puissante et résineuse avec une touche fruitée, gazeuse et légèrement sucrée qui lui donne une vraie identité premium. 🇺🇸🔥\n\n👃 Profil aromatique :\n💣 Notes puissantes et résineuses\n🍬 Touche candy légèrement sucrée\n🍋 Agrumes frais et zestés\n⛽ Fond gassy bien présent\n🌿 Finition végétale propre\n\n👅 Goût :\nEn bouche, La Bomba x Spriter développe une attaque intense, avec un mélange de notes fruitées, gazeuses et résineuses. Le profil reste riche et long en bouche, avec une finale propre, lourde et très aromatique. 😮‍💨💣\n\n🧤 Texture & qualité :\n💎 Static Sift soigneusement travaillé\n🤲 Texture premium et agréable à manipuler\n🌈 Belle conservation des terpènes\n☁️ Fumée dense et savoureuse\n🔥 Profil puissant et bien équilibré\n\n🏆 Le verdict :\nUne Static de caractère, pensée pour les amateurs de profils forts, gassy et fruités. La Bomba x Spriter combine intensité, gourmandise et finition premium dans une sélection qui porte bien son nom. 💣🧤🔥",
+          tarifs: [
+            { weight: "3G", price: 50.0 },
+            { weight: "10G", price: 140.0 },
+            { weight: "25G", price: 250.0 },
+            { weight: "50G", price: 450.0 },
+          ],
+        },
+        
+        
+        /* 
             {
   id: 'Olive Double Static 🫒',
   flag: '🇲🇦',
@@ -675,7 +856,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     tarifs: [
                         { weight: '1 olive', price: 120.00 },
                     ]
-                },
+                }, */
         /*  {
                     id: '🍉❄️ WATERMELON',
                     flag: '🇲🇦',
@@ -1354,7 +1535,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
                     ]
                 }, 
-        {
+        /* {
                     id: 'Lemon Cherry',
                     flag: '🇺🇸',
                     name: 'Lemon Cherry 🌿',
@@ -1370,7 +1551,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
                     ]
-                }, 
+                },  */
         {
                     id: 'BFR',
                     flag: '🇺🇸',
@@ -1388,7 +1569,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
                     ]
                 }, 
-        {
+      /*   {
                     id: 'Gubua',
                     flag: '🇺🇸',
                     name: 'Gubua 🌻',
@@ -1404,7 +1585,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
                     ]
-                }, 
+                },  */
         {
                     id: 'Bhb',
                     flag: '🇺🇸',
@@ -1422,7 +1603,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
                     ]
                 }, 
-       /*  {
+        {
                     id: 'La pink',
                     flag: '🇺🇸',
                     name: 'La pink 🩷',
@@ -1438,7 +1619,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
                     ]
-                },  */
+                }, 
         {
                     id: 'Kim Tech',
                     flag: '🇺🇸',
@@ -1456,7 +1637,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
                     ]
                 }, 
-        {
+        /* {
                     id: 'Lemon ad',
                     flag: '🇺🇸',
                     name: 'Lemon ad 🍋',
@@ -1489,7 +1670,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
                     ]
-                }, 
+                },  */
        /*  {
           id: "Milk runtz",
           flag: "🇺🇸",
@@ -1598,7 +1779,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50g", price: 400.0 },
           ],
         }, */
-        {
+       /*  {
           id: "Blueberry 🌀",
           flag: "🇺🇸",
           name: "Blueberry 🌀",
@@ -1615,7 +1796,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "25g", price: 220.0 },
             { weight: "50g", price: 400.0 },
           ],
-        },
+        }, */
        /*  {
           id: "PermanentMarker 🖍️",
           flag: "🇺🇸",
@@ -2420,6 +2601,21 @@ document.addEventListener("DOMContentLoaded", function () {
               { weight: '25G', price: 250.00 },
                   ],
         },
+         {
+                    id: 'OLIVE',
+                    flag: '🇲🇦',
+                    name: '🍫 OLIVE 🍯🫒',
+                    farm: '🌾 No Farm 🌾',
+                    promoEligible: true,
+                    type: 'FROZEN',
+          image: "ProductOLL.png",
+          video: "VideoOL.mp4",
+                    description:
+                          "🫒🍯 OLIVE — FROZEN PREMIUM 🍯🫒\n\nUne sélection Frozen originale et gourmande, pensée pour les amateurs de résines riches, fondantes et pleines de caractère. Olive se distingue par son format atypique, sa texture travaillée et son profil aromatique profond, mêlant douceur sucrée, notes résineuses et belle rondeur en bouche. 🇲🇦🔥\n\n👃 Profil aromatique :\n🍫 Notes chocolatées et gourmandes\n🍯 Douceur miellée\n🌰 Touches de fruits à coque\n🌿 Fond végétal et résineux\n🔥 Légère finition terreuse élégante\n\n👅 Goût :\nEn bouche, Olive développe une attaque douce et gourmande, portée par des notes chocolatées et une rondeur sucrée très agréable. Le profil évolue ensuite vers quelque chose de plus résineux et légèrement terreux, avec une finale propre, riche et persistante. 😮‍💨🫒\n\n❄️ Texture & qualité :\n💎 Frozen soigneusement travaillé\n🤲 Texture souple, dense et agréable à manipuler\n🌈 Bonne conservation des arômes\n☁️ Fumée épaisse et savoureuse\n🔥 Profil équilibré et régulier\n\n🏆 Le verdict :\nUne Frozen gourmande et pleine de caractère, idéale pour ceux qui recherchent une résine originale, fondante et bien travaillée. Olive combine douceur, profondeur aromatique et vraie identité premium dans un format qui ne passe pas inaperçu. 🫒🍯🍫🔥",
+                    tarifs: [
+                        { weight: '1 Olive', price: 90.00 },
+                    ]
+                },
          /* {
           id: "Barbara bud",
           flag: "🇺🇸",
@@ -2454,7 +2650,7 @@ document.addEventListener("DOMContentLoaded", function () {
               { weight: '25G', price: 250.00 },
                   ],
         }, */
-         {
+        /*  {
           id: "Frosty Diesel",
           flag: "🇺🇸",
           name: "Frosty Diesel ⛽",
@@ -2470,7 +2666,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '10G', price: 120.00 },
                         { weight: '25G', price: 250.00 },
                     ],
-        },
+        }, */
        /*   {
           id: "🍋 Limez x Cake 🎂",
           flag: "🇺🇸",
@@ -2983,7 +3179,26 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "100G", price: 400.0 },
           ],
         }, */
-        {
+         {
+          id: "mango sherbet",
+          flag: "🇲🇦",
+          name: "MANGO SHERBET 🍯",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "3xFiltre",
+          image: "ProductMS.png",
+          video: "VideoMS.mp4",
+          description:
+                "",
+          tarifs: [
+            { weight: "5G", price: 50.0 },
+            { weight: "10G", price: 80.0 },
+            { weight: "20G", price: 140.0 },
+            { weight: "50G", price: 250.0 },
+            { weight: "100G", price: 400.0 },
+          ],
+        },
+       /*  {
           id: "Forbiden 🧤",
           flag: "🇲🇦",
           name: "Forbiden 🧤",
@@ -3001,7 +3216,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { weight: "50G", price: 250.0 },
             { weight: "100G", price: 400.0 },
           ],
-        },
+        }, */
         /* {
           id: "Yellow Chem",
           flag: "🇲🇦",
@@ -3634,16 +3849,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
       products: [
         {
-          id: "S`Mores 🍹",
+          id: "Fresh Juice 🍹",
           flag: "🇲🇦",
-          name: "S`Mores 🍹",
+          name: "Fresh Juice 🍹",
           farm: "🌾 No Farm 🌾",
           promoEligible: true,
           type: "Weed",
-          image: "ProductSM.jpg",
-          video: "VideoSM.mp4",
+          image: "ProductFJ.jpg",
+          video: "VideoFJ.mp4",
           description:
-            "S`Mores 🍹\n\n Une sélection au profil gourmand et bien équilibré, inspirée de l’univers emblématique. Cette variété se distingue par ses notes fruitées, sucrées et légèrement terreuses, avec une belle intensité aromatique dès l’ouverture. 🔥💎\n\n 👃 Profil aromatique :\n 🍓 Fruits rouges sucrés\n 🍄 Notes terreuses légères\n 🍬 Bonbon fruité\n 🍋 Petite touche d’agrumes\n 🌿 Fond végétal doux et naturel\n\n 👅 Goût :\n En bouche, S`Mores développe une attaque fruitée et sucrée, suivie de notes plus rondes et légèrement terreuses. La fumée reste douce, agréable et laisse un arrière-goût gourmand avec une petite fraîcheur citronnée. 😮‍💨🍄\n\n ✨ Effets généralement recherchés :\n 😄 Bonne humeur et euphorie\n 🧠 Esprit léger et détendu\n 🎮 Sensation agréable et conviviale\n 💆 Relaxation corporelle progressive\n 🌙 Parfaite pour se poser tranquillement\n\n 🏆 Le verdict :\n Une variété originale, fruitée et facile à apprécier, idéale pour les amateurs de profils sucrés avec une légère touche terreuse. S`Mores combine gourmandise, équilibre et bonne vibe dans une sélection pleine de caractère. 🍄⭐🔥💎",
+            "Fresh Juice 🍹\n\n Une sélection au profil gourmand et bien équilibré, inspirée de l’univers emblématique de Mario. Cette variété se distingue par ses notes fruitées, sucrées et légèrement terreuses, avec une belle intensité aromatique dès l’ouverture. 🔥💎\n\n 👃 Profil aromatique :\n 🍓 Fruits rouges sucrés\n 🍄 Notes terreuses légères\n 🍬 Bonbon fruité\n 🍋 Petite touche d’agrumes\n 🌿 Fond végétal doux et naturel\n\n 👅 Goût :\n En bouche, Mario développe une attaque fruitée et sucrée, suivie de notes plus rondes et légèrement terreuses. La fumée reste douce, agréable et laisse un arrière-goût gourmand avec une petite fraîcheur citronnée. 😮‍💨🍄\n\n ✨ Effets généralement recherchés :\n 😄 Bonne humeur et euphorie\n 🧠 Esprit léger et détendu\n 🎮 Sensation agréable et conviviale\n 💆 Relaxation corporelle progressive\n 🌙 Parfaite pour se poser tranquillement\n\n 🏆 Le verdict :\n Une variété originale, fruitée et facile à apprécier, idéale pour les amateurs de profils sucrés avec une légère touche terreuse. Mario combine gourmandise, équilibre et bonne vibe dans une sélection pleine de caractère. 🍄⭐🔥💎",
           tarifs: [
             { weight: "10g", price: 50.0 },
             { weight: "25g", price: 110.0 },
