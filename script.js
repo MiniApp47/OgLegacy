@@ -502,17 +502,17 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategFrozen.png", // Ton image de catégorie Weed
 
       products: [
-         {
-          id: "Frosty Diesel",
+          {
+          id: "Frosty",
           flag: "🇺🇸",
-          name: "Frosty Diesel ⛽",
+          name: "Frosty ❄️",
           farm: "🌾 No Farm 🌾",
           promoEligible: true,
           type: "FROZEN",
           image: "ProductFY.jpg",
           video: "",
           description:
-                  "⛽❄️ FROSTY DIESEL — FROZEN 160/73U ❄️⛽\n\nUne sélection Frozen premium au profil gassy, frais et puissant en arômes. Frosty Diesel se distingue par une identité diesel bien marquée, une texture soignée et une belle profondeur aromatique destinée aux amateurs de profils plus lourds et caractériels. 🇺🇸🔥\n\n👃 Profil aromatique :\n⛽ Notes diesel et gassy bien présentes\n🍋 Petite touche citronnée fraîche\n🌿 Fond végétal propre\n🔥 Finition résineuse intense\n❄️ Fraîcheur aromatique marquée\n\n👅 Goût :\nEn bouche, Frosty Diesel développe une attaque riche et aromatique, dominée par des notes gassy et légèrement citronnées. Le profil reste profond, propre et long en bouche, avec une finale résineuse qui apporte beaucoup de caractère. 😮‍💨⛽\n\n❄️ Texture & qualité :\n💎 Frozen 160/73u soigneusement sélectionné\n🤲 Texture propre et agréable à travailler\n🌈 Arômes bien conservés\n☁️ Dégustation dense et savoureuse\n🔥 Profil gassy, frais et premium\n\n🏆 Le verdict :\nUne Frozen de caractère, idéale pour ceux qui aiment les profils diesel, résineux et bien marqués. Frosty Diesel combine fraîcheur, intensité aromatique et finition premium dans une sélection très solide. ⛽❄️🔥",
+                  "⛽❄️ FROSTY — FROZEN 160/73U ❄️⛽\n\nUne sélection Frozen premium au profil gassy, frais et puissant en arômes. Frosty Diesel se distingue par une identité diesel bien marquée, une texture soignée et une belle profondeur aromatique destinée aux amateurs de profils plus lourds et caractériels. 🇺🇸🔥\n\n👃 Profil aromatique :\n⛽ Notes diesel et gassy bien présentes\n🍋 Petite touche citronnée fraîche\n🌿 Fond végétal propre\n🔥 Finition résineuse intense\n❄️ Fraîcheur aromatique marquée\n\n👅 Goût :\nEn bouche, Frosty Diesel développe une attaque riche et aromatique, dominée par des notes gassy et légèrement citronnées. Le profil reste profond, propre et long en bouche, avec une finale résineuse qui apporte beaucoup de caractère. 😮‍💨⛽\n\n❄️ Texture & qualité :\n💎 Frozen 160/73u soigneusement sélectionné\n🤲 Texture propre et agréable à travailler\n🌈 Arômes bien conservés\n☁️ Dégustation dense et savoureuse\n🔥 Profil gassy, frais et premium\n\n🏆 Le verdict :\nUne Frozen de caractère, idéale pour ceux qui aiment les profils diesel, résineux et bien marqués. Frosty Diesel combine fraîcheur, intensité aromatique et finition premium dans une sélection très solide. ⛽❄️🔥",
                 tarifs: [
             { weight: "5G", price: 50.0 },
             { weight: "10G", price: 90.0 },
