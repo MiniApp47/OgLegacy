@@ -307,6 +307,42 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategDouble.png", // Ton image de catégorie Weed
 
       products: [
+        {
+  id: 'Pineaple',
+  flag: '🇲🇦',
+  name: 'Pineaple 🍍🌴',
+  farm: '🎻 MOZART FARM',
+  promoEligible: true,
+  type: 'STATIC',
+  image: 'ProductPEE.jpg',
+  video: 'VideoPE.mp4',
+  description:
+    "🍍🌴 PINEAPLE — MOZART FARM 🎻🧤\n\nUne sélection Static Sift inspirée d'un univers tropical, sucré et ensoleillé. Pineaple évoque l'ananas bien mûr, les fruits exotiques et une douceur gourmande qui rappelle les vacances sous les tropiques. 🇲🇦✨\n\n👃 Profil aromatique :\n🍍 Ananas mûr\n🥭 Fruits tropicaux\n🍬 Nuances de bonbon fruité\n🍯 Douceur légèrement miellée\n🌿 Fond végétal discret\n\n👅 Signature aromatique :\nUn profil imaginé autour de l'ananas sucré, accompagné de nuances acidulées et d'une rondeur exotique rappelant les fruits jaunes. 🍍🥭\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n🌴 Identité tropicale et fruitée\n\n🏆 Le verdict :\nUne identité exotique et lumineuse, entièrement construite autour de l'ananas et des fruits tropicaux. 🍍🌴✨",
+  tarifs: [
+    { weight: '3G', price: 50.00 },
+    { weight: '10G', price: 140.00 },
+    { weight: '25G', price: 250.00 },
+    { weight: '50G', price: 450.00 },
+  ]
+},     
+        {
+  id: 'Gush mint',
+  flag: '🇲🇦',
+  name: 'Gush Mint 🍃❄️',
+  farm: '🎻 MOZART FARM',
+  promoEligible: true,
+  type: 'STATIC',
+  image: 'ProductGMTT.jpg',
+  video: 'VideoGMT.mp4',
+  description:
+    "🍃❄️ GUSH MINT — MOZART FARM 🎻🧤\n\nUne sélection Static Sift à l'univers aromatique frais, végétal et crémeux. Gush Mint s'inspire de l'association entre la fraîcheur de la menthe et des notes plus douces, évoquant une gourmandise mentholée. 🇲🇦✨\n\n👃 Profil aromatique :\n🌱 Menthe fraîche\n🍦 Nuances crémeuses et vanillées\n🍬 Douceur sucrée discrète\n🌿 Touches végétales\n❄️ Finition aromatique rafraîchissante\n\n👅 Signature aromatique :\nUn contraste imaginé entre une ouverture mentholée et une douceur crémeuse, presque pâtissière, qui apporte de la rondeur à l'ensemble. 🍃🍦\n\n🧤 Présentation :\n💎 Static Sift\n🎻 Collection Mozart Farm\n🇲🇦 Origine indiquée : Maroc\n❄️ Identité fraîche et crémeuse\n\n🏆 Le verdict :\nUne identité qui marie fraîcheur végétale et notes gourmandes, autour d'un thème menthe et crème. 🍃❄️✨",
+  tarifs: [
+    { weight: '3G', price: 50.00 },
+    { weight: '10G', price: 140.00 },
+    { weight: '25G', price: 250.00 },
+    { weight: '50G', price: 450.00 },
+  ]
+},      
           {
           id: "La Bomba x Spriter 💣",
           flag: "🇺🇸",
@@ -520,6 +556,23 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategFrozen.png", // Ton image de catégorie Weed
 
       products: [
+         {
+          id: "Mandarina",
+          flag: "🇺🇸",
+          name: "Mandarina 🍊",
+          farm: "🌾 No Farm 🌾",
+          promoEligible: true,
+          type: "FROZEN",
+          image: "ProductMA.jpg",
+          video: "VideoMA.mp4",
+          description:
+            "🍊❄️ MANDARINA — FROZEN PREMIUM ❄️🍊\n\nUne sélection Frozen à l'identité fruitée, lumineuse et tropicale. Mandarina évoque toute la fraîcheur des agrumes, avec une belle douceur inspirée des mandarines mûres et des oranges sucrées. 🇺🇸✨\n\n👃 Profil aromatique :\n🍊 Mandarine mûre et juteuse\n🍋 Zestes d'agrumes frais\n🍬 Nuances candy fruitées\n🍯 Fond légèrement miellé\n🌸 Petite touche florale\n\n🌈 Signature aromatique :\nUne composition imaginée autour d'une ouverture vive et citronnée, suivie d'une douceur fruitée rappelant la mandarine fraîche. Les nuances sucrées et florales apportent une identité ensoleillée et gourmande. 🍊🌞\n\n❄️ Texture & présentation :\n💎 Sélection Frozen\n🧊 Univers frais et fruité\n🍊 Inspiration agrumes\n✨ Identité tropicale et lumineuse\n\n🏆 Le verdict :\nUne signature ensoleillée qui met la mandarine à l'honneur. Entre agrumes frais, douceur fruitée et nuances gourmandes, Mandarina affiche une identité pleine de fraîcheur. 🍊❄️🔥",
+          tarifs: [
+              { weight: '5G', price: 70.00 },
+              { weight: '10G', price: 120.00 },
+              { weight: '25G', price: 250.00 },
+                  ],
+        },
           {
           id: "Frosty",
           flag: "🇺🇸",
@@ -597,16 +650,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
       products: [
          {
-          id: "Fresh Juice 🍹",
+          id: "Jaune Mousseux 🌰",
           flag: "🇲🇦",
-          name: "Fresh Juice 🍹",
+          name: "Jaune Mousseux 🌰",
           farm: "🌾 No Farm 🌾",
           promoEligible: true,
           type: "Weed",
-          image: "ProductFJ.jpg",
-          video: "VideoFJ.mp4",
+          image: "ProductJM.png",
+          video: "VideoJM.mp4",
           description:
-            "Fresh Juice 🍹\n\n Une sélection au profil gourmand et bien équilibré, inspirée de l’univers emblématique de Mario. Cette variété se distingue par ses notes fruitées, sucrées et légèrement terreuses, avec une belle intensité aromatique dès l’ouverture. 🔥💎\n\n 👃 Profil aromatique :\n 🍓 Fruits rouges sucrés\n 🍄 Notes terreuses légères\n 🍬 Bonbon fruité\n 🍋 Petite touche d’agrumes\n 🌿 Fond végétal doux et naturel\n\n 👅 Goût :\n En bouche, Mario développe une attaque fruitée et sucrée, suivie de notes plus rondes et légèrement terreuses. La fumée reste douce, agréable et laisse un arrière-goût gourmand avec une petite fraîcheur citronnée. 😮‍💨🍄\n\n ✨ Effets généralement recherchés :\n 😄 Bonne humeur et euphorie\n 🧠 Esprit léger et détendu\n 🎮 Sensation agréable et conviviale\n 💆 Relaxation corporelle progressive\n 🌙 Parfaite pour se poser tranquillement\n\n 🏆 Le verdict :\n Une variété originale, fruitée et facile à apprécier, idéale pour les amateurs de profils sucrés avec une légère touche terreuse. Mario combine gourmandise, équilibre et bonne vibe dans une sélection pleine de caractère. 🍄⭐🔥💎",
+            "Jaune Mousseux 🌰\n\n Une sélection au profil gourmand et bien équilibré, inspirée de l’univers emblématique de Mario. Cette variété se distingue par ses notes fruitées, sucrées et légèrement terreuses, avec une belle intensité aromatique dès l’ouverture. 🔥💎\n\n 👃 Profil aromatique :\n 🍓 Fruits rouges sucrés\n 🍄 Notes terreuses légères\n 🍬 Bonbon fruité\n 🍋 Petite touche d’agrumes\n 🌿 Fond végétal doux et naturel\n\n 👅 Goût :\n En bouche, Mario développe une attaque fruitée et sucrée, suivie de notes plus rondes et légèrement terreuses. La fumée reste douce, agréable et laisse un arrière-goût gourmand avec une petite fraîcheur citronnée. 😮‍💨🍄\n\n ✨ Effets généralement recherchés :\n 😄 Bonne humeur et euphorie\n 🧠 Esprit léger et détendu\n 🎮 Sensation agréable et conviviale\n 💆 Relaxation corporelle progressive\n 🌙 Parfaite pour se poser tranquillement\n\n 🏆 Le verdict :\n Une variété originale, fruitée et facile à apprécier, idéale pour les amateurs de profils sucrés avec une légère touche terreuse. Mario combine gourmandise, équilibre et bonne vibe dans une sélection pleine de caractère. 🍄⭐🔥💎",
           tarifs: [
             { weight: "10g", price: 50.0 },
             { weight: "25g", price: 110.0 },
