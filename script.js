@@ -605,7 +605,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '100G', price: 850.00 },
                     ],
         },
-        {
+       /*  {
                     id: 'Bhb',
                     flag: '🇺🇸',
                     name: 'Bhb 🎃',
@@ -638,7 +638,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         { weight: '25g', price: 200.00 },
                         { weight: '50g', price: 350.00 },
                     ]
-                }, 
+                },  */
 
       ],
     },
