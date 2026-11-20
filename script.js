@@ -658,7 +658,7 @@ document.addEventListener("DOMContentLoaded", function () {
           farm: "🌾 No Farm 🌾",
           promoEligible: true,
           type: "FROZEN",
-          image: "ProductSBO.jpg",
+          image: "ProductSBO.png",
           video: "VideoSBO.mp4",
           description:
             "🍊❄️ SUPERBOOF — FROZEN PREMIUM ❄️🍊\n\nUne sélection Frozen à l'identité fruitée, fraîche et moderne. SuperBoof se distingue par un profil aromatique expressif, mêlant agrumes, douceur gourmande et nuances légèrement crémeuses. Une signature lumineuse et bien travaillée pour les amateurs de profils premium. 🇲🇦✨\n\n👃 Profil aromatique :\n🍊 Orange douce et mandarine\n🍋 Zestes d’agrumes frais\n🍬 Nuances candy fruitées\n🍦 Fond crémeux et léger\n🌿 Petite touche végétale propre\n\n🌈 Signature aromatique :\nUn profil imaginé autour d’une ouverture vive et fruitée, dominée par des notes d’agrumes sucrés. Des nuances plus douces et crémeuses viennent ensuite équilibrer l’ensemble, pour une identité à la fois fraîche, gourmande et moderne. 🍊🍬\n\n❄️ Texture & présentation :\n💎 Sélection Frozen premium\n🧊 Univers frais et fruité\n🇲🇦 Inspiration marocaine\n✨ Signature propre et élégante\n🔥 Identité aromatique expressive\n\n🏆 Le verdict :\nUne Frozen lumineuse et gourmande, qui associe fraîcheur des agrumes, douceur candy et rondeur crémeuse dans une identité moderne et très agréable. 🍊❄️🔥",
